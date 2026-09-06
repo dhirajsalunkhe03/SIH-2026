@@ -1,0 +1,57 @@
+{
+  "file_path": "/home/dhiraj/Desktop/SIH/rag_pipeline/output/validated/Biological_Diversity_Act_RAG_READY_REPAIRED.json",
+  "actions": [
+    {
+      "section_number": "13",
+      "source_pages": [
+        10
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "6",
+      "source_pages": [
+        18
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "19",
+      "source_pages": [
+        24
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "29",
+      "source_pages": [
+        24
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "23",
+      "source_pages": [
+        25
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "41",
+      "source_pages": [
+        25
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    }
+  ],
+  "sections_before": 6,
+  "sections_after": 6,
+  "sections_merged": 0,
+  "uncertain_merges": 0
+}

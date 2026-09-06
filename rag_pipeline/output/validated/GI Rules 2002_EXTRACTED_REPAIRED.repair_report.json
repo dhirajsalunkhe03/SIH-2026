@@ -1,0 +1,570 @@
+{
+  "file_path": "/home/dhiraj/Desktop/SIH/rag_pipeline/GI Rules 2002_EXTRACTED.json",
+  "actions": [
+    {
+      "page_number": 1,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'These rules may be called the Geographical Indications Of Goods (Registration and', 'content': 'Protection) Rules, 2002\\n(2) They shall come into force on th",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 2,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '3', 'section_title': 'Principal place of business in India.-\"Principal place of business in India\" meansi) where a person carries on business in the goods concerned bearing a geog",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 3,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '5', 'section_title': 'Jurisdiction of appropriate office not altered by change in the principal place of business or', 'content': 'address for service.- No change in the principal",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 4,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '11', 'section_title': 'Forms:- (1) The forms set forth in the Second and the Third Schedules shall be used in all cases to', 'content': 'which they are applicable and may be modif",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 5,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '15', 'section_title': 'Particulars of address etc. of applicants and other persons:- (1) Names and addresses of the', 'content': 'association of persons, producers, authorised use",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 6,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '19', 'section_title': 'Non-availability of an address for service:- The Registrar may, at any time when a doubt arises', 'content': 'as to the continued availability of an address",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 7,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '24', 'section_title': 'Application under convention arrangement.- (1) Where an application for registration of a', 'content': 'geographical indications is filed by an applicant fr",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 8,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '25', 'section_title': 'Statement of user in applications.- An application to register a geographical indication or as an', 'content': 'authorised user shall, contain a statement o",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 9,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '30', 'section_title': 'Name or description of goods on a Geographical Indication.-Where the name or description of any', 'content': 'goods appears on a geographical indication, th",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 10,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '33', 'section_title': 'Examination of application.-Upon receipt of an application, the Registrar shall examine the', 'content': 'application and the accompanying Statement of Case",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 11,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '38', 'section_title': 'Manner of Advertisement.- (1) An application for the registration of a geographical indication', 'content': 'required or permitted to be advertised by sub-s",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 12,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '42', 'section_title': 'Verification of Notice of Opposition', 'content': '(1) The notice of opposition shall be verified by the opponent.\\n(2) The verification shall specifically ",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 13,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '46', 'section_title': 'Evidence in reply by opponent.- Within one month from the receipt by the opponent of the copies of', 'content': \"the applicant's affidavit or within such fu",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 14,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '51', 'section_title': 'Security for costs.-The security for costs which the Registrar may require under sub-section (6) of', 'content': 'section 14 may be fixed at any amount whic",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 15,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '56', 'section_title': 'Authorised User. [UNCLEAR](1) An application to the Registrar for the registration under Section 17 by a', 'content': 'producer as an authorised user of the",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 16,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '60', 'section_title': 'Renewal of registration.- (1) An application for the renewal of the registration of a geographical', 'content': 'Indication or an authorised user of a regis",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 17,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '63', 'section_title': 'Restoration and renewal of registration.- An application for the restoration of a geographical', 'content': 'indication or authorised user to the register a",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 18,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '68', 'section_title': 'Rectification of the register by the Registrar of his own motion.- (1) The notice, which the', 'content': 'Registrar is required be give under sub-section (",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 19,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '71', 'section_title': 'Alteration of registered Geographical Indication.- Where the registered proprietor of a', 'content': 'geographical indication applies under section 29 for l",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 21,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '77', 'section_title': 'Additional protection to certain goods.- An application may be made to the Registrar in respect of', 'content': 'goods notified by the Central Government un",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 22,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '83', 'section_title': 'Extension of time.- (1) An application for extension of time under section 64 (not being a time', 'content': 'expressly provided in the Act or a time for th",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 23,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '87', 'section_title': 'Directions not otherwise prescribed.- Where in the opinion of the Registrar, it is necessary for', 'content': 'the proper prosecution or completion of any p",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 24,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '93', 'section_title': 'Form, etc. of Affidavits.- (1) The Affidavits required by the Act and the rules to be filed at the', 'content': 'Geographical Indications Registry or furnis",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 25,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '97', 'section_title': 'Certificate for use in obtaining registration abroad.- (1) Where a certificate relating to the', 'content': 'registration of a geographical indication is de",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 26,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '102', 'section_title': 'Register of Geographical Indications Agent.-The Registrar of Geographical Indications shall', 'content': 'maintain a Register of Geographical Indications A",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 27,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '106', 'section_title': 'Manner of making application.- Subject to sub-rule (2) of rule 4, all applications under the', 'content': 'provisions of this Part shall be made in triplic",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 28,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '112', 'section_title': 'Power of Registrar to refuse to deal with certain agents. (1) The Registrar may refuse to', 'content': 'recognise-\\n(a) any individual whose name has been ",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 31,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '12', 'section_title': 'For inspecting the document mentioned in', 'content': 'Section 78(1)-\\na) relating to any particular 100\\ngeographical indication or\\nauthorised user thereo",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 44,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': \"For one day's hearing involving examination Rs.1000\", 'content': 'of witnesses', 'is_continuation': False, 'subsections': [], 'source_page': 44}, {'section_n",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 45,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'Application is hereby made by (a) for the registration in Part A of the Register', 'content': 'of the accompanying geographical indication furnishing the fol",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 45,
+      "action_type": "mark_continuation",
+      "field": "section 2",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 2 continues from page 44"
+    },
+    {
+      "page_number": 46,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '2', 'section_title': 'The application shall include such other particulars called for in rule 32(1) in the Statement of Case', 'content': '', 'is_continuation': False, 'subsection",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 46,
+      "action_type": "mark_continuation",
+      "field": "section 2",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 2 continues from page 45"
+    },
+    {
+      "page_number": 46,
+      "action_type": "mark_continuation",
+      "field": "section 3",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 3 continues from page 45"
+    },
+    {
+      "page_number": 48,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '3', 'section_title': \"............................ '\", 'content': \"All communications in relation to these proceedings may be sent to the following address in India\\nDated this...",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 50,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'State full name and address. An address for service in India should be given if the opponent has', 'content': 'no place of business or of residence in India.",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 51,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '4', 'section_title': '', 'content': '4 SIGNATURE\\nB Request for issuance of Registration Certificate as an\\nAuthorised User\\nSection 16(2)17(3)(g), Rule 59(1)\\nFee: Rs.100 (See en",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 52,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'Insert full name and address of the authorized user', 'content': '', 'is_continuation': False, 'subsections': [], 'source_page': 52}, {'section_number': '2',",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 52,
+      "action_type": "mark_continuation",
+      "field": "section 2",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 2 continues from page 51"
+    },
+    {
+      "page_number": 53,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'Insert particulars of the registered proprietor', 'content': '', 'is_continuation': False, 'subsections': [], 'source_page': 53}, {'section_number': '2', 'se",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 53,
+      "action_type": "mark_continuation",
+      "field": "section 2",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 2 continues from page 52"
+    },
+    {
+      "page_number": 54,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '4', 'section_title': '', 'content': \"4 SIGNATURE\\nB Restoration of geographical indication or an authorized user removed from the register for\\nnon-payment of renewal fee. Section",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 55,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'Strike out whichever is not applicable', 'content': '', 'is_continuation': False, 'subsections': [], 'source_page': 55}, {'section_number': '2', 'section_tit",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 55,
+      "action_type": "mark_continuation",
+      "field": "section 2",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 2 continues from page 54"
+    },
+    {
+      "page_number": 56,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '2', 'section_title': '', 'content': \"SIGNATURE\\nB Request to enter change of name or description of association of\\nperson or producers or any organisation or authority in whose n",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 57,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '2', 'section_title': '', 'content': \"SIGNATURE\\nD Application for the rectification of the register in Part B for the\\nremoval of an authorised user. Section 27, and Rule 65.\\nFee",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 58,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '2', 'section_title': '', 'content': \"SIGNATURE\\nF Fee: Rs.500.00 (See entry No.5F of the First Schedule)\\nRequest for search under rule 22\\nThe Registrar is hereby requested under",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 59,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'Strike out word(s) not applicable', 'content': '', 'is_continuation': False, 'subsections': [], 'source_page': 59}, {'section_number': '2', 'section_title': ",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 59,
+      "action_type": "mark_continuation",
+      "field": "section 2",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 2 continues from page 58"
+    },
+    {
+      "page_number": 59,
+      "action_type": "mark_continuation",
+      "field": "section 2",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 2 continues from page 58"
+    },
+    {
+      "page_number": 59,
+      "action_type": "mark_continuation",
+      "field": "section 4",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 4 continues from page 58"
+    },
+    {
+      "page_number": 59,
+      "action_type": "mark_continuation",
+      "field": "section 2",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 2 continues from page 58"
+    },
+    {
+      "page_number": 59,
+      "action_type": "mark_continuation",
+      "field": "section 2",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 2 continues from page 58"
+    },
+    {
+      "page_number": 60,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '4', 'section_title': '', 'content': \"SIGNATURE\\n4 SIGNATURE\\nB Application for leave to intervene in proceedings relating to the\\nrectification of the register or the removal of a",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 61,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'State full name, address and nationality. Ana ddress for service in India should be stated if the', 'content': 'applicant has no place of business or of resi",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 62,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '2', 'section_title': '', 'content': \"SIGNAT URE\\nB Affidavit (only to be furnished where required by the Act or the rules)\\n(See entry No. 7B of the First Schedule)\\nI,'..........",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 63,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '4', 'section_title': '', 'content': \"4 SIGNATURE\\nE Request to Registrar for particulars of advertisement of a geographical\\nindication, Rule 40\\nFee: 100 (See entry 7E of the Fir",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 64,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'Insert name, address and nationality of the person making the request', 'content': '', 'is_continuation': False, 'subsections': [], 'source_page': 64}, {'sec",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 64,
+      "action_type": "mark_continuation",
+      "field": "section 3",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 3 continues from page 63"
+    },
+    {
+      "page_number": 65,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'Name in full beginning with surname if any (in capital letters)', 'content': '', 'is_continuation': False, 'subsections': [], 'source_page': 65}, {'section_n",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 65,
+      "action_type": "mark_continuation",
+      "field": "section 2",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 2 continues from page 64"
+    },
+    {
+      "page_number": 65,
+      "action_type": "mark_continuation",
+      "field": "section 3",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 3 continues from page 64"
+    },
+    {
+      "page_number": 65,
+      "action_type": "mark_continuation",
+      "field": "section 4",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 4 continues from page 64"
+    },
+    {
+      "page_number": 66,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '3', 'section_title': '', 'content': 'SIGNATURE\\nNAME OF SIGNATORY\\nIN BLOCK LETTERS\\nC Request for continuance of name in the Register of Geographical\\nIndications Agent\\nRule 110",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 67,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'The certificate testifying to the character of the candidate should be from a person not related to', 'content': 'the candidate and being a District Magistra",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 68,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '4', 'section_title': '', 'content': '4 SIGNATURE\\nB Application by registered proprietor under Section 29 for an addition or\\nalteration of a registered geographical indication.\\n",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 69,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '4', 'section_title': 'State the purpose for which extension of time is required', 'content': '69', 'is_continuation': False, 'subsections': [], 'source_page': 69}]",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 70,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '3', 'section_title': '', 'content': \"SIGNATURE\\nNAME OF SIGNATORY IN BLOCK\\nLETTERS\\nB Form of Authorisation of Agent in a matter or proceeding under the\\nAct (Section 76 and rule",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 71,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'Strike out whichever is not necessary', 'content': '', 'is_continuation': False, 'subsections': [], 'source_page': 71}, {'section_number': '2', 'section_titl",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 71,
+      "action_type": "mark_continuation",
+      "field": "section 3",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 3 continues from page 70"
+    }
+  ],
+  "sections_recovered": 54,
+  "titles_recovered": 0,
+  "content_recovered": 0,
+  "continuations_marked": 16,
+  "amendments_detected": 0
+}

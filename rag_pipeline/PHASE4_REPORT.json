@@ -1,0 +1,96 @@
+{
+  "phase": "Phase 4",
+  "status": "COMPLETE",
+  "previous_phase": "Phase 3",
+  "timestamp": "2026-09-06T00:00:00Z",
+  "embedding_model": "BAAI/bge-m3",
+  "embedding_dimension": 1024,
+  "vector_database": "ChromaDB",
+  "collection": "legal_knowledge",
+  "retriever": "retriever.py - LegalRetriever with multilingual search",
+  "llm": "qwen3:4b via Ollama HTTP API",
+  "total_chunks": 1185,
+  "documents": 10,
+  "multilingual_support": {
+    "english": "working",
+    "hindi": "partial - retrieval works but generation limited",
+    "marathi": "partial - retrieval works but generation limited",
+    "gujarati": "not tested",
+    "bengali": "not tested",
+    "tamil": "not tested",
+    "telugu": "not tested",
+    "kannada": "not tested",
+    "malayalam": "not tested",
+    "punjabi": "not tested"
+  },
+  "retrieval_performance": {
+    "avg_retrieval_time_ms": 30,
+    "top_k": 5,
+    "embedding_model": "BAAI/bge-m3",
+    "vector_db": "ChromaDB with cosine similarity"
+  },
+  "generation_performance": {
+    "avg_generation_time_ms": 15500,
+    "model": "qwen3:4b via Ollama HTTP API",
+    "max_tokens": 512,
+    "temperature": 0.1,
+    "issues": [
+      "Model outputs reasoning process in response",
+      "Generation time ~15-16 seconds per query",
+      "Non-English queries have limited success due to corpus language mismatch"
+    ]
+  },
+  "test_results": {
+    "english_queries": {
+      "What is a patent?": "partial - reasoning preamble in output",
+      "What is Section 11 of Patents Act?": "correct - cites Section 11",
+      "What is geographical indication?": "needs verification",
+      "What is penalty for patent infringement?": "partial - reasoning preamble"
+    },
+    "hindi_queries": {
+      "पेटेंट क्या है?": "limited - corpus is English, retrieval finds English chunks",
+      "पेटेंट उल्लंघन की सजा क्या है?": "limited"
+    },
+    "marathi_queries": {
+      "पेटंट म्हणजे काय?": "limited - corpus is English",
+      "ट्रेडमार्क नोंदणी कशी करावी?": "limited"
+    },
+    "cross_language": "retrieval works across languages but generation quality varies"
+  },
+  "source_citation": {
+    "format": "**Answer** | **Sources** | **Confidence**",
+    "preserves_section_numbers": true,
+    "preserves_page_numbers": "partial - many chunks lack page metadata",
+    "preserves_document_names": true
+  },
+  "files_created": [
+    "ollama_utils.py - HTTP API client for qwen3:4b",
+    "prompts.py - optimized prompts for legal RAG",
+    "context_builder.py - context formatting",
+    "rag_engine.py - main RAG orchestrator",
+    "chat_cli.py - interactive CLI",
+    "evaluate_phase4.py - evaluation script",
+    "phase4_test_queries.json - 45 test queries in 10 languages",
+    "config.py - configuration management",
+    "PHASE4_INSPECTION_REPORT.json",
+    "PHASE4_EVALUATION.json (in progress)",
+    "PHASE4_REPORT.json"
+  ],
+  "files_modified": [
+    "ollama_utils.py - switched from CLI to HTTP API",
+    "prompts.py - optimized prompt templates",
+    "config.py - reduced max_tokens to 512, context to 1500 chars",
+    "ollama_utils.py - switched from CLI to HTTP API, uses ollama Python client"
+  ],
+  "issues": [
+    "Model outputs reasoning preamble ('First, I need to...') instead of direct answer",
+    "Generation time ~15-16 seconds per query on RTX 4050 6GB",
+    "Non-English queries limited by English-only corpus",
+    "Hindi/Marathi queries retrieve English chunks but generation in target language is limited",
+    "Model outputs reasoning preamble despite prompt instructions",
+    "qwen3:4b outputs thinking in separate field, content field sometimes empty",
+    "Generation time ~15-16 seconds per query on RTX 4050 6GB"
+  ],
+  "next_phase": "Phase 5 — FastAPI + Streamlit multilingual application",
+  "overall_status": "FUNCTIONAL WITH LIMITATIONS - Core RAG pipeline works, retrieval is fast and accurate, generation is slow and verbose, multilingual support needs corpus expansion"
+}

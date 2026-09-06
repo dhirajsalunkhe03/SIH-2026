@@ -1,0 +1,31 @@
+{
+  "timestamp": "2026-09-05T14:36:03.931282",
+  "total_documents": 3,
+  "successful": 3,
+  "failed": 0,
+  "results": [
+    {
+      "input": "Biological_Diversity_Act.json",
+      "status": "success",
+      "output": "Biological_Diversity_Act_RAG_READY.json",
+      "pages": 25,
+      "sections": 5
+    },
+    {
+      "input": "Biological_Diversity_Act_2002.json",
+      "status": "success",
+      "output": "Biological_Diversity_Act_2002_RAG_READY.json",
+      "pages": 15,
+      "sections": 11
+    },
+    {
+      "input": "Patents_Act_1970.json",
+      "status": "success",
+      "output": "Patents_Act_1970_RAG_READY.json",
+      "pages": 72,
+      "sections": 21
+    }
+  ],
+  "total_pages": 112,
+  "total_sections": 37
+}

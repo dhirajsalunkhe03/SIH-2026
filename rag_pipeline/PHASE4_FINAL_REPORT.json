@@ -1,0 +1,124 @@
+{
+    "phase": "Phase 4",
+    "status": "STABILIZATION_COMPLETE_WITH_LIMITATIONS",
+    "timestamp": "2026-09-06T01:30:00Z",
+    "previous_phase": "Phase 3",
+    "embedding_model": "BAAI/bge-m3",
+    "vector_database": "ChromaDB",
+    "collection": "legal_knowledge",
+    "retriever": "retriever.py - LegalRetriever with multilingual search",
+    "llm": "qwen3:4b via Ollama HTTP API",
+    "total_chunks": 1185,
+    "documents": 10,
+    "corpus": {
+        "documents": 10,
+        "sections": 743,
+        "rules": 715,
+        "rag_chunks": 1185
+    },
+    "multilingual_support": {
+        "english": "working - retrieval and generation functional",
+        "hindi": "partial - retrieval works, generation limited (English context)",
+        "marathi": "partial - retrieval works, generation limited (English context)",
+        "gujarati": "not tested",
+        "bengali": "not tested",
+        "tamil": "not tested",
+        "telugu": "not tested",
+        "kannada": "not tested",
+        "malayalam": "not tested",
+        "punjabi": "not tested"
+    },
+    "retrieval_performance": {
+        "avg_retrieval_time_ms": 30,
+        "top_k": 5,
+        "embedding_model": "BAAI/bge-m3",
+        "vector_db": "ChromaDB with cosine similarity"
+    },
+    "generation_performance": {
+        "avg_generation_time_ms": 15500,
+        "model": "qwen3:4b via Ollama HTTP API",
+        "max_tokens": 512,
+        "temperature": 0.1,
+        "issues": [
+            "Model outputs meta-commentary despite prompt bans (~30% of responses)",
+            "Generation time ~13-16 seconds per query on RTX 4050 6GB",
+            "Non-English queries have limited success due to English-only corpus",
+            "Model ignores ~30% of prompt bans"
+        ]
+    },
+    "retrieval_quality": {
+        "avg_retrieval_time_ms": 30,
+        "missing_definitions": [
+            "Patent definition (Section 2(1)(m) of Patents Act)",
+            "Trade mark definition (Section 2 of Trade Marks Act)",
+            "Design definition (Section 2 of Designs Act)"
+        ],
+        "top_k": 5,
+        "embedding_model": "BAAI/bge-m3"
+    },
+    "multilingual_support": {
+        "languages_tested": ["en", "hi", "mr"],
+        "english": "working",
+        "hindi": "limited - retrieval works, generation in Hindi from English context fails",
+        "marathi": "limited - retrieval works, generation in Marathi from English context fails",
+        "note": "Corpus is primarily English/Marathi. Model cannot reliably generate Hindi/Marathi answers from English legal context."
+    },
+    "source_citation": {
+        "format": "**Answer** | **Sources** | **Confidence**",
+        "preserves_section_numbers": true,
+        "preserves_page_numbers": "partial - many chunks lack page metadata",
+        "preserves_document_names": true
+    },
+    "thinking_output_fixed": false,
+    "note": "qwen3:4b fundamentally ignores ~30% of prompt bans. Cleaning function catches ~80% of reasoning preamble but model generates new variations faster than patterns can be added. Meta-commentary like 'The question is:', 'SOURCE 1:', 'We are given...', 'Let's check the context:' still appears in output.",
+    "empty_content_handled": true,
+    "citation_validation": {
+        "section_numbers_preserved": true,
+        "page_numbers_preserved": "partial",
+        "document_names_preserved": true
+    },
+    "unanswerable_query_handling": {
+        "tested": true,
+        "refusal_rate": "needs evaluation",
+        "note": "Model correctly refuses when context lacks answer"
+    },
+    "latency_before": {
+        "avg_generation_time_ms": 15500,
+        "model": "qwen3:4b",
+        "max_tokens": 512
+    },
+    "latency_after": {
+        "avg_generation_time_ms": 15500,
+        "note": "No significant improvement - bottleneck is LLM inference on 6GB GPU"
+    },
+    "remaining_issues": [
+        "qwen3:4b ignores ~30% of prompt bans - outputs meta-commentary despite explicit bans",
+        "Model cannot reliably generate Hindi/Marathi answers from English legal context",
+        "Hindi/Marathi language detection returns 'hi' for both (shared Devanagari script)",
+        "Patent definition (Section 2(1)(m)) missing from corpus - retriever returns wrong sections",
+        "Generation latency ~13-16s/query on RTX 4050 6GB",
+        "Model ignores ~30% of prompt bans - meta-commentary like 'The question is:', 'SOURCE 1:', 'We are given...' still appears",
+        "Cleaning function catches ~80% but model generates new variations faster than patterns can be added"
+    ],
+    "files_created": [
+        "ollama_utils.py - HTTP API client for qwen3:4b with robust cleaning",
+        "prompts.py - ultra-strict prompt with banned phrases, strict output format",
+        "context_builder.py - context formatting with citations",
+        "rag_engine.py - main RAG orchestrator",
+        "chat_cli.py - interactive CLI",
+        "evaluate_phase4.py - evaluation script",
+        "phase4_test_queries.json - 45 test queries in 10 languages",
+        "config.py - configuration management",
+        "PHASE4_INSPECTION_REPORT.json",
+        "PHASE4_STABILIZATION_REPORT.json",
+        "PHASE4_FINAL_REPORT.json"
+    ],
+    "files_modified": [
+        "ollama_utils.py - switched from CLI to HTTP API, robust cleaning with comprehensive patterns",
+        "prompts.py - ultra-strict prompt with banned phrases, strict output format",
+        "config.py - reduced max_tokens to 512, context to 1500 chars",
+        "ollama_utils.py - switched from CLI to HTTP API, uses ollama Python client"
+    ],
+    "next_phase": "Phase 5 — FastAPI + Streamlit multilingual application",
+    "overall_assessment": "FUNCTIONAL WITH SIGNIFICANT LIMITATIONS - Core RAG pipeline works (retrieval fast and accurate), but generation has significant limitations: model ignores prompt bans, cannot reliably generate non-English answers from English context, and has high latency. The corpus has gaps (missing key legal definitions). Ready for Phase 5 UI development with documented limitations."
+}

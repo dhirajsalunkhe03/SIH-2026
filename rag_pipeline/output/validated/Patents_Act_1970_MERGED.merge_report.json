@@ -1,0 +1,1883 @@
+{
+  "file_path": "/home/dhiraj/Desktop/SIH/rag_pipeline/output/validated/Patents_Act_1970_REPAIRED.json",
+  "actions": [
+    {
+      "section_number": "1",
+      "source_pages": [
+        3
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        11
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        12
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        14
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        15
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        16
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        19
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        21
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        22
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        25
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        26
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        27
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        30
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        31
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        33
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        34
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        36
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        38
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        39
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        40
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        41
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        42
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        43
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        44
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        45
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        47
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        48
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        49
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        52
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        56
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        58
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        59
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        60
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        61
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        63
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        64
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        65
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        66
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        68
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        69
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "2",
+      "source_pages": [
+        3
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "2",
+      "source_pages": [
+        11
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "2",
+      "source_pages": [
+        12
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "2",
+      "source_pages": [
+        14
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "2",
+      "source_pages": [
+        15
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "2",
+      "source_pages": [
+        16
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "2",
+      "source_pages": [
+        19
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "2",
+      "source_pages": [
+        22
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "2",
+      "source_pages": [
+        25
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "2",
+      "source_pages": [
+        27
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "2",
+      "source_pages": [
+        30
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "2",
+      "source_pages": [
+        33
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "2",
+      "source_pages": [
+        34
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "2",
+      "source_pages": [
+        36
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "2",
+      "source_pages": [
+        38
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "2",
+      "source_pages": [
+        40
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "2",
+      "source_pages": [
+        41
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "2",
+      "source_pages": [
+        42
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "2",
+      "source_pages": [
+        49
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "2",
+      "source_pages": [
+        52
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "2",
+      "source_pages": [
+        56
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "2",
+      "source_pages": [
+        58
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "2",
+      "source_pages": [
+        59
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "2",
+      "source_pages": [
+        60
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "2",
+      "source_pages": [
+        63
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "2",
+      "source_pages": [
+        64
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "2",
+      "source_pages": [
+        65
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "2",
+      "source_pages": [
+        66
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "2",
+      "source_pages": [
+        68
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "2",
+      "source_pages": [
+        69
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "7",
+      "source_pages": [
+        3
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "7",
+      "source_pages": [
+        34
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "7",
+      "source_pages": [
+        59
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "7",
+      "source_pages": [
+        69
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "8",
+      "source_pages": [
+        3
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "8",
+      "source_pages": [
+        34
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "8",
+      "source_pages": [
+        69
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "10",
+      "source_pages": [
+        3
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "10",
+      "source_pages": [
+        13
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "10",
+      "source_pages": [
+        34
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "10",
+      "source_pages": [
+        69
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "12",
+      "source_pages": [
+        3
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "13",
+      "source_pages": [
+        3
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "13",
+      "source_pages": [
+        20
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "14",
+      "source_pages": [
+        3
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "15",
+      "source_pages": [
+        3
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "15",
+      "source_pages": [
+        70
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "16",
+      "source_pages": [
+        3
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "16",
+      "source_pages": [
+        70
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "17",
+      "source_pages": [
+        3
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "17",
+      "source_pages": [
+        70
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "18",
+      "source_pages": [
+        3
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "18",
+      "source_pages": [
+        70
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "19",
+      "source_pages": [
+        3
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "19",
+      "source_pages": [
+        70
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "20",
+      "source_pages": [
+        3
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "20",
+      "source_pages": [
+        70
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "21",
+      "source_pages": [
+        3
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "25",
+      "source_pages": [
+        4
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "25",
+      "source_pages": [
+        10
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "25",
+      "source_pages": [
+        71
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "26",
+      "source_pages": [
+        4
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "26",
+      "source_pages": [
+        71
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "28",
+      "source_pages": [
+        4
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "29",
+      "source_pages": [
+        4
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "30",
+      "source_pages": [
+        4
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "31",
+      "source_pages": [
+        4
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "32",
+      "source_pages": [
+        4
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "33",
+      "source_pages": [
+        4
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "35",
+      "source_pages": [
+        4
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "35",
+      "source_pages": [
+        28
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "36",
+      "source_pages": [
+        4
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "37",
+      "source_pages": [
+        4
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "38",
+      "source_pages": [
+        4
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "39",
+      "source_pages": [
+        4
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "39",
+      "source_pages": [
+        37
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "39",
+      "source_pages": [
+        67
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "40",
+      "source_pages": [
+        4
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "41",
+      "source_pages": [
+        4
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "42",
+      "source_pages": [
+        4
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "43",
+      "source_pages": [
+        4
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "44",
+      "source_pages": [
+        4
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "45",
+      "source_pages": [
+        4
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "46",
+      "source_pages": [
+        4
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "47",
+      "source_pages": [
+        4
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "48",
+      "source_pages": [
+        4
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "49",
+      "source_pages": [
+        4
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "50",
+      "source_pages": [
+        4
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "51",
+      "source_pages": [
+        4
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "52",
+      "source_pages": [
+        4
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "53",
+      "source_pages": [
+        4
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "53",
+      "source_pages": [
+        35
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "54",
+      "source_pages": [
+        5
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "55",
+      "source_pages": [
+        5
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "57",
+      "source_pages": [
+        5
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "58",
+      "source_pages": [
+        5
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "59",
+      "source_pages": [
+        5
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "60",
+      "source_pages": [
+        5
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "61",
+      "source_pages": [
+        5
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "62",
+      "source_pages": [
+        5
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "63",
+      "source_pages": [
+        5
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "63",
+      "source_pages": [
+        55
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "65",
+      "source_pages": [
+        5
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "66",
+      "source_pages": [
+        5
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "67",
+      "source_pages": [
+        5
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "68",
+      "source_pages": [
+        5
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "69",
+      "source_pages": [
+        5
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "70",
+      "source_pages": [
+        5
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "71",
+      "source_pages": [
+        5
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "72",
+      "source_pages": [
+        5
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "73",
+      "source_pages": [
+        5
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "73",
+      "source_pages": [
+        9
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "74",
+      "source_pages": [
+        5
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "75",
+      "source_pages": [
+        5
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "76",
+      "source_pages": [
+        5
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "77",
+      "source_pages": [
+        5
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "78",
+      "source_pages": [
+        5
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "113",
+      "source_pages": [
+        7
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "114",
+      "source_pages": [
+        7
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "115",
+      "source_pages": [
+        67
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "118",
+      "source_pages": [
+        7
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "120",
+      "source_pages": [
+        7
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "122",
+      "source_pages": [
+        7
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "123",
+      "source_pages": [
+        7
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "124",
+      "source_pages": [
+        7
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "125",
+      "source_pages": [
+        7
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "126",
+      "source_pages": [
+        7
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "127",
+      "source_pages": [
+        7
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "128",
+      "source_pages": [
+        7
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "129",
+      "source_pages": [
+        7
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "129",
+      "source_pages": [
+        57
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "130",
+      "source_pages": [
+        7
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "131",
+      "source_pages": [
+        7
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "132",
+      "source_pages": [
+        7
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "133",
+      "source_pages": [
+        8
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "133",
+      "source_pages": [
+        9
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "134",
+      "source_pages": [
+        8
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "135",
+      "source_pages": [
+        8
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "135",
+      "source_pages": [
+        62
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "136",
+      "source_pages": [
+        8
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "137",
+      "source_pages": [
+        8
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "138",
+      "source_pages": [
+        8
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "139",
+      "source_pages": [
+        8
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "140",
+      "source_pages": [
+        8
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "141",
+      "source_pages": [
+        8
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "143",
+      "source_pages": [
+        8
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "144",
+      "source_pages": [
+        8
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "145",
+      "source_pages": [
+        8
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "146",
+      "source_pages": [
+        8
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "146",
+      "source_pages": [
+        57
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "147",
+      "source_pages": [
+        8
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "148",
+      "source_pages": [
+        8
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "149",
+      "source_pages": [
+        8
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "150",
+      "source_pages": [
+        8
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "151",
+      "source_pages": [
+        8
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "153",
+      "source_pages": [
+        8
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "154",
+      "source_pages": [
+        8
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "155",
+      "source_pages": [
+        8
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "156",
+      "source_pages": [
+        8
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "157",
+      "source_pages": [
+        8
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "158",
+      "source_pages": [
+        8
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "159",
+      "source_pages": [
+        8
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "160",
+      "source_pages": [
+        8
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "162",
+      "source_pages": [
+        8
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "5",
+      "source_pages": [
+        12,
+        17,
+        17
+      ],
+      "action": "merged",
+      "reason": "Merged 3 parts across pages [12, 17, 17]"
+    },
+    {
+      "section_number": "11B",
+      "source_pages": [
+        18
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "79",
+      "source_pages": [
+        42
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "80",
+      "source_pages": [
+        42
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "81",
+      "source_pages": [
+        42
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "82",
+      "source_pages": [
+        42
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "83",
+      "source_pages": [
+        43
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "84",
+      "source_pages": [
+        43
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "85",
+      "source_pages": [
+        55
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "86",
+      "source_pages": [
+        45
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "87",
+      "source_pages": [
+        45
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "88",
+      "source_pages": [
+        46
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "89",
+      "source_pages": [
+        46
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "90",
+      "source_pages": [
+        46
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "91",
+      "source_pages": [
+        47
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "92",
+      "source_pages": [
+        47
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "93",
+      "source_pages": [
+        48
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "99",
+      "source_pages": [
+        49
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "100",
+      "source_pages": [
+        50
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "102",
+      "source_pages": [
+        51
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "104",
+      "source_pages": [
+        52
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "105",
+      "source_pages": [
+        52
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "106",
+      "source_pages": [
+        53
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "107",
+      "source_pages": [
+        53
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "108",
+      "source_pages": [
+        53
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "109",
+      "source_pages": [
+        53
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "142",
+      "source_pages": [
+        64
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "22",
+      "source_pages": [
+        70
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "23",
+      "source_pages": [
+        70
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "24",
+      "source_pages": [
+        70
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    }
+  ],
+  "sections_before": 397,
+  "sections_after": 204,
+  "sections_merged": 1,
+  "uncertain_merges": 0
+}

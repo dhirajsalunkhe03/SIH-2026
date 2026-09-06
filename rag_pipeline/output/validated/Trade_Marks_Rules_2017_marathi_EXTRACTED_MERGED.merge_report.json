@@ -1,0 +1,79 @@
+{
+  "file_path": "/home/dhiraj/Desktop/SIH/rag_pipeline/output/validated/Trade_Marks_Rules_2017_marathi_EXTRACTED_REPAIRED.json",
+  "actions": [
+    {
+      "section_number": "1",
+      "source_pages": [
+        37,
+        38
+      ],
+      "action": "merged",
+      "reason": "Merged 2 parts across pages [37, 38]"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        38,
+        40
+      ],
+      "action": "merged",
+      "reason": "Merged 2 parts across pages [38, 40]"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        42,
+        43
+      ],
+      "action": "merged",
+      "reason": "Merged 2 parts across pages [42, 43]"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        43,
+        44
+      ],
+      "action": "merged",
+      "reason": "Merged 2 parts across pages [43, 44]"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        46,
+        48
+      ],
+      "action": "merged",
+      "reason": "Merged 2 parts across pages [46, 48]"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        85,
+        87
+      ],
+      "action": "merged",
+      "reason": "Merged 2 parts across pages [85, 87]"
+    },
+    {
+      "section_number": "95",
+      "source_pages": [
+        21
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "0",
+      "source_pages": [
+        86
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    }
+  ],
+  "sections_before": 345,
+  "sections_after": 336,
+  "sections_merged": 6,
+  "uncertain_merges": 0
+}

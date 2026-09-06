@@ -1,0 +1,10 @@
+{
+  "file_path": "Design rules 2001_EXTRACTED_REPAIRED_MERGED_NORMALIZED_CANONICAL.json",
+  "total_chunks": 65,
+  "chunks_by_type": {
+    "section": 65
+  },
+  "chunks_with_hierarchy": 20,
+  "avg_chunk_length": 521.77,
+  "max_chunk_length": 4833
+}

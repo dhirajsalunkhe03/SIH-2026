@@ -1,0 +1,154 @@
+{
+  "file_path": "/home/dhiraj/Desktop/SIH/rag_pipeline/Design rules 2001_EXTRACTED.json",
+  "actions": [
+    {
+      "page_number": 1,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'Short title and commencement:- (1) These rules may be called the Designs Rules, 2001', 'content': '(2) They shall come into force on the date of their public",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 2,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '4', 'section_title': 'Address for Service. - Every applicant or opponent in any proceeding under the Act or these rules,', 'content': 'and every person who shall hereafter become ",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 3,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '6', 'section_title': 'Forms. - (1) The forms set forth in the Second Schedule, with such variations, as the circumstances of', 'content': 'each case require, shall be used for the",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 4,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '11', 'section_title': 'Application. - (1) An application under section 5 of the Act for the registration of a design shall be', 'content': 'accompanied by four copies of the repre",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 5,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '16', 'section_title': 'Manner in which a claim under sub-section (1) of section 8(1) shall be made.- (1) A claim', 'content': 'under sub-section (1) of section 8 shall be made in ",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 6,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '19', 'section_title': 'Decision of Controller. - The decision of the Controller containing the grounds and materials used by', 'content': 'him in arriving the decision at such hea",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 7,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '25', 'section_title': 'Payment of unpaid extension fee. - (1) If the Controller decides in favour of the registered', 'content': 'proprietor of the design, the proprietor shall pa",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 8,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '29', 'section_title': 'Cancellation of registration of designs under section 19. - (1) A petition to the Controller for the', 'content': 'cancellation of the registration of a des",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 9,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '30', 'section_title': 'Registering designs.- (1)When a design is accepted, there shall be entered in the Register of Design,', 'content': 'in addition to the particulars required ",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 10,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '35', 'section_title': 'Production of documents of title and other proof.- Every assignment, and every other document', 'content': 'containing, giving effect to or being evidence o",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 11,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '41', 'section_title': 'Certified copies of documents. - Certified copies of an entry in the Register of Design or certified', 'content': 'copies of, or extracts from disclaimers, ",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 12,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '43', 'section_title': 'Scale of Costs. - In all proceedings before the Controller, the Controller may, save as otherwise', 'content': 'expressly provided by the Act or these rules",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 13,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '45', 'section_title': 'Controller may require statement. - Whether an applicant or agent desires to be heard or not, the', 'content': 'Controller may at any time require him to su",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 14,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'On application for registration of design under 1 1000.00', 'content': 'sections 5 and 44.', 'is_continuation': False, 'subsections': [], 'source_page': 14},",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 15,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '13', 'section_title': 'On application for entry of mortgage or licence in 12', 'content': 'Register of design under section 30\\nin respect of one design. 500.00\\nfor each addition",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 16,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '10', 'section_title': 'Section 30(3) Application for registration of a document in the Register Design', 'content': '11 Section 30 Application for entry of name of proprietor or p",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 30,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'For Notice of Opposition under rule 40 Rs. 100.00', 'content': '', 'is_continuation': False, 'subsections': [], 'source_page': 30}, {'section_number': '2', '",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 31,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '4', 'section_title': 'Stamps for Power of Attorney, where a professional The amount', 'content': 'has been appointed. actually paid.', 'is_continuation': False, 'subsections': [],",
+      "reason": "Extracted sections from raw_text"
+    }
+  ],
+  "sections_recovered": 18,
+  "titles_recovered": 0,
+  "content_recovered": 0,
+  "continuations_marked": 0,
+  "amendments_detected": 0
+}

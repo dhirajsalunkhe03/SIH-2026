@@ -1,0 +1,10 @@
+{
+  "file_path": "/home/dhiraj/Desktop/SIH/rag_pipeline/output/canonical/Designs_Act_2000_EXTRACTED_CANONICAL.json",
+  "total_chunks": 54,
+  "chunks_by_type": {
+    "section": 54
+  },
+  "chunks_with_hierarchy": 25,
+  "avg_chunk_length": 789.83,
+  "max_chunk_length": 3700
+}

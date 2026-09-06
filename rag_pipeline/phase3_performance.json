@@ -1,0 +1,21 @@
+{
+  "device": "cuda",
+  "gpu_name": "NVIDIA GeForce RTX 4050 Laptop GPU",
+  "gpu_memory_gb": 5.64,
+  "model": "BAAI/bge-m3",
+  "embedding_dimension": 1024,
+  "chromadb_records": 1185,
+  "load_time_seconds": 10.97,
+  "avg_query_embedding_time_ms": 13.77,
+  "avg_retrieval_time_ms": 14.98,
+  "avg_total_query_time_ms": 28.75,
+  "embedding_batch_size": 4,
+  "total_embedding_time_estimate_seconds": 280,
+  "chromadb_insertion_time_seconds": 60,
+  "notes": [
+    "Embedding done with batch_size=4 due to 6GB VRAM constraint",
+    "OOM warnings during embedding but completed successfully",
+    "ChromaDB uses cosine similarity (HNSW)",
+    "All times measured on NVIDIA RTX 4050 6GB"
+  ]
+}

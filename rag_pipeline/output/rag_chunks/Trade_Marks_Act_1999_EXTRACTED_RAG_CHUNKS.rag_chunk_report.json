@@ -1,0 +1,10 @@
+{
+  "file_path": "/home/dhiraj/Desktop/SIH/rag_pipeline/output/canonical/Trade_Marks_Act_1999_EXTRACTED_CANONICAL.json",
+  "total_chunks": 235,
+  "chunks_by_type": {
+    "section": 235
+  },
+  "chunks_with_hierarchy": 74,
+  "avg_chunk_length": 732.77,
+  "max_chunk_length": 5074
+}

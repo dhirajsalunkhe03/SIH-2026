@@ -1,0 +1,10 @@
+{
+  "file_path": "/home/dhiraj/Desktop/SIH/rag_pipeline/output/canonical/Patents Rules, 2003_Marathi_EXTRACTED_CANONICAL.json",
+  "total_chunks": 22,
+  "chunks_by_type": {
+    "section": 22
+  },
+  "chunks_with_hierarchy": 4,
+  "avg_chunk_length": 673.82,
+  "max_chunk_length": 5085
+}

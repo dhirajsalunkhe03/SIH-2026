@@ -1,0 +1,1675 @@
+{
+  "file_path": "Design rules 2001_EXTRACTED.json",
+  "is_valid_json": true,
+  "is_valid_structure": true,
+  "issues": [
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 1,
+      "field": "sections[0].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 1, raw_text_sample: MINISTRY OF COMMERCE [UNCLEAR] INDUSTRY\n(DEPARTMENT OF INDUSTRIAL POLICY AND PROMOTION)\nNOTIFICATION\nNew Delhi, Dated: The 11th May, 2001\nS.O. 414 (E)[UNCLEAR].. In exercise of the powers conferred by"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 1,
+      "field": "sections[2].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 3, raw_text_sample: MINISTRY OF COMMERCE [UNCLEAR] INDUSTRY\n(DEPARTMENT OF INDUSTRIAL POLICY AND PROMOTION)\nNOTIFICATION\nNew Delhi, Dated: The 11th May, 2001\nS.O. 414 (E)[UNCLEAR].. In exercise of the powers conferred by"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 1,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 1', 'section 47', 'section 3', 'section 47', 'section 44']",
+      "context": "Total matches: 7"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 1,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (3)', 'sub-section (3)']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 1,
+      "field": "raw_text",
+      "message": "Detected definition: ['means', 'means', 'means', 'means', 'means']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 1,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 1,
+      "field": "raw_text",
+      "message": "Detected permissive: ['May', 'May', 'may', 'may']",
+      "context": "Total matches: 4"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 1,
+      "field": "raw_text",
+      "message": "Detected numbered_section: ['1. S', '2. D', '3. L']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 1,
+      "field": "raw_text",
+      "message": "Detected numbered_subsection: ['(2)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 1,
+      "field": "raw_text",
+      "message": "Detected numbered_clause: ['(a)', '(b)', '(c)', '(d)', '(e)']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 2,
+      "field": "sections[0].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 4, raw_text_sample: the same would be delivered in the ordinary course of mail,and in proving such sending, it shall be\nsufficient to prove that the letter was properly addressed and mailed. If the documents sent through"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 2,
+      "field": "raw_text",
+      "message": "Detected proviso: ['provided that', 'Provided that']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 2,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 11"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 2,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 6"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 2,
+      "field": "raw_text",
+      "message": "Detected numbered_section: ['4. A', '5. F']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 2,
+      "field": "raw_text",
+      "message": "Detected numbered_subsection: ['(2)', '(3)', '(4)', '(2)']",
+      "context": "Total matches: 4"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 2,
+      "field": "raw_text",
+      "message": "Detected numbered_clause: ['(b)', '(c)']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 3,
+      "field": "sections[0].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 6, raw_text_sample: (d) Subject to the approval of the competent authority any applicant or an agent may deposit\nmoney in advance once in a financial year and request the Controller to realise any fee payable\nby him from"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 3,
+      "field": "sections[2].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 8, raw_text_sample: (d) Subject to the approval of the competent authority any applicant or an agent may deposit\nmoney in advance once in a financial year and request the Controller to realise any fee payable\nby him from"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 3,
+      "field": "sections[3].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 9, raw_text_sample: (d) Subject to the approval of the competent authority any applicant or an agent may deposit\nmoney in advance once in a financial year and request the Controller to realise any fee payable\nby him from"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 3,
+      "field": "sections[4].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 10, raw_text_sample: (d) Subject to the approval of the competent authority any applicant or an agent may deposit\nmoney in advance once in a financial year and request the Controller to realise any fee payable\nby him from"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 3,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 43', 'section 43']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 3,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 3,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 11"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 3,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 3,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['Subject to']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 3,
+      "field": "raw_text",
+      "message": "Detected form_reference: ['form is', 'form specified']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 3,
+      "field": "raw_text",
+      "message": "Detected numbered_section: ['6. F', '7. S', '8. S', '9. A', '10. C']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 3,
+      "field": "raw_text",
+      "message": "Detected numbered_subsection: ['(2)', '(2)', '(3)', '(2)']",
+      "context": "Total matches: 4"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 3,
+      "field": "raw_text",
+      "message": "Detected numbered_clause: ['(d)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 4,
+      "field": "sections[0].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 11, raw_text_sample: 11. Application. - (1) An application under section 5 of the Act for the registration of a design shall be\naccompanied by four copies of the representation of the design and the application and each o"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 4,
+      "field": "sections[1].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 12, raw_text_sample: 11. Application. - (1) An application under section 5 of the Act for the registration of a design shall be\naccompanied by four copies of the representation of the design and the application and each o"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 4,
+      "field": "sections[2].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 13, raw_text_sample: 11. Application. - (1) An application under section 5 of the Act for the registration of a design shall be\naccompanied by four copies of the representation of the design and the application and each o"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 4,
+      "field": "sections[4].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 15, raw_text_sample: 11. Application. - (1) An application under section 5 of the Act for the registration of a design shall be\naccompanied by four copies of the representation of the design and the application and each o"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 4,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 5']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 4,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 23"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 4,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 4,
+      "field": "raw_text",
+      "message": "Detected numbered_section: ['11. A', '12. S', '13. A', '14. R', '15. R']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 4,
+      "field": "raw_text",
+      "message": "Detected numbered_subsection: ['(2)', '(3)', '(4)', '(2)', '(3)']",
+      "context": "Total matches: 10"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 5,
+      "field": "sections[0].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 16, raw_text_sample: convention country or group of countries or inter-governmental organisation has been made for the\nprotection of the design to which such reciprocity application relates and shall specify convention\nco"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 5,
+      "field": "sections[1].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 17, raw_text_sample: convention country or group of countries or inter-governmental organisation has been made for the\nprotection of the design to which such reciprocity application relates and shall specify convention\nco"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 5,
+      "field": "sections[2].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 18, raw_text_sample: convention country or group of countries or inter-governmental organisation has been made for the\nprotection of the design to which such reciprocity application relates and shall specify convention\nco"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 5,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 8', 'section 8', 'section 5']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 5,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (1)', 'sub-section (1)', 'sub-section (1)']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 5,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 5,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 10"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 5,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 5,
+      "field": "raw_text",
+      "message": "Detected numbered_section: ['16. M', '17. A', '18. O']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 5,
+      "field": "raw_text",
+      "message": "Detected numbered_subsection: ['(2)', '(3)', '(2)']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 6,
+      "field": "sections[0].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 19, raw_text_sample: (2) If the applicant or his agent applies for a hearing under sub-rule (1) within a period of\nthree month from the date of communication of the statement of objections or if the\nController considers i"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 6,
+      "field": "sections[1].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 20, raw_text_sample: (2) If the applicant or his agent applies for a hearing under sub-rule (1) within a period of\nthree month from the date of communication of the statement of objections or if the\nController considers i"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 6,
+      "field": "sections[2].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 21, raw_text_sample: (2) If the applicant or his agent applies for a hearing under sub-rule (1) within a period of\nthree month from the date of communication of the statement of objections or if the\nController considers i"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 6,
+      "field": "sections[3].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 22, raw_text_sample: (2) If the applicant or his agent applies for a hearing under sub-rule (1) within a period of\nthree month from the date of communication of the statement of objections or if the\nController considers i"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 6,
+      "field": "sections[4].content",
+      "message": "Section has empty content",
+      "context": "section_number: 23"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 6,
+      "field": "sections[5].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 24, raw_text_sample: (2) If the applicant or his agent applies for a hearing under sub-rule (1) within a period of\nthree month from the date of communication of the statement of objections or if the\nController considers i"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 6,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 7', 'section 11', 'section 11', 'section 12']",
+      "context": "Total matches: 4"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 6,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (2)', 'subsection (2)']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 6,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 9"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 6,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 6,
+      "field": "raw_text",
+      "message": "Detected numbered_section: ['19. D', '20. D', '21. N', '22. P', '23. M']",
+      "context": "Total matches: 6"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 6,
+      "field": "raw_text",
+      "message": "Detected numbered_subsection: ['(2)', '(3)', '(4)', '(5)', '(2)']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 7,
+      "field": "sections[0].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 25, raw_text_sample: been made out he shall intimate the proprietor of the design accordingly, and unless within one\nmonth from the date of such intimation the proprietor requests to be heard in the matter, the\nController"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 7,
+      "field": "sections[2].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 27, raw_text_sample: been made out he shall intimate the proprietor of the design accordingly, and unless within one\nmonth from the date of such intimation the proprietor requests to be heard in the matter, the\nController"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 7,
+      "field": "sections[3].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 28, raw_text_sample: been made out he shall intimate the proprietor of the design accordingly, and unless within one\nmonth from the date of such intimation the proprietor requests to be heard in the matter, the\nController"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 7,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 15', 'section 18', 'section 18']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 7,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (1)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 7,
+      "field": "raw_text",
+      "message": "Detected clause_reference: ['clause (b)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 7,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 7,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 9"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 7,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 7,
+      "field": "raw_text",
+      "message": "Detected form_reference: ['Form 6']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 7,
+      "field": "raw_text",
+      "message": "Detected numbered_section: ['25. P', '26. M', '27. I', '28. S']",
+      "context": "Total matches: 4"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 7,
+      "field": "raw_text",
+      "message": "Detected numbered_subsection: ['(3)', '(2)']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 7,
+      "field": "raw_text",
+      "message": "Detected numbered_clause: ['(i)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 8,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 19', 'section 19']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 8,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 8,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 18"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 8,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 6"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 8,
+      "field": "raw_text",
+      "message": "Detected form_reference: ['Form 7', 'Form 7']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 8,
+      "field": "raw_text",
+      "message": "Detected numbered_section: ['29. C']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 8,
+      "field": "raw_text",
+      "message": "Detected numbered_subsection: ['(2)', '(2)', '(3)', '(4)', '(5)']",
+      "context": "Total matches: 9"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 9,
+      "field": "sections[1].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 31, raw_text_sample: (11)If either party desires to be heard, he shall give to the Controller a notice in Form 20 of his\nintention to attend the hearing.\n(12)If, at the hearing, either party intends to refer to any public"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 9,
+      "field": "sections[2].content",
+      "message": "Section has empty content",
+      "context": "section_number: 32"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 9,
+      "field": "sections[3].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 33, raw_text_sample: (11)If either party desires to be heard, he shall give to the Controller a notice in Form 20 of his\nintention to attend the hearing.\n(12)If, at the hearing, either party intends to refer to any public"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 9,
+      "field": "sections[4].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 34, raw_text_sample: (11)If either party desires to be heard, he shall give to the Controller a notice in Form 20 of his\nintention to attend the hearing.\n(12)If, at the hearing, either party intends to refer to any public"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 9,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 30', 'section 30', 'section 30']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 9,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (3)', 'subsection (3)', 'sub-section (1)']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 9,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 11"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 9,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may']",
+      "context": "Total matches: 4"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 9,
+      "field": "raw_text",
+      "message": "Detected form_reference: ['Form 20', 'Form 22', 'Form 11']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 9,
+      "field": "raw_text",
+      "message": "Detected numbered_section: ['30. R', '31. A', '32. R', '33. A', '34. P']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 9,
+      "field": "raw_text",
+      "message": "Detected numbered_subsection: ['(11)', '(12)', '(13)', '(2)', '(3)']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 10,
+      "field": "sections[1].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 36, raw_text_sample: 35. Production of documents of title and other proof.- Every assignment, and every other document\ncontaining, giving effect to or being evidence of the transmission of copyright in a registered design"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 10,
+      "field": "sections[2].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 37, raw_text_sample: 35. Production of documents of title and other proof.- Every assignment, and every other document\ncontaining, giving effect to or being evidence of the transmission of copyright in a registered design"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 10,
+      "field": "sections[3].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 38, raw_text_sample: 35. Production of documents of title and other proof.- Every assignment, and every other document\ncontaining, giving effect to or being evidence of the transmission of copyright in a registered design"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 10,
+      "field": "sections[4].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 39, raw_text_sample: 35. Production of documents of title and other proof.- Every assignment, and every other document\ncontaining, giving effect to or being evidence of the transmission of copyright in a registered design"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 10,
+      "field": "sections[5].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 40, raw_text_sample: 35. Production of documents of title and other proof.- Every assignment, and every other document\ncontaining, giving effect to or being evidence of the transmission of copyright in a registered design"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 10,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 31']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 10,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 10,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 7"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 10,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 10,
+      "field": "raw_text",
+      "message": "Detected form_reference: ['Form of']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 10,
+      "field": "raw_text",
+      "message": "Detected numbered_section: ['35. P', '36. F', '37. E', '38. H', '39. R']",
+      "context": "Total matches: 6"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 11,
+      "field": "sections[0].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 41, raw_text_sample: (2) The opponent shall, within fourteen days of giving notice of opposition, leave at the office his\nwritten statement in duplicate setting out the nature of his interest, the facts upon which he base"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 11,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 31', 'section 19', 'section 14']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 11,
+      "field": "raw_text",
+      "message": "Detected proviso: ['provided\\nthat']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 11,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 15"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 11,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 11,
+      "field": "raw_text",
+      "message": "Detected form_reference: ['Form etc']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 11,
+      "field": "raw_text",
+      "message": "Detected numbered_section: ['41. C', '42. F']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 11,
+      "field": "raw_text",
+      "message": "Detected numbered_subsection: ['(2)', '(3)', '(4)', '(2)', '(3)']",
+      "context": "Total matches: 6"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 11,
+      "field": "raw_text",
+      "message": "Detected numbered_clause: ['(a)', '(b)']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 12,
+      "field": "sections[0].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 43, raw_text_sample: that court and signed his name and state his designation and address at the end\nthereof.\n(5) Any affidavit purporting to have affixed, impressed or subscribed thereto or thereon\nthe seal or signature "
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 12,
+      "field": "sections[1].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 44, raw_text_sample: that court and signed his name and state his designation and address at the end\nthereof.\n(5) Any affidavit purporting to have affixed, impressed or subscribed thereto or thereon\nthe seal or signature "
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 12,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 33']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 12,
+      "field": "raw_text",
+      "message": "Detected proviso: ['provided that']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 12,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 9"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 12,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 12,
+      "field": "raw_text",
+      "message": "Detected numbered_section: ['43. S', '44. E']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 12,
+      "field": "raw_text",
+      "message": "Detected numbered_subsection: ['(5)', '(6)', '(7)', '(8)']",
+      "context": "Total matches: 4"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 13,
+      "field": "sections[1].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 47, raw_text_sample: Provided that if the giving of ten day[UNCLEAR]s notice would cause an application for the\nregistration of design to be deemed to have been abandoned before the hearing, the\nController may curtail the"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 13,
+      "field": "sections[2].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 48, raw_text_sample: Provided that if the giving of ten day[UNCLEAR]s notice would cause an application for the\nregistration of design to be deemed to have been abandoned before the hearing, the\nController may curtail the"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 13,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that', 'Provided that']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 13,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 13,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 9"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 13,
+      "field": "raw_text",
+      "message": "Detected numbered_section: ['45. C', '47. G', '48. R']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 14,
+      "field": "sections[0].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 1, raw_text_sample: THE FIRST SCHEDULE\nSee rule 5\nFEES\nNo. of on what payable No. of Fee (Rs.)\nEntry form\n1. On application for registration of design under 1 1000.00\nsections 5 and 44.\n2. On claim under section 8(1) to "
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 14,
+      "field": "sections[1].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 2, raw_text_sample: THE FIRST SCHEDULE\nSee rule 5\nFEES\nNo. of on what payable No. of Fee (Rs.)\nEntry form\n1. On application for registration of design under 1 1000.00\nsections 5 and 44.\n2. On claim under section 8(1) to "
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 14,
+      "field": "sections[2].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 3, raw_text_sample: THE FIRST SCHEDULE\nSee rule 5\nFEES\nNo. of on what payable No. of Fee (Rs.)\nEntry form\n1. On application for registration of design under 1 1000.00\nsections 5 and 44.\n2. On claim under section 8(1) to "
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 14,
+      "field": "sections[3].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 4, raw_text_sample: THE FIRST SCHEDULE\nSee rule 5\nFEES\nNo. of on what payable No. of Fee (Rs.)\nEntry form\n1. On application for registration of design under 1 1000.00\nsections 5 and 44.\n2. On claim under section 8(1) to "
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 14,
+      "field": "sections[4].content",
+      "message": "Section has empty content",
+      "context": "section_number: 5"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 14,
+      "field": "sections[5].content",
+      "message": "Section has empty content",
+      "context": "section_number: 6"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 14,
+      "field": "sections[6].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 7, raw_text_sample: THE FIRST SCHEDULE\nSee rule 5\nFEES\nNo. of on what payable No. of Fee (Rs.)\nEntry form\n1. On application for registration of design under 1 1000.00\nsections 5 and 44.\n2. On claim under section 8(1) to "
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 14,
+      "field": "sections[7].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 8, raw_text_sample: THE FIRST SCHEDULE\nSee rule 5\nFEES\nNo. of on what payable No. of Fee (Rs.)\nEntry form\n1. On application for registration of design under 1 1000.00\nsections 5 and 44.\n2. On claim under section 8(1) to "
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 14,
+      "field": "sections[8].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 9, raw_text_sample: THE FIRST SCHEDULE\nSee rule 5\nFEES\nNo. of on what payable No. of Fee (Rs.)\nEntry form\n1. On application for registration of design under 1 1000.00\nsections 5 and 44.\n2. On claim under section 8(1) to "
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 14,
+      "field": "sections[9].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 10, raw_text_sample: THE FIRST SCHEDULE\nSee rule 5\nFEES\nNo. of on what payable No. of Fee (Rs.)\nEntry form\n1. On application for registration of design under 1 1000.00\nsections 5 and 44.\n2. On claim under section 8(1) to "
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 14,
+      "field": "sections[10].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 11, raw_text_sample: THE FIRST SCHEDULE\nSee rule 5\nFEES\nNo. of on what payable No. of Fee (Rs.)\nEntry form\n1. On application for registration of design under 1 1000.00\nsections 5 and 44.\n2. On claim under section 8(1) to "
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 14,
+      "field": "sections[11].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 12, raw_text_sample: THE FIRST SCHEDULE\nSee rule 5\nFEES\nNo. of on what payable No. of Fee (Rs.)\nEntry form\n1. On application for registration of design under 1 1000.00\nsections 5 and 44.\n2. On claim under section 8(1) to "
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 14,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 8', 'section 11', 'section 12', 'section 17', 'Section 18']",
+      "context": "Total matches: 9"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 14,
+      "field": "raw_text",
+      "message": "Detected form_reference: ['form\\n1']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 14,
+      "field": "raw_text",
+      "message": "Detected numbered_section: ['1. O', '2. O', '3. O', '4. O', '5. A']",
+      "context": "Total matches: 12"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 15,
+      "field": "sections[0].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 13, raw_text_sample: No. of on what payable No. of Fee\nEntry form\n13. On application for entry of mortgage or licence in 12\nRegister of design under section 30\nin respect of one design. 500.00\nfor each additional design. "
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 15,
+      "field": "sections[1].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 14, raw_text_sample: No. of on what payable No. of Fee\nEntry form\n13. On application for entry of mortgage or licence in 12\nRegister of design under section 30\nin respect of one design. 500.00\nfor each additional design. "
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 15,
+      "field": "sections[2].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 15, raw_text_sample: No. of on what payable No. of Fee\nEntry form\n13. On application for entry of mortgage or licence in 12\nRegister of design under section 30\nin respect of one design. 500.00\nfor each additional design. "
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 15,
+      "field": "sections[3].content",
+      "message": "Section has empty content",
+      "context": "section_number: 16"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 15,
+      "field": "sections[4].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 17, raw_text_sample: No. of on what payable No. of Fee\nEntry form\n13. On application for entry of mortgage or licence in 12\nRegister of design under section 30\nin respect of one design. 500.00\nfor each additional design. "
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 15,
+      "field": "sections[5].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 18, raw_text_sample: No. of on what payable No. of Fee\nEntry form\n13. On application for entry of mortgage or licence in 12\nRegister of design under section 30\nin respect of one design. 500.00\nfor each additional design. "
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 15,
+      "field": "sections[6].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 19, raw_text_sample: No. of on what payable No. of Fee\nEntry form\n13. On application for entry of mortgage or licence in 12\nRegister of design under section 30\nin respect of one design. 500.00\nfor each additional design. "
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 15,
+      "field": "sections[7].content",
+      "message": "Section has empty content",
+      "context": "section_number: 20"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 15,
+      "field": "sections[8].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 21, raw_text_sample: No. of on what payable No. of Fee\nEntry form\n13. On application for entry of mortgage or licence in 12\nRegister of design under section 30\nin respect of one design. 500.00\nfor each additional design. "
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 15,
+      "field": "sections[9].content",
+      "message": "Section has empty content",
+      "context": "section_number: 22"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 15,
+      "field": "sections[10].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 23, raw_text_sample: No. of on what payable No. of Fee\nEntry form\n13. On application for entry of mortgage or licence in 12\nRegister of design under section 30\nin respect of one design. 500.00\nfor each additional design. "
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 15,
+      "field": "sections[11].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 24, raw_text_sample: No. of on what payable No. of Fee\nEntry form\n13. On application for entry of mortgage or licence in 12\nRegister of design under section 30\nin respect of one design. 500.00\nfor each additional design. "
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 15,
+      "field": "sections[12].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 25, raw_text_sample: No. of on what payable No. of Fee\nEntry form\n13. On application for entry of mortgage or licence in 12\nRegister of design under section 30\nin respect of one design. 500.00\nfor each additional design. "
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 15,
+      "field": "sections[13].content",
+      "message": "Section has empty content",
+      "context": "section_number: 26"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 15,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 30', 'section 30', 'section 29', 'section 26', 'section 17']",
+      "context": "Total matches: 10"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 15,
+      "field": "raw_text",
+      "message": "Detected form_reference: ['form\\n13', 'Form for', 'Form No']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 15,
+      "field": "raw_text",
+      "message": "Detected numbered_section: ['13. O', '14. A', '15. O', '16. O', '17. O']",
+      "context": "Total matches: 15"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 16,
+      "field": "sections[0].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 10, raw_text_sample: 6 Section 18 Request for information when registration number is given.\n7 Section 18 Request for information when registration number is not given.\n8 Section 19 Petition to cancel registration of desi"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 16,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['Section 18', 'Section 18', 'Section 19', 'Section 21', 'Section 30']",
+      "context": "Total matches: 14"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 16,
+      "field": "raw_text",
+      "message": "Detected numbered_section: ['10. S', '13. S']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 16,
+      "field": "raw_text",
+      "message": "Detected numbered_clause: ['(b)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 17,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 2072"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 17,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['subject to']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 17,
+      "field": "raw_text",
+      "message": "Detected numbered_clause: ['(b)', '(b)', '(b)']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 18,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 1880"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 18,
+      "field": "raw_text",
+      "message": "Detected definition: ['means', 'means']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 18,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['subject to']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 18,
+      "field": "raw_text",
+      "message": "Detected numbered_clause: ['(b)', '(b)', '(b)', '(b)', '(c)']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 19,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 1816"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 19,
+      "field": "raw_text",
+      "message": "Detected numbered_clause: ['(b)', '(b)']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 20,
+      "field": "raw_text",
+      "message": "Detected definition: ['MEANS', 'means', 'means', 'means', 'MEANS']",
+      "context": "Total matches: 7"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 20,
+      "field": "raw_text",
+      "message": "Detected numbered_clause: ['(b)', '(b)', '(b)', '(b)', '(b)']",
+      "context": "Total matches: 6"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 21,
+      "field": "raw_text",
+      "message": "Detected definition: ['means']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 21,
+      "field": "raw_text",
+      "message": "Detected numbered_clause: ['(b)', '(b)', '(b)']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 22,
+      "field": "raw_text",
+      "message": "Detected definition: ['Means', 'means']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 22,
+      "field": "raw_text",
+      "message": "Detected numbered_clause: ['(b)', '(c)', '(d)', '(b)', '(b)']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 23,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 1911"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 23,
+      "field": "raw_text",
+      "message": "Detected numbered_clause: ['(b)', '(c)', '(b)', '(b)', '(b)']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 24,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 1889"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 24,
+      "field": "raw_text",
+      "message": "Detected numbered_clause: ['(a)', '(b)', '(c)', '(b)']",
+      "context": "Total matches: 4"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 25,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 1995"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 25,
+      "field": "raw_text",
+      "message": "Detected numbered_clause: ['(b)', '(b)', '(b)']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 26,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 1985"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 26,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 26,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['subject to']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 26,
+      "field": "raw_text",
+      "message": "Detected numbered_clause: ['(b)', '(b)', '(b)', '(b)', '(c)']",
+      "context": "Total matches: 7"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 27,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 1442"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 27,
+      "field": "raw_text",
+      "message": "Detected numbered_clause: ['(b)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 28,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 1478"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 28,
+      "field": "raw_text",
+      "message": "Detected numbered_clause: ['(b)', '(b)', '(c)']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 29,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 1532"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 29,
+      "field": "raw_text",
+      "message": "Detected numbered_clause: ['(b)', '(b)', '(b)']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 30,
+      "field": "sections[0].content",
+      "message": "Section has empty content",
+      "context": "section_number: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 30,
+      "field": "sections[1].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 2, raw_text_sample: Note: Not including hand-manipulated utensil, instruments and appliances for serving or\npreparing food or drink (Cl. 07).\n31-00 MACHINES AND APPLIANCES FOR PREPARING FOOD OR DRINK, NOT\nELSEWHERE SPECI"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 30,
+      "field": "sections[2].content",
+      "message": "Section has empty content",
+      "context": "section_number: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 30,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 19']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 30,
+      "field": "raw_text",
+      "message": "Detected numbered_section: ['1. F', '2. F', '3. F']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 31,
+      "field": "sections[0].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 4, raw_text_sample: 4. Stamps for Power of Attorney, where a professional The amount\nhas been appointed. actually paid.\n5. Stamps fee in respect of relevant Affidavit. actually paid\n6. For Statement under rules 29(1) and"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 31,
+      "field": "sections[1].content",
+      "message": "Section has empty content",
+      "context": "section_number: 5"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 31,
+      "field": "sections[2].content",
+      "message": "Section has empty content",
+      "context": "section_number: 6"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 31,
+      "field": "sections[3].content",
+      "message": "Section has empty content",
+      "context": "section_number: 7"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 31,
+      "field": "sections[4].content",
+      "message": "Section has empty content",
+      "context": "section_number: 8"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 31,
+      "field": "sections[5].content",
+      "message": "Section has empty content",
+      "context": "section_number: 9"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 31,
+      "field": "sections[6].content",
+      "message": "Section has empty content",
+      "context": "section_number: 10"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 31,
+      "field": "sections[7].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 11, raw_text_sample: 4. Stamps for Power of Attorney, where a professional The amount\nhas been appointed. actually paid.\n5. Stamps fee in respect of relevant Affidavit. actually paid\n6. For Statement under rules 29(1) and"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 31,
+      "field": "raw_text",
+      "message": "Detected numbered_section: ['4. S', '5. S', '6. F', '7. F', '8. F']",
+      "context": "Total matches: 8"
+    }
+  ],
+  "structural_errors": 0,
+  "structural_warnings": 0,
+  "content_errors": 0,
+  "content_warnings": 26,
+  "legal_pattern_flags": 122,
+  "pages_with_raw_text_no_structures": 10,
+  "sections_with_empty_title": 0,
+  "sections_with_empty_content": 16,
+  "sections_with_missing_legal_text": 59,
+  "duplicate_page_numbers": [],
+  "missing_page_numbers": [],
+  "invalid_page_types": []
+}

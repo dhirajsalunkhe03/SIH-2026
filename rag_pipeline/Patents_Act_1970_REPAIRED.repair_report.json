@@ -1,0 +1,570 @@
+{
+  "file_path": "/home/dhiraj/Desktop/SIH/Datasets/BIO/Patents_Act_1970.json",
+  "actions": [
+    {
+      "page_number": 3,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'Short title, extent and commencement', 'content': '', 'is_continuation': False, 'subsections': [], 'source_page': 3}, {'section_number': '2', 'section_title'",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 4,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '25', 'section_title': 'Opposition to the patent', 'content': '', 'is_continuation': False, 'subsections': [], 'source_page': 4}, {'section_number': '26', 'section_title': 'In case",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 5,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '54', 'section_title': 'Patents of addition', 'content': '', 'is_continuation': False, 'subsections': [], 'source_page': 5}, {'section_number': '55', 'section_title': 'Term of pate",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 6,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '94', 'section_title': 'Evidence how to be given and powers of Controller in respect thereof', 'content': 'Exercise of discretionary powers by Controller.\\nDisposal by Controller o",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 7,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '113', 'section_title': 'Certificate of validity of specification and costs of subsequent suits for infringement thereof', 'content': '', 'is_continuation': False, 'subsections': [",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 8,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '133', 'section_title': 'Convention countries', 'content': '', 'is_continuation': False, 'subsections': [], 'source_page': 8}, {'section_number': '134', 'section_title': 'Notificat",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 11,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '3', 'section_title': 'What are not inventions—The following are not inventions within the meaning of this', 'content': 'Act,—\\n\\n(a) an invention which is frivolous or which claim",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 12,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '4', 'section_title': 'Inventions relating to atomic energy not patentable —No patent shall be granted in respect of', 'content': 'an invention relating to atomic energy falling wi",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 13,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '8', 'section_title': 'Information and undertaking regarding foreign applications —(/) Where an applicant for a', 'content': \"patent under this Act is prosecuting either alone or j",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 14,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '10', 'section_title': 'Contents of specifications—(/) Every specification, whether provisional or complete, shall', 'content': 'describe the invention and shall begin with a title",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 15,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '11', 'section_title': 'Priority dates of claims of a complete specification —(/) There shall be a priority date for each', 'content': 'claim of a complete specification.\\n\\n(2) Wh",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 16,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'Ins. by Act 15 of 2005, s. 9 (w.e.f. 1-1-2005)', 'content': '', 'is_continuation': False, 'subsections': [], 'source_page': 16}, {'section_number': '2', 'sec",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 17,
+      "action_type": "recover_content",
+      "field": "sections[0].content",
+      "before": "\"\"",
+      "after": "\"Subs. by s. 11, ibid., for sub-section (3) (w.e.f. 1-1-2005)....\"",
+      "reason": "Recovered content for section 5"
+    },
+    {
+      "page_number": 17,
+      "action_type": "recover_content",
+      "field": "sections[1].content",
+      "before": "\"\"",
+      "after": "\"Subs. by s. 11, ibid., for sub-section (3) (w.e.f. 1-1-2005)....\"",
+      "reason": "Recovered content for section 5"
+    },
+    {
+      "page_number": 19,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '15', 'section_title': 'Power of Controller to refuse or require amended applications, etc., in certain', 'content': 'cases.—Where the Controller is satisfied that the application ",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 21,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'Subs. by Act 15 of 2005, s. 19, for section 21 (w.e.f. 1-1-2005)', 'content': '21', 'is_continuation': False, 'subsections': [], 'source_page': 21}]",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 22,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'Chapter IVA omitted by Act 15 of 2005, s. 21 (w.e.f. 1-1-2005)', 'content': '', 'is_continuation': False, 'subsections': [], 'source_page': 22}, {'section_nu",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 22,
+      "action_type": "mark_continuation",
+      "field": "section 1",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 1 continues from page 21"
+    },
+    {
+      "page_number": 24,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '26', 'section_title': 'In cases of “obtaining” Controller may treat the patent as the patent of', 'content': 'opponent.—(/) Where in any opposition proceeding under this Act the C",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 25,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '29', 'section_title': 'Anticipation by previous publication —(/) An invention claimed in a complete specification', 'content': 'shall not be deemed to have been anticipated by rea",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 26,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '30', 'section_title': 'Anticipation by previous communication to Government.—An invention claimed in a', 'content': 'complete specification shall not be deemed to have been antici",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 27,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '34', 'section_title': 'No anticipation if circumstances are only as described in sections 29, 30, 31', 'content': \"and 32.—Notwithstanding anything contained in this Act, the Cont",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 27,
+      "action_type": "mark_continuation",
+      "field": "section 1",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 1 continues from page 26"
+    },
+    {
+      "page_number": 30,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '46', 'section_title': 'Form, extent and effect of patent—(/) Every patent shall be in the prescribed form and shall', 'content': 'have effect throughout India.\\n\\n(2) A patent sha",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 31,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '50', 'section_title': 'Rights of co-owners of patents—(/) Where a patent is granted to two or more persons, each of', 'content': \"those persons shall, unless an agreement to the c",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 32,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '52', 'section_title': 'Grant of patent to true and first inventor where it has been obtained by another in fraud of', 'content': \"him.—(/) '[Where the patent has been revoked unde",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 33,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '55', 'section_title': 'Term of patents of addition —(/) A patent of addition shall be granted for a term equal to that', 'content': 'of the patent for the main invention, or so mu",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 34,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '59', 'section_title': 'Supplementary provisions as to amendment of application or specification —*[(/) No', 'content': \"amendment of an application for a patent or a complete spec",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 34,
+      "action_type": "mark_continuation",
+      "field": "section 4",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 4 continues from page 33"
+    },
+    {
+      "page_number": 36,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '63', 'section_title': 'Surrender of patents—(/) A patentee may, at any time by giving notice in the prescribed', 'content': 'manner to the Controller, offer to surrender his paten",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 38,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '66', 'section_title': 'Revocation of patent in public interest —Where the Central Government is of opinion that a', 'content': 'patent or the mode in which it is exercised is misc",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 39,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '69', 'section_title': 'Registration of assignments, transmissions, ete —(/) Where any person becomes entitled by', 'content': 'assignment, transmission or operation of law to a pa",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 40,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '70', 'section_title': 'Power of registered grantee or proprietor to deal with patent.—Subject to the provisions', 'content': 'contained in this Act relating to co-ownership of pat",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 40,
+      "action_type": "mark_continuation",
+      "field": "section 1",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 1 continues from page 39"
+    },
+    {
+      "page_number": 41,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '74', 'section_title': 'Patent office and its branches.—(/) For the purposes of this Act, there shall be an office which', 'content': \"shall be known as the patent office.\\n\\n'[(2)",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 41,
+      "action_type": "mark_continuation",
+      "field": "section 1",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 1 continues from page 40"
+    },
+    {
+      "page_number": 42,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '78', 'section_title': 'Power of Controller to correct clerical errors, ete —(/) Without prejudice to the provisions', 'content': \"contained in sections 57 and 59 as regards amendm",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 42,
+      "action_type": "mark_continuation",
+      "field": "section 1",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 1 continues from page 41"
+    },
+    {
+      "page_number": 42,
+      "action_type": "mark_continuation",
+      "field": "section 4",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 4 continues from page 41"
+    },
+    {
+      "page_number": 43,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '83', 'section_title': 'General principles applicable to working of patented inventions —Without prejudice to the', 'content': 'other provisions contained in this Act, in exercisin",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 44,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'The Explanation ins. by Act 15 of 2005, s. 52 (w.e.f. 1-1-2005)', 'content': '44', 'is_continuation': False, 'subsections': [], 'source_page': 44}]",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 45,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '85', 'section_title': 'Revocation of patents by the Controller for non-working.—(/) Where, in respect of a patent, a', 'content': 'compulsory licence has been granted, the Central",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 46,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '88', 'section_title': 'Powers of Controller in granting compulsory licences.—(/) Where the Controller is satisfied', 'content': 'on an application made under section 84 that the m",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 47,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '91', 'section_title': 'Licensing of related patents.—(/) Notwithstanding anything contained in the other provisions of', 'content': 'this Chapter, at any time after the sealing of",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 48,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '93', 'section_title': 'Order for licence to operate as a deed between parties concerned.—Any order for the grant of', 'content': 'a licence under this Chapter shall operate as if ",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 49,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '99', 'section_title': 'Meaning of use of invention for purposes of Government.—(/) For the purposes of this', 'content': 'Chapter, an invention is said to be used for the purposes",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 49,
+      "action_type": "mark_continuation",
+      "field": "section 1",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 1 continues from page 48"
+    },
+    {
+      "page_number": 51,
+      "action_type": "recover_content",
+      "field": "sections[0].content",
+      "before": "\"\"",
+      "after": "\"Government may, if satisfied that it is necessary that an invention which is the subject of an appli...\"",
+      "reason": "Recovered content for section 102"
+    },
+    {
+      "page_number": 52,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '104', 'section_title': 'Jurisdiction.—No suit for a declaration under section 105 or for any relief under section 106 or', 'content': \"for infringement of a patent shall be instit",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 53,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '106', 'section_title': 'Power of court to grant relief in cases of groundless threats of infringement proceedings.—', 'content': \"(1) Where any person (whether entitled to or inte",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 56,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '118', 'section_title': 'Contravention of Secrecy provisions relating to certain inventions.—If any person fails to', 'content': 'comply with any direction given under section 35 *",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 58,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '126', 'section_title': 'Qualifications for registration as patent agents.—(/) A person shall be qualified to have his', 'content': 'name entered in the register of patent agents i",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 59,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '127', 'section_title': 'Rights of patent agents.—Subject to the provisions contained in this Act and in any rules made', 'content': 'thereunder, every patent agent whose name is e",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 59,
+      "action_type": "mark_continuation",
+      "field": "section 2",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 2 continues from page 58"
+    },
+    {
+      "page_number": 60,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '130', 'section_title': \"Removal from register of patent agents and restoration.—(/) The '[Controller] may remove\", 'content': \"the name of any person from the register when *[he] ",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 60,
+      "action_type": "mark_continuation",
+      "field": "section 2",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 2 continues from page 59"
+    },
+    {
+      "page_number": 61,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '134', 'section_title': 'Notification as to countries not providing for reciprocity.—Where any country specified by', 'content': 'the Central Government in this behalf by notificat",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 63,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '140', 'section_title': 'Avoidance of certain restrictive conditions.—(/) It shall not be lawful to insert—', 'content': \"(i) in any contract for or in relation to the sale or leas",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 64,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '142', 'section_title': 'Fees —(/) There shall be paid in respect of the grant of patents and applications therefor, and in', 'content': 'respect of other matters in relation to th",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 64,
+      "action_type": "mark_continuation",
+      "field": "section 2",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 2 continues from page 63"
+    },
+    {
+      "page_number": 65,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '148', 'section_title': 'Declaration by infant, lunatic, ete.—(/) If any person is, by reason of minority, lunacy or other', 'content': 'disability, incapable of making any stateme",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 65,
+      "action_type": "mark_continuation",
+      "field": "section 1",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 1 continues from page 64"
+    },
+    {
+      "page_number": 65,
+      "action_type": "mark_continuation",
+      "field": "section 2",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 2 continues from page 64"
+    },
+    {
+      "page_number": 66,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '154', 'section_title': 'Loss or destruction of Patents.—If a patent is lost or destroyed, or its non-production is', 'content': 'accounted for to the satisfaction of the Controlle",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 66,
+      "action_type": "mark_continuation",
+      "field": "section 1",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 1 continues from page 65"
+    },
+    {
+      "page_number": 68,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '160', 'section_title': 'Rules to be placed before Parliament.—Every rule made under this Act shall be laid, as soon', 'content': 'as may be after it is made, before each House of ",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 69,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'Long title—Omit “Inventions and”', 'content': '', 'is_continuation': False, 'subsections': [], 'source_page': 69}, {'section_number': '2', 'section_title': '",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 70,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '12', 'section_title': 'For section 62, substitute—', 'content': '“62. Power of Controller to correct clerical errors.—The Controller may, on request in writing\\naccompanied by the",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 71,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '25', 'section_title': 'Omit sections 78B, 78C, 78D and 78E', 'content': '', 'is_continuation': False, 'subsections': [], 'source_page': 71}, {'section_number': '26', 'section_titl",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 72,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '2', 'section_title': 'In 1957, the Government of India requested Shri N. Rajagopala Ayyangar, now a retired Judge of', 'content': 'the Supreme Court, to examine afresh the law of ",
+      "reason": "Extracted sections from raw_text"
+    }
+  ],
+  "sections_recovered": 53,
+  "titles_recovered": 0,
+  "content_recovered": 3,
+  "continuations_marked": 14,
+  "amendments_detected": 0
+}

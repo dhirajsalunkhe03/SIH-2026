@@ -1,0 +1,10 @@
+{
+  "file_path": "/home/dhiraj/Desktop/SIH/rag_pipeline/output/canonical/GI_act_1999-48_EXTRACTED_CANONICAL.json",
+  "total_chunks": 116,
+  "chunks_by_type": {
+    "section": 116
+  },
+  "chunks_with_hierarchy": 43,
+  "avg_chunk_length": 846.8,
+  "max_chunk_length": 5894
+}

@@ -1,0 +1,1751 @@
+{
+  "summary": {
+    "total_queries": 30,
+    "domain_matches": 30,
+    "domain_match_rate": 100.0,
+    "cross_language_retrievals": 20,
+    "cross_language_rate": 66.7
+  },
+  "per_language": {
+    "en": {
+      "total": 10,
+      "matches": 10,
+      "cross_lang": 0
+    },
+    "hi": {
+      "total": 5,
+      "matches": 5,
+      "cross_lang": 5
+    },
+    "mr": {
+      "total": 5,
+      "matches": 5,
+      "cross_lang": 5
+    },
+    "gu": {
+      "total": 3,
+      "matches": 3,
+      "cross_lang": 3
+    },
+    "bn": {
+      "total": 2,
+      "matches": 2,
+      "cross_lang": 2
+    },
+    "ta": {
+      "total": 2,
+      "matches": 2,
+      "cross_lang": 2
+    },
+    "te": {
+      "total": 1,
+      "matches": 1,
+      "cross_lang": 1
+    },
+    "kn": {
+      "total": 1,
+      "matches": 1,
+      "cross_lang": 1
+    },
+    "ml": {
+      "total": 1,
+      "matches": 1,
+      "cross_lang": 1
+    }
+  },
+  "cross_language_examples": [
+    {
+      "query_id": "Q011",
+      "query_language": "hi",
+      "retrieved_languages": [
+        "en",
+        "mixed",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_result": {
+        "rank": 1,
+        "chunk_id": "patents_act_1970_sec_11_5",
+        "score": 0.5877,
+        "document": "Patents Act, 1970",
+        "document_type": "Act",
+        "document_year": 1970,
+        "language": "en",
+        "domain": "Patents",
+        "section_number": "11",
+        "section_title": "CENTRAL GOVERNMENT",
+        "rule_number": "",
+        "rule_title": "",
+        "text": "Meaning of use of invention for purposes of Government.\nPower of Central Government to use inventions for purposes of Government.\nRights of third parties in respect of use of invention for purposes of Government.\nAcquisition of inventions and patents by the Central Government.\nReference to High Court of disputes as to use for purposes of Government.\nCHAPTER XVIII\nSUITS CONCERNING INFRINGEMENT OF PATENTS\n\nJurisdiction.\n\n04A. Burden of proof in case of suits concerning infringement.\n\nPower of cour...",
+        "source_pages": [],
+        "keywords": [
+          "patent",
+          "invention"
+        ],
+        "cross_references": [
+          {
+            "reference_text": "section 84",
+            "reference_type": "section",
+            "target": "i"
+          }
+        ]
+      }
+    },
+    {
+      "query_id": "Q012",
+      "query_language": "hi",
+      "retrieved_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_result": {
+        "rank": 1,
+        "chunk_id": "geographical_indications_of_goods_act_1999_sec_2_24",
+        "score": 0.5401,
+        "document": "Geographical Indications of Goods Act, 1999",
+        "document_type": "Act",
+        "document_year": 1999,
+        "language": "en",
+        "domain": "Geographical Indications",
+        "section_number": "2",
+        "section_title": "Definitions and interpretation.[UNCLEAR](1) In this Act, a unless the context otherwise requires,[UNCLEAR]",
+        "rule_number": "",
+        "rule_title": "",
+        "text": "i\nd\n2[UNCLEAR] [UNCLEAR] [UNCLEAR] [UNCLEAR] [UNCLEAR]\nn\n(b) [UNCLEAR]authorised user[UNCLEAR] means the authorised user of a geographical indication registered under\nI\nsection 17;\n(c) [UNCLEAR]deceptively similar[UNCLEAR] A geographical indication shall be deemed to be deceptively similar to\nanother geographical indication if it so nearly resembles that other geographical indication as to be\nlikely to deceive or cause confusion;\n(d) [UNCLEAR]district court[UNCLEAR] has the meaning assigned to i...",
+        "source_pages": [],
+        "keywords": [
+          "geographical indication",
+          "shall",
+          "may"
+        ],
+        "cross_references": [
+          {
+            "reference_text": "section 17",
+            "reference_type": "section",
+            "target": "i"
+          }
+        ]
+      }
+    },
+    {
+      "query_id": "Q013",
+      "query_language": "hi",
+      "retrieved_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_result": {
+        "rank": 1,
+        "chunk_id": "trade_marks_act_1999_sec_71_138",
+        "score": 0.6866,
+        "document": "Trade Marks Act, 1999",
+        "document_type": "Act",
+        "document_year": 1999,
+        "language": "en",
+        "domain": "Trademarks",
+        "section_number": "71",
+        "section_title": "Applications for registration of certification trade marks.[UNCLEAR](1) An application for the",
+        "rule_number": "",
+        "rule_title": "",
+        "text": "registration of a mark as a certification trade mark shall be made to the Registrar in the prescribed manner\nby the person proposed to be registered as the proprietor thereof, and accompanied by a draft for the\nregulations to be deposited under section 74.\n34",
+        "source_pages": [],
+        "keywords": [
+          "shall"
+        ],
+        "cross_references": [
+          {
+            "reference_text": "section 74",
+            "reference_type": "section",
+            "target": "i"
+          }
+        ]
+      }
+    },
+    {
+      "query_id": "Q014",
+      "query_language": "hi",
+      "retrieved_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_result": {
+        "rank": 1,
+        "chunk_id": "designs_act_2000_sec_5_8",
+        "score": 0.6626,
+        "document": "Designs Act, 2000",
+        "document_type": "Act",
+        "document_year": 2000,
+        "language": "en",
+        "domain": "Designs",
+        "section_number": "5",
+        "section_title": "Application for registration of designs.[UNCLEAR](1) The Controller may, on the application of any",
+        "rule_number": "",
+        "rule_title": "",
+        "text": "person claiming to be the proprietor of any new or original design not previously published in any country\nand which is not contrary to public order or morality, register the design under this Act:\nProvided that the Controller shall before such registration refer the application for examination, by an\nexaminer appointed under sub-section (2) of section 3, as to whether such design is capable of being\nregistered under this Act and the rules made thereunder and consider the report of the examiner ...",
+        "source_pages": [],
+        "keywords": [
+          "patent",
+          "patent office",
+          "design",
+          "shall",
+          "may",
+          "provided that"
+        ],
+        "cross_references": [
+          {
+            "reference_text": "sub-section (2)",
+            "reference_type": "subsection",
+            "target": "i"
+          },
+          {
+            "reference_text": "section 3",
+            "reference_type": "section",
+            "target": "i"
+          },
+          {
+            "reference_text": "sub-section (1)",
+            "reference_type": "subsection",
+            "target": "i"
+          }
+        ]
+      }
+    },
+    {
+      "query_id": "Q015",
+      "query_language": "hi",
+      "retrieved_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_result": {
+        "rank": 1,
+        "chunk_id": "biological_diversity_act_sec_13_22",
+        "score": 0.6235,
+        "document": "Biological Diversity Act",
+        "document_type": "Act",
+        "document_year": 2002,
+        "language": "en",
+        "domain": "Biodiversity",
+        "section_number": "13",
+        "section_title": "Committees of National Biodiversity Authority —(/) The National Biodiversity Authority may",
+        "rule_number": "",
+        "rule_title": "",
+        "text": "constitute a committee to deal with agro-biodiversity.\n\nExplanation.—For the purposes of this sub-section, “‘agro-biodiversity” means biological diversity of\nagriculture related species and their wild relatives.\n\n'[(2) The National Biodiversity Authority may also constitute such number of committees as it deems\nfit for the efficient discharge of its duties and performance of its functions under this Act.]\n\n(3) A committee constituted under this section shall co-opt such number of persons, who ar...",
+        "source_pages": [],
+        "keywords": [
+          "biological diversity",
+          "biodiversity",
+          "national biodiversity authority",
+          "species",
+          "shall",
+          "may"
+        ],
+        "cross_references": [
+          {
+            "reference_text": "sub-section (2)",
+            "reference_type": "subsection",
+            "target": "i"
+          }
+        ]
+      }
+    },
+    {
+      "query_id": "Q016",
+      "query_language": "mr",
+      "retrieved_languages": [
+        "en",
+        "mixed",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_result": {
+        "rank": 1,
+        "chunk_id": "patents_act_1970_sec_11_5",
+        "score": 0.5826,
+        "document": "Patents Act, 1970",
+        "document_type": "Act",
+        "document_year": 1970,
+        "language": "en",
+        "domain": "Patents",
+        "section_number": "11",
+        "section_title": "CENTRAL GOVERNMENT",
+        "rule_number": "",
+        "rule_title": "",
+        "text": "Meaning of use of invention for purposes of Government.\nPower of Central Government to use inventions for purposes of Government.\nRights of third parties in respect of use of invention for purposes of Government.\nAcquisition of inventions and patents by the Central Government.\nReference to High Court of disputes as to use for purposes of Government.\nCHAPTER XVIII\nSUITS CONCERNING INFRINGEMENT OF PATENTS\n\nJurisdiction.\n\n04A. Burden of proof in case of suits concerning infringement.\n\nPower of cour...",
+        "source_pages": [],
+        "keywords": [
+          "patent",
+          "invention"
+        ],
+        "cross_references": [
+          {
+            "reference_text": "section 84",
+            "reference_type": "section",
+            "target": "i"
+          }
+        ]
+      }
+    },
+    {
+      "query_id": "Q017",
+      "query_language": "mr",
+      "retrieved_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_result": {
+        "rank": 1,
+        "chunk_id": "geographical_indications_of_goods_act_1999_sec_2_24",
+        "score": 0.5416,
+        "document": "Geographical Indications of Goods Act, 1999",
+        "document_type": "Act",
+        "document_year": 1999,
+        "language": "en",
+        "domain": "Geographical Indications",
+        "section_number": "2",
+        "section_title": "Definitions and interpretation.[UNCLEAR](1) In this Act, a unless the context otherwise requires,[UNCLEAR]",
+        "rule_number": "",
+        "rule_title": "",
+        "text": "i\nd\n2[UNCLEAR] [UNCLEAR] [UNCLEAR] [UNCLEAR] [UNCLEAR]\nn\n(b) [UNCLEAR]authorised user[UNCLEAR] means the authorised user of a geographical indication registered under\nI\nsection 17;\n(c) [UNCLEAR]deceptively similar[UNCLEAR] A geographical indication shall be deemed to be deceptively similar to\nanother geographical indication if it so nearly resembles that other geographical indication as to be\nlikely to deceive or cause confusion;\n(d) [UNCLEAR]district court[UNCLEAR] has the meaning assigned to i...",
+        "source_pages": [],
+        "keywords": [
+          "geographical indication",
+          "shall",
+          "may"
+        ],
+        "cross_references": [
+          {
+            "reference_text": "section 17",
+            "reference_type": "section",
+            "target": "i"
+          }
+        ]
+      }
+    },
+    {
+      "query_id": "Q018",
+      "query_language": "mr",
+      "retrieved_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_result": {
+        "rank": 1,
+        "chunk_id": "trade_marks_act_1999_sec_71_138",
+        "score": 0.7104,
+        "document": "Trade Marks Act, 1999",
+        "document_type": "Act",
+        "document_year": 1999,
+        "language": "en",
+        "domain": "Trademarks",
+        "section_number": "71",
+        "section_title": "Applications for registration of certification trade marks.[UNCLEAR](1) An application for the",
+        "rule_number": "",
+        "rule_title": "",
+        "text": "registration of a mark as a certification trade mark shall be made to the Registrar in the prescribed manner\nby the person proposed to be registered as the proprietor thereof, and accompanied by a draft for the\nregulations to be deposited under section 74.\n34",
+        "source_pages": [],
+        "keywords": [
+          "shall"
+        ],
+        "cross_references": [
+          {
+            "reference_text": "section 74",
+            "reference_type": "section",
+            "target": "i"
+          }
+        ]
+      }
+    },
+    {
+      "query_id": "Q019",
+      "query_language": "mr",
+      "retrieved_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_result": {
+        "rank": 1,
+        "chunk_id": "designs_act_2000_sec_5_8",
+        "score": 0.6704,
+        "document": "Designs Act, 2000",
+        "document_type": "Act",
+        "document_year": 2000,
+        "language": "en",
+        "domain": "Designs",
+        "section_number": "5",
+        "section_title": "Application for registration of designs.[UNCLEAR](1) The Controller may, on the application of any",
+        "rule_number": "",
+        "rule_title": "",
+        "text": "person claiming to be the proprietor of any new or original design not previously published in any country\nand which is not contrary to public order or morality, register the design under this Act:\nProvided that the Controller shall before such registration refer the application for examination, by an\nexaminer appointed under sub-section (2) of section 3, as to whether such design is capable of being\nregistered under this Act and the rules made thereunder and consider the report of the examiner ...",
+        "source_pages": [],
+        "keywords": [
+          "patent",
+          "patent office",
+          "design",
+          "shall",
+          "may",
+          "provided that"
+        ],
+        "cross_references": [
+          {
+            "reference_text": "sub-section (2)",
+            "reference_type": "subsection",
+            "target": "i"
+          },
+          {
+            "reference_text": "section 3",
+            "reference_type": "section",
+            "target": "i"
+          },
+          {
+            "reference_text": "sub-section (1)",
+            "reference_type": "subsection",
+            "target": "i"
+          }
+        ]
+      }
+    },
+    {
+      "query_id": "Q020",
+      "query_language": "mr",
+      "retrieved_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_result": {
+        "rank": 1,
+        "chunk_id": "biological_diversity_act_2002_sec_13_7",
+        "score": 0.6137,
+        "document": "Biological Diversity Act, 2002",
+        "document_type": "Act",
+        "document_year": 2002,
+        "language": "en",
+        "domain": "General Legal",
+        "section_number": "13",
+        "section_title": "In section 13 of the principal Act, for sub-section (2), the following sub-section",
+        "rule_number": "",
+        "rule_title": "",
+        "text": "shall be substituted, namely:—\n\n\"(2) The National Biodiversity Authority may also constitute such number of\ncommittees as it deems fit for the efficient discharge of its duties and performance of its\nfunctions under this Act.\".",
+        "source_pages": [],
+        "keywords": [
+          "biodiversity",
+          "national biodiversity authority",
+          "shall",
+          "may"
+        ],
+        "cross_references": []
+      }
+    },
+    {
+      "query_id": "Q021",
+      "query_language": "gu",
+      "retrieved_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_result": {
+        "rank": 1,
+        "chunk_id": "patents_act_1970_sec_107_99",
+        "score": 0.5564,
+        "document": "Patents Act, 1970",
+        "document_type": "Act",
+        "document_year": 1970,
+        "language": "en",
+        "domain": "Patents",
+        "section_number": "107",
+        "section_title": "Defences, etc., in suit for infringement.—(/) In any suit for infringement of a patent, every",
+        "rule_number": "",
+        "rule_title": "",
+        "text": "ground on which it may be revoked under section 64 shall be available as a ground for defence.\n\n(2) In any suit for infringement of a patent by the making, using or importation of any machine,\napparatus or other article or by the using of any process or by the importation, use or distribution of any\nmedicine or drug, it shall be a ground for defence that such making, using, importation or distribution is\nin accordance with any one or more of the conditions specified in section 47.\n\n°[107A. Certa...",
+        "source_pages": [],
+        "keywords": [
+          "patent",
+          "invention",
+          "shall",
+          "may"
+        ],
+        "cross_references": [
+          {
+            "reference_text": "section 64",
+            "reference_type": "section",
+            "target": "i"
+          },
+          {
+            "reference_text": "section 47",
+            "reference_type": "section",
+            "target": "i"
+          }
+        ]
+      }
+    },
+    {
+      "query_id": "Q022",
+      "query_language": "gu",
+      "retrieved_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_result": {
+        "rank": 1,
+        "chunk_id": "geographical_indications_of_goods_act_1999_sec_2_24",
+        "score": 0.5274,
+        "document": "Geographical Indications of Goods Act, 1999",
+        "document_type": "Act",
+        "document_year": 1999,
+        "language": "en",
+        "domain": "Geographical Indications",
+        "section_number": "2",
+        "section_title": "Definitions and interpretation.[UNCLEAR](1) In this Act, a unless the context otherwise requires,[UNCLEAR]",
+        "rule_number": "",
+        "rule_title": "",
+        "text": "i\nd\n2[UNCLEAR] [UNCLEAR] [UNCLEAR] [UNCLEAR] [UNCLEAR]\nn\n(b) [UNCLEAR]authorised user[UNCLEAR] means the authorised user of a geographical indication registered under\nI\nsection 17;\n(c) [UNCLEAR]deceptively similar[UNCLEAR] A geographical indication shall be deemed to be deceptively similar to\nanother geographical indication if it so nearly resembles that other geographical indication as to be\nlikely to deceive or cause confusion;\n(d) [UNCLEAR]district court[UNCLEAR] has the meaning assigned to i...",
+        "source_pages": [],
+        "keywords": [
+          "geographical indication",
+          "shall",
+          "may"
+        ],
+        "cross_references": [
+          {
+            "reference_text": "section 17",
+            "reference_type": "section",
+            "target": "i"
+          }
+        ]
+      }
+    },
+    {
+      "query_id": "Q023",
+      "query_language": "gu",
+      "retrieved_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_result": {
+        "rank": 1,
+        "chunk_id": "trade_marks_act_1999_sec_71_138",
+        "score": 0.6808,
+        "document": "Trade Marks Act, 1999",
+        "document_type": "Act",
+        "document_year": 1999,
+        "language": "en",
+        "domain": "Trademarks",
+        "section_number": "71",
+        "section_title": "Applications for registration of certification trade marks.[UNCLEAR](1) An application for the",
+        "rule_number": "",
+        "rule_title": "",
+        "text": "registration of a mark as a certification trade mark shall be made to the Registrar in the prescribed manner\nby the person proposed to be registered as the proprietor thereof, and accompanied by a draft for the\nregulations to be deposited under section 74.\n34",
+        "source_pages": [],
+        "keywords": [
+          "shall"
+        ],
+        "cross_references": [
+          {
+            "reference_text": "section 74",
+            "reference_type": "section",
+            "target": "i"
+          }
+        ]
+      }
+    },
+    {
+      "query_id": "Q024",
+      "query_language": "bn",
+      "retrieved_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_result": {
+        "rank": 1,
+        "chunk_id": "patents_act_1970_sec_11_5",
+        "score": 0.5895,
+        "document": "Patents Act, 1970",
+        "document_type": "Act",
+        "document_year": 1970,
+        "language": "en",
+        "domain": "Patents",
+        "section_number": "11",
+        "section_title": "CENTRAL GOVERNMENT",
+        "rule_number": "",
+        "rule_title": "",
+        "text": "Meaning of use of invention for purposes of Government.\nPower of Central Government to use inventions for purposes of Government.\nRights of third parties in respect of use of invention for purposes of Government.\nAcquisition of inventions and patents by the Central Government.\nReference to High Court of disputes as to use for purposes of Government.\nCHAPTER XVIII\nSUITS CONCERNING INFRINGEMENT OF PATENTS\n\nJurisdiction.\n\n04A. Burden of proof in case of suits concerning infringement.\n\nPower of cour...",
+        "source_pages": [],
+        "keywords": [
+          "patent",
+          "invention"
+        ],
+        "cross_references": [
+          {
+            "reference_text": "section 84",
+            "reference_type": "section",
+            "target": "i"
+          }
+        ]
+      }
+    },
+    {
+      "query_id": "Q025",
+      "query_language": "bn",
+      "retrieved_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_result": {
+        "rank": 1,
+        "chunk_id": "geographical_indications_of_goods_act_1999_sec_2_24",
+        "score": 0.4864,
+        "document": "Geographical Indications of Goods Act, 1999",
+        "document_type": "Act",
+        "document_year": 1999,
+        "language": "en",
+        "domain": "Geographical Indications",
+        "section_number": "2",
+        "section_title": "Definitions and interpretation.[UNCLEAR](1) In this Act, a unless the context otherwise requires,[UNCLEAR]",
+        "rule_number": "",
+        "rule_title": "",
+        "text": "i\nd\n2[UNCLEAR] [UNCLEAR] [UNCLEAR] [UNCLEAR] [UNCLEAR]\nn\n(b) [UNCLEAR]authorised user[UNCLEAR] means the authorised user of a geographical indication registered under\nI\nsection 17;\n(c) [UNCLEAR]deceptively similar[UNCLEAR] A geographical indication shall be deemed to be deceptively similar to\nanother geographical indication if it so nearly resembles that other geographical indication as to be\nlikely to deceive or cause confusion;\n(d) [UNCLEAR]district court[UNCLEAR] has the meaning assigned to i...",
+        "source_pages": [],
+        "keywords": [
+          "geographical indication",
+          "shall",
+          "may"
+        ],
+        "cross_references": [
+          {
+            "reference_text": "section 17",
+            "reference_type": "section",
+            "target": "i"
+          }
+        ]
+      }
+    },
+    {
+      "query_id": "Q026",
+      "query_language": "ta",
+      "retrieved_languages": [
+        "mixed",
+        "en",
+        "en",
+        "en",
+        "mixed"
+      ],
+      "top_result": {
+        "rank": 1,
+        "chunk_id": "patents_rules_2003_sec_1_2",
+        "score": 0.4334,
+        "document": "Patents Rules, 2003",
+        "document_type": "Rules",
+        "document_year": 2003,
+        "language": "mixed",
+        "domain": "Patents",
+        "section_number": "None",
+        "section_title": "None",
+        "rule_number": "1",
+        "rule_title": "नाम, पता तथा राष्ट्रीयता म,ैं हम1 [UNCLEAR]",
+        "text": "बताए ं [UNCLEAR]\n[UNCLEAR]\n[UNCLEAR]\nएतद्द्वारा जवरोध की सूचना दते े ह:ैं [UNCLEAR]\nददनांक[UNCLEAR] की पेटेंट संख्या[UNCLEAR] के अवेदन के संबधं म ें अवेदन/जवजनदेि म ें\nसंिोधन हते ु\nया\nददनांक [UNCLEAR] की पेटेंट संख्या [UNCLEAR]....[UNCLEAR] की बहाली के जलए अवेदन हते ु\nया\nददनांक[UNCLEAR] के पेटेंट संख्या[UNCLEAR]का त्याग करन े की पेिकि हते ु\nया\nददनांक[UNCLEAR] की पेटेंट संख्या[UNCLEAR] के जनरस्ट्तीकरण करने हते ु या ऄजनवाय ध\nलाआसेंस प्रदान करन े हते ु\nया\nददनांक[UNCLEAR]...[UNCLEAR] की पेटेंट संख्य...",
+        "source_pages": [
+          6,
+          7,
+          8
+        ],
+        "keywords": [],
+        "cross_references": []
+      }
+    },
+    {
+      "query_id": "Q027",
+      "query_language": "ta",
+      "retrieved_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_result": {
+        "rank": 1,
+        "chunk_id": "geographical_indications_of_goods_rules_2002_sec_1_108",
+        "score": 0.5043,
+        "document": "Geographical Indications of Goods Rules, 2002",
+        "document_type": "Rules",
+        "document_year": 2002,
+        "language": "en",
+        "domain": "Geographical Indications",
+        "section_number": "None",
+        "section_title": "None",
+        "rule_number": "1",
+        "rule_title": "Application is hereby made by (a) for the registration in Part A of the Register",
+        "text": "of the accompanying geographical indication furnishing the following particulars:\n- Name of the Applicant:\n- Address:\n- List of association of persons/producers/organisation/authority:\n- Type of goods:\n- Specification:\n- Name of the geographical indication[and particulars]:\n- Description of the goods:\n- Geographical area of production and map:\n- Proof of origin[ Historical records]\n- Method of Production:\n- Uniqueness:\n- Inspection Body:\n- Other:\nAlong with the Statement of Case in Class (b) (b)...",
+        "source_pages": [],
+        "keywords": [
+          "specification",
+          "claims",
+          "geographical indication"
+        ],
+        "cross_references": []
+      }
+    },
+    {
+      "query_id": "Q028",
+      "query_language": "te",
+      "retrieved_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_result": {
+        "rank": 1,
+        "chunk_id": "patents_act_1970_sec_11_5",
+        "score": 0.606,
+        "document": "Patents Act, 1970",
+        "document_type": "Act",
+        "document_year": 1970,
+        "language": "en",
+        "domain": "Patents",
+        "section_number": "11",
+        "section_title": "CENTRAL GOVERNMENT",
+        "rule_number": "",
+        "rule_title": "",
+        "text": "Meaning of use of invention for purposes of Government.\nPower of Central Government to use inventions for purposes of Government.\nRights of third parties in respect of use of invention for purposes of Government.\nAcquisition of inventions and patents by the Central Government.\nReference to High Court of disputes as to use for purposes of Government.\nCHAPTER XVIII\nSUITS CONCERNING INFRINGEMENT OF PATENTS\n\nJurisdiction.\n\n04A. Burden of proof in case of suits concerning infringement.\n\nPower of cour...",
+        "source_pages": [],
+        "keywords": [
+          "patent",
+          "invention"
+        ],
+        "cross_references": [
+          {
+            "reference_text": "section 84",
+            "reference_type": "section",
+            "target": "i"
+          }
+        ]
+      }
+    },
+    {
+      "query_id": "Q029",
+      "query_language": "kn",
+      "retrieved_languages": [
+        "mixed",
+        "en",
+        "en",
+        "mixed",
+        "en"
+      ],
+      "top_result": {
+        "rank": 1,
+        "chunk_id": "patents_rules_2003_sec_1_0",
+        "score": 0.4426,
+        "document": "Patents Rules, 2003",
+        "document_type": "Rules",
+        "document_year": 2003,
+        "language": "mixed",
+        "domain": "Patents",
+        "section_number": "None",
+        "section_title": "None",
+        "rule_number": "1",
+        "rule_title": "संजक्षप्त नाम और प्रारंभ",
+        "text": "(i) आन जनयमों को [UNCLEAR]मसौदा पेटेंट (दसू रा संिोधन) जनयम, 2024[UNCLEAR] कहा जाएगा।\n89 GI/2024 (1)\n[UNCLEAR]ऄध्याय XIVक\nकजतपय िाजस्ट्तयों का ऄजधजनणयध न\n107क. कजतपय िाजस्ट्तयों का ऄजधजनणयध न.[UNCLEAR](1) कोइ भी व्यजि, ऄजधजनयम की धारा 120, 122, या 123 म ें जनजहत\nप्रावधानों के प्रजत दकसी भी व्यजि द्वारा दकए गए दकसी भी ईल्लघं न या चूक के बारे में, ऄजधजनणधयन ऄजधकारी को\nप्रपत्र 32 के तहत जिकायत दज ध कर सकता ह।ै\n(2) जिकायत के साथ एक जववरण जजसम ें ईन तथ्यों को जनधाधररत दकया जाए जजन पर अवदे क भरोसा करत...",
+        "source_pages": [
+          1,
+          2
+        ],
+        "keywords": [],
+        "cross_references": []
+      }
+    },
+    {
+      "query_id": "Q030",
+      "query_language": "ml",
+      "retrieved_languages": [
+        "en",
+        "mixed",
+        "en",
+        "mixed",
+        "mixed"
+      ],
+      "top_result": {
+        "rank": 1,
+        "chunk_id": "designs_rules_2001_sec_2_1",
+        "score": 0.4394,
+        "document": "Designs Rules, 2001",
+        "document_type": "Rules",
+        "document_year": 2001,
+        "language": "en",
+        "domain": "Designs",
+        "section_number": "None",
+        "section_title": "None",
+        "rule_number": "2",
+        "rule_title": "Definitions - In these rules, unless there is anything repugnant in the subject or context,-",
+        "text": "(a) [UNCLEAR]Act[UNCLEAR] means the Designs Act, 2000\n(b) [UNCLEAR]Application in United Kingdom or convention country or group of countries or intergovernmental organisation[UNCLEAR] means an application made by any person in any part of United\nKingdom or convention country or group of countries or inter-governmental organisation, of a\ndesign for the protection in India under the provisions of section 44 of the Act.\n(c) [UNCLEAR]Office[UNCLEAR] means the Patent Office referred to in section 74 ...",
+        "source_pages": [],
+        "keywords": [
+          "patent",
+          "patent office",
+          "design"
+        ],
+        "cross_references": [
+          {
+            "reference_text": "section 44",
+            "reference_type": "section",
+            "target": "i"
+          },
+          {
+            "reference_text": "section 74",
+            "reference_type": "section",
+            "target": "i"
+          },
+          {
+            "reference_text": "section 44",
+            "reference_type": "section",
+            "target": "i"
+          }
+        ]
+      }
+    }
+  ],
+  "detailed_results": [
+    {
+      "query_id": "Q001",
+      "query_language": "en",
+      "query": "What is a patent?",
+      "expected_domain": "Patents",
+      "detected_language": "en",
+      "domain_match": true,
+      "found_domains": [
+        "Patents",
+        "Patents",
+        "Patents",
+        "Patents",
+        "Patents"
+      ],
+      "is_cross_language": false,
+      "result_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_scores": [
+        0.6267,
+        0.6245,
+        0.624,
+        0.6215,
+        0.6179
+      ]
+    },
+    {
+      "query_id": "Q002",
+      "query_language": "en",
+      "query": "What are the requirements for patentability?",
+      "expected_domain": "Patents",
+      "detected_language": "en",
+      "domain_match": true,
+      "found_domains": [
+        "Patents",
+        "Patents",
+        "Patents",
+        "Patents",
+        "Patents"
+      ],
+      "is_cross_language": false,
+      "result_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_scores": [
+        0.6579,
+        0.6339,
+        0.6012,
+        0.5996,
+        0.599
+      ]
+    },
+    {
+      "query_id": "Q003",
+      "query_language": "en",
+      "query": "What is a geographical indication?",
+      "expected_domain": "Geographical Indications",
+      "detected_language": "en",
+      "domain_match": true,
+      "found_domains": [
+        "Geographical Indications",
+        "Geographical Indications",
+        "Geographical Indications",
+        "Geographical Indications",
+        "Geographical Indications"
+      ],
+      "is_cross_language": false,
+      "result_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_scores": [
+        0.6608,
+        0.6596,
+        0.6562,
+        0.6546,
+        0.6541
+      ]
+    },
+    {
+      "query_id": "Q004",
+      "query_language": "en",
+      "query": "How to register a geographical indication?",
+      "expected_domain": "Geographical Indications",
+      "detected_language": "en",
+      "domain_match": true,
+      "found_domains": [
+        "Geographical Indications",
+        "Geographical Indications",
+        "Geographical Indications",
+        "Geographical Indications",
+        "Geographical Indications"
+      ],
+      "is_cross_language": false,
+      "result_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_scores": [
+        0.7528,
+        0.7274,
+        0.7196,
+        0.719,
+        0.7144
+      ]
+    },
+    {
+      "query_id": "Q005",
+      "query_language": "en",
+      "query": "What is a trade mark?",
+      "expected_domain": "Trademarks",
+      "detected_language": "en",
+      "domain_match": true,
+      "found_domains": [
+        "Trademarks",
+        "Trademarks",
+        "Trademarks",
+        "Trademarks",
+        "Trademarks"
+      ],
+      "is_cross_language": false,
+      "result_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_scores": [
+        0.6452,
+        0.6285,
+        0.6281,
+        0.6206,
+        0.6185
+      ]
+    },
+    {
+      "query_id": "Q006",
+      "query_language": "en",
+      "query": "Trade mark registration procedure",
+      "expected_domain": "Trademarks",
+      "detected_language": "en",
+      "domain_match": true,
+      "found_domains": [
+        "Trademarks",
+        "Trademarks",
+        "Trademarks",
+        "Trademarks",
+        "Trademarks"
+      ],
+      "is_cross_language": false,
+      "result_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_scores": [
+        0.7113,
+        0.7039,
+        0.6991,
+        0.6912,
+        0.6828
+      ]
+    },
+    {
+      "query_id": "Q007",
+      "query_language": "en",
+      "query": "What is a design under the Designs Act?",
+      "expected_domain": "Designs",
+      "detected_language": "en",
+      "domain_match": true,
+      "found_domains": [
+        "Designs",
+        "Designs",
+        "Designs",
+        "Designs",
+        "Designs"
+      ],
+      "is_cross_language": false,
+      "result_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_scores": [
+        0.7044,
+        0.6681,
+        0.6612,
+        0.657,
+        0.6508
+      ]
+    },
+    {
+      "query_id": "Q008",
+      "query_language": "en",
+      "query": "Design registration requirements",
+      "expected_domain": "Designs",
+      "detected_language": "en",
+      "domain_match": true,
+      "found_domains": [
+        "Designs",
+        "Designs",
+        "Designs",
+        "Designs",
+        "Designs"
+      ],
+      "is_cross_language": false,
+      "result_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_scores": [
+        0.6929,
+        0.6875,
+        0.6745,
+        0.6656,
+        0.6553
+      ]
+    },
+    {
+      "query_id": "Q009",
+      "query_language": "en",
+      "query": "What is biological diversity under the Biodiversity Act?",
+      "expected_domain": "Biodiversity",
+      "detected_language": "en",
+      "domain_match": true,
+      "found_domains": [
+        "Biodiversity",
+        "Biodiversity",
+        "Biodiversity",
+        "Biodiversity",
+        "Biodiversity"
+      ],
+      "is_cross_language": false,
+      "result_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_scores": [
+        0.6618,
+        0.6354,
+        0.6347,
+        0.6301,
+        0.6244
+      ]
+    },
+    {
+      "query_id": "Q010",
+      "query_language": "en",
+      "query": "Access and benefit sharing provisions",
+      "expected_domain": "Biodiversity",
+      "detected_language": "en",
+      "domain_match": true,
+      "found_domains": [
+        "General Legal",
+        "Biodiversity",
+        "General Legal",
+        "General Legal",
+        "General Legal"
+      ],
+      "is_cross_language": false,
+      "result_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_scores": [
+        0.6412,
+        0.6088,
+        0.6083,
+        0.5982,
+        0.587
+      ]
+    },
+    {
+      "query_id": "Q011",
+      "query_language": "hi",
+      "query": "पेटेंट क्या है?",
+      "expected_domain": "Patents",
+      "detected_language": "hi",
+      "domain_match": true,
+      "found_domains": [
+        "Patents",
+        "Patents",
+        "Patents",
+        "Patents",
+        "Patents"
+      ],
+      "is_cross_language": true,
+      "result_languages": [
+        "en",
+        "mixed",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_scores": [
+        0.5877,
+        0.5687,
+        0.5632,
+        0.5626,
+        0.5619
+      ]
+    },
+    {
+      "query_id": "Q012",
+      "query_language": "hi",
+      "query": "भौगोलिक संकेत क्या है?",
+      "expected_domain": "Geographical Indications",
+      "detected_language": "hi",
+      "domain_match": true,
+      "found_domains": [
+        "Geographical Indications",
+        "Geographical Indications",
+        "Geographical Indications",
+        "Geographical Indications",
+        "Geographical Indications"
+      ],
+      "is_cross_language": true,
+      "result_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_scores": [
+        0.5401,
+        0.524,
+        0.5235,
+        0.5185,
+        0.5148
+      ]
+    },
+    {
+      "query_id": "Q013",
+      "query_language": "hi",
+      "query": "ट्रेड मार्क पंजीकरण कैसे करें?",
+      "expected_domain": "Trademarks",
+      "detected_language": "hi",
+      "domain_match": true,
+      "found_domains": [
+        "Trademarks",
+        "Trademarks",
+        "Trademarks",
+        "Trademarks",
+        "Trademarks"
+      ],
+      "is_cross_language": true,
+      "result_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_scores": [
+        0.6866,
+        0.6822,
+        0.6593,
+        0.6513,
+        0.6511
+      ]
+    },
+    {
+      "query_id": "Q014",
+      "query_language": "hi",
+      "query": "डिजाइन पंजीकरण की प्रक्रिया",
+      "expected_domain": "Designs",
+      "detected_language": "hi",
+      "domain_match": true,
+      "found_domains": [
+        "Designs",
+        "Designs",
+        "Designs",
+        "Designs",
+        "Designs"
+      ],
+      "is_cross_language": true,
+      "result_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_scores": [
+        0.6626,
+        0.6613,
+        0.649,
+        0.6422,
+        0.6417
+      ]
+    },
+    {
+      "query_id": "Q015",
+      "query_language": "hi",
+      "query": "जैविक विविधता अधिनियम के प्रावधान",
+      "expected_domain": "Biodiversity",
+      "detected_language": "hi",
+      "domain_match": true,
+      "found_domains": [
+        "Biodiversity",
+        "Biodiversity",
+        "General Legal",
+        "Biodiversity",
+        "Biodiversity"
+      ],
+      "is_cross_language": true,
+      "result_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_scores": [
+        0.6235,
+        0.6227,
+        0.6215,
+        0.621,
+        0.6179
+      ]
+    },
+    {
+      "query_id": "Q016",
+      "query_language": "mr",
+      "query": "पेटंट म्हणजे काय?",
+      "expected_domain": "Patents",
+      "detected_language": "hi",
+      "domain_match": true,
+      "found_domains": [
+        "Patents",
+        "Patents",
+        "Patents",
+        "Patents",
+        "Patents"
+      ],
+      "is_cross_language": true,
+      "result_languages": [
+        "en",
+        "mixed",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_scores": [
+        0.5826,
+        0.5734,
+        0.5668,
+        0.5606,
+        0.5604
+      ]
+    },
+    {
+      "query_id": "Q017",
+      "query_language": "mr",
+      "query": "भौगोलिक संकेत म्हणजे काय?",
+      "expected_domain": "Geographical Indications",
+      "detected_language": "hi",
+      "domain_match": true,
+      "found_domains": [
+        "Geographical Indications",
+        "Geographical Indications",
+        "Geographical Indications",
+        "Geographical Indications",
+        "Geographical Indications"
+      ],
+      "is_cross_language": true,
+      "result_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_scores": [
+        0.5416,
+        0.5227,
+        0.5205,
+        0.5199,
+        0.5184
+      ]
+    },
+    {
+      "query_id": "Q018",
+      "query_language": "mr",
+      "query": "ट्रेडमार्क नोंदणी कशी करावी?",
+      "expected_domain": "Trademarks",
+      "detected_language": "hi",
+      "domain_match": true,
+      "found_domains": [
+        "Trademarks",
+        "Trademarks",
+        "Trademarks",
+        "Trademarks",
+        "Trademarks"
+      ],
+      "is_cross_language": true,
+      "result_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_scores": [
+        0.7104,
+        0.6987,
+        0.6917,
+        0.6847,
+        0.6845
+      ]
+    },
+    {
+      "query_id": "Q019",
+      "query_language": "mr",
+      "query": "डिझाइन नोंदणीची प्रक्रिया",
+      "expected_domain": "Designs",
+      "detected_language": "hi",
+      "domain_match": true,
+      "found_domains": [
+        "Designs",
+        "Designs",
+        "Designs",
+        "Designs",
+        "Designs"
+      ],
+      "is_cross_language": true,
+      "result_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_scores": [
+        0.6704,
+        0.6563,
+        0.6446,
+        0.6436,
+        0.6408
+      ]
+    },
+    {
+      "query_id": "Q020",
+      "query_language": "mr",
+      "query": "जैविक विविधता अधिनियम २००२",
+      "expected_domain": "Biodiversity",
+      "detected_language": "hi",
+      "domain_match": true,
+      "found_domains": [
+        "General Legal",
+        "Biodiversity",
+        "Biodiversity",
+        "General Legal",
+        "Biodiversity"
+      ],
+      "is_cross_language": true,
+      "result_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_scores": [
+        0.6137,
+        0.6099,
+        0.6071,
+        0.6053,
+        0.605
+      ]
+    },
+    {
+      "query_id": "Q021",
+      "query_language": "gu",
+      "query": "પેટન્ટ શું છે?",
+      "expected_domain": "Patents",
+      "detected_language": "gu",
+      "domain_match": true,
+      "found_domains": [
+        "Patents",
+        "Patents",
+        "Patents",
+        "Patents",
+        "Patents"
+      ],
+      "is_cross_language": true,
+      "result_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_scores": [
+        0.5564,
+        0.5556,
+        0.5522,
+        0.552,
+        0.5518
+      ]
+    },
+    {
+      "query_id": "Q022",
+      "query_language": "gu",
+      "query": "ભૌગોલિક સંકેત શું છે?",
+      "expected_domain": "Geographical Indications",
+      "detected_language": "gu",
+      "domain_match": true,
+      "found_domains": [
+        "Geographical Indications",
+        "Geographical Indications",
+        "Geographical Indications",
+        "Geographical Indications",
+        "Geographical Indications"
+      ],
+      "is_cross_language": true,
+      "result_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_scores": [
+        0.5274,
+        0.5122,
+        0.5119,
+        0.5065,
+        0.5063
+      ]
+    },
+    {
+      "query_id": "Q023",
+      "query_language": "gu",
+      "query": "ટ્રેડમાર્ક નોંધણી કેવી રીતે કરવી?",
+      "expected_domain": "Trademarks",
+      "detected_language": "gu",
+      "domain_match": true,
+      "found_domains": [
+        "Trademarks",
+        "Trademarks",
+        "Trademarks",
+        "Trademarks",
+        "Trademarks"
+      ],
+      "is_cross_language": true,
+      "result_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_scores": [
+        0.6808,
+        0.6735,
+        0.6669,
+        0.6635,
+        0.6628
+      ]
+    },
+    {
+      "query_id": "Q024",
+      "query_language": "bn",
+      "query": "পেটেন্ট কী?",
+      "expected_domain": "Patents",
+      "detected_language": "bn",
+      "domain_match": true,
+      "found_domains": [
+        "Patents",
+        "Patents",
+        "Patents",
+        "Patents",
+        "Patents"
+      ],
+      "is_cross_language": true,
+      "result_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_scores": [
+        0.5895,
+        0.582,
+        0.5775,
+        0.5748,
+        0.5717
+      ]
+    },
+    {
+      "query_id": "Q025",
+      "query_language": "bn",
+      "query": "ভৌগোলিক প্রতীক কী?",
+      "expected_domain": "Geographical Indications",
+      "detected_language": "bn",
+      "domain_match": true,
+      "found_domains": [
+        "Geographical Indications",
+        "Geographical Indications",
+        "Geographical Indications",
+        "Geographical Indications",
+        "Geographical Indications"
+      ],
+      "is_cross_language": true,
+      "result_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_scores": [
+        0.4864,
+        0.4824,
+        0.4635,
+        0.4634,
+        0.4634
+      ]
+    },
+    {
+      "query_id": "Q026",
+      "query_language": "ta",
+      "query": "பேட்டண்ட் என்றால் என்ன?",
+      "expected_domain": "Patents",
+      "detected_language": "ta",
+      "domain_match": true,
+      "found_domains": [
+        "Patents",
+        "Patents",
+        "Patents",
+        "Patents",
+        "Patents"
+      ],
+      "is_cross_language": true,
+      "result_languages": [
+        "mixed",
+        "en",
+        "en",
+        "en",
+        "mixed"
+      ],
+      "top_scores": [
+        0.4334,
+        0.424,
+        0.4236,
+        0.4181,
+        0.4118
+      ]
+    },
+    {
+      "query_id": "Q027",
+      "query_language": "ta",
+      "query": "புவியியல் குறிப்பு என்றால் என்ன?",
+      "expected_domain": "Geographical Indications",
+      "detected_language": "ta",
+      "domain_match": true,
+      "found_domains": [
+        "Geographical Indications",
+        "Geographical Indications",
+        "Geographical Indications",
+        "Geographical Indications",
+        "Geographical Indications"
+      ],
+      "is_cross_language": true,
+      "result_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_scores": [
+        0.5043,
+        0.4981,
+        0.4968,
+        0.4831,
+        0.4813
+      ]
+    },
+    {
+      "query_id": "Q028",
+      "query_language": "te",
+      "query": "పేటెంట్ అంటే ఏమిటి?",
+      "expected_domain": "Patents",
+      "detected_language": "te",
+      "domain_match": true,
+      "found_domains": [
+        "Patents",
+        "Patents",
+        "Patents",
+        "Patents",
+        "Patents"
+      ],
+      "is_cross_language": true,
+      "result_languages": [
+        "en",
+        "en",
+        "en",
+        "en",
+        "en"
+      ],
+      "top_scores": [
+        0.606,
+        0.5863,
+        0.5821,
+        0.5804,
+        0.5783
+      ]
+    },
+    {
+      "query_id": "Q029",
+      "query_language": "kn",
+      "query": "ಪೆಟೆಂಟ್ ಎಂದಿಗ?",
+      "expected_domain": "Patents",
+      "detected_language": "kn",
+      "domain_match": true,
+      "found_domains": [
+        "Patents",
+        "Patents",
+        "Patents",
+        "Patents",
+        "Patents"
+      ],
+      "is_cross_language": true,
+      "result_languages": [
+        "mixed",
+        "en",
+        "en",
+        "mixed",
+        "en"
+      ],
+      "top_scores": [
+        0.4426,
+        0.4361,
+        0.4352,
+        0.4346,
+        0.4334
+      ]
+    },
+    {
+      "query_id": "Q030",
+      "query_language": "ml",
+      "query": "പെട്ടന്റ് എന്താണ്?",
+      "expected_domain": "Patents",
+      "detected_language": "ml",
+      "domain_match": true,
+      "found_domains": [
+        "Designs",
+        "Patents",
+        "Designs",
+        "Patents",
+        "Patents"
+      ],
+      "is_cross_language": true,
+      "result_languages": [
+        "en",
+        "mixed",
+        "en",
+        "mixed",
+        "mixed"
+      ],
+      "top_scores": [
+        0.4394,
+        0.4263,
+        0.4256,
+        0.4217,
+        0.4193
+      ]
+    }
+  ]
+}

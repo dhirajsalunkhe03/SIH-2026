@@ -1,0 +1,89 @@
+{
+  "file_path": "/home/dhiraj/Desktop/SIH/rag_pipeline/output/validated/Biological_Diversity_Act_2002_RAG_READY_REPAIRED.json",
+  "actions": [
+    {
+      "section_number": "7",
+      "source_pages": [
+        13
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry, actual section exists elsewhere"
+    },
+    {
+      "section_number": "3",
+      "source_pages": [
+        8
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "3",
+      "source_pages": [
+        14
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "40",
+      "source_pages": [
+        11
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "44",
+      "source_pages": [
+        12
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "45",
+      "source_pages": [
+        12
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "46",
+      "source_pages": [
+        13
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "58",
+      "source_pages": [
+        14
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "20",
+      "source_pages": [
+        15
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "55A",
+      "source_pages": [
+        15
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    }
+  ],
+  "sections_before": 11,
+  "sections_after": 10,
+  "sections_merged": 0,
+  "uncertain_merges": 0
+}

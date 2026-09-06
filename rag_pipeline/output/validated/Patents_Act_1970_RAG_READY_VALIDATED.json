@@ -1,0 +1,3955 @@
+{
+  "file_path": "/home/dhiraj/Desktop/SIH/rag_pipeline/output/Patents_Act_1970_RAG_READY.json",
+  "is_valid_json": true,
+  "is_valid_structure": true,
+  "issues": [
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 1,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 68"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 1,
+      "field": "raw_text",
+      "message": "Detected permissive: ['May']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 2,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 631"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 3,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 1396"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 3,
+      "field": "raw_text",
+      "message": "Detected form_reference: ['Form of']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 4,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 1721"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 4,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 35', 'section 39']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 4,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 4,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['subject to']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 5,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 1716"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 6,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 2303"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 6,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 84']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 7,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 1229"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 8,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 1453"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 8,
+      "field": "raw_text",
+      "message": "Detected repeal_action: ['Repeal of']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 9,
+      "field": "sections[0].content",
+      "message": "Section has empty content",
+      "context": "section_number: 73"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 9,
+      "field": "sections[1].content",
+      "message": "Section has empty content",
+      "context": "section_number: 133"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 9,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 73', 'section 135', 'section 133', 'section 133']",
+      "context": "Total matches: 4"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 9,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (2)', 'sub-section (2)', 'sub-section (2)', 'sub-section (2)']",
+      "context": "Total matches: 4"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 9,
+      "field": "raw_text",
+      "message": "Detected clause_reference: ['clause (d)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 9,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 9,
+      "field": "raw_text",
+      "message": "Detected definition: ['means', 'means', 'means', 'means', 'means']",
+      "context": "Total matches: 6"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 9,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 9,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 10,
+      "field": "sections[0].content",
+      "message": "Section has empty content",
+      "context": "section_number: 25"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 10,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 617', 'section 25', 'section 54', 'section 74']",
+      "context": "Total matches: 4"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 10,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (3)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 10,
+      "field": "raw_text",
+      "message": "Detected clause_reference: ['clause (i)', 'clause (j']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 10,
+      "field": "raw_text",
+      "message": "Detected definition: ['means', 'means', 'means', 'means', 'means']",
+      "context": "Total matches: 14"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 10,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 10,
+      "field": "raw_text",
+      "message": "Detected form_reference: ['form part']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 10,
+      "field": "raw_text",
+      "message": "Detected numbered_clause: ['(A)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 11,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 2831"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 11,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 11', 'section 67', 'section 73']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 11,
+      "field": "raw_text",
+      "message": "Detected clause_reference: ['clause (B)', 'clause (d)']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 11,
+      "field": "raw_text",
+      "message": "Detected explanation: ['Explanation']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 11,
+      "field": "raw_text",
+      "message": "Detected definition: ['means', 'means', 'means']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 11,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 11,
+      "field": "raw_text",
+      "message": "Detected form_reference: ['form of']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 12,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 2863"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 12,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 20', 'section 134']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 12,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 12,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 12,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['Subject to']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 12,
+      "field": "raw_text",
+      "message": "Detected form_reference: ['Form of', 'form and']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 12,
+      "field": "raw_text",
+      "message": "Detected numbered_clause: ['(e)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 13,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 4144"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 13,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (4)', 'sub-section (2)']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 13,
+      "field": "raw_text",
+      "message": "Detected clause_reference: ['clause (a)', 'clause w', 'clause (a)']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 13,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 11"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 13,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 6"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 14,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 3594"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 14,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (3)', 'sub-section (3)']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 14,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that', 'Provided that']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 14,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 10"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 14,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 8"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 14,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['Subject to']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 14,
+      "field": "raw_text",
+      "message": "Detected form_reference: ['form part', 'form part']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 14,
+      "field": "raw_text",
+      "message": "Detected numbered_subsection: ['(2)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 15,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 3610"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 15,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 6', 'section 9']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 15,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (3)', 'sub-section (2)', 'sub-section (4', 'sub-section (5)']",
+      "context": "Total matches: 4"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 15,
+      "field": "raw_text",
+      "message": "Detected clause_reference: ['clause (a)', 'clause (A)']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 15,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 11"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 15,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may']",
+      "context": "Total matches: 4"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 15,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['Subject to']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 15,
+      "field": "raw_text",
+      "message": "Detected form_reference: ['form a', 'form with']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 16,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 3280"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 16,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 16', 'section 137', 'section 9', 'section 17', 'section 16']",
+      "context": "Total matches: 7"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 16,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (3)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 16,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 10"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 16,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may']",
+      "context": "Total matches: 4"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 16,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['subject to', 'subject to']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 16,
+      "field": "raw_text",
+      "message": "Detected numbered_clause: ['(b)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 17,
+      "field": "sections[0].content",
+      "message": "Section has empty content",
+      "context": "section_number: 5"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 17,
+      "field": "sections[0].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 5, raw_text_sample: (4) In case a secrecy direction has been given in respect of an application under section 35, then, it shall be published after the expiry of the period '[prescribed under sub-section ()] or when the "
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 17,
+      "field": "sections[1].content",
+      "message": "Section has empty content",
+      "context": "section_number: 5"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 17,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 35', 'section 5', 'section 5', 'section 5', 'section 35']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 17,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (2)', 'sub-section (2)', 'sub-section (2)', 'sub-section (3)', 'Sub-section (2)']",
+      "context": "Total matches: 7"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 17,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that', 'Provided that']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 17,
+      "field": "raw_text",
+      "message": "Detected further_proviso: ['Provided further that']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 17,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 11"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 17,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may']",
+      "context": "Total matches: 4"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 17,
+      "field": "raw_text",
+      "message": "Detected numbered_subsection: ['(4)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 18,
+      "field": "sections[0].content",
+      "message": "Section has empty content",
+      "context": "section_number: 11B"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 18,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 13', 'section 12', 'section 12']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 18,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (3)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 18,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 9"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 18,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 18,
+      "field": "raw_text",
+      "message": "Detected numbered_section: ['12. E']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 19,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 4222"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 19,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 9', 'section 15', 'section 13']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 19,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (2)', 'sub-section (2)']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 19,
+      "field": "raw_text",
+      "message": "Detected clause_reference: ['clause (a)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 19,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 19,
+      "field": "raw_text",
+      "message": "Detected explanation: ['Explanation', 'Explanation']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 19,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 7"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 19,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 9"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 19,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['Subject to']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 19,
+      "field": "raw_text",
+      "message": "Detected numbered_section: ['15. P']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 20,
+      "field": "sections[0].content",
+      "message": "Section has empty content",
+      "context": "section_number: 13"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 20,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 13', 'section 13', 'section 13', 'section 25']",
+      "context": "Total matches: 4"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 20,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (2)', 'Sub-section (4)']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 20,
+      "field": "raw_text",
+      "message": "Detected clause_reference: ['clause (b)', 'clause (a)']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 20,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 20,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 7"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 20,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['subject to', 'subject to']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 20,
+      "field": "raw_text",
+      "message": "Detected numbered_subsection: ['(2)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 21,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 3966"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 21,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 21']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 21,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (5)', 'sub-section (2)']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 21,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 21,
+      "field": "raw_text",
+      "message": "Detected explanation: ['Explanation']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 21,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 6"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 21,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 9"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 21,
+      "field": "raw_text",
+      "message": "Detected numbered_subsection: ['(3)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 22,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 3535"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 22,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 29', 'section 8']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 22,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (2)', 'sub-section (3)']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 22,
+      "field": "raw_text",
+      "message": "Detected clause_reference: ['clause (i']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 22,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 22,
+      "field": "raw_text",
+      "message": "Detected explanation: ['Explanation']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 22,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 22,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 23,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 3741"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 23,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 29', 'section 8']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 23,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (2)', 'sub-section (3)']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 23,
+      "field": "raw_text",
+      "message": "Detected clause_reference: ['clause (i']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 23,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 23,
+      "field": "raw_text",
+      "message": "Detected explanation: ['Explanation']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 23,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 23,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 23,
+      "field": "raw_text",
+      "message": "Detected numbered_clause: ['(j)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 24,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 3709"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 24,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 25']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 24,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (2)', 'sub-section (4)', 'sub-section (2)', 'sub-section (4)', 'sub-section (2)']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 24,
+      "field": "raw_text",
+      "message": "Detected clause_reference: ['clause (b)', 'clause (d)', 'clause (e)', 'clause (a)', 'clause (b)']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 24,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 9"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 24,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 6"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 24,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['subject to']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 24,
+      "field": "raw_text",
+      "message": "Detected numbered_clause: ['(k)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 25,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 3517"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 25,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (2)', 'sub-section (3)', 'sub-section (2)', 'sub-section (3)', 'sub-section (3)']",
+      "context": "Total matches: 8"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 25,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 25,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 9"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 25,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 7"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 25,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['subject to', 'Subject to']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 26,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 4493"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 26,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 9']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 26,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (3)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 26,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 26,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 7"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 26,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 26,
+      "field": "raw_text",
+      "message": "Detected notwithstanding: ['notwithstanding']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 27,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 4406"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 27,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 29', 'section 30', 'section 31', 'section 32', 'section 35']",
+      "context": "Total matches: 6"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 27,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 14"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 27,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 27,
+      "field": "raw_text",
+      "message": "Detected notwithstanding: ['notwithstanding', 'Notwithstanding']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 27,
+      "field": "raw_text",
+      "message": "Detected numbered_subsection: ['(2)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 28,
+      "field": "sections[0].content",
+      "message": "Section has empty content",
+      "context": "section_number: 35"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 28,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 35', 'section 35', 'section 35', 'section 35', 'section 39']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 28,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that', 'Provided that']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 28,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 9"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 28,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may']",
+      "context": "Total matches: 4"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 28,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['subject to', 'subject to']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 28,
+      "field": "raw_text",
+      "message": "Detected notwithstanding: ['notwithstanding', 'notwithstanding']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 28,
+      "field": "raw_text",
+      "message": "Detected numbered_subsection: ['(6)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 29,
+      "field": "sections[0].section_title",
+      "message": "Section has empty title",
+      "context": "section_number: 64."
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 29,
+      "field": "sections[0].content",
+      "message": "Section has empty content",
+      "context": "section_number: 64."
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 29,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 35', 'section 39', 'section 35', 'section 39', 'section 64']",
+      "context": "Total matches: 6"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 29,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 14"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 29,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 29,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['Subject to']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 29,
+      "field": "raw_text",
+      "message": "Detected notwithstanding: ['Notwithstanding']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 29,
+      "field": "raw_text",
+      "message": "Detected numbered_section: ['40. L']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 30,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 3907"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 30,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 47', 'section 48']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 30,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 30,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 8"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 30,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 7"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 30,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['subject to', 'subject to', 'Subject to']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 30,
+      "field": "raw_text",
+      "message": "Detected form_reference: ['form and']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 30,
+      "field": "raw_text",
+      "message": "Detected numbered_section: ['46. F']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 31,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 3637"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 31,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 51', 'section 48', 'section 51', 'section 50']",
+      "context": "Total matches: 4"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 31,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (2)', 'sub-section (2)']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 31,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 10"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 31,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 31,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['Subject to', 'Subject to', 'Subject to']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 31,
+      "field": "raw_text",
+      "message": "Detected numbered_section: ['50. R']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 32,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 4136"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 32,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 64']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 32,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['Sub-section (3)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 32,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 32,
+      "field": "raw_text",
+      "message": "Detected explanation: ['Explanation', 'Explanation']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 32,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 6"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 32,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 32,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['Subject to', 'Subject to']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 32,
+      "field": "raw_text",
+      "message": "Detected notwithstanding: ['notwithstanding', 'Notwithstanding']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 32,
+      "field": "raw_text",
+      "message": "Detected numbered_section: ['52. G']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 33,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 4413"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 33,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 59']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 33,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (4)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 33,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that', 'Provided that']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 33,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 15"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 33,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may']",
+      "context": "Total matches: 4"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 33,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['Subject to', 'Subject to', 'subject to']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 33,
+      "field": "raw_text",
+      "message": "Detected numbered_subsection: ['(2)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 34,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 4111"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 34,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 59', 'section 58']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 34,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (3)', 'sub-section (3)', 'sub-section (6)', 'sub-section (2)']",
+      "context": "Total matches: 4"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 34,
+      "field": "raw_text",
+      "message": "Detected explanation: ['explanation']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 34,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 13"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 34,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 8"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 34,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['subject to', 'subject to']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 34,
+      "field": "raw_text",
+      "message": "Detected form_reference: ['form part']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 35,
+      "field": "sections[0].content",
+      "message": "Section has empty content",
+      "context": "section_number: 53"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 35,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 53', 'section 142', 'section 53']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 35,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (4)', 'sub-section (3)', 'Sub-section (2)']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 35,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 8"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 35,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 10"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 35,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['subject to']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 35,
+      "field": "raw_text",
+      "message": "Detected numbered_clause: ['(c)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 36,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 3210"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 36,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 13']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 36,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 36,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 36,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['Subject to']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 36,
+      "field": "raw_text",
+      "message": "Detected numbered_subsection: ['(2)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 37,
+      "field": "sections[0].content",
+      "message": "Section has empty content",
+      "context": "section_number: 39"
+    },
+    {
+      "severity": "warning",
+      "category": "legal_pattern",
+      "page_number": 37,
+      "field": "sections[0].content",
+      "message": "Legal text in raw_text not found in extracted content",
+      "context": "section_number: 39, raw_text_sample: (A) that the complete specification does not sufficiently and fairly describe the invention and the method by which it is to be performed, that is to say, that the description of the method or the ins"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 37,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 8', 'section 35', 'section 39', 'section 57', 'section 58']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 37,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (3)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 37,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 37,
+      "field": "raw_text",
+      "message": "Detected numbered_clause: ['(A)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 38,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 3640"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 38,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 99', 'section 20', 'section 65']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 38,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (4)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 38,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 10"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 38,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 7"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 38,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['Subject to', 'subject to']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 38,
+      "field": "raw_text",
+      "message": "Detected notwithstanding: ['Notwithstanding', 'Notwithstanding']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 38,
+      "field": "raw_text",
+      "message": "Detected form_reference: ['form subject']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 38,
+      "field": "raw_text",
+      "message": "Detected numbered_subsection: ['(4)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 39,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 4208"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 39,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 68']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 39,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (3)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 39,
+      "field": "raw_text",
+      "message": "Detected clause_reference: ['clause (a)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 39,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that', 'Provided that']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 39,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 8"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 39,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 6"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 39,
+      "field": "raw_text",
+      "message": "Detected form_reference: ['form and', 'form and', 'form of']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 39,
+      "field": "raw_text",
+      "message": "Detected numbered_clause: ['(a)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 40,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 3623"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 40,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 3']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 40,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (2)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 40,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 40,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 13"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 40,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 7"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 40,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['Subject to', 'Subject to', 'Subject to']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 40,
+      "field": "raw_text",
+      "message": "Detected form_reference: ['form or']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 40,
+      "field": "raw_text",
+      "message": "Detected numbered_section: ['70. P']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 41,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 3318"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 41,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (3)', 'sub-section (2)', 'sub-section (2)', 'sub-section (2)']",
+      "context": "Total matches: 4"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 41,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 7"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 41,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 7"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 41,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['subject to', 'Subject to']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 41,
+      "field": "raw_text",
+      "message": "Detected numbered_subsection: ['(4)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 42,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 4325"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 42,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 44']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 42,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 42,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 10"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 42,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 7"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 42,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['subject to', 'Subject to']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 42,
+      "field": "raw_text",
+      "message": "Detected numbered_subsection: ['(2)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 43,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 3663"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 43,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 43,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 43,
+      "field": "raw_text",
+      "message": "Detected notwithstanding: ['notwithstanding']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 43,
+      "field": "raw_text",
+      "message": "Detected numbered_clause: ['(a)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 44,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 3235"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 44,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 88']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 44,
+      "field": "raw_text",
+      "message": "Detected clause_reference: ['clause s', 'clause (i']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 44,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 44,
+      "field": "raw_text",
+      "message": "Detected explanation: ['Explanation', 'Explanation']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 44,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 44,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 44,
+      "field": "raw_text",
+      "message": "Detected numbered_subsection: ['(5)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 45,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 4364"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 45,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 84', 'section 85', 'section 84', 'section 84', 'section 85']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 45,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (7)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 45,
+      "field": "raw_text",
+      "message": "Detected clause_reference: ['clause (d)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 45,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 45,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 8"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 45,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 8"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 46,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 4154"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 46,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 84', 'section 84', 'section 84', 'section 84', 'section 84']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 46,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 46,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 6"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 46,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 46,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['subject to']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 46,
+      "field": "raw_text",
+      "message": "Detected numbered_subsection: ['(3)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 47,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 4006"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 47,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 84', 'section 84']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 47,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (7)', 'sub-section (2)']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 47,
+      "field": "raw_text",
+      "message": "Detected clause_reference: ['clause (i', 'clause (a)', 'clause (v']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 47,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 47,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 8"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 47,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 47,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['subject to']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 47,
+      "field": "raw_text",
+      "message": "Detected notwithstanding: ['Notwithstanding', 'Notwithstanding']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 48,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 3727"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 48,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 84', 'section 87', 'section 87', 'section 84']",
+      "context": "Total matches: 4"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 48,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (2)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 48,
+      "field": "raw_text",
+      "message": "Detected clause_reference: ['clause (i)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 48,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that', 'Provided that']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 48,
+      "field": "raw_text",
+      "message": "Detected explanation: ['Explanation']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 48,
+      "field": "raw_text",
+      "message": "Detected definition: ['means']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 48,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 12"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 48,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 48,
+      "field": "raw_text",
+      "message": "Detected notwithstanding: ['Notwithstanding']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 49,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 4019"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 49,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 47', 'section 103']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 49,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['Sub-section (2)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 49,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 49,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 4"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 49,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 10"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 49,
+      "field": "raw_text",
+      "message": "Detected notwithstanding: ['Notwithstanding']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 50,
+      "field": "sections[0].content",
+      "message": "Section has empty content",
+      "context": "section_number: 100"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 50,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 101', 'section 100', 'section 100', 'section 103', 'section 100']",
+      "context": "Total matches: 6"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 50,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (3)', 'sub-section (5)', 'sub-section (3)', 'sub-section (3)', 'sub-section (3)']",
+      "context": "Total matches: 7"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 50,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 10"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 50,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 50,
+      "field": "raw_text",
+      "message": "Detected numbered_subsection: ['(6)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 51,
+      "field": "sections[0].content",
+      "message": "Section has empty content",
+      "context": "section_number: 102"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 51,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 103', 'section 100', 'section 102', 'section 64', 'section 100']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 51,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (3)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 51,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 51,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 13"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 51,
+      "field": "raw_text",
+      "message": "Detected numbered_clause: ['(a)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 52,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 4070"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 52,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 105', 'section 106', 'section 34']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 52,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that', 'Provided that']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 52,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 9"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 52,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may']",
+      "context": "Total matches: 4"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 52,
+      "field": "raw_text",
+      "message": "Detected notwithstanding: ['notwithstanding', 'Notwithstanding', 'notwithstanding']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 53,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 4219"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 53,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 64', 'section 47']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 53,
+      "field": "raw_text",
+      "message": "Detected explanation: ['Explanation']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 53,
+      "field": "raw_text",
+      "message": "Detected definition: ['means']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 53,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 6"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 53,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 6"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 53,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['subject to']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 53,
+      "field": "raw_text",
+      "message": "Detected numbered_section: ['106. P']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 54,
+      "field": "sections[0].content",
+      "message": "Section has empty content",
+      "context": "section_number: 64"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 54,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 84', 'section 84', 'section 64', 'section 104']",
+      "context": "Total matches: 4"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 54,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 54,
+      "field": "raw_text",
+      "message": "Detected explanation: ['Explanation', 'explanation']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 54,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 10"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 54,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may']",
+      "context": "Total matches: 4"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 54,
+      "field": "raw_text",
+      "message": "Detected numbered_subsection: ['(2)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 55,
+      "field": "sections[0].content",
+      "message": "Section has empty content",
+      "context": "section_number: 63"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 55,
+      "field": "sections[1].content",
+      "message": "Section has empty content",
+      "context": "section_number: 85"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 55,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 15', 'section 16', 'section 17', 'section 18', 'section 19']",
+      "context": "Total matches: 27"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 55,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (2)', 'sub-section (2)', 'sub-section (4)', 'sub-section (3)', 'sub-section (3)']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 55,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 55,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 11"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 55,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 8"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 55,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['subject to']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 55,
+      "field": "raw_text",
+      "message": "Detected form_reference: ['form and']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 56,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 3372"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 56,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 35', 'section 39', 'section 39']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 56,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 56,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 6"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 56,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 56,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['subject to']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 56,
+      "field": "raw_text",
+      "message": "Detected numbered_subsection: ['(4)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 57,
+      "field": "sections[0].content",
+      "message": "Section has empty content",
+      "context": "section_number: 146"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 57,
+      "field": "sections[1].content",
+      "message": "Section has empty content",
+      "context": "section_number: 129"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 57,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 100', 'section 146', 'section 129']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 57,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (5)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 57,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 57,
+      "field": "raw_text",
+      "message": "Detected explanation: ['Explanation', 'Explanation']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 57,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 9"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 57,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 57,
+      "field": "raw_text",
+      "message": "Detected numbered_section: ['120. U']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 58,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 3366"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 58,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 73', 'section 126']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 58,
+      "field": "raw_text",
+      "message": "Detected explanation: ['Explanation']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 58,
+      "field": "raw_text",
+      "message": "Detected definition: ['means', 'means']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 58,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 11"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 58,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 10"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 58,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['subject to']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 58,
+      "field": "raw_text",
+      "message": "Detected notwithstanding: ['Notwithstanding', 'Notwithstanding', 'Notwithstanding']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 58,
+      "field": "raw_text",
+      "message": "Detected form_reference: ['form and', 'form subject']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 58,
+      "field": "raw_text",
+      "message": "Detected numbered_subsection: ['(2)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 59,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 2962"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 59,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 73']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 59,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (2)', 'sub-section (2)', 'Sub-section (2)']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 59,
+      "field": "raw_text",
+      "message": "Detected clause_reference: ['clause (i)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 59,
+      "field": "raw_text",
+      "message": "Detected explanation: ['Explanation']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 59,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 4"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 59,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 6"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 59,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['Subject to', 'Subject to']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 59,
+      "field": "raw_text",
+      "message": "Detected notwithstanding: ['Notwithstanding']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 59,
+      "field": "raw_text",
+      "message": "Detected numbered_clause: ['(c)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 60,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 3520"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 60,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 123', 'section 133']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 60,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 60,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 60,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['Subject to']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 60,
+      "field": "raw_text",
+      "message": "Detected numbered_clause: ['(b)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 61,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 3797"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 61,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 6', 'section 10', 'section 136', 'section 10', 'section 6']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 61,
+      "field": "raw_text",
+      "message": "Detected clause_reference: ['clause (b)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 61,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that', 'Provided that']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 61,
+      "field": "raw_text",
+      "message": "Detected explanation: ['Explanation']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 61,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 7"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 61,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 61,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['subject to', 'Subject to']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 61,
+      "field": "raw_text",
+      "message": "Detected numbered_section: ['134. N']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 62,
+      "field": "sections[0].content",
+      "message": "Section has empty content",
+      "context": "section_number: 135"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 62,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 17', 'section 135', 'section 133', 'section 7', 'section 54']",
+      "context": "Total matches: 6"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 62,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 10"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 62,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 62,
+      "field": "raw_text",
+      "message": "Detected numbered_subsection: ['(3)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 63,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 3278"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 63,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['Sub-section (5)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 63,
+      "field": "raw_text",
+      "message": "Detected clause_reference: ['clause (a)', 'clause (c)']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 63,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 63,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 6"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 63,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 64,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 4326"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 64,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 43', 'section 143', 'section 145']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 64,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (3)', 'sub-section (2)', 'sub-section (3)']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 64,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 11"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 64,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 11"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 64,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['Subject to']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 64,
+      "field": "raw_text",
+      "message": "Detected notwithstanding: ['notwithstanding']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 64,
+      "field": "raw_text",
+      "message": "Detected form_reference: ['form and']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 65,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 4217"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 65,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 106']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 65,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 9"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 65,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 8"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 65,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['subject to', 'subject to', 'subject to', 'subject to']",
+      "context": "Total matches: 4"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 66,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 3703"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 66,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 8', 'section 10']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 66,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (2)', 'sub-section (4)', 'sub-section (2)']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 66,
+      "field": "raw_text",
+      "message": "Detected clause_reference: ['clause (A)', 'clause (i']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 66,
+      "field": "raw_text",
+      "message": "Detected explanation: ['Explanation']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 66,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 6"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 66,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 8"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 66,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['Subject to']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 66,
+      "field": "raw_text",
+      "message": "Detected notwithstanding: ['Notwithstanding']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 66,
+      "field": "raw_text",
+      "message": "Detected form_reference: ['form and']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 66,
+      "field": "raw_text",
+      "message": "Detected numbered_section: ['154. L']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 67,
+      "field": "sections[0].content",
+      "message": "Section has empty content",
+      "context": "section_number: 39"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 67,
+      "field": "sections[1].content",
+      "message": "Section has empty content",
+      "context": "section_number: 115"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 67,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 25', 'section 39', 'section 115', 'section 125']",
+      "context": "Total matches: 4"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 67,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (4)', 'sub-section (2)', 'sub-section (2)']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 67,
+      "field": "raw_text",
+      "message": "Detected clause_reference: ['clause (v)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 67,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 5"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 67,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 10"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 67,
+      "field": "raw_text",
+      "message": "Detected form_reference: ['form and', 'form and', 'form under']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 68,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 2420"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 68,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 68,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 6"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 68,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may', 'may']",
+      "context": "Total matches: 6"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 68,
+      "field": "raw_text",
+      "message": "Detected subject_to: ['subject to']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 68,
+      "field": "raw_text",
+      "message": "Detected notwithstanding: ['Notwithstanding']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 68,
+      "field": "raw_text",
+      "message": "Detected form_reference: ['form or']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 68,
+      "field": "raw_text",
+      "message": "Detected repeal_action: ['Repeal of']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 69,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 1907"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 69,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 162', 'Section 1', 'Section 2', 'section 4', 'section 478']",
+      "context": "Total matches: 10"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 69,
+      "field": "raw_text",
+      "message": "Detected clause_reference: ['clause (v)', 'clause (e']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 69,
+      "field": "raw_text",
+      "message": "Detected definition: ['means', 'means']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 69,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 69,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 70,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 2325"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 70,
+      "field": "raw_text",
+      "message": "Detected section_reference: ['section 62', 'Section 63', 'Section 64', 'section 66', 'Section 67']",
+      "context": "Total matches: 10"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 70,
+      "field": "raw_text",
+      "message": "Detected subsection_reference: ['sub-section (2)', 'sub-section (3)', 'sub-section (4)', 'sub-section (5)', 'sub-section (2)']",
+      "context": "Total matches: 6"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 70,
+      "field": "raw_text",
+      "message": "Detected clause_reference: ['clause (a)', 'clause (c)', 'clause (e)', 'clause (e']",
+      "context": "Total matches: 4"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 70,
+      "field": "raw_text",
+      "message": "Detected proviso: ['Provided that']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 70,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall', 'shall', 'shall']",
+      "context": "Total matches: 4"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 70,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may']",
+      "context": "Total matches: 3"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 70,
+      "field": "raw_text",
+      "message": "Detected numbered_section: ['12. F']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 71,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 1021"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 71,
+      "field": "raw_text",
+      "message": "Detected mandatory: ['shall', 'shall']",
+      "context": "Total matches: 2"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 71,
+      "field": "raw_text",
+      "message": "Detected permissive: ['may', 'may', 'may', 'may']",
+      "context": "Total matches: 4"
+    },
+    {
+      "severity": "info",
+      "category": "legal_pattern",
+      "page_number": 71,
+      "field": "raw_text",
+      "message": "Detected numbered_subsection: ['(2)']",
+      "context": "Total matches: 1"
+    },
+    {
+      "severity": "warning",
+      "category": "content",
+      "page_number": 72,
+      "field": "raw_text",
+      "message": "Page has raw_text but no extracted structures",
+      "context": "raw_text length: 2342"
+    }
+  ],
+  "structural_errors": 0,
+  "structural_warnings": 0,
+  "content_errors": 0,
+  "content_warnings": 78,
+  "legal_pattern_flags": 412,
+  "pages_with_raw_text_no_structures": 56,
+  "sections_with_empty_title": 1,
+  "sections_with_empty_content": 21,
+  "sections_with_missing_legal_text": 2,
+  "duplicate_page_numbers": [],
+  "missing_page_numbers": [],
+  "invalid_page_types": []
+}

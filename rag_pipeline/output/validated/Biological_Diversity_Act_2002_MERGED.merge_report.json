@@ -1,0 +1,226 @@
+{
+  "file_path": "/home/dhiraj/Desktop/SIH/rag_pipeline/output/validated/Biological_Diversity_Act_2002_REPAIRED.json",
+  "actions": [
+    {
+      "section_number": "1",
+      "source_pages": [
+        1
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "5",
+      "source_pages": [
+        3
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "6",
+      "source_pages": [
+        3
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "7",
+      "source_pages": [
+        3,
+        4
+      ],
+      "action": "merged",
+      "reason": "Merged 2 parts across pages [3, 4]"
+    },
+    {
+      "section_number": "8",
+      "source_pages": [
+        3
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "11",
+      "source_pages": [
+        5
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "12",
+      "source_pages": [
+        5
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "13",
+      "source_pages": [
+        6
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "14",
+      "source_pages": [
+        6
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "15",
+      "source_pages": [
+        6
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "16",
+      "source_pages": [
+        6
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "17",
+      "source_pages": [
+        6
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "18",
+      "source_pages": [
+        7
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "19",
+      "source_pages": [
+        7
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "3",
+      "source_pages": [
+        8
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "3",
+      "source_pages": [
+        14
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "23",
+      "source_pages": [
+        9
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "24",
+      "source_pages": [
+        9
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "25",
+      "source_pages": [
+        10
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "26",
+      "source_pages": [
+        10
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "40",
+      "source_pages": [
+        11
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "44",
+      "source_pages": [
+        12
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "45",
+      "source_pages": [
+        12
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "46",
+      "source_pages": [
+        13
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "58",
+      "source_pages": [
+        14
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "20",
+      "source_pages": [
+        15
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    },
+    {
+      "section_number": "55A",
+      "source_pages": [
+        15
+      ],
+      "action": "kept_separate",
+      "reason": "Only one occurrence"
+    }
+  ],
+  "sections_before": 29,
+  "sections_after": 27,
+  "sections_merged": 1,
+  "uncertain_merges": 0
+}

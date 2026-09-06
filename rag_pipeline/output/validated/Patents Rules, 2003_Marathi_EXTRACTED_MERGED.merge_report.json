@@ -1,0 +1,138 @@
+{
+  "file_path": "/home/dhiraj/Desktop/SIH/rag_pipeline/output/validated/Patents Rules, 2003_Marathi_EXTRACTED_REPAIRED.json",
+  "actions": [
+    {
+      "section_number": "1",
+      "source_pages": [
+        1,
+        2
+      ],
+      "action": "merged",
+      "reason": "Merged 2 parts across pages [1, 2]"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        6,
+        7,
+        8
+      ],
+      "action": "merged",
+      "reason": "Merged 3 parts across pages [6, 7, 8]"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        8,
+        9
+      ],
+      "action": "merged",
+      "reason": "Merged 2 parts across pages [8, 9]"
+    },
+    {
+      "section_number": "1",
+      "source_pages": [
+        13,
+        14
+      ],
+      "action": "merged",
+      "reason": "Merged 2 parts across pages [13, 14]"
+    },
+    {
+      "section_number": "2",
+      "source_pages": [
+        7,
+        8,
+        8,
+        9
+      ],
+      "action": "merged",
+      "reason": "Merged 4 parts across pages [7, 8, 8, 9]"
+    },
+    {
+      "section_number": "2",
+      "source_pages": [
+        14,
+        15
+      ],
+      "action": "merged",
+      "reason": "Merged 2 parts across pages [14, 15]"
+    },
+    {
+      "section_number": "4",
+      "source_pages": [
+        6,
+        7,
+        8
+      ],
+      "action": "merged",
+      "reason": "Merged 3 parts across pages [6, 7, 8]"
+    },
+    {
+      "section_number": "4",
+      "source_pages": [
+        13,
+        14,
+        14,
+        15
+      ],
+      "action": "merged",
+      "reason": "Merged 4 parts across pages [13, 14, 14, 15]"
+    },
+    {
+      "section_number": "60",
+      "source_pages": [
+        6
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "60",
+      "source_pages": [
+        13
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "33",
+      "source_pages": [
+        6
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "33",
+      "source_pages": [
+        13
+      ],
+      "action": "kept_separate",
+      "reason": "TOC entry only"
+    },
+    {
+      "section_number": "3",
+      "source_pages": [
+        7,
+        8,
+        9
+      ],
+      "action": "merged",
+      "reason": "Merged 3 parts across pages [7, 8, 9]"
+    },
+    {
+      "section_number": "3",
+      "source_pages": [
+        14,
+        15
+      ],
+      "action": "merged",
+      "reason": "Merged 2 parts across pages [14, 15]"
+    }
+  ],
+  "sections_before": 42,
+  "sections_after": 24,
+  "sections_merged": 10,
+  "uncertain_merges": 0
+}

@@ -1,0 +1,31 @@
+{
+  "total_documents": 10,
+  "total_chunks": 1185,
+  "languages": {
+    "en": 929,
+    "mixed": 22,
+    "MISSING": 234
+  },
+  "domains": {
+    "Geographical Indications": 251,
+    "Trademarks": 572,
+    "Patents": 170,
+    "Designs": 106,
+    "Biodiversity": 68,
+    "General Legal": 18
+  },
+  "document_types": {
+    "Act": 639,
+    "Rules": 546
+  },
+  "chunks_with_section": 1185,
+  "chunks_with_rule": 0,
+  "chunks_with_source_pages": 33,
+  "chunks_with_embedding_text": 1185,
+  "notes": [
+    "234 chunks from old BIO dataset and Patents Act have MISSING language field",
+    "Rules documents incorrectly store rule_number in section_number field",
+    "Only 33 chunks have source_pages populated (Patents Rules 2003 Marathi)",
+    "All chunks have valid embedding_text"
+  ]
+}

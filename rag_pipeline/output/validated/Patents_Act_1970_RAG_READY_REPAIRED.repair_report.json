@@ -1,0 +1,90 @@
+{
+  "file_path": "/home/dhiraj/Desktop/SIH/rag_pipeline/output/Patents_Act_1970_RAG_READY.json",
+  "actions": [
+    {
+      "page_number": 19,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '15', 'section_title': \"Power of Controller to refuse or require amended applications, etc., in certain cases.—Where the Controller is satisfied that the application or any specifi",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 22,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '22', 'section_title': '[Acceptance of complete specification. Omitted by the Patents (Amendment) Act, 2005 (15 of 2005), s. 20 (w.ef: 1-1-2005). 23. [Advertisement of acceptance o",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 30,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '46', 'section_title': \"Form, extent and effect of patent—() Every patent shall be in the prescribed form and shall have effect throughout India. (2) A patent shall be granted for ",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 31,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '50', 'section_title': \"Rights of co-owners of patents—() Where a patent is granted to two or more persons, each of those persons shall, unless an agreement to the contrary is in f",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 32,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '52', 'section_title': \"Grant of patent to true and first inventor where it has been obtained by another in fraud of him.—() '[Where the patent has been revoked under section 64] o",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 40,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '70', 'section_title': \"Power of registered grantee or proprietor to deal with patent.—Subject to the provisions contained in this Act relating to co-ownership of patents and subje",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 53,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '106', 'section_title': \"Power of court to grant relief in cases of groundless threats of infringement proceedings.— (1) Where any person (whether entitled to or interested in a pa",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 61,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '134', 'section_title': \"Notification as to countries not providing for reciprocity.—Where any country specified by the Central Government in this behalf by notification in the Off",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 66,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '154', 'section_title': \"Loss or destruction of Patents.—If a patent is lost or destroyed, or its non-production is accounted for to the satisfaction of the Controller, the Control",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 70,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '12', 'section_title': 'For section 62, substitute— 62. Power of Controller to correct clerical errors.—The Controller may, on request in writing accompanied by the prescribed fee,",
+      "reason": "Extracted sections from raw_text"
+    }
+  ],
+  "sections_recovered": 10,
+  "titles_recovered": 0,
+  "content_recovered": 0,
+  "continuations_marked": 0,
+  "amendments_detected": 0
+}

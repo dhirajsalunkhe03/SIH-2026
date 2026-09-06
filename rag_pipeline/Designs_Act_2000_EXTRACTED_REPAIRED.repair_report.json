@@ -1,0 +1,250 @@
+{
+  "file_path": "Designs_Act_2000_EXTRACTED.json",
+  "actions": [
+    {
+      "page_number": 3,
+      "action_type": "recover_content",
+      "field": "sections[0].content",
+      "before": "\"\"",
+      "after": "\"Short title, extent and commencement....\"",
+      "reason": "Recovered content for section 1"
+    },
+    {
+      "page_number": 3,
+      "action_type": "recover_content",
+      "field": "sections[2].content",
+      "before": "\"\"",
+      "after": "\"4. Prohibition of registration of certain designs. e...\"",
+      "reason": "Recovered content for section 3"
+    },
+    {
+      "page_number": 3,
+      "action_type": "recover_content",
+      "field": "sections[3].content",
+      "before": "\"\"",
+      "after": "\"5. Application for registration of designs. d...\"",
+      "reason": "Recovered content for section 4"
+    },
+    {
+      "page_number": 3,
+      "action_type": "recover_content",
+      "field": "sections[4].content",
+      "before": "\"\"",
+      "after": "\"6. Registration to be in respect of particular article. o...\"",
+      "reason": "Recovered content for section 5"
+    },
+    {
+      "page_number": 3,
+      "action_type": "recover_content",
+      "field": "sections[5].content",
+      "before": "\"\"",
+      "after": "\"7. Publication of particulars of registered designs. C...\"",
+      "reason": "Recovered content for section 6"
+    },
+    {
+      "page_number": 3,
+      "action_type": "recover_content",
+      "field": "sections[6].content",
+      "before": "\"\"",
+      "after": "\"8. Power of Controller to make orders regarding substitution of application, etc.\na...\"",
+      "reason": "Recovered content for section 7"
+    },
+    {
+      "page_number": 3,
+      "action_type": "recover_content",
+      "field": "sections[10].content",
+      "before": "\"\"",
+      "after": "\"12. Restoration of lapsed designs....\"",
+      "reason": "Recovered content for section 11"
+    },
+    {
+      "page_number": 3,
+      "action_type": "recover_content",
+      "field": "sections[11].content",
+      "before": "\"\"",
+      "after": "\"13. Procedure for disposal of applications for restoration of lapsed designs....\"",
+      "reason": "Recovered content for section 12"
+    },
+    {
+      "page_number": 3,
+      "action_type": "recover_content",
+      "field": "sections[12].content",
+      "before": "\"\"",
+      "after": "\"14. Rights of proprietor of lapsed design which have been restored....\"",
+      "reason": "Recovered content for section 13"
+    },
+    {
+      "page_number": 3,
+      "action_type": "recover_content",
+      "field": "sections[13].content",
+      "before": "\"\"",
+      "after": "\"15. Requirements before delivery on sales....\"",
+      "reason": "Recovered content for section 14"
+    },
+    {
+      "page_number": 3,
+      "action_type": "recover_content",
+      "field": "sections[14].content",
+      "before": "\"\"",
+      "after": "\"16. Effect of disclosure on copyright....\"",
+      "reason": "Recovered content for section 15"
+    },
+    {
+      "page_number": 3,
+      "action_type": "recover_content",
+      "field": "sections[15].content",
+      "before": "\"\"",
+      "after": "\"17. Inspection of registered designs....\"",
+      "reason": "Recovered content for section 16"
+    },
+    {
+      "page_number": 3,
+      "action_type": "recover_content",
+      "field": "sections[16].content",
+      "before": "\"\"",
+      "after": "\"18. Information as to existence of copyright....\"",
+      "reason": "Recovered content for section 17"
+    },
+    {
+      "page_number": 3,
+      "action_type": "recover_content",
+      "field": "sections[17].content",
+      "before": "\"\"",
+      "after": "\"19. Cancellation of registration....\"",
+      "reason": "Recovered content for section 18"
+    },
+    {
+      "page_number": 3,
+      "action_type": "recover_content",
+      "field": "sections[18].content",
+      "before": "\"\"",
+      "after": "\"20. Designs to bind Government....\"",
+      "reason": "Recovered content for section 19"
+    },
+    {
+      "page_number": 3,
+      "action_type": "recover_content",
+      "field": "sections[21].content",
+      "before": "\"\"",
+      "after": "\"23. Application of certain provisions of the Act as to patents to designs.\n3...\"",
+      "reason": "Recovered content for section 22"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[1].content",
+      "before": "\"\"",
+      "after": "\"26. Inspection of and extracts from registers....\"",
+      "reason": "Recovered content for section 25"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[2].content",
+      "before": "\"\"",
+      "after": "\"27. Privilege of reports of Controller....\"",
+      "reason": "Recovered content for section 26"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[3].content",
+      "before": "\"\"",
+      "after": "\"28. Prohibition and publication of specification, drawings, etc., where application abandoned, etc....\"",
+      "reason": "Recovered content for section 27"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[4].content",
+      "before": "\"\"",
+      "after": "\"29. Power of Controller to correct clerical errors....\"",
+      "reason": "Recovered content for section 28"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[5].content",
+      "before": "\"\"",
+      "after": "\"30. Entry of assignment and transmissions in registers....\"",
+      "reason": "Recovered content for section 29"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[6].content",
+      "before": "\"\"",
+      "after": "\"31. Rectification of register....\"",
+      "reason": "Recovered content for section 30"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[11].content",
+      "before": "\"\"",
+      "after": "\"36. Appeals to the High Court. n\nI...\"",
+      "reason": "Recovered content for section 35"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[13].content",
+      "before": "\"\"",
+      "after": "\"38. Certificate of Controller to be evidence....\"",
+      "reason": "Recovered content for section 37"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[14].content",
+      "before": "\"\"",
+      "after": "\"39. Evidence of documents in patent office....\"",
+      "reason": "Recovered content for section 38"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[15].content",
+      "before": "\"\"",
+      "after": "\"40. Applications and notices by post....\"",
+      "reason": "Recovered content for section 39"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[16].content",
+      "before": "\"\"",
+      "after": "\"41. Declaration by infant, lunatic, etc....\"",
+      "reason": "Recovered content for section 40"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[17].content",
+      "before": "\"\"",
+      "after": "\"42. Avoidance of certain restrictive conditions....\"",
+      "reason": "Recovered content for section 41"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[21].content",
+      "before": "\"\"",
+      "after": "\"46. Protection of security of India....\"",
+      "reason": "Recovered content for section 45"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[22].content",
+      "before": "\"\"",
+      "after": "\"47. Power of Central Government to make rules....\"",
+      "reason": "Recovered content for section 46"
+    }
+  ],
+  "sections_recovered": 0,
+  "titles_recovered": 0,
+  "content_recovered": 30,
+  "continuations_marked": 0,
+  "amendments_detected": 0
+}

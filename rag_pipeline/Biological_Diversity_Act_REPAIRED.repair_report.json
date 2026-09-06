@@ -1,0 +1,354 @@
+{
+  "file_path": "/home/dhiraj/Desktop/SIH/Datasets/BIO/Biological_Diversity_Act.json",
+  "actions": [
+    {
+      "page_number": 1,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'Short title, extent and commencement', 'content': '', 'is_continuation': False, 'subsections': [], 'source_page': 1}, {'section_number': '2', 'section_title'",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 2,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '36', 'section_title': 'Establishment of State Biodiversity Board', 'content': 'Functions of State Biodiversity Board.\\n\\nPower of State Biodiversity Board to restrict certain acti",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 3,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '47', 'section_title': 'Annual report, etc., of Biodiversity Management Committee to be submitted to District', 'content': 'Magistrate.\\n\\nCHAPTER XII\\nMISCELLANEOUS', 'is_continua",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 4,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'Short title, extent and commencement.—(/) This Act may be called the Biological Diversity', 'content': 'Act, 2002.\\n\\n(2) It extends to the whole of India.\\n",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 5,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'Ins. by Act 10 of 2023, s. 3, (w.e.f. 1-4-2024)', 'content': '', 'is_continuation': False, 'subsections': [], 'source_page': 5}, {'section_number': '2', 'sec",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 5,
+      "action_type": "mark_continuation",
+      "field": "section 1",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 1 continues from page 4"
+    },
+    {
+      "page_number": 5,
+      "action_type": "mark_continuation",
+      "field": "section 2",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 2 continues from page 4"
+    },
+    {
+      "page_number": 6,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '3', 'section_title': 'Certain persons not to undertake Biodiversity related activities without approval of National', 'content': 'Biodiversity Authority.—(/) No person referred to",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 6,
+      "action_type": "mark_continuation",
+      "field": "section 1",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 1 continues from page 5"
+    },
+    {
+      "page_number": 6,
+      "action_type": "mark_continuation",
+      "field": "section 2",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 2 continues from page 5"
+    },
+    {
+      "page_number": 7,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '6', 'section_title': 'Application for intellectual property rights not to be made without approval of National', 'content': 'Biodiversity Authority.—[(/) Any person or entity cove",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 7,
+      "action_type": "mark_continuation",
+      "field": "section 1",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 1 continues from page 6"
+    },
+    {
+      "page_number": 7,
+      "action_type": "mark_continuation",
+      "field": "section 2",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 2 continues from page 6"
+    },
+    {
+      "page_number": 8,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '8', 'section_title': 'Establishment of National Biodiversity Authority—(/) With effect from such date as the', 'content': \"Central Government may, by notification in the Official ",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 8,
+      "action_type": "mark_continuation",
+      "field": "section 1",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 1 continues from page 7"
+    },
+    {
+      "page_number": 8,
+      "action_type": "mark_continuation",
+      "field": "section 2",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 2 continues from page 7"
+    },
+    {
+      "page_number": 8,
+      "action_type": "mark_continuation",
+      "field": "section 3",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 3 continues from page 7"
+    },
+    {
+      "page_number": 9,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '9', 'section_title': 'Conditions of service of ?[Chairperson, members and Member-Secretary.]—The term of office', 'content': 'and conditions of service of the Chairperson and the ",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 9,
+      "action_type": "mark_continuation",
+      "field": "section 1",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 1 continues from page 8"
+    },
+    {
+      "page_number": 9,
+      "action_type": "mark_continuation",
+      "field": "section 2",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 2 continues from page 8"
+    },
+    {
+      "page_number": 9,
+      "action_type": "mark_continuation",
+      "field": "section 3",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 3 continues from page 8"
+    },
+    {
+      "page_number": 10,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '13', 'section_title': 'Committees of National Biodiversity Authority —(/) The National Biodiversity Authority may', 'content': \"constitute a committee to deal with agro-biodiversi",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 10,
+      "action_type": "mark_continuation",
+      "field": "section 1",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 1 continues from page 9"
+    },
+    {
+      "page_number": 10,
+      "action_type": "mark_continuation",
+      "field": "section 2",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 2 continues from page 9"
+    },
+    {
+      "page_number": 10,
+      "action_type": "mark_continuation",
+      "field": "section 3",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 3 continues from page 9"
+    },
+    {
+      "page_number": 11,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '19', 'section_title': 'Approval by National Biodiversity Authority for undertaking certain activities—(/) Any', 'content': 'person referred to in sub-section (2) of section 3 who ",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 11,
+      "action_type": "mark_continuation",
+      "field": "section 1",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 1 continues from page 10"
+    },
+    {
+      "page_number": 11,
+      "action_type": "mark_continuation",
+      "field": "section 2",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 2 continues from page 10"
+    },
+    {
+      "page_number": 11,
+      "action_type": "mark_continuation",
+      "field": "section 3",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 3 continues from page 10"
+    },
+    {
+      "page_number": 11,
+      "action_type": "mark_continuation",
+      "field": "section 5",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 5 continues from page 10"
+    },
+    {
+      "page_number": 12,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '20', 'section_title': 'Transfer of *[results of research].—[(/) Any person or entity who intends to transfer the results', 'content': 'of any research on biological resources, whi",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 13,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '22', 'section_title': 'Establishment of State Biodiversity Board.—(/) With effect from such date as the State', 'content': 'Government may, by notification in the Official Gazette",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 14,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '24', 'section_title': 'Power of State Biodiversity Board to restrict certain activities violating the objectives of', 'content': \"conservation, etc.—'[(/) Any person other than th",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 14,
+      "action_type": "mark_continuation",
+      "field": "section 4",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 4 continues from page 13"
+    },
+    {
+      "page_number": 15,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '28', 'section_title': 'Annual report of National Biodiversity Authority.—The National Biodiversity Authority shall', 'content': 'prepare, in such form and at such time each financ",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 16,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '33', 'section_title': 'Annual report of State Biodiversity Board.—The State Biodiversity Board shall prepare, in', 'content': 'such form and at such time in each financial year as",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 17,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '37', 'section_title': 'Biodiversity heritage sites.—*[(/) Without prejudice to any other law for the time being in force,', 'content': 'based on the recommendations of the State B",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 19,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '42', 'section_title': 'Grants to Local Biodiversity Fund.—The State Government may, after due appropriation made', 'content': 'by State Legislature by law in this behalf, pay to t",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 20,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '47', 'section_title': 'Annual report, etc., of the Biodiversity Management Committee to be submitted to District', 'content': \"Magistrate.—Every local body constituting a Biodiver",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 21,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '51', 'section_title': 'Members, officers, etc., of National Biodiversity Authority and State Biodiversity Board', 'content': 'deemed to be public servants.—All members, officers a",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 21,
+      "action_type": "mark_continuation",
+      "field": "section 3",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 3 continues from page 20"
+    },
+    {
+      "page_number": 22,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '54', 'section_title': 'Protection of action taken in good faith.—No suit, prosecution or other legal proceedings shall', 'content': 'lie against the Central Government or the Stat",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 23,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '56', 'section_title': 'Penalty for contravention of directions or orders of Central Government, State', 'content': 'Government, National Biodiversity Authority and State Biodivers",
+      "reason": "Extracted sections from raw_text"
+    }
+  ],
+  "sections_recovered": 22,
+  "titles_recovered": 0,
+  "content_recovered": 0,
+  "continuations_marked": 21,
+  "amendments_detected": 0
+}

@@ -1,0 +1,8 @@
+{
+  "file_path": "/home/dhiraj/Desktop/SIH/rag_pipeline/output/validated/Patents_Act_1970_MERGED.json",
+  "sections_processed": 204,
+  "sections_with_hierarchy": 61,
+  "sections_preserved_as_content": 143,
+  "cross_references_extracted": 161,
+  "keywords_extracted": 445
+}

@@ -1,0 +1,130 @@
+{
+  "file_path": "/home/dhiraj/Desktop/SIH/rag_pipeline/Designs_Act_2000_EXTRACTED.json",
+  "actions": [
+    {
+      "page_number": 3,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'Short title, extent and commencement', 'content': '', 'is_continuation': False, 'subsections': [], 'source_page': 3}, {'section_number': '2', 'section_title'",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[1].content",
+      "before": "\"\"",
+      "after": "\"26. Inspection of and extracts from registers....\"",
+      "reason": "Recovered content for section 25"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[2].content",
+      "before": "\"\"",
+      "after": "\"27. Privilege of reports of Controller....\"",
+      "reason": "Recovered content for section 26"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[3].content",
+      "before": "\"\"",
+      "after": "\"28. Prohibition and publication of specification, drawings, etc., where application abandoned, etc....\"",
+      "reason": "Recovered content for section 27"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[4].content",
+      "before": "\"\"",
+      "after": "\"29. Power of Controller to correct clerical errors....\"",
+      "reason": "Recovered content for section 28"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[5].content",
+      "before": "\"\"",
+      "after": "\"30. Entry of assignment and transmissions in registers....\"",
+      "reason": "Recovered content for section 29"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[6].content",
+      "before": "\"\"",
+      "after": "\"31. Rectification of register....\"",
+      "reason": "Recovered content for section 30"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[11].content",
+      "before": "\"\"",
+      "after": "\"36. Appeals to the High Court. n\nI...\"",
+      "reason": "Recovered content for section 35"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[13].content",
+      "before": "\"\"",
+      "after": "\"38. Certificate of Controller to be evidence....\"",
+      "reason": "Recovered content for section 37"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[14].content",
+      "before": "\"\"",
+      "after": "\"39. Evidence of documents in patent office....\"",
+      "reason": "Recovered content for section 38"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[15].content",
+      "before": "\"\"",
+      "after": "\"40. Applications and notices by post....\"",
+      "reason": "Recovered content for section 39"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[16].content",
+      "before": "\"\"",
+      "after": "\"41. Declaration by infant, lunatic, etc....\"",
+      "reason": "Recovered content for section 40"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[17].content",
+      "before": "\"\"",
+      "after": "\"42. Avoidance of certain restrictive conditions....\"",
+      "reason": "Recovered content for section 41"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[21].content",
+      "before": "\"\"",
+      "after": "\"46. Protection of security of India....\"",
+      "reason": "Recovered content for section 45"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[22].content",
+      "before": "\"\"",
+      "after": "\"47. Power of Central Government to make rules....\"",
+      "reason": "Recovered content for section 46"
+    }
+  ],
+  "sections_recovered": 1,
+  "titles_recovered": 0,
+  "content_recovered": 14,
+  "continuations_marked": 0,
+  "amendments_detected": 0
+}

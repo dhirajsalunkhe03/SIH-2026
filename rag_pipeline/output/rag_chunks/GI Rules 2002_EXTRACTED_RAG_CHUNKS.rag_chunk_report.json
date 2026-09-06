@@ -1,0 +1,10 @@
+{
+  "file_path": "/home/dhiraj/Desktop/SIH/rag_pipeline/output/canonical/GI Rules 2002_EXTRACTED_CANONICAL.json",
+  "total_chunks": 135,
+  "chunks_by_type": {
+    "section": 135
+  },
+  "chunks_with_hierarchy": 49,
+  "avg_chunk_length": 1040.53,
+  "max_chunk_length": 6405
+}

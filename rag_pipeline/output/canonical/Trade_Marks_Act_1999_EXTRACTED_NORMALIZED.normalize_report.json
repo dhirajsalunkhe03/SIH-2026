@@ -1,0 +1,8 @@
+{
+  "file_path": "/home/dhiraj/Desktop/SIH/rag_pipeline/output/validated/Trade_Marks_Act_1999_EXTRACTED_MERGED.json",
+  "sections_processed": 237,
+  "sections_with_hierarchy": 74,
+  "sections_preserved_as_content": 163,
+  "cross_references_extracted": 212,
+  "keywords_extracted": 271
+}

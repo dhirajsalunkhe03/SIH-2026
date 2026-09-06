@@ -1,0 +1,26 @@
+{
+  "phase": "Phase 4",
+  "previous_phase": "Phase 3",
+  "status": "inspection_complete",
+  "embedding_model": "BAAI/bge-m3",
+  "vector_database": "/home/dhiraj/Desktop/SIH/rag_pipeline/vector_db",
+  "collection": "legal_knowledge",
+  "retriever": "retriever.py - LegalRetriever class with search_multilingual()",
+  "available_models": {
+    "qwen3:4b": {
+      "available": true,
+      "size": "2.5 GB",
+      "loaded": false
+    }
+  },
+  "qwen_model": "qwen3:4b",
+  "issues_found": [
+    "Language detector cannot distinguish Hindi vs Marathi (both Devanagari)",
+    "234 legacy chunks missing language field (defaulted to 'en')",
+    "Rules documents store rule_number in section_number field",
+    "Only 33 chunks have source_pages populated",
+    "source_pages metadata stored as JSON string, needs parsing",
+    "rule_number and rule_title fields exist but may be empty in metadata",
+    "Qwen3:4b shows thinking tokens in raw output (needs cleaning)"
+  ]
+}

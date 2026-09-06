@@ -1,0 +1,10 @@
+{
+  "file_path": "/home/dhiraj/Desktop/SIH/rag_pipeline/output/canonical/Patents_Act_1970_RAG_READY_CANONICAL.json",
+  "total_chunks": 1,
+  "chunks_by_type": {
+    "section": 1
+  },
+  "chunks_with_hierarchy": 1,
+  "avg_chunk_length": 6662.0,
+  "max_chunk_length": 6662
+}

@@ -1,0 +1,18 @@
+{
+  "file_path": "/home/dhiraj/Desktop/SIH/rag_pipeline/output/Biological_Diversity_Act_RAG_READY.json",
+  "actions": [
+    {
+      "page_number": 10,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '13', 'section_title': \"Committees of National Biodiversity Authority —() The National Biodiversity Authority may constitute a committee to deal with agro-biodiversity. Explanation",
+      "reason": "Extracted sections from raw_text"
+    }
+  ],
+  "sections_recovered": 1,
+  "titles_recovered": 0,
+  "content_recovered": 0,
+  "continuations_marked": 0,
+  "amendments_detected": 0
+}

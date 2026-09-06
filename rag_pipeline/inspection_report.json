@@ -1,0 +1,859 @@
+{
+  "file_path": "output/Patents_Act_1970_RAG_READY.json",
+  "num_documents": 1,
+  "num_pages": 72,
+  "num_sections": 21,
+  "num_empty_title_sections": 1,
+  "num_empty_content_sections": 21,
+  "num_pages_raw_text_no_sections": 56,
+  "num_definitions": 0,
+  "num_amendments": 0,
+  "num_schedules": 0,
+  "num_forms": 0,
+  "page_type_counts": {
+    "content": 64,
+    "schedule": 5,
+    "table_of_contents": 1,
+    "definition": 1,
+    "form": 1
+  },
+  "num_continuation_pages": 17,
+  "num_suspicious_pages": 127,
+  "avg_text_length_per_page": 3382.35,
+  "avg_section_length": 0,
+  "suspicious_page_details": [
+    {
+      "page_number": 1,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 68
+    },
+    {
+      "page_number": 1,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 68,
+      "section_count": 0
+    },
+    {
+      "page_number": 2,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "schedule",
+      "text_length": 631
+    },
+    {
+      "page_number": 2,
+      "reason": "suspicious content patterns",
+      "page_type": "schedule",
+      "text_length": 631,
+      "section_count": 0
+    },
+    {
+      "page_number": 3,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "table_of_contents",
+      "text_length": 1396
+    },
+    {
+      "page_number": 3,
+      "reason": "suspicious content patterns",
+      "page_type": "table_of_contents",
+      "text_length": 1396,
+      "section_count": 0
+    },
+    {
+      "page_number": 4,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 1721
+    },
+    {
+      "page_number": 4,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 1721,
+      "section_count": 0
+    },
+    {
+      "page_number": 5,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 1716
+    },
+    {
+      "page_number": 5,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 1716,
+      "section_count": 0
+    },
+    {
+      "page_number": 6,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 2303
+    },
+    {
+      "page_number": 6,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 2303,
+      "section_count": 0
+    },
+    {
+      "page_number": 7,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 1229
+    },
+    {
+      "page_number": 7,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 1229,
+      "section_count": 0
+    },
+    {
+      "page_number": 8,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "schedule",
+      "text_length": 1453
+    },
+    {
+      "page_number": 8,
+      "reason": "suspicious content patterns",
+      "page_type": "schedule",
+      "text_length": 1453,
+      "section_count": 0
+    },
+    {
+      "page_number": 9,
+      "reason": "suspicious content patterns",
+      "page_type": "definition",
+      "text_length": 3120,
+      "section_count": 2
+    },
+    {
+      "page_number": 10,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 2772,
+      "section_count": 1
+    },
+    {
+      "page_number": 11,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "form",
+      "text_length": 2831
+    },
+    {
+      "page_number": 11,
+      "reason": "suspicious content patterns",
+      "page_type": "form",
+      "text_length": 2831,
+      "section_count": 0
+    },
+    {
+      "page_number": 12,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 2863
+    },
+    {
+      "page_number": 12,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 2863,
+      "section_count": 0
+    },
+    {
+      "page_number": 13,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 4144
+    },
+    {
+      "page_number": 13,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 4144,
+      "section_count": 0
+    },
+    {
+      "page_number": 14,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 3594
+    },
+    {
+      "page_number": 14,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 3594,
+      "section_count": 0
+    },
+    {
+      "page_number": 15,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 3610
+    },
+    {
+      "page_number": 15,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 3610,
+      "section_count": 0
+    },
+    {
+      "page_number": 16,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 3280
+    },
+    {
+      "page_number": 16,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 3280,
+      "section_count": 0
+    },
+    {
+      "page_number": 17,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 3631,
+      "section_count": 2
+    },
+    {
+      "page_number": 18,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 4157,
+      "section_count": 1
+    },
+    {
+      "page_number": 19,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 4222
+    },
+    {
+      "page_number": 19,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 4222,
+      "section_count": 0
+    },
+    {
+      "page_number": 20,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 4049,
+      "section_count": 1
+    },
+    {
+      "page_number": 21,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 3966
+    },
+    {
+      "page_number": 21,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 3966,
+      "section_count": 0
+    },
+    {
+      "page_number": 22,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 3535
+    },
+    {
+      "page_number": 22,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 3535,
+      "section_count": 0
+    },
+    {
+      "page_number": 23,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 3741
+    },
+    {
+      "page_number": 23,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 3741,
+      "section_count": 0
+    },
+    {
+      "page_number": 24,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 3709
+    },
+    {
+      "page_number": 24,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 3709,
+      "section_count": 0
+    },
+    {
+      "page_number": 25,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 3517
+    },
+    {
+      "page_number": 25,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 3517,
+      "section_count": 0
+    },
+    {
+      "page_number": 26,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 4493
+    },
+    {
+      "page_number": 26,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 4493,
+      "section_count": 0
+    },
+    {
+      "page_number": 27,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 4406
+    },
+    {
+      "page_number": 27,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 4406,
+      "section_count": 0
+    },
+    {
+      "page_number": 28,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 3503,
+      "section_count": 1
+    },
+    {
+      "page_number": 30,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 3907
+    },
+    {
+      "page_number": 30,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 3907,
+      "section_count": 0
+    },
+    {
+      "page_number": 31,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 3637
+    },
+    {
+      "page_number": 31,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 3637,
+      "section_count": 0
+    },
+    {
+      "page_number": 32,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 4136
+    },
+    {
+      "page_number": 32,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 4136,
+      "section_count": 0
+    },
+    {
+      "page_number": 33,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 4413
+    },
+    {
+      "page_number": 33,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 4413,
+      "section_count": 0
+    },
+    {
+      "page_number": 34,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 4111
+    },
+    {
+      "page_number": 34,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 4111,
+      "section_count": 0
+    },
+    {
+      "page_number": 35,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 3805,
+      "section_count": 1
+    },
+    {
+      "page_number": 36,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 3210
+    },
+    {
+      "page_number": 36,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 3210,
+      "section_count": 0
+    },
+    {
+      "page_number": 37,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 3513,
+      "section_count": 1
+    },
+    {
+      "page_number": 38,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 3640
+    },
+    {
+      "page_number": 38,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 3640,
+      "section_count": 0
+    },
+    {
+      "page_number": 39,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 4208
+    },
+    {
+      "page_number": 39,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 4208,
+      "section_count": 0
+    },
+    {
+      "page_number": 40,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 3623
+    },
+    {
+      "page_number": 40,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 3623,
+      "section_count": 0
+    },
+    {
+      "page_number": 41,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 3318
+    },
+    {
+      "page_number": 41,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 3318,
+      "section_count": 0
+    },
+    {
+      "page_number": 42,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 4325
+    },
+    {
+      "page_number": 42,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 4325,
+      "section_count": 0
+    },
+    {
+      "page_number": 43,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 3663
+    },
+    {
+      "page_number": 43,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 3663,
+      "section_count": 0
+    },
+    {
+      "page_number": 44,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 3235
+    },
+    {
+      "page_number": 44,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 3235,
+      "section_count": 0
+    },
+    {
+      "page_number": 45,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 4364
+    },
+    {
+      "page_number": 45,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 4364,
+      "section_count": 0
+    },
+    {
+      "page_number": 46,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 4154
+    },
+    {
+      "page_number": 46,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 4154,
+      "section_count": 0
+    },
+    {
+      "page_number": 47,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 4006
+    },
+    {
+      "page_number": 47,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 4006,
+      "section_count": 0
+    },
+    {
+      "page_number": 48,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 3727
+    },
+    {
+      "page_number": 48,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 3727,
+      "section_count": 0
+    },
+    {
+      "page_number": 49,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 4019
+    },
+    {
+      "page_number": 49,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 4019,
+      "section_count": 0
+    },
+    {
+      "page_number": 50,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 4333,
+      "section_count": 1
+    },
+    {
+      "page_number": 51,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 4407,
+      "section_count": 1
+    },
+    {
+      "page_number": 52,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 4070
+    },
+    {
+      "page_number": 52,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 4070,
+      "section_count": 0
+    },
+    {
+      "page_number": 53,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 4219
+    },
+    {
+      "page_number": 53,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 4219,
+      "section_count": 0
+    },
+    {
+      "page_number": 54,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 4370,
+      "section_count": 1
+    },
+    {
+      "page_number": 55,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 3783,
+      "section_count": 2
+    },
+    {
+      "page_number": 56,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 3372
+    },
+    {
+      "page_number": 56,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 3372,
+      "section_count": 0
+    },
+    {
+      "page_number": 57,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 3969,
+      "section_count": 2
+    },
+    {
+      "page_number": 58,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 3366
+    },
+    {
+      "page_number": 58,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 3366,
+      "section_count": 0
+    },
+    {
+      "page_number": 59,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 2962
+    },
+    {
+      "page_number": 59,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 2962,
+      "section_count": 0
+    },
+    {
+      "page_number": 60,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 3520
+    },
+    {
+      "page_number": 60,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 3520,
+      "section_count": 0
+    },
+    {
+      "page_number": 61,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 3797
+    },
+    {
+      "page_number": 61,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 3797,
+      "section_count": 0
+    },
+    {
+      "page_number": 62,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 4158,
+      "section_count": 1
+    },
+    {
+      "page_number": 63,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 3278
+    },
+    {
+      "page_number": 63,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 3278,
+      "section_count": 0
+    },
+    {
+      "page_number": 64,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 4326
+    },
+    {
+      "page_number": 64,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 4326,
+      "section_count": 0
+    },
+    {
+      "page_number": 65,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 4217
+    },
+    {
+      "page_number": 65,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 4217,
+      "section_count": 0
+    },
+    {
+      "page_number": 66,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 3703
+    },
+    {
+      "page_number": 66,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 3703,
+      "section_count": 0
+    },
+    {
+      "page_number": 67,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 3457,
+      "section_count": 2
+    },
+    {
+      "page_number": 68,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "schedule",
+      "text_length": 2420
+    },
+    {
+      "page_number": 68,
+      "reason": "suspicious content patterns",
+      "page_type": "schedule",
+      "text_length": 2420,
+      "section_count": 0
+    },
+    {
+      "page_number": 69,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "schedule",
+      "text_length": 1907
+    },
+    {
+      "page_number": 69,
+      "reason": "suspicious content patterns",
+      "page_type": "schedule",
+      "text_length": 1907,
+      "section_count": 0
+    },
+    {
+      "page_number": 70,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 2325
+    },
+    {
+      "page_number": 70,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 2325,
+      "section_count": 0
+    },
+    {
+      "page_number": 71,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "schedule",
+      "text_length": 1021
+    },
+    {
+      "page_number": 71,
+      "reason": "suspicious content patterns",
+      "page_type": "schedule",
+      "text_length": 1021,
+      "section_count": 0
+    },
+    {
+      "page_number": 72,
+      "reason": "raw_text exists but no extracted structures",
+      "page_type": "content",
+      "text_length": 2342
+    },
+    {
+      "page_number": 72,
+      "reason": "suspicious content patterns",
+      "page_type": "content",
+      "text_length": 2342,
+      "section_count": 0
+    }
+  ]
+}

@@ -1,0 +1,10 @@
+{
+  "file_path": "/home/dhiraj/Desktop/SIH/rag_pipeline/output/canonical/Biological_Diversity_Act_CANONICAL.json",
+  "total_chunks": 68,
+  "chunks_by_type": {
+    "section": 68
+  },
+  "chunks_with_hierarchy": 26,
+  "avg_chunk_length": 960.78,
+  "max_chunk_length": 5164
+}

@@ -1,0 +1,10 @@
+{
+  "file_path": "/home/dhiraj/Desktop/SIH/rag_pipeline/output/canonical/Design rules 2001_EXTRACTED_CANONICAL.json",
+  "total_chunks": 52,
+  "chunks_by_type": {
+    "section": 52
+  },
+  "chunks_with_hierarchy": 19,
+  "avg_chunk_length": 612.98,
+  "max_chunk_length": 4833
+}

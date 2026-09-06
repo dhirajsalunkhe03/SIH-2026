@@ -1,0 +1,138 @@
+{
+  "file_path": "Design rules 2001_EXTRACTED.json",
+  "actions": [
+    {
+      "page_number": 6,
+      "action_type": "recover_content",
+      "field": "sections[4].content",
+      "before": "\"\"",
+      "after": "\"24. Restoration of Designs.- (1)An application for the restoration of a design under section 12 shal...\"",
+      "reason": "Recovered content for section 23"
+    },
+    {
+      "page_number": 9,
+      "action_type": "recover_content",
+      "field": "sections[2].content",
+      "before": "\"\"",
+      "after": "\"33. Application for entry of subsequent proprietorship.- An application referred to in sub-section (...\"",
+      "reason": "Recovered content for section 32"
+    },
+    {
+      "page_number": 14,
+      "action_type": "recover_content",
+      "field": "sections[4].content",
+      "before": "\"\"",
+      "after": "\"6. Inspection of registered design under section 17(1). 5 500.00...\"",
+      "reason": "Recovered content for section 5"
+    },
+    {
+      "page_number": 14,
+      "action_type": "recover_content",
+      "field": "sections[5].content",
+      "before": "\"\"",
+      "after": "\"7. On request for information of design when registration 6 500.00\nno. given under Section 18....\"",
+      "reason": "Recovered content for section 6"
+    },
+    {
+      "page_number": 15,
+      "action_type": "recover_content",
+      "field": "sections[3].content",
+      "before": "\"\"",
+      "after": "\"17. On application for certified copy of registered design 16 500.00\nunder section 17(2)...\"",
+      "reason": "Recovered content for section 16"
+    },
+    {
+      "page_number": 15,
+      "action_type": "recover_content",
+      "field": "sections[7].content",
+      "before": "\"\"",
+      "after": "\"21. Notice of intention to attend hearing under rules 20 500.00\n29 and 40....\"",
+      "reason": "Recovered content for section 20"
+    },
+    {
+      "page_number": 15,
+      "action_type": "recover_content",
+      "field": "sections[9].content",
+      "before": "\"\"",
+      "after": "\"23. On request to alter name or address or address for 22 200.00\nService in the Register of Design u...\"",
+      "reason": "Recovered content for section 22"
+    },
+    {
+      "page_number": 15,
+      "action_type": "recover_content",
+      "field": "sections[13].content",
+      "before": "\"\"",
+      "after": "\"27. Inspection of Register of Design under rule 38 (in __ 250.00\nrespect of each design).\nTHE SECOND...\"",
+      "reason": "Recovered content for section 26"
+    },
+    {
+      "page_number": 30,
+      "action_type": "recover_content",
+      "field": "sections[0].content",
+      "before": "\"\"",
+      "after": "\"2. For petition for cancellation of the registration of\nfor design under section 19. Rs.1000.00...\"",
+      "reason": "Recovered content for section 1"
+    },
+    {
+      "page_number": 30,
+      "action_type": "recover_content",
+      "field": "sections[2].content",
+      "before": "\"\"",
+      "after": "\"For notice of information to attend Hearing. Rs. 200.00...\"",
+      "reason": "Recovered content for section 3"
+    },
+    {
+      "page_number": 31,
+      "action_type": "recover_content",
+      "field": "sections[1].content",
+      "before": "\"\"",
+      "after": "\"6. For Statement under rules 29(1) and 40(2). Rs. 200.00...\"",
+      "reason": "Recovered content for section 5"
+    },
+    {
+      "page_number": 31,
+      "action_type": "recover_content",
+      "field": "sections[2].content",
+      "before": "\"\"",
+      "after": "\"7. For Counter Statement under rules29(3) and 40(4) Rs. 200.00...\"",
+      "reason": "Recovered content for section 6"
+    },
+    {
+      "page_number": 31,
+      "action_type": "recover_content",
+      "field": "sections[3].content",
+      "before": "\"\"",
+      "after": "\"8. For each Affidavit, if relevant. Rs. 100.00...\"",
+      "reason": "Recovered content for section 7"
+    },
+    {
+      "page_number": 31,
+      "action_type": "recover_content",
+      "field": "sections[4].content",
+      "before": "\"\"",
+      "after": "\"9. For each Citation, if relevant. Rs. 100.00...\"",
+      "reason": "Recovered content for section 8"
+    },
+    {
+      "page_number": 31,
+      "action_type": "recover_content",
+      "field": "sections[5].content",
+      "before": "\"\"",
+      "after": "\"10. For each unnecessary or irrelevant Affidavit or Citation. Rs. 100.00...\"",
+      "reason": "Recovered content for section 9"
+    },
+    {
+      "page_number": 31,
+      "action_type": "recover_content",
+      "field": "sections[6].content",
+      "before": "\"\"",
+      "after": "\"11. For every day or part of a day of Hearing before the\nController. Rs. 500.00...\"",
+      "reason": "Recovered content for section 10"
+    }
+  ],
+  "sections_recovered": 0,
+  "titles_recovered": 0,
+  "content_recovered": 16,
+  "continuations_marked": 0,
+  "amendments_detected": 0
+}

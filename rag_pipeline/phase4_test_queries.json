@@ -1,0 +1,317 @@
+[
+  {
+    "id": "Q001",
+    "language": "en",
+    "query": "What is a patent?",
+    "expected_domain": "Patents",
+    "answerable": true
+  },
+  {
+    "id": "Q002",
+    "language": "en",
+    "query": "What are the requirements for patentability?",
+    "expected_domain": "Patents",
+    "answerable": true
+  },
+  {
+    "id": "Q003",
+    "language": "en",
+    "query": "What is a geographical indication?",
+    "expected_domain": "Geographical Indications",
+    "answerable": true
+  },
+  {
+    "id": "Q004",
+    "language": "en",
+    "query": "How to register a geographical indication?",
+    "expected_domain": "Geographical Indications",
+    "answerable": true
+  },
+  {
+    "id": "Q005",
+    "language": "en",
+    "query": "What is a trade mark?",
+    "expected_domain": "Trademarks",
+    "answerable": true
+  },
+  {
+    "id": "Q006",
+    "language": "en",
+    "query": "Trade mark registration procedure",
+    "expected_domain": "Trademarks",
+    "answerable": true
+  },
+  {
+    "id": "Q007",
+    "language": "en",
+    "query": "What is a design under the Designs Act?",
+    "expected_domain": "Designs",
+    "answerable": true
+  },
+  {
+    "id": "Q008",
+    "language": "en",
+    "query": "Design registration requirements",
+    "expected_domain": "Designs",
+    "answerable": true
+  },
+  {
+    "id": "Q009",
+    "language": "en",
+    "query": "What is biological diversity under the Biodiversity Act?",
+    "expected_domain": "Biodiversity",
+    "answerable": true
+  },
+  {
+    "id": "Q010",
+    "language": "en",
+    "query": "Access and benefit sharing provisions",
+    "expected_domain": "Biodiversity",
+    "answerable": true
+  },
+  {
+    "id": "Q011",
+    "language": "hi",
+    "query": "पेटेंट क्या है?",
+    "expected_domain": "Patents",
+    "answerable": true
+  },
+  {
+    "id": "Q012",
+    "language": "hi",
+    "query": "भौगोलिक संकेत क्या है?",
+    "expected_domain": "Geographical Indications",
+    "answerable": true
+  },
+  {
+    "id": "Q013",
+    "language": "hi",
+    "query": "ट्रेड मार्क पंजीकरण कैसे करें?",
+    "expected_domain": "Trademarks",
+    "answerable": true
+  },
+  {
+    "id": "Q014",
+    "language": "hi",
+    "query": "डिजाइन पंजीकरण की प्रक्रिया",
+    "expected_domain": "Designs",
+    "answerable": true
+  },
+  {
+    "id": "Q015",
+    "language": "hi",
+    "query": "जैविक विविधता अधिनियम के प्रावधान",
+    "expected_domain": "Biodiversity",
+    "answerable": true
+  },
+  {
+    "id": "Q016",
+    "language": "mr",
+    "query": "पेटंट म्हणजे काय?",
+    "expected_domain": "Patents",
+    "answerable": true
+  },
+  {
+    "id": "Q017",
+    "language": "mr",
+    "query": "भौगोलिक संकेत म्हणजे काय?",
+    "expected_domain": "Geographical Indications",
+    "answerable": true
+  },
+  {
+    "id": "Q018",
+    "language": "mr",
+    "query": "ट्रेडमार्क नोंदणी कशी करावी?",
+    "expected_domain": "Trademarks",
+    "answerable": true
+  },
+  {
+    "id": "Q019",
+    "language": "mr",
+    "query": "डिझाइन नोंदणीची प्रक्रिया",
+    "expected_domain": "Designs",
+    "answerable": true
+  },
+  {
+    "id": "Q020",
+    "language": "mr",
+    "query": "जैविक विविधता अधिनियम २००२",
+    "expected_domain": "Biodiversity",
+    "answerable": true
+  },
+  {
+    "id": "Q021",
+    "language": "gu",
+    "query": "પેટન્ટ શું છે?",
+    "expected_domain": "Patents",
+    "answerable": true
+  },
+  {
+    "id": "Q022",
+    "language": "gu",
+    "query": "ભૌગોલિક સંકેત શું છે?",
+    "expected_domain": "Geographical Indications",
+    "answerable": true
+  },
+  {
+    "id": "Q023",
+    "language": "gu",
+    "query": "ટ્રેડમાર્ક નોંધણી કેવી રીતે કરવી?",
+    "expected_domain": "Trademarks",
+    "answerable": true
+  },
+  {
+    "id": "Q024",
+    "language": "bn",
+    "query": "পেটেন্ট কী?",
+    "expected_domain": "Patents",
+    "answerable": true
+  },
+  {
+    "id": "Q025",
+    "language": "bn",
+    "query": "ভৌগোলিক প্রতীক কী?",
+    "expected_domain": "Geographical Indications",
+    "answerable": true
+  },
+  {
+    "id": "Q026",
+    "language": "ta",
+    "query": "பேட்டண்ட் என்றால் என்ன?",
+    "expected_domain": "Patents",
+    "answerable": true
+  },
+  {
+    "id": "Q027",
+    "language": "ta",
+    "query": "புவியியல் குறிப்பு என்றால் என்ன?",
+    "expected_domain": "Geographical Indications",
+    "answerable": true
+  },
+  {
+    "id": "Q028",
+    "language": "te",
+    "query": "పేటెంట్ అంటే ఏమిటి?",
+    "expected_domain": "Patents",
+    "answerable": true
+  },
+  {
+    "id": "Q029",
+    "language": "kn",
+    "query": "ಪೆಟೆಂಟ್ ಎಂದಿಗ?",
+    "expected_domain": "Patents",
+    "answerable": true
+  },
+  {
+    "id": "Q030",
+    "language": "ml",
+    "query": "പെട്ടന്റ് എന്താണ്?",
+    "expected_domain": "Patents",
+    "answerable": true
+  },
+  {
+    "id": "Q031",
+    "language": "en",
+    "query": "What is the penalty for patent infringement in India?",
+    "expected_domain": "Patents",
+    "answerable": true
+  },
+  {
+    "id": "Q032",
+    "language": "en",
+    "query": "What is traditional knowledge under the Biodiversity Act?",
+    "expected_domain": "Biodiversity",
+    "answerable": true
+  },
+  {
+    "id": "Q033",
+    "language": "en",
+    "query": "What is prior informed consent in ABS?",
+    "expected_domain": "Biodiversity",
+    "answerable": true
+  },
+  {
+    "id": "Q034",
+    "language": "en",
+    "query": "Difference between patent and trade secret",
+    "expected_domain": "Patents",
+    "answerable": true
+  },
+  {
+    "id": "Q035",
+    "language": "en",
+    "query": "What is the term of a design registration?",
+    "expected_domain": "Designs",
+    "answerable": true
+  },
+  {
+    "id": "Q036",
+    "language": "en",
+    "query": "Can a geographical indication be transferred?",
+    "expected_domain": "Geographical Indications",
+    "answerable": true
+  },
+  {
+    "id": "Q037",
+    "language": "hi",
+    "query": "पेटेंट उल्लंघन की सजा क्या है?",
+    "expected_domain": "Patents",
+    "answerable": true
+  },
+  {
+    "id": "Q038",
+    "language": "mr",
+    "query": "पारंपरिक ज्ञान काय आहे?",
+    "expected_domain": "Biodiversity",
+    "answerable": true
+  },
+  {
+    "id": "Q039",
+    "language": "en",
+    "query": "What is the legal definition of a unicorn under Indian law?",
+    "expected_domain": "General Legal",
+    "answerable": false
+  },
+  {
+    "id": "Q040",
+    "language": "en",
+    "query": "How to file a patent in the United States from India?",
+    "expected_domain": "Patents",
+    "answerable": false
+  },
+  {
+    "id": "Q041",
+    "language": "hi",
+    "query": "कॉपीराइट कानून क्या है?",
+    "expected_domain": "General Legal",
+    "answerable": false
+  },
+  {
+    "id": "Q042",
+    "language": "mr",
+    "query": "कॉपीराइट काय आहे?",
+    "expected_domain": "General Legal",
+    "answerable": false
+  },
+  {
+    "id": "Q043",
+    "language": "gu",
+    "query": "કૉપीरાઇટ શું છે?",
+    "expected_domain": "General Legal",
+    "answerable": false
+  },
+  {
+    "id": "Q044",
+    "language": "en",
+    "query": "What is the punishment for killing a tiger in India?",
+    "expected_domain": "General Legal",
+    "answerable": false
+  },
+  {
+    "id": "Q045",
+    "language": "hi",
+    "query": "क्या मैं बिना वकील के पेटेंट फाइल कर सकता हूँ?",
+    "expected_domain": "Patents",
+    "answerable": false
+  }
+]

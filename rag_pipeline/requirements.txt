@@ -1,0 +1,7 @@
+"""RAG Pipeline - Data Preparation Phase"""
+# No additional dependencies needed beyond Python 3.12 stdlib
+# Uses only: json, re, pathlib, logging, csv, dataclasses
+
+# Optional for development:
+# pytest>=7.0.0  # for testing
+# black>=22.0.0  # for code formatting

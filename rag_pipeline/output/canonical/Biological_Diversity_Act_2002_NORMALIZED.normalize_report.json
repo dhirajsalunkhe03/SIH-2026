@@ -1,0 +1,8 @@
+{
+  "file_path": "/home/dhiraj/Desktop/SIH/rag_pipeline/output/validated/Biological_Diversity_Act_2002_MERGED.json",
+  "sections_processed": 27,
+  "sections_with_hierarchy": 7,
+  "sections_preserved_as_content": 20,
+  "cross_references_extracted": 53,
+  "keywords_extracted": 103
+}

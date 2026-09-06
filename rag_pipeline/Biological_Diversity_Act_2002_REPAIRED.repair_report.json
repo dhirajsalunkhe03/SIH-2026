@@ -1,0 +1,66 @@
+{
+  "file_path": "/home/dhiraj/Desktop/SIH/Datasets/BIO/Biological_Diversity_Act_2002.json",
+  "actions": [
+    {
+      "page_number": 1,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'This Act may be called the Biological Diversity (Amendment) Act, 2023. Short title and', 'content': ': spe gs commencement.\\n(2) It shall come into force on ",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 3,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '5', 'section_title': 'In section 3 of the principal Act, in sub-section (2), in clause (c), for sub-clause (ii), Amendment', 'content': 'the following sub-clause shall be substitu",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 5,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '11', 'section_title': 'In section 9 of the principal Act,—', 'content': '(a) in the marginal heading, for the words \"Chairperson and members\", the\\nwords \"Chairperson, members and",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 6,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '13', 'section_title': 'In section 13 of the principal Act, for sub-section (2), the following sub-section', 'content': 'shall be substituted, namely:—\\n\\n\"(2) The National Biodive",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 7,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '18', 'section_title': 'In section 20 of the principal Act,—', 'content': '(i) in the marginal heading, for the words \"biological resource or knowledge\",\\n\\nthe words \"results of r",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 9,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '23', 'section_title': 'In section 27 of the principal Act,—', 'content': '(i) in sub-section (/), for clause (b), the following clause shall be substituted,\\nnamely:—\\n\\n\"(b) all ",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 10,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '25', 'section_title': 'In section 36 of the principal Act,—', 'content': '(i) for the marginal heading, the following shall be substituted, namely: —\\n\\n\"Central Government to dev",
+      "reason": "Extracted sections from raw_text"
+    }
+  ],
+  "sections_recovered": 7,
+  "titles_recovered": 0,
+  "content_recovered": 0,
+  "continuations_marked": 0,
+  "amendments_detected": 0
+}

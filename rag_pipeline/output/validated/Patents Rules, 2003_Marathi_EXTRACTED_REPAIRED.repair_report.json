@@ -1,0 +1,106 @@
+{
+  "file_path": "/home/dhiraj/Desktop/SIH/rag_pipeline/Patents Rules, 2003_Marathi_EXTRACTED.json",
+  "actions": [
+    {
+      "page_number": 1,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'संजक्षप्त नाम और प्रारंभ', 'content': '(i) आन जनयमों को [UNCLEAR]मसौदा पेटेंट (दसू रा संिोधन) जनयम, 2024[UNCLEAR] कहा जाएगा।\\n89 GI/2024 (1)', 'is_continuati",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 2,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '2', 'section_title': 'पररभाषाए.ं [UNCLEAR]आन जनयमों म,ें जब तक दक संदभध स े ऄन्यथा ऄपेजक्षत न हो, जनम्नजलजखत को जोडा जाएगा,', 'content': 'नामतः [UNCLEAR]\\n(कक) \"ऄजधजनणधयन ऄजधकारी\"",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 6,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '4', 'section_title': 'मूल जनयम म,ें पहली ऄनुसूची म,ें प्रजवजष्ट 58 के बाद, जनम्नजलजखत प्रजवजष्टयााँ िाजमल की जाएगं ी, नामत:', 'content': '[UNCLEAR]59. धारा 120, 122, या 123 के ईल्",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 7,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '2', 'section_title': 'टेलीफोन और फैक्ट्स हस्ट्ताक्षर 3 [UNCLEAR]', 'content': 'नंबर(रों) जजसम ें डाक ([UNCLEAR]...)4\\nसूचकांक संख्या/कोड तथा\\nराज्य सजहत पूरा पता\\nिाजमल हो', 'is_c",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 8,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'जिकायतकता ध के हस्ट्ताक्षर: हस्ट्ताक्षर [UNCLEAR]', 'content': '', 'is_continuation': False, 'subsections': [], 'source_page': 8}, {'section_number': '2', 's",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 8,
+      "action_type": "mark_continuation",
+      "field": "section 1",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 1 continues from page 7"
+    },
+    {
+      "page_number": 8,
+      "action_type": "mark_continuation",
+      "field": "section 3",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 3 continues from page 7"
+    },
+    {
+      "page_number": 9,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'Short title and commencement', 'content': '(1) These rules may be called the draft Patents (2nd Amendment) Rules, 2024.\\n(2) They shall come into force on th",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 13,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '4', 'section_title': 'In the principal rules, in the FIRST SCHEDULE, after entry 58, the following entries shall be inserted, namely:', 'content': '[UNCLEAR]59. Complaint for cont",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 14,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '2', 'section_title': 'Complete address Signature. 3 [UNCLEAR]', 'content': 'including postal index ([UNCLEAR]...)4\\nnumber/ code and state\\nalong with Telephone and\\nfax number(s)",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 15,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'Particulars of Appellant (mandatory):-', 'content': 'a. Name:\\nb. Address for service:\\nc. Contact no.:\\nd. Email (for service):', 'is_continuation': False, ",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 15,
+      "action_type": "mark_continuation",
+      "field": "section 3",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 3 continues from page 14"
+    }
+  ],
+  "sections_recovered": 9,
+  "titles_recovered": 0,
+  "content_recovered": 0,
+  "continuations_marked": 3,
+  "amendments_detected": 0
+}

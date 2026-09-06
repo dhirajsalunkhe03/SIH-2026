@@ -1,0 +1,182 @@
+[
+  {
+    "id": "Q001",
+    "language": "en",
+    "query": "What is a patent?",
+    "expected_domain": "Patents"
+  },
+  {
+    "id": "Q002",
+    "language": "en",
+    "query": "What are the requirements for patentability?",
+    "expected_domain": "Patents"
+  },
+  {
+    "id": "Q003",
+    "language": "en",
+    "query": "What is a geographical indication?",
+    "expected_domain": "Geographical Indications"
+  },
+  {
+    "id": "Q004",
+    "language": "en",
+    "query": "How to register a geographical indication?",
+    "expected_domain": "Geographical Indications"
+  },
+  {
+    "id": "Q005",
+    "language": "en",
+    "query": "What is a trade mark?",
+    "expected_domain": "Trademarks"
+  },
+  {
+    "id": "Q006",
+    "language": "en",
+    "query": "Trade mark registration procedure",
+    "expected_domain": "Trademarks"
+  },
+  {
+    "id": "Q007",
+    "language": "en",
+    "query": "What is a design under the Designs Act?",
+    "expected_domain": "Designs"
+  },
+  {
+    "id": "Q008",
+    "language": "en",
+    "query": "Design registration requirements",
+    "expected_domain": "Designs"
+  },
+  {
+    "id": "Q009",
+    "language": "en",
+    "query": "What is biological diversity under the Biodiversity Act?",
+    "expected_domain": "Biodiversity"
+  },
+  {
+    "id": "Q010",
+    "language": "en",
+    "query": "Access and benefit sharing provisions",
+    "expected_domain": "Biodiversity"
+  },
+  {
+    "id": "Q011",
+    "language": "hi",
+    "query": "पेटेंट क्या है?",
+    "expected_domain": "Patents"
+  },
+  {
+    "id": "Q012",
+    "language": "hi",
+    "query": "भौगोलिक संकेत क्या है?",
+    "expected_domain": "Geographical Indications"
+  },
+  {
+    "id": "Q013",
+    "language": "hi",
+    "query": "ट्रेड मार्क पंजीकरण कैसे करें?",
+    "expected_domain": "Trademarks"
+  },
+  {
+    "id": "Q014",
+    "language": "hi",
+    "query": "डिजाइन पंजीकरण की प्रक्रिया",
+    "expected_domain": "Designs"
+  },
+  {
+    "id": "Q015",
+    "language": "hi",
+    "query": "जैविक विविधता अधिनियम के प्रावधान",
+    "expected_domain": "Biodiversity"
+  },
+  {
+    "id": "Q016",
+    "language": "mr",
+    "query": "पेटंट म्हणजे काय?",
+    "expected_domain": "Patents"
+  },
+  {
+    "id": "Q017",
+    "language": "mr",
+    "query": "भौगोलिक संकेत म्हणजे काय?",
+    "expected_domain": "Geographical Indications"
+  },
+  {
+    "id": "Q018",
+    "language": "mr",
+    "query": "ट्रेडमार्क नोंदणी कशी करावी?",
+    "expected_domain": "Trademarks"
+  },
+  {
+    "id": "Q019",
+    "language": "mr",
+    "query": "डिझाइन नोंदणीची प्रक्रिया",
+    "expected_domain": "Designs"
+  },
+  {
+    "id": "Q020",
+    "language": "mr",
+    "query": "जैविक विविधता अधिनियम २००२",
+    "expected_domain": "Biodiversity"
+  },
+  {
+    "id": "Q021",
+    "language": "gu",
+    "query": "પેટન્ટ શું છે?",
+    "expected_domain": "Patents"
+  },
+  {
+    "id": "Q022",
+    "language": "gu",
+    "query": "ભૌગોલિક સંકેત શું છે?",
+    "expected_domain": "Geographical Indications"
+  },
+  {
+    "id": "Q023",
+    "language": "gu",
+    "query": "ટ્રેડમાર્ક નોંધણી કેવી રીતે કરવી?",
+    "expected_domain": "Trademarks"
+  },
+  {
+    "id": "Q024",
+    "language": "bn",
+    "query": "পেটেন্ট কী?",
+    "expected_domain": "Patents"
+  },
+  {
+    "id": "Q025",
+    "language": "bn",
+    "query": "ভৌগোলিক প্রতীক কী?",
+    "expected_domain": "Geographical Indications"
+  },
+  {
+    "id": "Q026",
+    "language": "ta",
+    "query": "பேட்டண்ட் என்றால் என்ன?",
+    "expected_domain": "Patents"
+  },
+  {
+    "id": "Q027",
+    "language": "ta",
+    "query": "புவியியல் குறிப்பு என்றால் என்ன?",
+    "expected_domain": "Geographical Indications"
+  },
+  {
+    "id": "Q028",
+    "language": "te",
+    "query": "పేటెంట్ అంటే ఏమిటి?",
+    "expected_domain": "Patents"
+  },
+  {
+    "id": "Q029",
+    "language": "kn",
+    "query": "ಪೆಟೆಂಟ್ ಎಂದಿಗ?",
+    "expected_domain": "Patents"
+  },
+  {
+    "id": "Q030",
+    "language": "ml",
+    "query": "പെട്ടന്റ് എന്താണ്?",
+    "expected_domain": "Patents"
+  }
+]

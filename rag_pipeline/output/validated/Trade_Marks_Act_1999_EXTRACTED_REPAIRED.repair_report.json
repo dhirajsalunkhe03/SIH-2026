@@ -1,0 +1,978 @@
+{
+  "file_path": "/home/dhiraj/Desktop/SIH/rag_pipeline/Trade_Marks_Act_1999_EXTRACTED.json",
+  "actions": [
+    {
+      "page_number": 2,
+      "action_type": "recover_content",
+      "field": "sections[0].content",
+      "before": "\"\"",
+      "after": "\"2. The Finance Act, 2017 (7 of 2017)....\"",
+      "reason": "Recovered content for section 1"
+    },
+    {
+      "page_number": 2,
+      "action_type": "recover_content",
+      "field": "sections[1].content",
+      "before": "\"\"",
+      "after": "\"3. The Tribunals Reforms Act, 2021 (Act 33 of 2021)....\"",
+      "reason": "Recovered content for section 2"
+    },
+    {
+      "page_number": 2,
+      "action_type": "recover_content",
+      "field": "sections[2].content",
+      "before": "\"\"",
+      "after": "\"4. The Jan Vishwas (Amendment of Provisions) Act, 2023 (18 of 2023)....\"",
+      "reason": "Recovered content for section 3"
+    },
+    {
+      "page_number": 3,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'Short title, extent and commencement', 'content': '', 'is_continuation': False, 'subsections': [], 'source_page': 3}, {'section_number': '2', 'section_title'",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 3,
+      "action_type": "mark_continuation",
+      "field": "section 1",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 1 continues from page 2"
+    },
+    {
+      "page_number": 3,
+      "action_type": "mark_continuation",
+      "field": "section 3",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 3 continues from page 2"
+    },
+    {
+      "page_number": 3,
+      "action_type": "mark_continuation",
+      "field": "section 4",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 4 continues from page 2"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[0].content",
+      "before": "\"\"",
+      "after": "\"35. Saving for use of name, address or description of goods or services....\"",
+      "reason": "Recovered content for section 34"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[1].content",
+      "before": "\"\"",
+      "after": "\"36. Saving for words used as name or description of an article or substance or service....\"",
+      "reason": "Recovered content for section 35"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[5].content",
+      "before": "\"\"",
+      "after": "\"40. Restriction on assignment or transmissionn where multiple exclusive rights would be created....\"",
+      "reason": "Recovered content for section 39"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[6].content",
+      "before": "\"\"",
+      "after": "\"41. Restriction on assignment or transmissIion when exclusive rights would be created in different\np...\"",
+      "reason": "Recovered content for section 40"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[8].content",
+      "before": "\"\"",
+      "after": "\"43. Assignability and transmissibility of certification trade marks....\"",
+      "reason": "Recovered content for section 42"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[9].content",
+      "before": "\"\"",
+      "after": "\"44. Assignability and transmissibility of associated trade marks....\"",
+      "reason": "Recovered content for section 43"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[10].content",
+      "before": "\"\"",
+      "after": "\"45. Registration of assignments and transmissions....\"",
+      "reason": "Recovered content for section 44"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[12].content",
+      "before": "\"\"",
+      "after": "\"47. Removal from register and imposition of limitations on ground of non-use....\"",
+      "reason": "Recovered content for section 46"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[13].content",
+      "before": "\"\"",
+      "after": "\"48. Registered users....\"",
+      "reason": "Recovered content for section 47"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[14].content",
+      "before": "\"\"",
+      "after": "\"49. Registration as registered user....\"",
+      "reason": "Recovered content for section 48"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[15].content",
+      "before": "\"\"",
+      "after": "\"50. Power of Registrar for variation or cancellation of registration as registered user....\"",
+      "reason": "Recovered content for section 49"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[16].content",
+      "before": "\"\"",
+      "after": "\"51. Power of Registrar to call for information relating to agreement in respect of registered users....\"",
+      "reason": "Recovered content for section 50"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[17].content",
+      "before": "\"\"",
+      "after": "\"52. Right of registered user to take proceedings against infringement....\"",
+      "reason": "Recovered content for section 51"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[18].content",
+      "before": "\"\"",
+      "after": "\"53. No right of permitted user to take proceeding against infringement....\"",
+      "reason": "Recovered content for section 52"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[19].content",
+      "before": "\"\"",
+      "after": "\"54. Registered user not to have right of assignment or transmission....\"",
+      "reason": "Recovered content for section 53"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[20].content",
+      "before": "\"\"",
+      "after": "\"55. Use of one of associated or substantially identical trade marks equivalent to use of another....\"",
+      "reason": "Recovered content for section 54"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[21].content",
+      "before": "\"\"",
+      "after": "\"56. Use of trade mark for export trade and use when form of trade connection changes....\"",
+      "reason": "Recovered content for section 55"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[23].content",
+      "before": "\"\"",
+      "after": "\"58. Correction of register....\"",
+      "reason": "Recovered content for section 57"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[24].content",
+      "before": "\"\"",
+      "after": "\"59. Alteration of registered trade marks....\"",
+      "reason": "Recovered content for section 58"
+    },
+    {
+      "page_number": 4,
+      "action_type": "recover_content",
+      "field": "sections[25].content",
+      "before": "\"\"",
+      "after": "\"60. Adaptation of entries in register to amended or substituted classification of goods or services....\"",
+      "reason": "Recovered content for section 59"
+    },
+    {
+      "page_number": 5,
+      "action_type": "recover_content",
+      "field": "sections[0].content",
+      "before": "\"\"",
+      "after": "\"62. Collective mark not to be misleading as to character or significance....\"",
+      "reason": "Recovered content for section 61"
+    },
+    {
+      "page_number": 5,
+      "action_type": "recover_content",
+      "field": "sections[1].content",
+      "before": "\"\"",
+      "after": "\"63. Application to be accompanied by regulations governing use of collective marks....\"",
+      "reason": "Recovered content for section 62"
+    },
+    {
+      "page_number": 5,
+      "action_type": "recover_content",
+      "field": "sections[2].content",
+      "before": "\"\"",
+      "after": "\"64. Acceptance of application and regulations by Registrar....\"",
+      "reason": "Recovered content for section 63"
+    },
+    {
+      "page_number": 5,
+      "action_type": "recover_content",
+      "field": "sections[3].content",
+      "before": "\"\"",
+      "after": "\"65. Regulations to be open to inspection....\"",
+      "reason": "Recovered content for section 64"
+    },
+    {
+      "page_number": 5,
+      "action_type": "recover_content",
+      "field": "sections[4].content",
+      "before": "\"\"",
+      "after": "\"66. Amendment of regulations....\"",
+      "reason": "Recovered content for section 65"
+    },
+    {
+      "page_number": 5,
+      "action_type": "recover_content",
+      "field": "sections[5].content",
+      "before": "\"\"",
+      "after": "\"67. Infringement proceedings by registered proprietor of collective mark....\"",
+      "reason": "Recovered content for section 66"
+    },
+    {
+      "page_number": 5,
+      "action_type": "recover_content",
+      "field": "sections[6].content",
+      "before": "\"\"",
+      "after": "\"68. Additional grounds for removal of registration of collective mark....\"",
+      "reason": "Recovered content for section 67"
+    },
+    {
+      "page_number": 5,
+      "action_type": "recover_content",
+      "field": "sections[8].content",
+      "before": "\"\"",
+      "after": "\"70. Registration of certification trade marks. e...\"",
+      "reason": "Recovered content for section 69"
+    },
+    {
+      "page_number": 5,
+      "action_type": "recover_content",
+      "field": "sections[9].content",
+      "before": "\"\"",
+      "after": "\"71. Applications for registration of certification trade marks. d\no...\"",
+      "reason": "Recovered content for section 70"
+    },
+    {
+      "page_number": 5,
+      "action_type": "recover_content",
+      "field": "sections[14].content",
+      "before": "\"\"",
+      "after": "\"76. Acts not constituting infringement of cerntification trade marks.\nI...\"",
+      "reason": "Recovered content for section 75"
+    },
+    {
+      "page_number": 5,
+      "action_type": "recover_content",
+      "field": "sections[16].content",
+      "before": "\"\"",
+      "after": "\"78. Rights conferred by registration of certification trade marks.\n[Omitted]\n79. [Omitted.]\n80. [Omi...\"",
+      "reason": "Recovered content for section 77"
+    },
+    {
+      "page_number": 5,
+      "action_type": "recover_content",
+      "field": "sections[18].content",
+      "before": "\"\"",
+      "after": "\"80. [Omitted.]\n81. [Omitted.]\n82. [Omitted.]...\"",
+      "reason": "Recovered content for section 79"
+    },
+    {
+      "page_number": 5,
+      "action_type": "recover_content",
+      "field": "sections[19].content",
+      "before": "\"\"",
+      "after": "\"81. [Omitted.]\n82. [Omitted.]...\"",
+      "reason": "Recovered content for section 80"
+    },
+    {
+      "page_number": 5,
+      "action_type": "recover_content",
+      "field": "sections[22].content",
+      "before": "\"\"",
+      "after": "\"84. [Omitted.]\n85. [Omitted.]\n86. [Omitted.]\n87. [Omitted.]\n88. [Omitted.]\n89. [Omitted.]\n89A. [Omit...\"",
+      "reason": "Recovered content for section 83"
+    },
+    {
+      "page_number": 5,
+      "action_type": "recover_content",
+      "field": "sections[23].content",
+      "before": "\"\"",
+      "after": "\"85. [Omitted.]\n86. [Omitted.]\n87. [Omitted.]\n88. [Omitted.]\n89. [Omitted.]\n89A. [Omitted.]\n90. [Omit...\"",
+      "reason": "Recovered content for section 84"
+    },
+    {
+      "page_number": 5,
+      "action_type": "recover_content",
+      "field": "sections[24].content",
+      "before": "\"\"",
+      "after": "\"86. [Omitted.]\n87. [Omitted.]\n88. [Omitted.]\n89. [Omitted.]\n89A. [Omitted.]\n90. [Omitted.]...\"",
+      "reason": "Recovered content for section 85"
+    },
+    {
+      "page_number": 5,
+      "action_type": "recover_content",
+      "field": "sections[25].content",
+      "before": "\"\"",
+      "after": "\"87. [Omitted.]\n88. [Omitted.]\n89. [Omitted.]\n89A. [Omitted.]\n90. [Omitted.]...\"",
+      "reason": "Recovered content for section 86"
+    },
+    {
+      "page_number": 5,
+      "action_type": "recover_content",
+      "field": "sections[26].content",
+      "before": "\"\"",
+      "after": "\"88. [Omitted.]\n89. [Omitted.]\n89A. [Omitted.]\n90. [Omitted.]...\"",
+      "reason": "Recovered content for section 87"
+    },
+    {
+      "page_number": 5,
+      "action_type": "recover_content",
+      "field": "sections[27].content",
+      "before": "\"\"",
+      "after": "\"89. [Omitted.]\n89A. [Omitted.]\n90. [Omitted.]...\"",
+      "reason": "Recovered content for section 88"
+    },
+    {
+      "page_number": 5,
+      "action_type": "recover_content",
+      "field": "sections[29].content",
+      "before": "\"\"",
+      "after": "\"91. Appeals to High Court.\n92. [Omitted.]\n93. [Omitted.]\n5...\"",
+      "reason": "Recovered content for section 90"
+    },
+    {
+      "page_number": 5,
+      "action_type": "recover_content",
+      "field": "sections[30].content",
+      "before": "\"\"",
+      "after": "\"92. [Omitted.]\n93. [Omitted.]\n5...\"",
+      "reason": "Recovered content for section 91"
+    },
+    {
+      "page_number": 6,
+      "action_type": "recover_content",
+      "field": "sections[0].content",
+      "before": "\"\"",
+      "after": "\"95. [Omitted.]\n96. [Omitted.]...\"",
+      "reason": "Recovered content for section 94"
+    },
+    {
+      "page_number": 6,
+      "action_type": "recover_content",
+      "field": "sections[2].content",
+      "before": "\"\"",
+      "after": "\"97. Procedure for application for rectification, etc., before High Court....\"",
+      "reason": "Recovered content for section 96"
+    },
+    {
+      "page_number": 6,
+      "action_type": "recover_content",
+      "field": "sections[3].content",
+      "before": "\"\"",
+      "after": "\"98. Appearance of Registrar in legal proceedings.\n99. [Omitted.]\n100. [Omitted.]...\"",
+      "reason": "Recovered content for section 97"
+    },
+    {
+      "page_number": 6,
+      "action_type": "recover_content",
+      "field": "sections[4].content",
+      "before": "\"\"",
+      "after": "\"99. [Omitted.]\n100. [Omitted.]...\"",
+      "reason": "Recovered content for section 98"
+    },
+    {
+      "page_number": 6,
+      "action_type": "recover_content",
+      "field": "sections[7].content",
+      "before": "\"\"",
+      "after": "\"102. Falsifying and falsely applying trade marks....\"",
+      "reason": "Recovered content for section 101"
+    },
+    {
+      "page_number": 6,
+      "action_type": "recover_content",
+      "field": "sections[8].content",
+      "before": "\"\"",
+      "after": "\"103. Penalty for applying false trade marks, trade descriptions, etc....\"",
+      "reason": "Recovered content for section 102"
+    },
+    {
+      "page_number": 6,
+      "action_type": "recover_content",
+      "field": "sections[9].content",
+      "before": "\"\"",
+      "after": "\"104. Penalty for selling goods or providing services to which false trade mark or false trade\ndescri...\"",
+      "reason": "Recovered content for section 103"
+    },
+    {
+      "page_number": 6,
+      "action_type": "recover_content",
+      "field": "sections[19].content",
+      "before": "\"\"",
+      "after": "\"114. Offences by companies....\"",
+      "reason": "Recovered content for section 113"
+    },
+    {
+      "page_number": 6,
+      "action_type": "recover_content",
+      "field": "sections[20].content",
+      "before": "\"\"",
+      "after": "\"115. Cognizance of certain offences and the powers of police officer for search and seizure....\"",
+      "reason": "Recovered content for section 114"
+    },
+    {
+      "page_number": 6,
+      "action_type": "recover_content",
+      "field": "sections[21].content",
+      "before": "\"\"",
+      "after": "\"116. Evidence of origin of goods imported by sea....\"",
+      "reason": "Recovered content for section 115"
+    },
+    {
+      "page_number": 6,
+      "action_type": "recover_content",
+      "field": "sections[22].content",
+      "before": "\"\"",
+      "after": "\"117. Costs of defence or prosecution....\"",
+      "reason": "Recovered content for section 116"
+    },
+    {
+      "page_number": 6,
+      "action_type": "recover_content",
+      "field": "sections[23].content",
+      "before": "\"\"",
+      "after": "\"118. Limitation of prosecution....\"",
+      "reason": "Recovered content for section 117"
+    },
+    {
+      "page_number": 6,
+      "action_type": "recover_content",
+      "field": "sections[24].content",
+      "before": "\"\"",
+      "after": "\"119. Information as to commission of offence....\"",
+      "reason": "Recovered content for section 118"
+    },
+    {
+      "page_number": 6,
+      "action_type": "recover_content",
+      "field": "sections[25].content",
+      "before": "\"\"",
+      "after": "\"120. Punishment of abetment in India of acts done out of India....\"",
+      "reason": "Recovered content for section 119"
+    },
+    {
+      "page_number": 6,
+      "action_type": "recover_content",
+      "field": "sections[26].content",
+      "before": "\"\"",
+      "after": "\"121. Instructions of Central Government as to permissible variation to be observed by criminal\ncourt...\"",
+      "reason": "Recovered content for section 120"
+    },
+    {
+      "page_number": 6,
+      "action_type": "recover_content",
+      "field": "sections[28].content",
+      "before": "\"\"",
+      "after": "\"123. Certain persons to be public servants....\"",
+      "reason": "Recovered content for section 122"
+    },
+    {
+      "page_number": 6,
+      "action_type": "recover_content",
+      "field": "sections[29].content",
+      "before": "\"\"",
+      "after": "\"124. Stay of proceedings where the validity of registration of the trade mark is questioned, etc....\"",
+      "reason": "Recovered content for section 123"
+    },
+    {
+      "page_number": 6,
+      "action_type": "recover_content",
+      "field": "sections[30].content",
+      "before": "\"\"",
+      "after": "\"125. Application for rectification of register to be made to High Court in certain cases....\"",
+      "reason": "Recovered content for section 124"
+    },
+    {
+      "page_number": 6,
+      "action_type": "recover_content",
+      "field": "sections[31].content",
+      "before": "\"\"",
+      "after": "\"126. Implied warranty on sale of marked goods....\"",
+      "reason": "Recovered content for section 125"
+    },
+    {
+      "page_number": 6,
+      "action_type": "recover_content",
+      "field": "sections[32].content",
+      "before": "\"\"",
+      "after": "\"127. Powers of Registrar....\"",
+      "reason": "Recovered content for section 126"
+    },
+    {
+      "page_number": 6,
+      "action_type": "recover_content",
+      "field": "sections[33].content",
+      "before": "\"\"",
+      "after": "\"128. Exercise of discretionary power by Registrar....\"",
+      "reason": "Recovered content for section 127"
+    },
+    {
+      "page_number": 6,
+      "action_type": "recover_content",
+      "field": "sections[34].content",
+      "before": "\"\"",
+      "after": "\"129. Evidence before Registrar....\"",
+      "reason": "Recovered content for section 128"
+    },
+    {
+      "page_number": 6,
+      "action_type": "recover_content",
+      "field": "sections[35].content",
+      "before": "\"\"",
+      "after": "\"130. Death of party to a proceeding....\"",
+      "reason": "Recovered content for section 129"
+    },
+    {
+      "page_number": 6,
+      "action_type": "recover_content",
+      "field": "sections[36].content",
+      "before": "\"\"",
+      "after": "\"131. Extension of time....\"",
+      "reason": "Recovered content for section 130"
+    },
+    {
+      "page_number": 6,
+      "action_type": "recover_content",
+      "field": "sections[38].content",
+      "before": "\"\"",
+      "after": "\"133. Preliminary advice by the Registrar as to distinctiveness....\"",
+      "reason": "Recovered content for section 132"
+    },
+    {
+      "page_number": 6,
+      "action_type": "recover_content",
+      "field": "sections[39].content",
+      "before": "\"\"",
+      "after": "\"134. Suit for infringement, etc., to be instituted before District Court....\"",
+      "reason": "Recovered content for section 133"
+    },
+    {
+      "page_number": 6,
+      "action_type": "recover_content",
+      "field": "sections[40].content",
+      "before": "\"\"",
+      "after": "\"135. Relief in suits for infringement or for passing off....\"",
+      "reason": "Recovered content for section 134"
+    },
+    {
+      "page_number": 6,
+      "action_type": "recover_content",
+      "field": "sections[41].content",
+      "before": "\"\"",
+      "after": "\"136. Registered user to be impleaded in certain proceedings.\n6...\"",
+      "reason": "Recovered content for section 135"
+    },
+    {
+      "page_number": 7,
+      "action_type": "recover_content",
+      "field": "sections[0].content",
+      "before": "\"\"",
+      "after": "\"138. Registrar and other officers not compellable to produce register, etc....\"",
+      "reason": "Recovered content for section 137"
+    },
+    {
+      "page_number": 7,
+      "action_type": "recover_content",
+      "field": "sections[1].content",
+      "before": "\"\"",
+      "after": "\"139. Power to require goods to show indication of origin....\"",
+      "reason": "Recovered content for section 138"
+    },
+    {
+      "page_number": 7,
+      "action_type": "recover_content",
+      "field": "sections[2].content",
+      "before": "\"\"",
+      "after": "\"140. Power to require information of imported goods bearing false trade marks....\"",
+      "reason": "Recovered content for section 139"
+    },
+    {
+      "page_number": 7,
+      "action_type": "recover_content",
+      "field": "sections[3].content",
+      "before": "\"\"",
+      "after": "\"141. Certificate of validity....\"",
+      "reason": "Recovered content for section 140"
+    },
+    {
+      "page_number": 7,
+      "action_type": "recover_content",
+      "field": "sections[4].content",
+      "before": "\"\"",
+      "after": "\"142. Groundless threats of legal proceedings....\"",
+      "reason": "Recovered content for section 141"
+    },
+    {
+      "page_number": 7,
+      "action_type": "recover_content",
+      "field": "sections[5].content",
+      "before": "\"\"",
+      "after": "\"143. Address for service....\"",
+      "reason": "Recovered content for section 142"
+    },
+    {
+      "page_number": 7,
+      "action_type": "recover_content",
+      "field": "sections[6].content",
+      "before": "\"\"",
+      "after": "\"144. Trade usages, etc., to be taken into consideration....\"",
+      "reason": "Recovered content for section 143"
+    },
+    {
+      "page_number": 7,
+      "action_type": "recover_content",
+      "field": "sections[7].content",
+      "before": "\"\"",
+      "after": "\"Trade usages, etc., to be taken into consideration....\"",
+      "reason": "Recovered content for section 144"
+    },
+    {
+      "page_number": 7,
+      "action_type": "recover_content",
+      "field": "sections[8].content",
+      "before": "\"\"",
+      "after": "\"146. Marks registered by an agent or representative without authority....\"",
+      "reason": "Recovered content for section 145"
+    },
+    {
+      "page_number": 7,
+      "action_type": "recover_content",
+      "field": "sections[9].content",
+      "before": "\"\"",
+      "after": "\"Marks registered by an agent or representative without authority....\"",
+      "reason": "Recovered content for section 146"
+    },
+    {
+      "page_number": 7,
+      "action_type": "recover_content",
+      "field": "sections[10].content",
+      "before": "\"\"",
+      "after": "\"148. Documents open to public inspection....\"",
+      "reason": "Recovered content for section 147"
+    },
+    {
+      "page_number": 7,
+      "action_type": "recover_content",
+      "field": "sections[11].content",
+      "before": "\"\"",
+      "after": "\"149. Reports of Registrar to be placed before Parliament....\"",
+      "reason": "Recovered content for section 148"
+    },
+    {
+      "page_number": 7,
+      "action_type": "recover_content",
+      "field": "sections[12].content",
+      "before": "\"\"",
+      "after": "\"150. Fees and surcharge....\"",
+      "reason": "Recovered content for section 149"
+    },
+    {
+      "page_number": 7,
+      "action_type": "recover_content",
+      "field": "sections[13].content",
+      "before": "\"\"",
+      "after": "\"151. Savings in respect of certain matters in Chapter XII....\"",
+      "reason": "Recovered content for section 150"
+    },
+    {
+      "page_number": 7,
+      "action_type": "recover_content",
+      "field": "sections[14].content",
+      "before": "\"\"",
+      "after": "\"152. Declaration as to ownership of trade mark not registrable under the Registration Act, 1908....\"",
+      "reason": "Recovered content for section 151"
+    },
+    {
+      "page_number": 7,
+      "action_type": "recover_content",
+      "field": "sections[15].content",
+      "before": "\"\"",
+      "after": "\"153. Government to be bound....\"",
+      "reason": "Recovered content for section 152"
+    },
+    {
+      "page_number": 7,
+      "action_type": "recover_content",
+      "field": "sections[16].content",
+      "before": "\"\"",
+      "after": "\"154. Special provisions relating to applications for registration ferom citizens of convention count...\"",
+      "reason": "Recovered content for section 153"
+    },
+    {
+      "page_number": 7,
+      "action_type": "recover_content",
+      "field": "sections[17].content",
+      "before": "\"\"",
+      "after": "\"155. Provision as to reciprocity. d...\"",
+      "reason": "Recovered content for section 154"
+    },
+    {
+      "page_number": 7,
+      "action_type": "recover_content",
+      "field": "sections[18].content",
+      "before": "\"\"",
+      "after": "\"156. Power of Central Government to remove difficulties.o...\"",
+      "reason": "Recovered content for section 155"
+    },
+    {
+      "page_number": 7,
+      "action_type": "recover_content",
+      "field": "sections[19].content",
+      "before": "\"\"",
+      "after": "\"157. Power to make rules. C...\"",
+      "reason": "Recovered content for section 156"
+    },
+    {
+      "page_number": 7,
+      "action_type": "recover_content",
+      "field": "sections[20].content",
+      "before": "\"\"",
+      "after": "\"Power to make rules. C...\"",
+      "reason": "Recovered content for section 157"
+    },
+    {
+      "page_number": 7,
+      "action_type": "recover_content",
+      "field": "sections[21].content",
+      "before": "\"\"",
+      "after": "\"159. Repeal and savings. i\nd\nTHE SCHEDULE. n\nI\n7...\"",
+      "reason": "Recovered content for section 158"
+    },
+    {
+      "page_number": 18,
+      "action_type": "recover_content",
+      "field": "sections[3].content",
+      "before": "\"\"",
+      "after": "\"2. Ins. by s. 4, ibid. (w.e.f. 8-7-2013).\n18...\"",
+      "reason": "Recovered content for section 1"
+    },
+    {
+      "page_number": 28,
+      "action_type": "recover_content",
+      "field": "sections[3].content",
+      "before": "\"\"",
+      "after": "\"2. Subs. by Act 33 of 2021, s. 21, for [UNCLEAR]tribunal[UNCLEAR] (w.e.f. 4-4-2021).\n28...\"",
+      "reason": "Recovered content for section 1"
+    },
+    {
+      "page_number": 32,
+      "action_type": "recover_content",
+      "field": "sections[4].content",
+      "before": "\"\"",
+      "after": "\"2. Subs. by s. 21, ibid., for [UNCLEAR]Appellate Board[UNCLEAR] (w.e.f. 4-4-2021)....\"",
+      "reason": "Recovered content for section 1"
+    },
+    {
+      "page_number": 32,
+      "action_type": "recover_content",
+      "field": "sections[5].content",
+      "before": "\"\"",
+      "after": "\"3. Subs. by s. 21, ibid., for [UNCLEAR]tribunal[UNCLEAR] (w.e.f. 4-4-2021).\n32...\"",
+      "reason": "Recovered content for section 2"
+    },
+    {
+      "page_number": 37,
+      "action_type": "recover_content",
+      "field": "sections[0].content",
+      "before": "\"\"",
+      "after": "\"80. [Restriction on registration of textile goods.][UNCLEAR]Omitted by s. 7, ibid. (w.e.f. 8-7-2013)...\"",
+      "reason": "Recovered content for section 79"
+    },
+    {
+      "page_number": 37,
+      "action_type": "recover_content",
+      "field": "sections[1].content",
+      "before": "\"\"",
+      "after": "\"81. [Stamping of piece goods, cotton yarn and thread.][UNCLEAR] Omitted by s. 7, ibid. (w.e.f. 8-7-2...\"",
+      "reason": "Recovered content for section 80"
+    },
+    {
+      "page_number": 37,
+      "action_type": "recover_content",
+      "field": "sections[2].content",
+      "before": "\"\"",
+      "after": "\"82. [Determination of character of textile goods by sampling.][UNCLEAR]Omitted by s. 7, ibid.\n(w.e.f...\"",
+      "reason": "Recovered content for section 81"
+    },
+    {
+      "page_number": 37,
+      "action_type": "recover_content",
+      "field": "sections[5].content",
+      "before": "\"\"",
+      "after": "\"85. [Qualifications for appointment as Chairperson, Vice-Chairperson, or other Members.][UNCLEAR]\nOm...\"",
+      "reason": "Recovered content for section 84"
+    },
+    {
+      "page_number": 37,
+      "action_type": "recover_content",
+      "field": "sections[17].content",
+      "before": "\"\"",
+      "after": "\"2. Subs. by s. 21, ibid, for [UNCLEAR]Appellate Board[UNCLEAR] (w.e.f. 4-4-2021)....\"",
+      "reason": "Recovered content for section 1"
+    },
+    {
+      "page_number": 37,
+      "action_type": "recover_content",
+      "field": "sections[18].content",
+      "before": "\"\"",
+      "after": "\"3. Subs. by s. 21, ibid, for s. 94 (w.e.f. 4-4-2021).\n37...\"",
+      "reason": "Recovered content for section 2"
+    },
+    {
+      "page_number": 38,
+      "action_type": "recover_content",
+      "field": "sections[5].content",
+      "before": "\"\"",
+      "after": "\"2. Subs. by s. 21, ibid., for [UNCLEAR]Board[UNCLEAR] (w.e.f. 4-4-2021).\n38...\"",
+      "reason": "Recovered content for section 1"
+    },
+    {
+      "page_number": 42,
+      "action_type": "recover_content",
+      "field": "sections[2].content",
+      "before": "\"\"",
+      "after": "\"2. Subs. by Act 33 of 2021, s. 21, for [UNCLEAR]Appellate Board[UNCLEAR] (w.e.f. 4-4-2021)....\"",
+      "reason": "Recovered content for section 1"
+    },
+    {
+      "page_number": 42,
+      "action_type": "recover_content",
+      "field": "sections[3].content",
+      "before": "\"\"",
+      "after": "\"3. Subs. by s. 21, ibid., for [UNCLEAR]tribunal[UNCLEAR] (w.e.f. 4-4-2021).\n42...\"",
+      "reason": "Recovered content for section 2"
+    },
+    {
+      "page_number": 44,
+      "action_type": "recover_content",
+      "field": "sections[6].content",
+      "before": "\"\"",
+      "after": "\"2. Subs. by s. 21, ibid., for [UNCLEAR]Appellate Board[UNCLEAR] (w.e.f. 4-4-2021).\n44...\"",
+      "reason": "Recovered content for section 1"
+    },
+    {
+      "page_number": 45,
+      "action_type": "recover_content",
+      "field": "sections[6].content",
+      "before": "\"\"",
+      "after": "\"2. The words [UNCLEAR]the Appellate Board or[UNCLEAR] omitted by s. 21, ibid. (w.e.f. 4-4-2021).\n45...\"",
+      "reason": "Recovered content for section 1"
+    },
+    {
+      "page_number": 48,
+      "action_type": "recover_content",
+      "field": "sections[3].content",
+      "before": "\"\"",
+      "after": "\"2. Subs. by Act 33 of 2021, s. 21, for [UNCLEAR]Appellate Board[UNCLEAR] (w.e.f. 4-4-2021).\n48...\"",
+      "reason": "Recovered content for section 1"
+    },
+    {
+      "page_number": 50,
+      "action_type": "recover_content",
+      "field": "sections[4].content",
+      "before": "\"\"",
+      "after": "\"154. Special provisions relating to applications for registration from citizens of convention\ncountr...\"",
+      "reason": "Recovered content for section 153"
+    },
+    {
+      "page_number": 52,
+      "action_type": "recover_content",
+      "field": "sections[0].content",
+      "before": "\"\"",
+      "after": "\"2. Ins. by s. 9, ibid. (w.e.f. 8-7-2013).\n52...\"",
+      "reason": "Recovered content for section 1"
+    },
+    {
+      "page_number": 53,
+      "action_type": "recover_content",
+      "field": "sections[1].content",
+      "before": "\"\"",
+      "after": "\"2. Subs. by Act 7 of 2017, s. 161, for [UNCLEAR]Chairman[UNCLEAR] (w.e.f. 26-5-2017)....\"",
+      "reason": "Recovered content for section 1"
+    },
+    {
+      "page_number": 53,
+      "action_type": "recover_content",
+      "field": "sections[2].content",
+      "before": "\"\"",
+      "after": "\"3. Subs. by s. 161, ibid., for [UNCLEAR]Vice-Chairman[UNCLEAR] (w.e.f. 26-5-2017)....\"",
+      "reason": "Recovered content for section 2"
+    },
+    {
+      "page_number": 53,
+      "action_type": "recover_content",
+      "field": "sections[3].content",
+      "before": "\"\"",
+      "after": "\"4. Cls. (xxxi) and (xxxii) omitted by Act 33 of 2021, s. 21 (w.e.f. 4-4-2021)....\"",
+      "reason": "Recovered content for section 3"
+    },
+    {
+      "page_number": 53,
+      "action_type": "recover_content",
+      "field": "sections[4].content",
+      "before": "\"\"",
+      "after": "\"5. Subs. by s. 21, ibid., for [UNCLEAR]Appellate Board[UNCLEAR] (w.e.f. 4-4-2021)....\"",
+      "reason": "Recovered content for section 4"
+    },
+    {
+      "page_number": 53,
+      "action_type": "recover_content",
+      "field": "sections[5].content",
+      "before": "\"\"",
+      "after": "\"6. Ins. by Act 18 of 2023, s. 2 and Sch. (w.e.f. 1-8-2024).\n53...\"",
+      "reason": "Recovered content for section 5"
+    }
+  ],
+  "sections_recovered": 1,
+  "titles_recovered": 0,
+  "content_recovered": 117,
+  "continuations_marked": 3,
+  "amendments_detected": 0
+}

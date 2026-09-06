@@ -1,0 +1,139 @@
+{
+  "discovered_at": "2026-09-05T16:21:13.663182",
+  "root_directory": "/home/dhiraj/Desktop/SIH/Datasets",
+  "total_pdfs": 11,
+  "pdfs": [
+    {
+      "file": "/home/dhiraj/Desktop/SIH/Datasets/BIO/Patents Act, 1970.pdf",
+      "filename": "Patents Act, 1970.pdf",
+      "folder": "BIO",
+      "document_name": null,
+      "document_type": null,
+      "year": null,
+      "language": null,
+      "domain": null,
+      "size_bytes": 714957,
+      "discovered_at": "2026-09-05T16:21:13.662654"
+    },
+    {
+      "file": "/home/dhiraj/Desktop/SIH/Datasets/BIO/Biological Diversity Act.pdf",
+      "filename": "Biological Diversity Act.pdf",
+      "folder": "BIO",
+      "document_name": null,
+      "document_type": null,
+      "year": null,
+      "language": null,
+      "domain": null,
+      "size_bytes": 404214,
+      "discovered_at": "2026-09-05T16:21:13.662723"
+    },
+    {
+      "file": "/home/dhiraj/Desktop/SIH/Datasets/BIO/Biological Diversity Act, 2002.pdf",
+      "filename": "Biological Diversity Act, 2002.pdf",
+      "folder": "BIO",
+      "document_name": null,
+      "document_type": null,
+      "year": null,
+      "language": null,
+      "domain": null,
+      "size_bytes": 232721,
+      "discovered_at": "2026-09-05T16:21:13.662784"
+    },
+    {
+      "file": "/home/dhiraj/Desktop/SIH/Datasets/Geographical_Inductions/GI_act_1999-48.pdf",
+      "filename": "GI_act_1999-48.pdf",
+      "folder": "Geographical_Inductions",
+      "document_name": null,
+      "document_type": null,
+      "year": null,
+      "language": null,
+      "domain": null,
+      "size_bytes": 427558,
+      "discovered_at": "2026-09-05T16:21:13.662842"
+    },
+    {
+      "file": "/home/dhiraj/Desktop/SIH/Datasets/Geographical_Inductions/GI Rules 2002.pdf",
+      "filename": "GI Rules 2002.pdf",
+      "folder": "Geographical_Inductions",
+      "document_name": null,
+      "document_type": null,
+      "year": null,
+      "language": null,
+      "domain": null,
+      "size_bytes": 229668,
+      "discovered_at": "2026-09-05T16:21:13.662883"
+    },
+    {
+      "file": "/home/dhiraj/Desktop/SIH/Datasets/Designs/Designs_Act_2000.pdf",
+      "filename": "Designs_Act_2000.pdf",
+      "folder": "Designs",
+      "document_name": null,
+      "document_type": null,
+      "year": null,
+      "language": null,
+      "domain": null,
+      "size_bytes": 414466,
+      "discovered_at": "2026-09-05T16:21:13.662934"
+    },
+    {
+      "file": "/home/dhiraj/Desktop/SIH/Datasets/Designs/Design rules 2001.pdf",
+      "filename": "Design rules 2001.pdf",
+      "folder": "Designs",
+      "document_name": null,
+      "document_type": null,
+      "year": null,
+      "language": null,
+      "domain": null,
+      "size_bytes": 88492,
+      "discovered_at": "2026-09-05T16:21:13.662973"
+    },
+    {
+      "file": "/home/dhiraj/Desktop/SIH/Datasets/Trade_Marks/Trade_Marks_Rules_2017_marathi.pdf",
+      "filename": "Trade_Marks_Rules_2017_marathi.pdf",
+      "folder": "Trade_Marks",
+      "document_name": null,
+      "document_type": null,
+      "year": null,
+      "language": null,
+      "domain": null,
+      "size_bytes": 1933219,
+      "discovered_at": "2026-09-05T16:21:13.663020"
+    },
+    {
+      "file": "/home/dhiraj/Desktop/SIH/Datasets/Trade_Marks/Trade_Marks_Act_1999.pdf",
+      "filename": "Trade_Marks_Act_1999.pdf",
+      "folder": "Trade_Marks",
+      "document_name": null,
+      "document_type": null,
+      "year": null,
+      "language": null,
+      "domain": null,
+      "size_bytes": 783419,
+      "discovered_at": "2026-09-05T16:21:13.663058"
+    },
+    {
+      "file": "/home/dhiraj/Desktop/SIH/Datasets/Patents/Patents Rules, 2003_Marathi.pdf",
+      "filename": "Patents Rules, 2003_Marathi.pdf",
+      "folder": "Patents",
+      "document_name": null,
+      "document_type": null,
+      "year": null,
+      "language": null,
+      "domain": null,
+      "size_bytes": 1350184,
+      "discovered_at": "2026-09-05T16:21:13.663106"
+    },
+    {
+      "file": "/home/dhiraj/Desktop/SIH/Datasets/Patents/Patents_Act_1970-39.pdf",
+      "filename": "Patents_Act_1970-39.pdf",
+      "folder": "Patents",
+      "document_name": null,
+      "document_type": null,
+      "year": null,
+      "language": null,
+      "domain": null,
+      "size_bytes": 714957,
+      "discovered_at": "2026-09-05T16:21:13.663144"
+    }
+  ]
+}

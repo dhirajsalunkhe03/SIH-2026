@@ -1,0 +1,95 @@
+{
+  "phase": 3,
+  "status": "COMPLETE",
+  "embedding_model": "BAAI/bge-m3",
+  "embedding_dimension": 1024,
+  "device": "cuda",
+  "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU (5.64 GB)",
+  "total_chunks": 1185,
+  "embedded_chunks": 1185,
+  "failed_chunks": 0,
+  "chromadb_records": 1185,
+  "languages": {
+    "en": 929,
+    "mixed": 22,
+    "MISSING_in_original": 234
+  },
+  "domains": {
+    "Geographical Indications": 251,
+    "Trademarks": 572,
+    "Patents": 170,
+    "Designs": 106,
+    "Biodiversity": 68,
+    "General Legal": 18
+  },
+  "retrieval_tests": {
+    "total_queries": 30,
+    "languages_tested": 10,
+    "domains_covered": 5
+  },
+  "evaluation": {
+    "precision_at_1": 90.0,
+    "precision_at_3": 100.0,
+    "precision_at_5": 100.0,
+    "recall_at_5": 100.0,
+    "cross_language_rate": 66.7,
+    "avg_similarity_score": 0.5923,
+    "per_domain_precision": {
+      "Patents": 100.0,
+      "Geographical Indications": 100.0,
+      "Trademarks": 100.0,
+      "Designs": 100.0,
+      "Biodiversity": 100.0
+    },
+    "per_language_stats": {
+      "en": {"total": 10, "domain_match": 10, "cross_language": 0},
+      "hi": {"total": 5, "domain_match": 5, "cross_language": 5},
+      "mr": {"total": 5, "domain_match": 5, "cross_language": 5},
+      "gu": {"total": 3, "domain_match": 3, "cross_language": 3},
+      "bn": {"total": 2, "domain_match": 2, "cross_language": 2},
+      "ta": {"total": 2, "domain_match": 2, "cross_language": 2},
+      "te": {"total": 1, "domain_match": 1, "cross_language": 1},
+      "kn": {"total": 1, "domain_match": 1, "cross_language": 1},
+      "ml": {"total": 1, "domain_match": 1, "cross_language": 1}
+    }
+  },
+  "performance": {
+    "device": "cuda",
+    "gpu": "NVIDIA GeForce RTX 4050 Laptop GPU (5.64 GB)",
+    "model": "BAAI/bge-m3",
+    "embedding_dimension": 1024,
+    "chromadb_records": 1185,
+    "load_time_seconds": 10.97,
+    "avg_query_embedding_time_ms": 13.8,
+    "avg_retrieval_time_ms": 15.0,
+    "avg_total_query_time_ms": 28.8,
+    "embedding_batch_size": 4,
+    "total_embedding_time_seconds": 280,
+    "chromadb_insertion_time_seconds": 60
+  },
+  "warnings": [
+    "Marathi queries detected as Hindi due to shared Devanagari script - need language-specific tokenizer for precise detection",
+    "234 chunks from original BIO/Patents Act datasets have MISSING language field (defaulted to 'en')",
+    "Rules documents store rule_number in section_number field - needs schema migration",
+    "Only 33 chunks have source_pages populated (Patents Rules 2003 Marathi)",
+    "GPU OOM warnings during embedding with batch_size=4 on 6GB VRAM - completed successfully",
+    "Cross-language retrieval works: Indian language queries retrieve English legal documents",
+    "Tamil/Telugu/Kannada/Malayalam/Punjabi have lower similarity scores (0.4-0.6) vs Hindi/Marathi/Gujarati (0.5-0.7)",
+    "bge-m3 multilingual capability verified: Hindi/Marathi/Gujarati/Bengali/Tamil queries retrieve correct English legal documents"
+  ],
+  "outputs": {
+    "embeddings_dir": "/home/dhiraj/Desktop/SIH/rag_pipeline/output/embeddings",
+    "embeddings_file": "embeddings.npy",
+    "embedding_metadata": "embedding_metadata.json",
+    "embedding_manifest": "embedding_manifest.json",
+    "vector_db": "/home/dhiraj/Desktop/SIH/rag_pipeline/vector_db",
+    "collection": "legal_knowledge",
+    "retriever_module": "retriever.py",
+    "language_utils": "language_utils.py",
+    "test_queries": "test_queries.json",
+    "retrieval_test_results": "retrieval_test_results.json",
+    "evaluation_results": "evaluation_results.json",
+    "phase3_performance": "phase3_performance.json",
+    "phase3_corpus_report": "phase3_corpus_report.json"
+  }
+}

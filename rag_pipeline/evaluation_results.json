@@ -1,0 +1,76 @@
+{
+  "total_queries": 30,
+  "precision": {
+    "P@1": 90.0,
+    "P@3": 100.0,
+    "P@5": 100.0
+  },
+  "recall_at_5": 100.0,
+  "cross_language_rate": 66.7,
+  "score_stats": {
+    "avg": 0.5923,
+    "min": 0.4118,
+    "max": 0.7528
+  },
+  "domain_precision": {
+    "Patents": 100.0,
+    "Geographical Indications": 100.0,
+    "Trademarks": 100.0,
+    "Designs": 100.0,
+    "Biodiversity": 100.0
+  },
+  "language_stats": {
+    "en": {
+      "total": 10,
+      "matches": 10,
+      "cross_lang": 0
+    },
+    "hi": {
+      "total": 5,
+      "matches": 5,
+      "cross_lang": 5
+    },
+    "mr": {
+      "total": 5,
+      "matches": 5,
+      "cross_lang": 5
+    },
+    "gu": {
+      "total": 3,
+      "matches": 3,
+      "cross_lang": 3
+    },
+    "bn": {
+      "total": 2,
+      "matches": 2,
+      "cross_lang": 2
+    },
+    "ta": {
+      "total": 2,
+      "matches": 2,
+      "cross_lang": 2
+    },
+    "te": {
+      "total": 1,
+      "matches": 1,
+      "cross_lang": 1
+    },
+    "kn": {
+      "total": 1,
+      "matches": 1,
+      "cross_lang": 1
+    },
+    "ml": {
+      "total": 1,
+      "matches": 1,
+      "cross_lang": 1
+    }
+  },
+  "notes": [
+    "Precision@K measures whether expected domain appears in top K results",
+    "Cross-language rate measures queries where retrieved language differs from query language",
+    "Domain match is binary (expected domain in top 5)",
+    "Ground truth limited to expected domain only - not full relevance judgments",
+    "Marathi queries detected as Hindi due to shared Devanagari script"
+  ]
+}

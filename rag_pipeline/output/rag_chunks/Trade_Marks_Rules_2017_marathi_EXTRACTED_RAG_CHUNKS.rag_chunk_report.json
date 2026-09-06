@@ -1,0 +1,10 @@
+{
+  "file_path": "/home/dhiraj/Desktop/SIH/rag_pipeline/output/canonical/Trade_Marks_Rules_2017_marathi_EXTRACTED_CANONICAL.json",
+  "total_chunks": 337,
+  "chunks_by_type": {
+    "section": 337
+  },
+  "chunks_with_hierarchy": 133,
+  "avg_chunk_length": 1087.51,
+  "max_chunk_length": 7923
+}

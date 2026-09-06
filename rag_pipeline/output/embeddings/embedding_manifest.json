@@ -1,0 +1,21 @@
+{
+  "model_name": "BAAI/bge-m3",
+  "model_dimension": 1024,
+  "device": "cuda",
+  "total_chunks": 1185,
+  "embedded_chunks": 1185,
+  "failed_chunks": 0,
+  "languages": {
+    "en": 1163,
+    "mixed": 22
+  },
+  "domains": {
+    "Designs": 106,
+    "Geographical Indications": 251,
+    "Patents": 170,
+    "Trademarks": 572,
+    "General Legal": 18,
+    "Biodiversity": 68
+  },
+  "created_at": "2026-09-05T20:45:38.725953"
+}

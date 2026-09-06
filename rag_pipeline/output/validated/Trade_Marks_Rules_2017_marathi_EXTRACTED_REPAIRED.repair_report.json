@@ -1,0 +1,594 @@
+{
+  "file_path": "/home/dhiraj/Desktop/SIH/rag_pipeline/Trade_Marks_Rules_2017_marathi_EXTRACTED.json",
+  "actions": [
+    {
+      "page_number": 1,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'सिं (cid:6979)(cid:7385) नाम और (cid:7079)ार(cid:7013)भ.[UNCLEAR](1) इन िनयम(cid:7298) का संि(cid:6979)(cid:7385) नाम (cid:7390)ापार िच(cid:7022)न िनयम, 2017",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 2,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '2', 'section_title': 'प(cid:7407)रभाषाएं.[UNCLEAR](1) इन िनयम(cid:7298) म(cid:7286), जब तक (cid:7408)क संदभ(cid:6981) स ेअ(cid:7008)यथा अपेि(cid:6979)त न हो-', 'content': '(क) [UN",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 3,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '3', 'section_title': 'भारत म(cid:7286) कारबार का मु(cid:6990)य (cid:7021)थान-[UNCLEAR]भारत म(cid:7286) कारबार के मु(cid:6990)य (cid:7021)थान[UNCLEAR] से िन(cid:7388)िलिखत अिभ(cid:",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 4,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '5', 'section_title': 'कारबार के मु(cid:6990)य (cid:7021)थान म(cid:7286) या तामील के िलए पते म(cid:7286) प(cid:7407)रवत(cid:6981)न के कारण समुिचत काया(cid:6981)लय क(cid:7409) अिधका",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 5,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '9', 'section_title': 'नो(cid:7407)टस(cid:7286) आ(cid:7408)द का जारी (cid:7408)कया जाना- अिधिनयम या िनयम(cid:7298) के अधीन (cid:7408)कसी आवेदन, िवषय या काय(cid:6981)वाही से संबंिधत",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 6,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '14', 'section_title': 'द(cid:7021)तावेज(cid:7298) क(cid:7409) तामील-(1) (cid:7272)पण िचपके (cid:7263)ए सभी आवेदन, नो(cid:7411)टसे, कथन, कागजप(cid:7074) या अ(cid:7008)य द(cid:7021)",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 7,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '18', 'section_title': 'रिज(cid:7021)(cid:7069)ार (cid:7367)ारा द(cid:7021)तावेज सं(cid:7079)ेषण- (1) आवेदन या िवरोध मामले या रिज(cid:7021)(cid:7069)ीकृत (cid:7390)ापार िच(cid:7022",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 8,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '23', 'section_title': 'आवेदन का (cid:7079)ा(cid:7272)प और ह(cid:7021)ता(cid:6979)र करना- (1) (cid:7390)ापार िच(cid:7022)न के रिज(cid:7021)(cid:7069)ीकरण के िलए माल या सेवा(cid:731",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 9,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '25', 'section_title': 'आवेदन म(cid:7286) उपयोगकता(cid:6981) का कथन- (1) जब तक (cid:7408)क (cid:7390)ापार िच(cid:7022)न का उपयोग करने क(cid:7409) (cid:7079)(cid:7021)थापना न क(cid:",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 10,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '28', 'section_title': 'िल(cid:7009)यांतर और अनुवाद:- जहां (cid:7408)कसी (cid:7390)ापार िच(cid:7022)न म(cid:7286) एक या अिधक श(cid:7011)द और/या सं(cid:6990)या िह(cid:7008)दी या अं(",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 11,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '34', 'section_title': 'आवेदन का (cid:7004)व(cid:7407)रत िनपटान-(1) आवेदन क(cid:7409) शासक(cid:7409)य सं(cid:6990)या (cid:7079)ा(cid:7385) होने के बाद, आवेदक (cid:7079)(cid:7272)प ",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 12,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '39', 'section_title': 'िव(cid:6980)ापन क(cid:7409) रीित-(1) (cid:7390)ापार िच(cid:7022)न के रिज(cid:7021)(cid:7069)ीकरण के िलए (cid:7079)(cid:7004)येक आवेदन क(cid:7409) बाबत धारा ",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 13,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '43', 'section_title': 'िवरोध क(cid:7409) सूचना क(cid:7409) अपे(cid:6979)ाएं- (1) िवरोध क(cid:7409) नो(cid:7407)टस म (cid:7286)िन(cid:7388)िलिखत होगा:-', 'content': '(क) उस आवेदन क",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 14,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '44', 'section_title': '(cid:7079)ितकथन- (1) धारा 21 क(cid:7409) उपधारा (2) क(cid:7409) अपे(cid:6979)ानुसार (cid:7079)ितकथन रिज(cid:7021)(cid:7069)ार से िवरोध क(cid:7409) सूचना क(c",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 15,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '51', 'section_title': 'खच(cid:7300) के िलए (cid:7079)ितभूित- खच(cid:7300) के िलए जो (cid:7079)ितभूित रिज(cid:7021)(cid:7069)ार धारा 21 क(cid:7409) उपधारा (6) के अधीन अपेि(cid:6979",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 16,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '54', 'section_title': 'स(cid:7013)ब(cid:7373) (cid:7390)ापार िच(cid:7022)न-(1) जहाँ (cid:7408)क (cid:7390)ापार िच(cid:7022)न (cid:7408)क(cid:7008)ह(cid:7277) अ(cid:7008)य िच(cid:7",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 17,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '59', 'section_title': 'रिज(cid:7021)टर से (cid:7390)ापार िच(cid:7022)न हटान े का िव(cid:6980)ापन- य(cid:7408)द (cid:7390)ापार िच(cid:7022)न के अंितम रिज(cid:7021)(cid:7069)ीकरण के",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 18,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '67', 'section_title': 'संभलाई (हड(cid:7289) (cid:7410)लग) फ(cid:7409)स- रिज(cid:7021)(cid:7069)ार को अंतररा(cid:7398)ीय आवेदन को (cid:7079)मािणत और अंतररा(cid:7398)ीय (cid:7011)यू",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 19,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '73', 'section_title': 'अंतररा(cid:7398)ीय रिज(cid:7021)(cid:7069)ीकरण का (cid:7079)ित(cid:7021)थापन- जहां कोई अंतररा(cid:7398)ीय रिज(cid:7021)(cid:7069)ीकरण भारत म(cid:7286) घारा ",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 20,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '82', 'section_title': 'पृथक रिज(cid:7021)(cid:7069)ीकरण- जहाँ (cid:7408)क िनयम 75 के अधीन आवेदन के अनुसारण म(cid:7286) और रिज(cid:7021)(cid:7069)ीकरण के माल या सेवा(cid:7312) के ि",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 21,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '87', 'section_title': 'रिज(cid:7021)(cid:7069)ार (cid:7367)ारा िवचार- धारा 49 क(cid:7409) उपधारा (2) के अधीन रिज(cid:7021)(cid:7069)ार य(cid:7408)द उसका यह समाधान हो जाता है (cid:",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 22,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '96', 'section_title': 'रिज(cid:7021)(cid:7069)ीकरण उपयो(cid:7334)ा आवेदन- धारा 58 क(cid:7409) उपधारा (2) के अधीन आवेदन (cid:7390)ापार िच(cid:7022)न के रिज(cid:7021)(cid:7069)ीकृत ",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 23,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '100', 'section_title': 'रिज(cid:7021)(cid:7069)ार (cid:7367)ारा (cid:7021)व(cid:7079)ेरणा स े रिज(cid:7021)टर का प(cid:7407)रशोधन-(1) रिज(cid:7021)(cid:7069)ार ऐसी सूचना क(cid:740",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 24,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '102', 'section_title': 'रिज(cid:7021)टर (cid:7390)ापार िच(cid:7022)न म(cid:7286) प(cid:7407)रवत(cid:6981)न- जहां (cid:7408)क कोई (cid:7390)ि(cid:7334) धारा 59 के अधीन अपने रिज(cid",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 25,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '107', 'section_title': 'धारा 18 क(cid:7409) उपधारा (2) के अधीन एकल आवेदन- (1) जहां माल या सेवा(cid:7312) क(cid:7409) िविभ(cid:7382) वग(cid:7300) के िलए (cid:7408)कसी (cid:7390)ापा",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 26,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '114', 'section_title': 'धारा 115(4) के अधीन रिज(cid:7021)(cid:7069)ार क(cid:7409) राय-(1) जहां धारा 115 क(cid:7409) उपधारा (4) के पर(cid:7008)तुक के अधीन उसक(cid:7409) राय के िलए'",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 27,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '120', 'section_title': 'शपथ प(cid:7074)(cid:7298) के (cid:7079)(cid:7272)प आ(cid:7408)द-(1) अिधिनयम और िनयम(cid:7298) के अधीन िजन शपथ प(cid:7074)(cid:7298) क(cid:7409) बाबत यह अपे",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 28,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '125', 'section_title': 'अपील के िलए समय- अिधिनयम या शत(cid:7300) के अधीन रिज(cid:7021)(cid:7069)ार के (cid:7408)कसी िविनि(cid:7391)य स ेबौि(cid:7373)क स(cid:7013)पदा अपील बोड(cid:",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 29,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '130', 'section_title': 'सामूिहक िच(cid:7022)न(cid:7298) को लागू होन ेवाले िनयम- इन िनयम(cid:7298) के भाग 1, भाग 4 और भाग 7 के उपबंध सामूिहक िच(cid:7022)न(cid:7298) को, वहां', 'con",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 30,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '138', 'section_title': 'आवेदन के साथ मामल े का कथन- आवेदक अपने आवेदन के साथ आधार(cid:7298) वाला, िजनका वह अपने आवेदन के समथ(cid:6981)न म(cid:7286)', 'content': 'सहारा लेता है, माम",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 31,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '144', 'section_title': 'रिज(cid:7021)(cid:7069)ीकरण के िलए अहत(cid:6981) ाएं- िनयम 145 के उपबंध(cid:7298) के अधीन एक (cid:7390)ि(cid:7334) (cid:7390)ापार िच(cid:7022)न अिभकता(cid:",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 32,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '152', 'section_title': 'कितपय अिभकता(cid:6981)(cid:7312) के साथ (cid:7390)वहार करने से इंकार करने क(cid:7409) रिज(cid:7021)(cid:7069)ार क(cid:7409) शि(cid:7334)-', 'content': '(1)",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 33,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '155', 'section_title': '(cid:7390)ापार िच(cid:7022)न अिभकता(cid:6981)(cid:7312) के रिज(cid:7021)टर का (cid:7079)काशन- रिज(cid:7021)(cid:7069)ार (cid:7390)ापार िच(cid:7022)न अिभकता",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 37,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '136', 'section_title': 'और उससे संबि(cid:7008)धत (cid:7079)ितकथन को अमा(cid:7008)य करने का आवेदन।', 'content': 'टी एम-पी धारा 16 (5), 40(2), 41, रिज(cid:7021)टर म(cid:7286) अनुवत(",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 38,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'वैयि(cid:7334)क, 2.भागीदारी फम(cid:6981), 3.(cid:7079)ाइवेट िलिमटेड/िलिमटेड कंपनी सिहत िनगमन िनकाय 4.सीिमत दयेता साझेदारी,', 'content': '', 'is_continuation'",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 38,
+      "action_type": "mark_continuation",
+      "field": "section 1",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 1 continues from page 37"
+    },
+    {
+      "page_number": 40,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'रिज(cid:7021)(cid:7069)ीकृत (cid:7390)ापार िच(cid:7022)न अिभक(cid:7275)ा(cid:6981), 2.अिधव(cid:7334)ा, 3.मा(cid:7008)यता (cid:7079)ा(cid:7385) एटॉन(cid:7278)",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 42,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'रिज(cid:7021)(cid:7069)ीकृत (cid:7390)ापार िच(cid:7022)न अिभक(cid:7275)ा,(cid:6981) 2.अिधव(cid:7334)ा, 3.मा(cid:7008)यता (cid:7079)ा(cid:7385) एटॉन(cid:7278)",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 43,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': '(cid:7079)कृत (cid:7390)ि(cid:7334)-एकल (cid:7021)व(cid:7004)वधारी, 2. (cid:7079)कृत (cid:7390)ि(cid:7334) [UNCLEAR] भागीदारी', 'content': '', 'is_continuati",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 43,
+      "action_type": "mark_continuation",
+      "field": "section 1",
+      "before": "false",
+      "after": "true",
+      "reason": "Section 1 continues from page 42"
+    },
+    {
+      "page_number": 44,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'रिज(cid:7021)(cid:7069)ीकृत (cid:7390)ापार िच(cid:7022)न अिभक(cid:7275)ा(cid:6981), 2.अिधव(cid:7334)ा, 3.मा(cid:7008)यता (cid:7079)ा(cid:7385) एटॉन(cid:7278)",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 46,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'रिज(cid:7021)(cid:7069)ीकृत (cid:7390)ापार िच(cid:7022)न अिभक(cid:7275)ा,(cid:6981) 2.अिधव(cid:7334)ा, 3.मा(cid:7008)यता (cid:7079)ा(cid:7385) एटॉन(cid:7278)",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 48,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'मानक (cid:7390)ापार िच(cid:7022)न 2.सामूिहक िच(cid:7022)न 3.(cid:7079)माणीकरण िच(cid:7022)न 4.(cid:7088)ेणी िच(cid:7022)न', 'content': '(ख) सामूिहक िच(cid:70",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 53,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'Short title and commencement. [UNCLEAR] (1) These rules may be called the Trade Marks Rules, 2017', 'content': '(2) They shall come into force on date of pub",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 55,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '3', 'section_title': 'Principal place of business in India.[UNCLEAR] [UNCLEAR]Principal place of business in India[UNCLEAR] means[UNCLEAR]', 'content': '(i) where a person carries",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 56,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '6', 'section_title': 'Entry of the appropriate office in the Register. [UNCLEAR] In respect of every trademark on the register at the notified', 'content': 'date or registered the",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 57,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '13', 'section_title': 'Signing of documents. [UNCLEAR] (1) Any document required to be signed under the Act and the Rules shall be signed', 'content': 'by the applicant or opponen",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 58,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '18', 'section_title': 'Service of Documents by the Registrar. [UNCLEAR] (1) All communications and documents in relation to application or', 'content': 'opposition matter or regis",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 59,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '23', 'section_title': 'Form and signing of application.[UNCLEAR] (1) An application for the registration of a trademark in respect of', 'content': 'specification of goods or servi",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 60,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '25', 'section_title': 'Statement of user in applications.[UNCLEAR] (1) An application to register a trademark shall, unless the trademark is', 'content': 'proposed to be used, con",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 61,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '30', 'section_title': 'Name or description of goods or services on a trademark. [UNCLEAR] (1) Where the name or description of any goods', 'content': 'or services appears on a tra",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 62,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '35', 'section_title': 'Notice of withdrawal of application for registration.[UNCLEAR] A notice of withdrawal of an application for the', 'content': 'registration of a trademark un",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 63,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '42', 'section_title': 'Notice of Opposition. [UNCLEAR] (1) A notice of opposition to the registration of a trademark under sub-section (1) of', 'content': 'section 21, with such p",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 64,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '44', 'section_title': 'Counterstatement.[UNCLEAR] (1) The counterstatement required by sub-section (2) of section 21 shall be sent on Form', 'content': 'TM-O within two months fro",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 65,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '50', 'section_title': 'Hearing and decision. [UNCLEAR] (1) The Registrar, after the closure of the evidence, shall give notice to the parties of', 'content': 'the first date of he",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 66,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '54', 'section_title': 'Associated trademarks.[UNCLEAR] (1) Where a trademark is registered as associated with any other trademarks, the', 'content': 'Registrar shall note in the r",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 67,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '60', 'section_title': 'Restoration and renewal of registration.[UNCLEAR] An application for the restoration of a trademark to the register', 'content': 'and renewal of its registr",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 68,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '69', 'section_title': 'Examination of application under section 36E. [UNCLEAR] (1) The advice referred to in rule 68 shall be examined', 'content': 'ordinarily within two months f",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 69,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '76', 'section_title': 'Case accompanying application.[UNCLEAR] (1) A person applying for registration of his title under rule 75, shall, along', 'content': 'with his request in fo",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 70,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '84', 'section_title': 'Entry in register, of particulars of assignment.[UNCLEAR] Where the Registrar has allowed the assignment of a', 'content': 'trademark under this Act, there ",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 71,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '93', 'section_title': 'Cancellation of registration of registered user. [UNCLEAR] (1) An application for the cancellation of the registration of', 'content': 'a registered user un",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 72,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '99', 'section_title': 'Intervention by third parties.[UNCLEAR] Any person, other than the registered proprietor, alleging interest in a', 'content': 'registered trademark in respe",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 73,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '103', 'section_title': 'Advertisement before decision and opposition etc. [UNCLEAR] (1) The Registrar shall consider the application made', 'content': 'under rule 102 and shall, i",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 74,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '109', 'section_title': 'Extension of time[UNCLEAR] (1) An application for extension of time under section 131 (not being a time expressly', 'content': 'provided in the Act or pres",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 75,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '116', 'section_title': 'Costs in uncontested cases.[UNCLEAR] (1) Where a reasonable notice has been given to an applicant by the opponent', 'content': 'before filing the notice of",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 76,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '123', 'section_title': 'Power of Registrar to notify International Non-proprietary names. [UNCLEAR] The Registrar shall from time to time', 'content': 'publish in the Journal, the",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 77,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '130', 'section_title': 'Rules to apply to collective trademarks.[UNCLEAR] The provisions of Part I, Part IV, and VII of these rules shall, in', 'content': 'their application to co",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 78,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '138', 'section_title': 'Statement of case accompanying application.[UNCLEAR] The applicant shall submit to the Registrar along with his', 'content': 'application a statement of ca",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 79,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '145', 'section_title': 'Persons debarred from registration.[UNCLEAR] A person shall not be eligible for registration as a trademarks agent if', 'content': 'he[UNCLEAR]\\n(i) has be",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 80,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '152', 'section_title': 'Power of Registrar to refuse to deal with certain agents.[UNCLEAR] (1) The Registrar may refuse to recognise[UNCLEAR]', 'content': '(a) any individual whos",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 85,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'NATURE OF THE APPLICATION:', 'content': '[(a) The applicant must choose either of the following categories1. Standard trademark, 2. Collective Mark, 3. Certi",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 86,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '6', 'section_title': 'IF MARK IN A LANGUAGE OTHER THAN HINDI OR ENGLISH:', 'content': 'Language:\\nTransliteration of the mark in roman script:\\n[Transliteration of the mark in rom",
+      "reason": "Extracted sections from raw_text"
+    },
+    {
+      "page_number": 87,
+      "action_type": "add_sections",
+      "field": "sections",
+      "before": "[]",
+      "after": "[{'section_number': '1', 'section_title': 'Registered Trade Marks Agent, 2. Advocate 3. Constituted Attorney]', 'content': 'Registration No.\\n[In case of authorisation of agent, the address of the age",
+      "reason": "Extracted sections from raw_text"
+    }
+  ],
+  "sections_recovered": 71,
+  "titles_recovered": 0,
+  "content_recovered": 0,
+  "continuations_marked": 2,
+  "amendments_detected": 0
+}
