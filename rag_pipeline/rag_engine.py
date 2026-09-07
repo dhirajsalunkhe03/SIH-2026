@@ -2,6 +2,8 @@
 """
 Main Legal RAG Engine.
 Orchestrates retrieval, context building, and Qwen3 generation.
+With Phase 5B: Multilingual input/output translation layer.
+With Phase 6: Multi-agent architecture (Legal, TK, ABS, IP agents + Orchestrator).
 """
 
 import json
@@ -16,6 +18,14 @@ from context_builder import ContextBuilder, format_sources_for_citation
 from ollama_utils import OllamaClient, OllamaResponse
 from prompts import build_rag_prompt, get_language_instruction
 from language_utils import detect_language, LanguageInfo
+from translation_service import (
+    get_translation_service, 
+    translate_to_english, 
+    translate_from_english,
+    TranslationResult,
+    get_language_config
+)
+from agents.orchestrator import Orchestrator, OrchestratorResult, RoutingDecision
 from config import get_config, Phase4Config
 
 
@@ -32,9 +42,16 @@ class RAGAnswer:
     confidence_reason: str
     retrieval_time_ms: int
     generation_time_ms: int
+    translation_to_english_ms: int
+    translation_to_target_ms: int
     total_time_ms: int
     retrieval_confidence: str  # high/medium/low/none
     error: Optional[str] = None
+    # Phase 6: Agent routing info
+    agents_used: Optional[List[str]] = None
+    routing_domain: Optional[str] = None
+    routing_reason: Optional[str] = None
+    is_multi_domain: bool = False
 
 
 class LegalRAG:
@@ -45,6 +62,7 @@ class LegalRAG:
         self.retriever = None
         self.context_builder = None
         self.ollama = None
+        self.translation_service = None
         self.logger = None
         self._setup_logging()
     
@@ -80,7 +98,9 @@ class LegalRAG:
         self.retriever = LegalRetriever(
             vector_db_path=self.config.retriever.vector_db_path,
             model_name=self.config.retriever.model_name,
-            collection_name=self.config.retriever.collection_name
+            collection_name=self.config.retriever.collection_name,
+            device=self.config.retriever.device,
+            use_cpu=self.config.retriever.use_cpu
         )
         self.retriever.load()
         
@@ -99,11 +119,34 @@ class LegalRAG:
             timeout=self.config.ollama.timeout
         )
         
+        # Initialize translation service if enabled
+        if self.config.translation.enabled:
+            try:
+                self.translation_service = get_translation_service({
+                    'model_name': self.config.translation.model_name,
+                })
+                self.logger.info("Translation service initialized")
+            except Exception as e:
+                self.logger.warning(f"Failed to initialize translation service: {e}")
+                self.translation_service = None
+        
         # Verify Ollama
         if not self.ollama.check_availability():
             self.logger.warning(f"Ollama not available or model {self.config.ollama.model} not found")
         else:
             self.logger.info(f"Ollama ready with model {self.config.ollama.model}")
+        
+        # Initialize orchestrator (Phase 6)
+        try:
+            self.orchestrator = Orchestrator(
+                retriever=self.retriever,
+                ollama=self.ollama,
+                config=self.config
+            )
+            self.logger.info("Orchestrator initialized with agents: legal, tk, abs, ip")
+        except Exception as e:
+            self.logger.warning(f"Failed to initialize orchestrator: {e}")
+            self.orchestrator = None
         
         self.logger.info("LegalRAG loaded successfully")
     
@@ -205,37 +248,100 @@ class LegalRAG:
         concise: bool = True
     ) -> RAGAnswer:
         """
-        Main entry point: answer a legal query.
-        
-        Args:
-            query: User query
-            answer_language: Language for answer ('auto', 'en', 'hi', 'mr', etc.)
-            top_k: Number of chunks to retrieve
-            domain: Filter by legal domain
-            language: Filter by document language
-            document_type: Filter by 'Act' or 'Rules'
-            document: Filter by specific document name
-            concise: Use concise prompt
-            
-        Returns:
-            RAGAnswer with answer, sources, and metadata
+        Main entry point: answer a legal query with multilingual support.
+        Uses Phase 6 orchestrator for multi-agent routing.
         """
         total_start = time.time()
         self.logger.info(f"Processing query: {query[:80]}...")
+        
+        translation_to_english_ms = 0
+        translation_to_target_ms = 0
         
         # Step 1: Detect query language
         lang_info = self.detect_language(query)
         detected_lang = lang_info.code
         
-        # Step 2: Determine answer language
+        # Step 2: Determine target answer language
         if answer_language == 'auto':
-            answer_lang = detected_lang if detected_lang != 'unknown' else 'en'
+            target_lang = detected_lang if detected_lang != 'unknown' else 'en'
         else:
-            answer_lang = answer_language
+            target_lang = answer_language
         
-        # Step 3: Retrieve
+        # Step 3: Translate query to English if needed
+        english_query = query
+        if target_lang != 'en' and self.translation_service and self.config.translation.enabled:
+            trans_start = time.time()
+            trans_result = self.translation_service.translate_to_english(query, target_lang)
+            translation_to_english_ms = int((time.time() - trans_start) * 1000)
+            
+            if trans_result.success:
+                english_query = trans_result.text
+                self.logger.info(f"Translated query to English: {english_query[:80]}...")
+            else:
+                self.logger.warning(f"Query translation failed: {trans_result.error}")
+        
+        # Step 4: Use orchestrator if available (Phase 6)
+        if self.orchestrator:
+            self.logger.info("Using orchestrator for multi-agent routing")
+            orchestrator_result: OrchestratorResult = self.orchestrator.run(
+                query=english_query,
+                top_k=top_k,
+                concise=concise
+            )
+            
+            # Step 5: Translate answer to target language if needed
+            final_answer = orchestrator_result.answer
+            if target_lang != 'en' and self.translation_service and self.config.translation.enabled:
+                trans_start = time.time()
+                trans_result = self.translation_service.translate_from_english(orchestrator_result.answer, target_lang)
+                translation_to_target_ms = int((time.time() - trans_start) * 1000)
+                
+                if trans_result.success:
+                    final_answer = trans_result.text
+                    self.logger.info(f"Translated answer to {target_lang}")
+                else:
+                    self.logger.warning(f"Answer translation failed: {trans_result.error}")
+            
+            total_time = int((time.time() - total_start) * 1000)
+            
+            self.logger.info(
+                f"Query answered in {total_time}ms "
+                f"(retrieval: {orchestrator_result.retrieval_time_ms}ms, "
+                f"generation: {orchestrator_result.generation_time_ms}ms, "
+                f"synthesis: {orchestrator_result.synthesis_time_ms}ms, "
+                f"trans_to_en: {translation_to_english_ms}ms, "
+                f"trans_to_target: {translation_to_target_ms}ms) "
+                f"[agents: {orchestrator_result.agents_used}]"
+            )
+            
+            return RAGAnswer(
+                query=query,
+                detected_language=asdict(lang_info),
+                answer_language=target_lang,
+                answer=final_answer,
+                sources=orchestrator_result.sources,
+                retrieved_chunks=orchestrator_result.evidence,
+                confidence=str(orchestrator_result.confidence) if isinstance(orchestrator_result.confidence, float) else orchestrator_result.confidence,
+                confidence_reason=f"Routed to: {', '.join(orchestrator_result.agents_used)} ({orchestrator_result.routing.routing_reason})",
+                retrieval_time_ms=orchestrator_result.retrieval_time_ms,
+                generation_time_ms=orchestrator_result.generation_time_ms,
+                translation_to_english_ms=translation_to_english_ms,
+                translation_to_target_ms=translation_to_target_ms,
+                total_time_ms=total_time,
+                retrieval_confidence="high" if orchestrator_result.confidence > 0.7 else "medium" if orchestrator_result.confidence > 0.4 else "low",
+                error=orchestrator_result.error,
+                agents_used=orchestrator_result.agents_used,
+                routing_domain=orchestrator_result.routing.primary_agent,
+                routing_reason=orchestrator_result.routing.routing_reason,
+                is_multi_domain=orchestrator_result.routing.is_multi_domain
+            )
+        
+        # Fallback: Original single-agent RAG pipeline (Phase 5)
+        self.logger.info("Using legacy single-agent RAG pipeline")
+        
+        # Retrieve using English query
         retrieval_result = self.retrieve(
-            query=query,
+            query=english_query,
             top_k=top_k,
             domain=domain,
             language=language,
@@ -246,17 +352,17 @@ class LegalRAG:
         retrieval_time = retrieval_result.get('retrieval_time_ms', 0)
         retrieved_chunks = retrieval_result.get('results', [])
         
-        # Step 4: Assess retrieval confidence
+        # Assess retrieval confidence
         retrieval_confidence, confidence_reason = self._assess_retrieval_confidence(retrieved_chunks)
         
-        # Step 5: Handle low/no confidence
+        # Handle low/no confidence
         if retrieval_confidence == 'none':
             self.logger.warning(f"Low retrieval confidence for query: {query[:50]}")
             total_time = int((time.time() - total_start) * 1000)
             return RAGAnswer(
                 query=query,
                 detected_language=asdict(lang_info),
-                answer_language=answer_lang,
+                answer_language=target_lang,
                 answer="I could not find sufficient supporting information in the available legal knowledge base.",
                 sources=[],
                 retrieved_chunks=retrieved_chunks,
@@ -264,20 +370,22 @@ class LegalRAG:
                 confidence_reason=confidence_reason,
                 retrieval_time_ms=retrieval_time,
                 generation_time_ms=0,
+                translation_to_english_ms=translation_to_english_ms,
+                translation_to_target_ms=translation_to_target_ms,
                 total_time_ms=total_time,
                 retrieval_confidence=retrieval_confidence,
                 error="No relevant context found"
             )
         
-        # Step 6: Build context
+        # Build context
         context = self.build_context(retrieval_result)
         
-        # Step 7: Generate answer
+        # Generate answer in English
         gen_start = time.time()
         ollama_response = self.generate_answer(
-            query=query,
+            query=english_query,
             context=context,
-            answer_language=answer_lang,
+            answer_language='en',
             concise=concise
         )
         generation_time = int((time.time() - gen_start) * 1000)
@@ -288,27 +396,44 @@ class LegalRAG:
             return RAGAnswer(
                 query=query,
                 detected_language=asdict(lang_info),
-                answer_language=answer_lang,
-                answer=f"Error generating answer: {ollama_response.error}",
+                answer_language=target_lang,
+                answer="I could not find sufficient supporting information in the available legal knowledge base.",
                 sources=[],
                 retrieved_chunks=retrieved_chunks,
-                confidence="error",
+                confidence="low",
                 confidence_reason="Generation failed",
                 retrieval_time_ms=retrieval_time,
                 generation_time_ms=generation_time,
+                translation_to_english_ms=translation_to_english_ms,
+                translation_to_target_ms=translation_to_target_ms,
                 total_time_ms=int((time.time() - total_start) * 1000),
                 retrieval_confidence=retrieval_confidence,
                 error=ollama_response.error
             )
         
-        # Step 8: Format sources
+        english_answer = ollama_response.text
+        
+        # Translate answer to target language if needed
+        final_answer = english_answer
+        if target_lang != 'en' and self.translation_service and self.config.translation.enabled:
+            trans_start = time.time()
+            trans_result = self.translation_service.translate_from_english(english_answer, target_lang)
+            translation_to_target_ms = int((time.time() - trans_start) * 1000)
+            
+            if trans_result.success:
+                final_answer = trans_result.text
+                self.logger.info(f"Translated answer to {target_lang}")
+            else:
+                self.logger.warning(f"Answer translation failed: {trans_result.error}")
+        
+        # Format sources
         sources_text = self.format_sources(retrieved_chunks)
         sources_list = self.context_builder.build_source_list(retrieved_chunks)
         
-        # Step 9: Combine answer with sources
-        final_answer = f"{ollama_response.text}\n\n{sources_text}"
+        # Combine answer with sources
+        final_answer_with_sources = f"{final_answer}\n\n{sources_text}"
         
-        # Step 10: Determine overall confidence
+        # Determine overall confidence
         if retrieval_confidence == 'high' and ollama_response.success:
             overall_confidence = "High"
         elif retrieval_confidence == 'medium':
@@ -318,19 +443,27 @@ class LegalRAG:
         
         total_time = int((time.time() - total_start) * 1000)
         
-        self.logger.info(f"Query answered in {total_time}ms (retrieval: {retrieval_time}ms, generation: {generation_time}ms)")
+        self.logger.info(
+            f"Query answered in {total_time}ms "
+            f"(retrieval: {retrieval_time}ms, "
+            f"generation: {generation_time}ms, "
+            f"trans_to_en: {translation_to_english_ms}ms, "
+            f"trans_to_target: {translation_to_target_ms}ms)"
+        )
         
         return RAGAnswer(
             query=query,
             detected_language=asdict(lang_info),
-            answer_language=answer_lang,
-            answer=final_answer,
+            answer_language=target_lang,
+            answer=final_answer_with_sources,
             sources=sources_list,
             retrieved_chunks=retrieved_chunks,
             confidence=overall_confidence,
             confidence_reason=confidence_reason,
             retrieval_time_ms=retrieval_time,
             generation_time_ms=generation_time,
+            translation_to_english_ms=translation_to_english_ms,
+            translation_to_target_ms=translation_to_target_ms,
             total_time_ms=total_time,
             retrieval_confidence=retrieval_confidence
         )

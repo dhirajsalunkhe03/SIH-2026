@@ -1,0 +1,273 @@
+{
+  "phase": "6",
+  "test_timestamp": "2026-09-07T01:16:08",
+  "summary": {
+    "total": 13,
+    "passed": 13,
+    "failed": 0,
+    "success_rate": 100.0
+  },
+  "categories": {
+    "Single-domain": 5,
+    "Multi-domain": 3,
+    "Multilingual": 5
+  },
+  "detailed_results": [
+    {
+      "test_name": "Single_domain_IP_patent",
+      "query": "What is a patent?",
+      "language": "en",
+      "expected_agents": [
+        "ip"
+      ],
+      "agents_used": [
+        "ip"
+      ],
+      "routing_domain": "ip",
+      "routing_reason": "ip(0.50)",
+      "success": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "total_ms": 9726,
+      "error": null
+    },
+    {
+      "test_name": "Single_domain_IP_GI",
+      "query": "What is a geographical indication?",
+      "language": "en",
+      "expected_agents": [
+        "ip"
+      ],
+      "agents_used": [
+        "ip"
+      ],
+      "routing_domain": "ip",
+      "routing_reason": "ip(0.62)",
+      "success": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "total_ms": 9405,
+      "error": null
+    },
+    {
+      "test_name": "Single_domain_ABS",
+      "query": "What is access and benefit sharing?",
+      "language": "en",
+      "expected_agents": [
+        "abs"
+      ],
+      "agents_used": [
+        "abs",
+        "tk"
+      ],
+      "routing_domain": "abs",
+      "routing_reason": "abs(1.00); tk(0.86)",
+      "success": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "total_ms": 20597,
+      "error": null
+    },
+    {
+      "test_name": "Single_domain_TK",
+      "query": "What is traditional knowledge?",
+      "language": "en",
+      "expected_agents": [
+        "tk"
+      ],
+      "agents_used": [
+        "tk"
+      ],
+      "routing_domain": "tk",
+      "routing_reason": "tk(0.71)",
+      "success": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "total_ms": 10133,
+      "error": null
+    },
+    {
+      "test_name": "Single_domain_Legal_IP_section11",
+      "query": "What does Section 11 of the Patents Act deal with?",
+      "language": "en",
+      "expected_agents": [
+        "ip",
+        "legal"
+      ],
+      "agents_used": [
+        "ip",
+        "legal"
+      ],
+      "routing_domain": "ip",
+      "routing_reason": "ip(1.00); legal(0.62)",
+      "success": true,
+      "confidence": "0.44",
+      "sources_count": 1,
+      "total_ms": 30145,
+      "error": null
+    },
+    {
+      "test_name": "Multi_domain_TK_IP",
+      "query": "Can traditional knowledge be protected through patents?",
+      "language": "en",
+      "expected_agents": [
+        "tk",
+        "ip"
+      ],
+      "agents_used": [
+        "tk",
+        "ip"
+      ],
+      "routing_domain": "tk",
+      "routing_reason": "tk(0.71); ip(0.50)",
+      "success": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "total_ms": 21820,
+      "error": null
+    },
+    {
+      "test_name": "Multi_domain_ABS_TK_Legal",
+      "query": "What obligations apply when accessing biological resources with traditional knowledge?",
+      "language": "en",
+      "expected_agents": [
+        "abs",
+        "tk",
+        "legal"
+      ],
+      "agents_used": [
+        "abs",
+        "legal",
+        "tk"
+      ],
+      "routing_domain": "abs",
+      "routing_reason": "abs(0.86); legal(0.75); tk(0.71)",
+      "success": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "total_ms": 32876,
+      "error": null
+    },
+    {
+      "test_name": "Multi_domain_IP_TK",
+      "query": "What are the patent implications of traditional knowledge?",
+      "language": "en",
+      "expected_agents": [
+        "ip",
+        "tk"
+      ],
+      "agents_used": [
+        "tk",
+        "ip"
+      ],
+      "routing_domain": "tk",
+      "routing_reason": "tk(0.71); ip(0.50)",
+      "success": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "total_ms": 21114,
+      "error": null
+    },
+    {
+      "test_name": "Hindi_IP_patent",
+      "query": "पेटेंट क्या है?",
+      "language": "hi",
+      "expected_agents": [
+        "ip"
+      ],
+      "agents_used": [
+        "ip"
+      ],
+      "routing_domain": "ip",
+      "routing_reason": "ip(0.50)",
+      "success": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "total_ms": 17387,
+      "error": null
+    },
+    {
+      "test_name": "Marathi_IP_patent",
+      "query": "पेटंट म्हणजे काय?",
+      "language": "mr",
+      "expected_agents": [
+        "ip"
+      ],
+      "agents_used": [
+        "ip"
+      ],
+      "routing_domain": "ip",
+      "routing_reason": "ip(0.50)",
+      "success": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "total_ms": 10093,
+      "error": null
+    },
+    {
+      "test_name": "Hindi_TK",
+      "query": "पारंपरिक ज्ञान क्या है?",
+      "language": "hi",
+      "expected_agents": [
+        "tk"
+      ],
+      "agents_used": [
+        "tk"
+      ],
+      "routing_domain": "tk",
+      "routing_reason": "tk(0.71)",
+      "success": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "total_ms": 10258,
+      "error": null
+    },
+    {
+      "test_name": "Marathi_TK",
+      "query": "पारंपरिक ज्ञान काय आहे?",
+      "language": "mr",
+      "expected_agents": [
+        "tk"
+      ],
+      "agents_used": [
+        "tk"
+      ],
+      "routing_domain": "tk",
+      "routing_reason": "tk(0.71)",
+      "success": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "total_ms": 10050,
+      "error": null
+    },
+    {
+      "test_name": "Hindi_ABS",
+      "query": "जैविक विविधता अधिनियम के तहत लाभ साझाकरण क्या है?",
+      "language": "hi",
+      "expected_agents": [
+        "abs"
+      ],
+      "agents_used": [
+        "tk",
+        "abs"
+      ],
+      "routing_domain": "tk",
+      "routing_reason": "tk(0.29); abs(0.29)",
+      "success": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "total_ms": 22450,
+      "error": null
+    }
+  ],
+  "legal_grounding": {
+    "query": "What does Section 11 of the Patents Act, 1970 deal with?",
+    "agents_used": [
+      "ip",
+      "legal"
+    ],
+    "confidence": "0.45",
+    "sources_count": 5,
+    "section_11_preserved": true
+  }
+}

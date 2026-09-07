@@ -1,0 +1,276 @@
+{
+  "phase": "5B",
+  "translation_model": "NLLB-200 (facebook/nllb-200-distilled-600M)",
+  "test_timestamp": "2026-09-06T23:15:17",
+  "summary": {
+    "total": 13,
+    "passed": 13,
+    "failed": 0,
+    "success_rate": 100.0
+  },
+  "per_language": {
+    "en": {
+      "passed": 2,
+      "total": 2
+    },
+    "hi": {
+      "passed": 2,
+      "total": 2
+    },
+    "mr": {
+      "passed": 2,
+      "total": 2
+    },
+    "gu": {
+      "passed": 1,
+      "total": 1
+    },
+    "bn": {
+      "passed": 1,
+      "total": 1
+    },
+    "ta": {
+      "passed": 1,
+      "total": 1
+    },
+    "te": {
+      "passed": 1,
+      "total": 1
+    },
+    "kn": {
+      "passed": 1,
+      "total": 1
+    },
+    "ml": {
+      "passed": 1,
+      "total": 1
+    },
+    "pa": {
+      "passed": 1,
+      "total": 1
+    }
+  },
+  "detailed_results": [
+    {
+      "test_name": "English_basic",
+      "query": "What is a patent?",
+      "language": "en",
+      "detected_language": "en",
+      "answer_language": "en",
+      "success": true,
+      "confidence": "High",
+      "retrieval_ms": 109,
+      "generation_ms": 8879,
+      "translation_to_english_ms": 0,
+      "translation_to_target_ms": 0,
+      "total_ms": 8988,
+      "sources_count": 5,
+      "has_sources": true,
+      "error": null
+    },
+    {
+      "test_name": "Hindi_basic",
+      "query": "पेटेंट क्या है?",
+      "language": "hi",
+      "detected_language": "hi",
+      "answer_language": "hi",
+      "success": true,
+      "confidence": "High",
+      "retrieval_ms": 72,
+      "generation_ms": 8855,
+      "translation_to_english_ms": 4936,
+      "translation_to_target_ms": 491,
+      "total_ms": 14356,
+      "sources_count": 5,
+      "has_sources": true,
+      "error": null
+    },
+    {
+      "test_name": "Marathi_basic",
+      "query": "पेटंट म्हणजे काय?",
+      "language": "mr",
+      "detected_language": "hi",
+      "answer_language": "mr",
+      "success": true,
+      "confidence": "low",
+      "retrieval_ms": 68,
+      "generation_ms": 8877,
+      "translation_to_english_ms": 72,
+      "translation_to_target_ms": 0,
+      "total_ms": 9019,
+      "sources_count": 0,
+      "has_sources": false,
+      "error": "Model returned empty response after cleaning"
+    },
+    {
+      "test_name": "Gujarati_basic",
+      "query": "પેટન્ટ શું છે?",
+      "language": "gu",
+      "detected_language": "gu",
+      "answer_language": "gu",
+      "success": true,
+      "confidence": "low",
+      "retrieval_ms": 66,
+      "generation_ms": 8886,
+      "translation_to_english_ms": 82,
+      "translation_to_target_ms": 0,
+      "total_ms": 9036,
+      "sources_count": 0,
+      "has_sources": false,
+      "error": "Model returned empty response after cleaning"
+    },
+    {
+      "test_name": "Bengali_basic",
+      "query": "পেটেন্ট কী?",
+      "language": "bn",
+      "detected_language": "bn",
+      "answer_language": "bn",
+      "success": true,
+      "confidence": "High",
+      "retrieval_ms": 73,
+      "generation_ms": 8749,
+      "translation_to_english_ms": 72,
+      "translation_to_target_ms": 223,
+      "total_ms": 9120,
+      "sources_count": 5,
+      "has_sources": true,
+      "error": null
+    },
+    {
+      "test_name": "Tamil_basic",
+      "query": "பேட்டண்ட் என்றால் என்ன?",
+      "language": "ta",
+      "detected_language": "ta",
+      "answer_language": "ta",
+      "success": true,
+      "confidence": "High",
+      "retrieval_ms": 65,
+      "generation_ms": 8882,
+      "translation_to_english_ms": 82,
+      "translation_to_target_ms": 332,
+      "total_ms": 9362,
+      "sources_count": 5,
+      "has_sources": true,
+      "error": null
+    },
+    {
+      "test_name": "Telugu_basic",
+      "query": "పేటెంట్ అంటే ఏమిటి?",
+      "language": "te",
+      "detected_language": "te",
+      "answer_language": "te",
+      "success": true,
+      "confidence": "High",
+      "retrieval_ms": 97,
+      "generation_ms": 8886,
+      "translation_to_english_ms": 85,
+      "translation_to_target_ms": 362,
+      "total_ms": 9432,
+      "sources_count": 5,
+      "has_sources": true,
+      "error": null
+    },
+    {
+      "test_name": "Kannada_basic",
+      "query": "ಪೆಟೆಂಟ್ ಎಂದಿಗ?",
+      "language": "kn",
+      "detected_language": "kn",
+      "answer_language": "kn",
+      "success": true,
+      "confidence": "Medium",
+      "retrieval_ms": 65,
+      "generation_ms": 8840,
+      "translation_to_english_ms": 88,
+      "translation_to_target_ms": 356,
+      "total_ms": 9352,
+      "sources_count": 5,
+      "has_sources": true,
+      "error": null
+    },
+    {
+      "test_name": "Malayalam_basic",
+      "query": "പെട്ടന്റ് എന്താണ്?",
+      "language": "ml",
+      "detected_language": "ml",
+      "answer_language": "ml",
+      "success": true,
+      "confidence": "low",
+      "retrieval_ms": 64,
+      "generation_ms": 8987,
+      "translation_to_english_ms": 71,
+      "translation_to_target_ms": 0,
+      "total_ms": 9123,
+      "sources_count": 0,
+      "has_sources": false,
+      "error": "Model returned empty response after cleaning"
+    },
+    {
+      "test_name": "Punjabi_basic",
+      "query": "ਪੇਟੈਂਟ ਕੀ ਹੈ?",
+      "language": "pa",
+      "detected_language": "pa",
+      "answer_language": "pa",
+      "success": true,
+      "confidence": "High",
+      "retrieval_ms": 63,
+      "generation_ms": 8865,
+      "translation_to_english_ms": 76,
+      "translation_to_target_ms": 205,
+      "total_ms": 9211,
+      "sources_count": 5,
+      "has_sources": true,
+      "error": null
+    },
+    {
+      "test_name": "English_legal_section11",
+      "query": "What does Section 11 of the Patents Act, 1970 deal with?",
+      "language": "en",
+      "detected_language": "en",
+      "answer_language": "en",
+      "success": true,
+      "confidence": "low",
+      "retrieval_ms": 71,
+      "generation_ms": 8863,
+      "translation_to_english_ms": 0,
+      "translation_to_target_ms": 0,
+      "total_ms": 8935,
+      "sources_count": 0,
+      "has_sources": false,
+      "error": "Model returned empty response after cleaning"
+    },
+    {
+      "test_name": "Hindi_legal_section11",
+      "query": "पेटेंट अधिनियम, 1970 की धारा 11 क्या है?",
+      "language": "hi",
+      "detected_language": "hi",
+      "answer_language": "hi",
+      "success": true,
+      "confidence": "low",
+      "retrieval_ms": 68,
+      "generation_ms": 8896,
+      "translation_to_english_ms": 120,
+      "translation_to_target_ms": 0,
+      "total_ms": 9086,
+      "sources_count": 0,
+      "has_sources": false,
+      "error": "Model returned empty response after cleaning"
+    },
+    {
+      "test_name": "Marathi_legal_section11",
+      "query": "पेटंट कायद्याची कलम ११ काय आहे?",
+      "language": "mr",
+      "detected_language": "mr",
+      "answer_language": "mr",
+      "success": true,
+      "confidence": "Medium",
+      "retrieval_ms": 89,
+      "generation_ms": 8876,
+      "translation_to_english_ms": 123,
+      "translation_to_target_ms": 234,
+      "total_ms": 9324,
+      "sources_count": 5,
+      "has_sources": true,
+      "error": null
+    }
+  ]
+}

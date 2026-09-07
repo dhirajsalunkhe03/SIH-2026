@@ -70,6 +70,8 @@ class SourceCitation(BaseModel):
 class LatencyInfo(BaseModel):
     retrieval_ms: int = Field(..., description="Retrieval time in milliseconds")
     generation_ms: int = Field(..., description="Generation time in milliseconds")
+    translation_to_english_ms: int = Field(default=0, description="Translation to English time in milliseconds")
+    translation_to_target_ms: int = Field(default=0, description="Translation to target language time in milliseconds")
     total_ms: int = Field(..., description="Total time in milliseconds")
 
 

@@ -1,0 +1,95 @@
+{
+  "phase": "5A",
+  "goal": "English-only Qwen3 legal reasoning with thinking disabled",
+  "files_changed": [
+    "ollama_utils.py",
+    "prompts.py",
+    "rag_engine.py"
+  ],
+  "think_disabled": true,
+  "think_implementation": "Added \"think\": false to Ollama chat options in generate() method",
+  "response_cleaning": true,
+  "cleaning_details": [
+    "Enhanced _clean_response() with comprehensive reasoning pattern removal",
+    "Added regex extraction of **Answer**/**Sources**/**Confidence** from thinking field when content is empty",
+    "Added validation for empty responses after cleaning",
+    "Defensive parsing: content field > extracted answer from thinking > error"
+  ],
+  "english_only_generation": true,
+  "english_enforcement": [
+    "Updated LANGUAGE_INSTRUCTIONS in prompts.py to force English for all language codes",
+    "Modified rag_engine.py to always use 'en' for answer_language in generation",
+    "Prompt explicitly states: INTERNAL REASONING AND ANSWER LANGUAGE: ENGLISH ONLY"
+  ],
+  "rag_preserved": true,
+  "rag_details": [
+    "Retriever unchanged (ChromaDB + bge-m3)",
+    "Embedding model unchanged",
+    "ChromaDB collection unchanged (legal_knowledge, 1185 chunks)",
+    "Metadata preserved (section/rule/page/document info)",
+    "Confidence thresholds preserved from config.py"
+  ],
+  "api_contract_preserved": true,
+  "api_details": [
+    "/health endpoint works",
+    "/chat endpoint works with existing schema",
+    "detected_language field preserved (shows query language)",
+    "answer_language field preserved (shows 'en' for Phase 5A)",
+    "SourceCitation format unchanged",
+    "LatencyInfo fields unchanged",
+    "Error handling improved (clear API errors, no stack traces)"
+  ],
+  "tests": [
+    {
+      "query": "What is the Biological Diversity Act, 2002?",
+      "http_status": 200,
+      "answer_language": "en",
+      "has_reasoning": false,
+      "has_thinking_tags": false,
+      "grounded_in_context": true,
+      "sources_returned": 5,
+      "section_metadata_preserved": true,
+      "latency_ms": 38543
+    },
+    {
+      "query": "What is a patent under the Patents Act, 1970?",
+      "http_status": 200,
+      "answer_language": "en",
+      "has_reasoning": false,
+      "has_thinking_tags": false,
+      "grounded_in_context": true,
+      "sources_returned": 5,
+      "section_metadata_preserved": true,
+      "latency_ms": 39046
+    },
+    {
+      "query": "What does Section 11 of the Patents Act deal with?",
+      "http_status": 200,
+      "answer_language": "en",
+      "has_reasoning": false,
+      "has_thinking_tags": false,
+      "grounded_in_context": true,
+      "sources_returned": 5,
+      "section_metadata_preserved": true,
+      "latency_ms": 39079
+    },
+    {
+      "query": "पेटेंट क्या है? (Hindi)",
+      "http_status": 200,
+      "detected_language": "hi",
+      "answer_language": "en",
+      "has_reasoning": false,
+      "has_thinking_tags": false,
+      "api_contract_preserved": true,
+      "latency_ms": 42029
+    }
+  ],
+  "known_issues": [
+    "Generation latency ~38-42s/query on RTX 4050 6GB (CUDA memory pressure with bge-m3 + qwen3:4b)",
+    "Model outputs full **Answer**/**Sources**/**Confidence** format in answer text, rag_engine adds sources again (pre-existing design)",
+    "Corpus gaps: Patent definition (Section 2(1)(m)) missing - retriever returns wrong sections",
+    "Hindi/Marathi language detection conflated (shared Devanagari script)",
+    "Model cannot reliably generate non-English answers from English context (deferred to Phase 5B)"
+  ],
+  "next_step": "Add multilingual input/output translation layer (Phase 5B)"
+}

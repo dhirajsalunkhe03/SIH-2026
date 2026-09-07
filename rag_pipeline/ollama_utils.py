@@ -108,7 +108,8 @@ class OllamaClient:
                 options={
                     "temperature": temp,
                     "top_p": top_p_val,
-                    "num_predict": max_tok
+                    "num_predict": max_tok,
+                    "think": False
                 }
             )
             
@@ -118,20 +119,43 @@ class OllamaClient:
             content = msg.get('content', '')
             thinking = msg.get('thinking', '')
             
-            # Use content field as primary response; only use thinking if content is truly empty
-            # and thinking appears to contain a valid answer (not just reasoning)
-            full_text = content
-            if not content.strip() and thinking:
-                # Check if thinking contains a valid answer (not just reasoning)
-                # Heuristic: if thinking contains legal terms and is substantial
-                thinking_lower = thinking.lower()
-                if any(term in thinking_lower for term in ['section', 'rule', 'act', 'patent', 'trademark', 'copyright', 'design', 'gi ', 'geographical', 'biodiversity', 'traditional knowledge', 'abs ', 'benefit sharing', 'patent', 'invention']):
-                    full_text = thinking
-                else:
-                    full_text = ""
+            # Robust response parsing
+            # With think=false, Qwen3 may still put reasoning in thinking field and leave content empty
+            # Priority: content field > extracted answer from thinking field
+            full_text = content.strip() if content else ""
             
-            # Clean the response
+            # If content is empty, try to extract the formatted answer from thinking field
+            if not full_text and thinking:
+                thinking_clean = thinking.strip()
+                # Extract the formatted answer pattern: **Answer**: ... **Sources**: ... **Confidence**: ...
+                import re
+                # Look for the answer pattern in thinking
+                answer_match = re.search(r'\*\*Answer\*\*:.*?(?:\*\*Sources\*\*:.*?)?(?:\*\*Confidence\*\*:.*?)?(?:\n|$)', thinking_clean, re.DOTALL)
+                if answer_match:
+                    full_text = answer_match.group(0).strip()
+                else:
+                    # Fallback: check if thinking contains legal terms and looks like an answer
+                    thinking_lower = thinking_clean.lower()
+                    has_legal_terms = any(term in thinking_lower for term in [
+                        'section', 'rule', 'act', 'patent', 'trademark', 'copyright', 
+                        'design', 'geographical', 'biodiversity', 'traditional knowledge', 
+                        'benefit sharing', 'invention', 'granted under'
+                    ])
+                    if has_legal_terms and len(thinking_clean) > 50:
+                        # But don't use raw thinking - it contains reasoning
+                        full_text = ""
+            
+            # Clean the response (remove any residual thinking tokens, formatting)
             clean_text = self._clean_response(full_text)
+            
+            # Validate: if still empty after cleaning, it's a failed generation
+            if not clean_text:
+                return OllamaResponse(
+                    success=False,
+                    text="",
+                    error="Model returned empty response after cleaning",
+                    latency_ms=latency_ms
+                )
             
             return OllamaResponse(
                 success=True,
@@ -155,6 +179,14 @@ class OllamaClient:
         # Remove Qwen3 chat format tokens
         text = text.replace("<|system|>", "").replace("<|user|>", "").replace("<|assistant|>", "")
         
+        # Remove Qwen3 thinking tags (with think=false these should not appear, but handle defensively)
+        text = re.sub(r'<\|think\|>.*?<\|endofthink\|>', '', text, flags=re.DOTALL)
+        text = re.sub(r'<\|reasoning\|>.*?<\|endofreasoning\|>', '', text, flags=re.DOTALL)
+        
+        # Remove generic thinking markers
+        text = re.sub(r'Thinking\.\.\..*?done thinking\.', '', text, flags=re.DOTALL)
+        text = re.sub(r'Thinking\.\.\..*?done thinking', '', text, flags=re.DOTALL)
+        
         # Remove reasoning preamble patterns (common in Qwen3 outputs)
         reasoning_patterns = [
             r'^First, I need to[^.]*\.\s*',
@@ -172,17 +204,16 @@ class OllamaClient:
             r'^Let\'s look at.*?(?=\.|$)',
             r'^Let me review.*?(?=\.|$)',
             r'^The (question|context) is.*?(?=\.|$)',
+            # Additional patterns for meta-commentary
+            r'^SOURCE \d+[:.]\s*',
+            r'^Answer[:.]?\s*',
+            r'^Sources[:.]?\s*',
+            r'^Confidence[:.]?\s*',
+            r'^The question is.*?(?=\.|$)',
+            r'^Let me check.*?(?=\.|$)',
         ]
         for pattern in reasoning_patterns:
             text = re.sub(pattern, '', text, flags=re.IGNORECASE | re.MULTILINE)
-        
-        # Remove Qwen3 specific thinking patterns
-        text = re.sub(r'<\|think\|>.*?<\|endofthink\|>', '', text, flags=re.DOTALL)
-        text = re.sub(r'<\|reasoning\|>.*?<\|endofreasoning\|>', '', text, flags=re.DOTALL)
-        
-        # Remove generic thinking markers
-        text = re.sub(r'Thinking\.\.\..*?done thinking\.', '', text, flags=re.DOTALL)
-        text = re.sub(r'Thinking\.\.\..*?done thinking', '', text, flags=re.DOTALL)
         
         # Remove any remaining <|...|> tags
         text = re.sub(r'<\|[^|]+\|>', '', text)
@@ -222,7 +253,7 @@ def clean_response(text: str) -> str:
         # Remove Qwen3 chat format tokens
         text = text.replace("<|system|>", "").replace("<|user|>", "").replace("<|assistant|>", "")
         
-        # Remove Qwen3 specific thinking patterns
+        # Remove Qwen3 thinking tags
         text = re.sub(r'<\|think\|>.*?<\|endofthink\|>', '', text, flags=re.DOTALL)
         text = re.sub(r'<\|reasoning\|>.*?<\|endofreasoning\|>', '', text, flags=re.DOTALL)
         
@@ -247,17 +278,16 @@ def clean_response(text: str) -> str:
             r'^Let\'s look at.*?(?=\.|$)',
             r'^Let me review.*?(?=\.|$)',
             r'^The (question|context) is.*?(?=\.|$)',
+            # Additional patterns for meta-commentary
+            r'^SOURCE \d+[:.]\s*',
+            r'^Answer[:.]?\s*',
+            r'^Sources[:.]?\s*',
+            r'^Confidence[:.]?\s*',
+            r'^The question is.*?(?=\.|$)',
+            r'^Let me check.*?(?=\.|$)',
         ]
         for pattern in reasoning_patterns:
             text = re.sub(pattern, '', text, flags=re.IGNORECASE | re.MULTILINE)
-        
-        # Remove Qwen3 specific thinking patterns
-        text = re.sub(r'<\|think\|>.*?<\|endofthink\|>', '', text, flags=re.DOTALL)
-        text = re.sub(r'<\|reasoning\|>.*?<\|endofreasoning\|>', '', text, flags=re.DOTALL)
-        
-        # Remove generic thinking markers
-        text = re.sub(r'Thinking\.\.\..*?done thinking\.', '', text, flags=re.DOTALL)
-        text = re.sub(r'Thinking\.\.\..*?done thinking', '', text, flags=re.DOTALL)
         
         # Remove any remaining <|...|> tags
         text = re.sub(r'<\|[^|]+\|>', '', text)

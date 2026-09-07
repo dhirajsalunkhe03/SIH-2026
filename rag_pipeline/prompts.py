@@ -11,10 +11,10 @@ Answer ONLY from the provided legal context. Do not invent legal text, sections,
 
 If the context does not contain the answer: "I could not find sufficient supporting information in the available legal knowledge base."
 
-Structure:
-**Answer**: [Answer in user's language, based only on retrieved text]
-**Sources**: [Document (Year) — Section/Rule # — Pages]
-**Confidence**: [High/Medium/Low]
+Format your response exactly as:
+**Answer**: your answer
+**Sources**: your sources
+**Confidence**: High/Medium/Low
 
 Preserve legal terminology. Follow user's language. No legal advice."""
 
@@ -25,27 +25,28 @@ Answer ONLY from the provided legal context. Do not invent legal text.
 
 If context is insufficient: "I could not find sufficient supporting information in the available legal knowledge base."
 
-Format:
-**Answer**: [Answer in user's language]
-**Sources**: [Document (Year) — Section/Rule # — Pages]
-**Confidence**: [High/Medium/Low]
+Format your response exactly as:
+**Answer**: your answer
+**Sources**: your sources
+**Confidence**: High/Medium/Low
 
 Preserve legal terminology. Follow user's language. No legal advice."""
 
 
 # Language-specific instruction suffixes
+# PHASE 5A: Force English-only internal generation. Multilingual output will be added later.
 LANGUAGE_INSTRUCTIONS = {
     'en': "Answer in English.",
-    'hi': "हिंदी में उत्तर दें।",
-    'mr': "मराठीत उत्तर द्या।",
-    'gu': "ગુજરાતીમાં જવાબ આપો।",
-    'bn': "বাংলা ভাষায় উত্তর দিন।",
-    'ta': "தமிழில் பதிலளிக்கவும்।",
-    'te': "తెలుగులో উত্তর ఇవ్వండి।",
-    'kn': "ಕನ್ನಡದಲ್ಲಿ ಉತ್ತರಿಸಿ।",
-    'ml': "മലയാളത്തിൽ ഉത്തരം നൽകുക।",
-    'pa': "ਪੰਜਾਬੀ ਵਿੱਚ ਜਵਾਬ ਦਿਓ।",
-    'auto': "Answer in the same language as the user's query."
+    'hi': "Answer in English. (Internal reasoning language is English)",
+    'mr': "Answer in English. (Internal reasoning language is English)",
+    'gu': "Answer in English. (Internal reasoning language is English)",
+    'bn': "Answer in English. (Internal reasoning language is English)",
+    'ta': "Answer in English. (Internal reasoning language is English)",
+    'te': "Answer in English. (Internal reasoning language is English)",
+    'kn': "Answer in English. (Internal reasoning language is English)",
+    'ml': "Answer in English. (Internal reasoning language is English)",
+    'pa': "Answer in English. (Internal reasoning language is English)",
+    'auto': "Answer in English. (Internal reasoning language is English)",
 }
 
 
@@ -69,30 +70,17 @@ def build_rag_prompt(
     system_prompt = get_system_prompt(concise)
     lang_instruction = get_language_instruction(language)
     
-    # Minimal, directive prompt - no room for interpretation
+    # PHASE 5A: English-only internal generation with think=false
+    # Strict output format, no reasoning, no thinking tags
     prompt = f"""<|system|>
-You are an Indian legal research assistant. Answer ONLY from the provided context.
-CRITICAL RULES:
-- Output ONLY the final answer in {lang_instruction}. NO reasoning, NO analysis, NO meta-commentary.
-- If context lacks the answer: **Answer**: I could not find sufficient supporting information in the available legal knowledge base. **Sources**: None **Confidence**: Low
-- Format EXACTLY: **Answer**: [answer] **Sources**: [sources] **Confidence**: [High/Medium/Low]
-- NEVER write: "The context...", "Let me...", "First...", "Based on...", "Hmm...", "Let me...", "We are given...", "We need to...", "I need to...", "Let me analyze...", "The context..."
-- Answer in {lang_instruction} even if context is in English.
+{system_prompt}
+
+{lang_instruction}
 <|user|>
 CONTEXT:
 {context}
 
-QUESTION: {query}
-
-OUTPUT FORMAT (EXACT):
-**Answer**: [answer in {lang_instruction} from context only]
-**Sources**: [Document (Year) — Section/Rule # — Pages]
-**Confidence**: [High/Medium/Low]
-
-If no answer in context:
-**Answer**: I could not find sufficient supporting information in the available legal knowledge base.
-**Sources**: None
-**Confidence**: Low<|assistant|>"""
+QUESTION: {query}<|assistant|>"""
     return prompt
 
 

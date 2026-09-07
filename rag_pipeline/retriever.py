@@ -5,7 +5,7 @@ Multilingual legal document retriever using ChromaDB and bge-m3 embeddings.
 
 import json
 import os
-from typing import List, Dict, Any, Optional
+from typing import List, Dict, Any, Optional, Union
 from dataclasses import dataclass
 from pathlib import Path
 
@@ -42,13 +42,20 @@ class LegalRetriever:
         self,
         vector_db_path: str = "/home/dhiraj/Desktop/SIH/rag_pipeline/vector_db",
         model_name: str = "BAAI/bge-m3",
-        collection_name: str = "legal_knowledge"
+        collection_name: str = "legal_knowledge",
+        device: str = "cuda",
+        use_cpu: bool = False
     ):
         self.vector_db_path = vector_db_path
         self.model_name = model_name
         self.collection_name = collection_name
         
-        self.device = "cuda" if torch.cuda.is_available() else "cpu"
+        # Use CPU if explicitly requested or if CUDA not available
+        if use_cpu or not torch.cuda.is_available():
+            self.device = "cpu"
+        else:
+            self.device = device
+            
         self.model = None
         self.client = None
         self.collection = None
@@ -81,7 +88,7 @@ class LegalRetriever:
         self,
         query: str,
         top_k: int = 5,
-        domain: Optional[str] = None,
+        domain: Optional[Union[str, List[str]]] = None,
         language: Optional[str] = None,
         document_type: Optional[str] = None,
         document: Optional[str] = None
@@ -92,7 +99,7 @@ class LegalRetriever:
         Args:
             query: User query in any supported language
             top_k: Number of results to return
-            domain: Filter by legal domain
+            domain: Filter by legal domain (str or list of str)
             language: Filter by document language
             document_type: Filter by 'Act' or 'Rules'
             document: Filter by specific document name
@@ -106,7 +113,11 @@ class LegalRetriever:
         # Build where filter
         where_filter = {}
         if domain:
-            where_filter["domain"] = domain
+            if isinstance(domain, list):
+                # Use $in operator for multiple domains
+                where_filter["domain"] = {"$in": domain}
+            else:
+                where_filter["domain"] = domain
         if language:
             where_filter["language"] = language
         if document_type:

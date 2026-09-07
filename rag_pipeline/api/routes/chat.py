@@ -13,6 +13,7 @@ from api.schemas import (
 )
 from api.dependencies import get_rag_engine
 from rag_engine import LegalRAG
+from agents.orchestrator import OrchestratorResult
 
 router = APIRouter(prefix="/api", tags=["Chat"])
 
@@ -50,10 +51,10 @@ def map_document_type(doc_type: Optional[str]) -> Optional[str]:
     return type_map.get(doc_type, doc_type)
 
 
-def format_sources_for_response(retrieved_chunks: List[dict]) -> List[SourceCitation]:
-    """Format retrieved chunks as source citations for API response."""
+def format_sources_for_response(evidence: List[dict]) -> List[SourceCitation]:
+    """Format evidence as source citations for API response."""
     sources = []
-    for chunk in retrieved_chunks:
+    for chunk in evidence:
         source = SourceCitation(
             document=chunk.get('document', ''),
             document_type=chunk.get('document_type', ''),
@@ -99,39 +100,120 @@ async def chat_endpoint(
     try:
         start_time = time.time()
         
-        # Use the RAG engine to answer
-        result = rag_engine.answer(
-            query=request.query.strip(),
-            answer_language=answer_language if answer_language != "auto" else "auto",
-            top_k=request.top_k,
-            domain=domain,
-            language=None,  # Don't filter by document language unless specified
-            document_type=doc_type,
-            document=request.document,
-            concise=True
-        )
-        
-        total_time = int((time.time() - start_time) * 1000)
-        
-        # Format sources for response
-        sources = format_sources_for_response(result.retrieved_chunks)
-        
-        # Build response
-        return ChatResponse(
-            success=True,
-            query=request.query,
-            detected_language=result.detected_language,
-            answer_language=result.answer_language,
-            domain=request.domain.value if hasattr(request.domain, 'value') else request.domain,
-            answer=result.answer,
-            confidence=result.confidence,
-            sources=sources,
-            latency=LatencyInfo(
-                retrieval_ms=result.retrieval_time_ms,
-                generation_ms=result.generation_time_ms,
-                total_ms=total_time
+        # Use the orchestrator if available (Phase 6), fallback to direct RAG
+        if rag_engine.orchestrator:
+            # Step 1: Detect and translate query to English (reuse existing logic)
+            from translation_service import get_translation_service
+            from language_utils import detect_language
+            
+            query = request.query.strip()
+            lang_info = detect_language(query)
+            detected_lang = lang_info.code
+            
+            if answer_language == 'auto':
+                target_lang = detected_lang if detected_lang != 'unknown' else 'en'
+            else:
+                target_lang = answer_language
+            
+            # Translate query to English if needed
+            english_query = query
+            translation_to_english_ms = 0
+            if target_lang != 'en' and rag_engine.translation_service and rag_engine.config.translation.enabled:
+                trans_start = time.time()
+                trans_result = rag_engine.translation_service.translate_to_english(query, target_lang)
+                translation_to_english_ms = int((time.time() - trans_start) * 1000)
+                
+                if trans_result.success:
+                    english_query = trans_result.text
+                else:
+                    pass  # Continue with original query
+            
+            # Step 2: Run orchestrator on English query
+            orchestrator_result: OrchestratorResult = rag_engine.orchestrator.run(
+                query=english_query,
+                top_k=request.top_k,
+                concise=True
             )
-        )
+            
+            # Step 3: Translate answer to target language if needed
+            final_answer = orchestrator_result.answer
+            translation_to_target_ms = 0
+            if target_lang != 'en' and rag_engine.translation_service and rag_engine.config.translation.enabled:
+                trans_start = time.time()
+                trans_result = rag_engine.translation_service.translate_from_english(orchestrator_result.answer, target_lang)
+                translation_to_target_ms = int((time.time() - trans_start) * 1000)
+                
+                if trans_result.success:
+                    final_answer = trans_result.text
+                else:
+                    pass  # Fall back to English answer
+            
+            total_time = int((time.time() - start_time) * 1000)
+            
+            # Format sources for response
+            sources = format_sources_for_response(orchestrator_result.sources)
+            
+            # Build routing info for response
+            routing_info = {
+                "agents_used": orchestrator_result.agents_used,
+                "routing_domain": orchestrator_result.routing.primary_agent,
+                "routing_reason": orchestrator_result.routing.routing_reason,
+                "is_multi_domain": orchestrator_result.routing.is_multi_domain
+            }
+            
+            # Build response
+            return ChatResponse(
+                success=True,
+                query=request.query,
+                detected_language=orchestrator_result.routing.detected_language if hasattr(orchestrator_result.routing, 'detected_language') else {"code": lang_info.code, "name": lang_info.name, "confidence": lang_info.confidence},
+                answer_language=target_lang,
+                domain=request.domain.value if hasattr(request.domain, 'value') else request.domain,
+                answer=final_answer,
+                confidence=str(orchestrator_result.confidence) if orchestrator_result.confidence <= 1.0 else orchestrator_result.confidence,
+                sources=sources,
+                latency=LatencyInfo(
+                    retrieval_ms=orchestrator_result.retrieval_time_ms,
+                    generation_ms=orchestrator_result.generation_time_ms,
+                    translation_to_english_ms=translation_to_english_ms,
+                    translation_to_target_ms=translation_to_target_ms,
+                    total_ms=total_time
+                ),
+                error=None
+            )
+        else:
+            # Fallback to original RAG engine
+            result = rag_engine.answer(
+                query=request.query.strip(),
+                answer_language=answer_language if answer_language != "auto" else "auto",
+                top_k=request.top_k,
+                domain=domain,
+                language=None,
+                document_type=doc_type,
+                document=request.document,
+                concise=True
+            )
+            
+            total_time = int((time.time() - start_time) * 1000)
+            
+            sources = format_sources_for_response(result.retrieved_chunks)
+            
+            return ChatResponse(
+                success=True,
+                query=request.query,
+                detected_language=result.detected_language,
+                answer_language=result.answer_language,
+                domain=request.domain.value if hasattr(request.domain, 'value') else request.domain,
+                answer=result.answer,
+                confidence=result.confidence,
+                sources=sources,
+                latency=LatencyInfo(
+                    retrieval_ms=result.retrieval_time_ms,
+                    generation_ms=result.generation_time_ms,
+                    translation_to_english_ms=result.translation_to_english_ms,
+                    translation_to_target_ms=result.translation_to_target_ms,
+                    total_ms=total_time
+                )
+            )
         
     except Exception as e:
         # Log the error for debugging

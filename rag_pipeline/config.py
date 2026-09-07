@@ -18,6 +18,8 @@ class RetrieverConfig:
     device: str = "cuda"
     default_top_k: int = 5
     default_filters: Dict = field(default_factory=dict)
+    # Use CPU for embeddings to save GPU memory for Qwen3
+    use_cpu: bool = True
 
 
 @dataclass
@@ -40,6 +42,19 @@ class OllamaConfig:
     max_tokens: int = 512
     timeout: int = 120
     system_prompt_concise: bool = True
+
+
+@dataclass
+class TranslationConfig:
+    """Configuration for NLLB-200 translation model."""
+    enabled: bool = True
+    device: str = "cuda"  # cuda or cpu
+    torch_dtype: str = "float16"  # float16 or float32
+    model_name: str = "facebook/nllb-200-distilled-600M"
+    max_length: int = 512
+    num_beams: int = 5
+    # Fallback to CPU if CUDA OOM
+    cpu_fallback: bool = True
 
 
 @dataclass
@@ -100,6 +115,7 @@ class Phase4Config:
     retriever: RetrieverConfig = field(default_factory=RetrieverConfig)
     embedder: EmbedderConfig = field(default_factory=EmbedderConfig)
     ollama: OllamaConfig = field(default_factory=OllamaConfig)
+    translation: TranslationConfig = field(default_factory=TranslationConfig)
     context: ContextConfig = field(default_factory=ContextConfig)
     thresholds: RetrievalThresholds = field(default_factory=RetrievalThresholds)
     language: LanguageConfig = field(default_factory=LanguageConfig)

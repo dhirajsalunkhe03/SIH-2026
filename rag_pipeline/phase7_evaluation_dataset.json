@@ -1,0 +1,518 @@
+{
+  "dataset_info": {
+    "name": "Phase 7 Legal RAG Evaluation Dataset",
+    "version": "1.0",
+    "description": "Evaluation dataset for Legal RAG system with multi-agent architecture",
+    "total_queries": 45,
+    "languages": ["en", "hi", "mr", "gu", "bn", "ta", "te", "kn", "ml", "pa"],
+    "domains": ["Legal", "Patents", "Trade Marks", "Geographical Indications", "Designs", "Biodiversity/ABS", "Traditional Knowledge", "Multi-domain"],
+    "created": "2026-09-07"
+  },
+  "queries": [
+    {
+      "id": "legal_001",
+      "query": "What does Section 11 of the Patents Act, 1970 deal with?",
+      "language": "en",
+      "expected_domain": ["Legal", "Patents"],
+      "expected_agent": ["legal", "ip"],
+      "expected_source_keywords": ["Patents Act", "1970", "Section 11", "Government", "use of invention"],
+      "requires_grounding": true,
+      "category": "Legal"
+    },
+    {
+      "id": "legal_002",
+      "query": "What is the meaning of use of invention for purposes of Government under the Patents Act?",
+      "language": "en",
+      "expected_domain": ["Legal", "Patents"],
+      "expected_agent": ["legal", "ip"],
+      "expected_source_keywords": ["Patents Act", "1970", "Section 11", "Government", "use of invention"],
+      "requires_grounding": true,
+      "category": "Legal"
+    },
+    {
+      "id": "legal_003",
+      "query": "What are the rights of third parties in respect of use of invention for purposes of Government?",
+      "language": "en",
+      "expected_domain": ["Legal", "Patents"],
+      "expected_agent": ["legal", "ip"],
+      "expected_source_keywords": ["Patents Act", "1970", "Section 11", "third parties", "rights"],
+      "requires_grounding": true,
+      "category": "Legal"
+    },
+    {
+      "id": "patents_001",
+      "query": "What is a patent according to the Patents Act?",
+      "language": "en",
+      "expected_domain": ["Patents"],
+      "expected_agent": ["ip"],
+      "expected_source_keywords": ["Patents Act", "patent", "definition"],
+      "requires_grounding": true,
+      "category": "Patents"
+    },
+    {
+      "id": "patents_002",
+      "query": "What is the procedure for patent registration in India?",
+      "language": "en",
+      "expected_domain": ["Patents"],
+      "expected_agent": ["ip"],
+      "expected_source_keywords": ["Patents Act", "patent", "application", "registration", "procedure"],
+      "requires_grounding": true,
+      "category": "Patents"
+    },
+    {
+      "id": "patents_003",
+      "query": "What are the grounds for patent opposition under the Patents Act?",
+      "language": "en",
+      "expected_domain": ["Patents"],
+      "expected_agent": ["ip"],
+      "expected_source_keywords": ["Patents Act", "opposition", "patent"],
+      "requires_grounding": true,
+      "category": "Patents"
+    },
+    {
+      "id": "patents_004",
+      "query": "What is the term of a patent in India?",
+      "language": "en",
+      "expected_domain": ["Patents"],
+      "expected_agent": ["ip"],
+      "expected_source_keywords": ["Patents Act", "patent", "term", "twenty years"],
+      "requires_grounding": true,
+      "category": "Patents"
+    },
+    {
+      "id": "patents_005",
+      "query": "What is compulsory licensing of patents?",
+      "language": "en",
+      "expected_domain": ["Patents"],
+      "expected_agent": ["ip"],
+      "expected_source_keywords": ["Patents Act", "compulsory license", "patent"],
+      "requires_grounding": true,
+      "category": "Patents"
+    },
+    {
+      "id": "trademarks_001",
+      "query": "What is a trade mark according to the Trade Marks Act?",
+      "language": "en",
+      "expected_domain": ["Trade Marks"],
+      "expected_agent": ["ip"],
+      "expected_source_keywords": ["Trade Marks Act", "trade mark", "definition"],
+      "requires_grounding": true,
+      "category": "Trade Marks"
+    },
+    {
+      "id": "trademarks_002",
+      "query": "What is the procedure for trade mark registration?",
+      "language": "en",
+      "expected_domain": ["Trade Marks"],
+      "expected_agent": ["ip"],
+      "expected_source_keywords": ["Trade Marks Act", "trade mark", "registration", "procedure"],
+      "requires_grounding": true,
+      "category": "Trade Marks"
+    },
+    {
+      "id": "trademarks_003",
+      "query": "What are the grounds for refusal of trade mark registration?",
+      "language": "en",
+      "expected_domain": ["Trade Marks"],
+      "expected_agent": ["ip"],
+      "expected_source_keywords": ["Trade Marks Act", "refusal", "trade mark", "registration", "Section 9", "Section 11"],
+      "requires_grounding": true,
+      "category": "Trade Marks"
+    },
+    {
+      "id": "trademarks_004",
+      "query": "What is a well-known trade mark?",
+      "language": "en",
+      "expected_domain": ["Trade Marks"],
+      "expected_agent": ["ip"],
+      "expected_source_keywords": ["Trade Marks Act", "well-known", "trade mark"],
+      "requires_grounding": true,
+      "category": "Trade Marks"
+    },
+    {
+      "id": "gi_001",
+      "query": "What is a geographical indication?",
+      "language": "en",
+      "expected_domain": ["Geographical Indications"],
+      "expected_agent": ["ip"],
+      "expected_source_keywords": ["Geographical Indications", "Act", "definition", "geographical indication"],
+      "requires_grounding": true,
+      "category": "Geographical Indications"
+    },
+    {
+      "id": "gi_002",
+      "query": "What is the procedure for geographical indication registration?",
+      "language": "en",
+      "expected_domain": ["Geographical Indications"],
+      "expected_agent": ["ip"],
+      "expected_source_keywords": ["Geographical Indications", "registration", "procedure"],
+      "requires_grounding": true,
+      "category": "Geographical Indications"
+    },
+    {
+      "id": "gi_003",
+      "query": "Who can apply for a geographical indication?",
+      "language": "en",
+      "expected_domain": ["Geographical Indications"],
+      "expected_agent": ["ip"],
+      "expected_source_keywords": ["Geographical Indications", "applicant", "producer", "association"],
+      "requires_grounding": true,
+      "category": "Geographical Indications"
+    },
+    {
+      "id": "designs_001",
+      "query": "What is a design under the Designs Act?",
+      "language": "en",
+      "expected_domain": ["Designs"],
+      "expected_agent": ["ip"],
+      "expected_source_keywords": ["Designs Act", "design", "definition", "article", "features"],
+      "requires_grounding": true,
+      "category": "Designs"
+    },
+    {
+      "id": "designs_002",
+      "query": "What is the procedure for design registration?",
+      "language": "en",
+      "expected_domain": ["Designs"],
+      "expected_agent": ["ip"],
+      "expected_source_keywords": ["Designs Act", "design", "registration", "procedure"],
+      "requires_grounding": true,
+      "category": "Designs"
+    },
+    {
+      "id": "designs_003",
+      "query": "What constitutes piracy of a registered design?",
+      "language": "en",
+      "expected_domain": ["Designs"],
+      "expected_agent": ["ip"],
+      "expected_source_keywords": ["Designs Act", "piracy", "design", "infringement"],
+      "requires_grounding": true,
+      "category": "Designs"
+    },
+    {
+      "id": "abs_001",
+      "query": "What is access and benefit sharing?",
+      "language": "en",
+      "expected_domain": ["Biodiversity"],
+      "expected_agent": ["abs"],
+      "expected_source_keywords": ["Biological Diversity Act", "access", "benefit sharing", "ABS"],
+      "requires_grounding": true,
+      "category": "Biodiversity/ABS"
+    },
+    {
+      "id": "abs_002",
+      "query": "What is the role of the National Biodiversity Authority?",
+      "language": "en",
+      "expected_domain": ["Biodiversity"],
+      "expected_agent": ["abs"],
+      "expected_source_keywords": ["Biological Diversity Act", "National Biodiversity Authority", "NBA", "functions"],
+      "requires_grounding": true,
+      "category": "Biodiversity/ABS"
+    },
+    {
+      "id": "abs_003",
+      "query": "What permissions are required to access biological resources?",
+      "language": "en",
+      "expected_domain": ["Biodiversity"],
+      "expected_agent": ["abs"],
+      "expected_source_keywords": ["Biological Diversity Act", "access", "biological resource", "permission", "prior informed consent"],
+      "requires_grounding": true,
+      "category": "Biodiversity/ABS"
+    },
+    {
+      "id": "abs_004",
+      "query": "What are the benefit sharing obligations under the Biological Diversity Act?",
+      "language": "en",
+      "expected_domain": ["Biodiversity"],
+      "expected_agent": ["abs"],
+      "expected_source_keywords": ["Biological Diversity Act", "benefit sharing", "obligations", "monetary", "non-monetary"],
+      "requires_grounding": true,
+      "category": "Biodiversity/ABS"
+    },
+    {
+      "id": "abs_005",
+      "query": "What are the functions of State Biodiversity Boards?",
+      "language": "en",
+      "expected_domain": ["Biodiversity"],
+      "expected_agent": ["abs"],
+      "expected_source_keywords": ["Biological Diversity Act", "State Biodiversity Board", "SBB", "functions"],
+      "requires_grounding": true,
+      "category": "Biodiversity/ABS"
+    },
+    {
+      "id": "tk_001",
+      "query": "What is traditional knowledge?",
+      "language": "en",
+      "expected_domain": ["Traditional Knowledge", "Biodiversity"],
+      "expected_agent": ["tk"],
+      "expected_source_keywords": ["Biological Diversity Act", "traditional knowledge", "definition"],
+      "requires_grounding": true,
+      "category": "Traditional Knowledge"
+    },
+    {
+      "id": "tk_002",
+      "query": "What is the relationship between traditional knowledge and biodiversity?",
+      "language": "en",
+      "expected_domain": ["Traditional Knowledge", "Biodiversity"],
+      "expected_agent": ["tk", "abs"],
+      "expected_source_keywords": ["Biological Diversity Act", "traditional knowledge", "biodiversity", "associated knowledge"],
+      "requires_grounding": true,
+      "category": "Traditional Knowledge"
+    },
+    {
+      "id": "multidomain_001",
+      "query": "Can traditional knowledge be protected through patents?",
+      "language": "en",
+      "expected_domain": ["Traditional Knowledge", "Patents"],
+      "expected_agent": ["tk", "ip"],
+      "expected_source_keywords": ["traditional knowledge", "patent", "biopiracy", "prior art", "disclosure"],
+      "requires_grounding": true,
+      "category": "Multi-domain"
+    },
+    {
+      "id": "multidomain_002",
+      "query": "What obligations may apply when accessing biological resources associated with traditional knowledge?",
+      "language": "en",
+      "expected_domain": ["Biodiversity", "Traditional Knowledge", "Legal"],
+      "expected_agent": ["abs", "tk", "legal"],
+      "expected_source_keywords": ["Biological Diversity Act", "access", "biological resource", "traditional knowledge", "prior informed consent", "benefit sharing"],
+      "requires_grounding": true,
+      "category": "Multi-domain"
+    },
+    {
+      "id": "multidomain_003",
+      "query": "What are the patent implications of traditional knowledge?",
+      "language": "en",
+      "expected_domain": ["Patents", "Traditional Knowledge"],
+      "expected_agent": ["ip", "tk"],
+      "expected_source_keywords": ["patent", "traditional knowledge", "prior art", "disclosure requirement", "TKDL"],
+      "requires_grounding": true,
+      "category": "Multi-domain"
+    },
+    {
+      "id": "multidomain_004",
+      "query": "Can a geographical indication protect traditional knowledge?",
+      "language": "en",
+      "expected_domain": ["Geographical Indications", "Traditional Knowledge"],
+      "expected_agent": ["ip", "tk"],
+      "expected_source_keywords": ["geographical indication", "traditional knowledge", "protection"],
+      "requires_grounding": true,
+      "category": "Multi-domain"
+    },
+    {
+      "id": "multidomain_005",
+      "query": "What is the relationship between designs and traditional knowledge?",
+      "language": "en",
+      "expected_domain": ["Designs", "Traditional Knowledge"],
+      "expected_agent": ["ip", "tk"],
+      "expected_source_keywords": ["design", "traditional knowledge", "protection"],
+      "requires_grounding": true,
+      "category": "Multi-domain"
+    },
+    {
+      "id": "multilingual_hi_001",
+      "query": "पेटेंट क्या है?",
+      "language": "hi",
+      "expected_domain": ["Patents"],
+      "expected_agent": ["ip"],
+      "expected_source_keywords": ["Patents Act", "patent", "definition"],
+      "requires_grounding": true,
+      "category": "Multilingual"
+    },
+    {
+      "id": "multilingual_mr_001",
+      "query": "पेटंट म्हणजे काय?",
+      "language": "mr",
+      "expected_domain": ["Patents"],
+      "expected_agent": ["ip"],
+      "expected_source_keywords": ["Patents Act", "patent", "definition"],
+      "requires_grounding": true,
+      "category": "Multilingual"
+    },
+    {
+      "id": "multilingual_gu_001",
+      "query": "પેટન્ટ શું છે?",
+      "language": "gu",
+      "expected_domain": ["Patents"],
+      "expected_agent": ["ip"],
+      "expected_source_keywords": ["Patents Act", "patent", "definition"],
+      "requires_grounding": true,
+      "category": "Multilingual"
+    },
+    {
+      "id": "multilingual_bn_001",
+      "query": "পেটেন্ট কী?",
+      "language": "bn",
+      "expected_domain": ["Patents"],
+      "expected_agent": ["ip"],
+      "expected_source_keywords": ["Patents Act", "patent", "definition"],
+      "requires_grounding": true,
+      "category": "Multilingual"
+    },
+    {
+      "id": "multilingual_ta_001",
+      "query": "பேட்டண்ட் என்றால் என்ன?",
+      "language": "ta",
+      "expected_domain": ["Patents"],
+      "expected_agent": ["ip"],
+      "expected_source_keywords": ["Patents Act", "patent", "definition"],
+      "requires_grounding": true,
+      "category": "Multilingual"
+    },
+    {
+      "id": "multilingual_te_001",
+      "query": "పేటెంట్ అంటే ఏమిటి?",
+      "language": "te",
+      "expected_domain": ["Patents"],
+      "expected_agent": ["ip"],
+      "expected_source_keywords": ["Patents Act", "patent", "definition"],
+      "requires_grounding": true,
+      "category": "Multilingual"
+    },
+    {
+      "id": "multilingual_kn_001",
+      "query": "ಪೆಟೆಂಟ್ ಎಂದಿಗ?",
+      "language": "kn",
+      "expected_domain": ["Patents"],
+      "expected_agent": ["ip"],
+      "expected_source_keywords": ["Patents Act", "patent", "definition"],
+      "requires_grounding": true,
+      "category": "Multilingual"
+    },
+    {
+      "id": "multilingual_ml_001",
+      "query": "പെട്ടന്റ് എന്താണ്?",
+      "language": "ml",
+      "expected_domain": ["Patents"],
+      "expected_agent": ["ip"],
+      "expected_source_keywords": ["Patents Act", "patent", "definition"],
+      "requires_grounding": true,
+      "category": "Multilingual"
+    },
+    {
+      "id": "multilingual_pa_001",
+      "query": "ਪੇਟੈਂਟ ਕੀ ਹੈ?",
+      "language": "pa",
+      "expected_domain": ["Patents"],
+      "expected_agent": ["ip"],
+      "expected_source_keywords": ["Patents Act", "patent", "definition"],
+      "requires_grounding": true,
+      "category": "Multilingual"
+    },
+    {
+      "id": "multilingual_hi_002",
+      "query": "पारंपरिक ज्ञान क्या है?",
+      "language": "hi",
+      "expected_domain": ["Traditional Knowledge"],
+      "expected_agent": ["tk"],
+      "expected_source_keywords": ["Biological Diversity Act", "traditional knowledge", "definition"],
+      "requires_grounding": true,
+      "category": "Multilingual"
+    },
+    {
+      "id": "multilingual_mr_002",
+      "query": "पारंपरिक ज्ञान काय आहे?",
+      "language": "mr",
+      "expected_domain": ["Traditional Knowledge"],
+      "expected_agent": ["tk"],
+      "expected_source_keywords": ["Biological Diversity Act", "traditional knowledge", "definition"],
+      "requires_grounding": true,
+      "category": "Multilingual"
+    },
+    {
+      "id": "insufficient_001",
+      "query": "What does Section 2(1)(m) of the Patents Act define?",
+      "language": "en",
+      "expected_domain": ["Patents"],
+      "expected_agent": ["ip", "legal"],
+      "expected_source_keywords": [],
+      "requires_grounding": true,
+      "category": "Insufficient Evidence",
+      "note": "Section 2(1)(m) definition is not well covered in current corpus"
+    },
+    {
+      "id": "insufficient_002",
+      "query": "What are the specific penalties for GI infringement under Section 67?",
+      "language": "en",
+      "expected_domain": ["Geographical Indications"],
+      "expected_agent": ["ip"],
+      "expected_source_keywords": [],
+      "requires_grounding": true,
+      "category": "Insufficient Evidence",
+      "note": "Section 67 penalties may not be well covered in current corpus"
+    },
+    {
+      "id": "insufficient_003",
+      "query": "What is the procedure for international patent filing under PCT from India?",
+      "language": "en",
+      "expected_domain": ["Patents"],
+      "expected_agent": ["ip"],
+      "expected_source_keywords": [],
+      "requires_grounding": true,
+      "category": "Insufficient Evidence",
+      "note": "PCT procedure not in current corpus"
+    },
+    {
+      "id": "insufficient_004",
+      "query": "What are the specific monetary benefit sharing percentages under ABS?",
+      "language": "en",
+      "expected_domain": ["Biodiversity"],
+      "expected_agent": ["abs"],
+      "expected_source_keywords": [],
+      "requires_grounding": true,
+      "category": "Insufficient Evidence",
+      "note": "Specific percentages may not be in corpus"
+    },
+    {
+      "id": "insufficient_005",
+      "query": "What is the definition of 'inventive step' in the Patents Act 1970?",
+      "language": "en",
+      "expected_domain": ["Patents"],
+      "expected_agent": ["ip", "legal"],
+      "expected_source_keywords": [],
+      "requires_grounding": true,
+      "category": "Insufficient Evidence",
+      "note": "Section 2(1)(ja) definition not well covered"
+    },
+    {
+      "id": "hi_vs_mr_001",
+      "query": "पेटेंट क्या है?",
+      "language": "hi",
+      "expected_domain": ["Patents"],
+      "expected_agent": ["ip"],
+      "expected_source_keywords": ["Patents Act", "patent"],
+      "requires_grounding": true,
+      "category": "Hindi vs Marathi"
+    },
+    {
+      "id": "hi_vs_mr_002",
+      "query": "पेटंट म्हणजे काय?",
+      "language": "mr",
+      "expected_domain": ["Patents"],
+      "expected_agent": ["ip"],
+      "expected_source_keywords": ["Patents Act", "patent"],
+      "requires_grounding": true,
+      "category": "Hindi vs Marathi"
+    },
+    {
+      "id": "hi_vs_mr_003",
+      "query": "पारंपरिक ज्ञान क्या है?",
+      "language": "hi",
+      "expected_domain": ["Traditional Knowledge"],
+      "expected_agent": ["tk"],
+      "expected_source_keywords": ["Biological Diversity Act", "traditional knowledge"],
+      "requires_grounding": true,
+      "category": "Hindi vs Marathi"
+    },
+    {
+      "id": "hi_vs_mr_004",
+      "query": "पारंपरिक ज्ञान काय आहे?",
+      "language": "mr",
+      "expected_domain": ["Traditional Knowledge"],
+      "expected_agent": ["tk"],
+      "expected_source_keywords": ["Biological Diversity Act", "traditional knowledge"],
+      "requires_grounding": true,
+      "category": "Hindi vs Marathi"
+    }
+  ]
+}
