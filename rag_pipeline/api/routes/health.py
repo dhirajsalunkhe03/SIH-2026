@@ -3,7 +3,7 @@
 Health check routes for the Legal RAG API.
 """
 
-from fastapi import APIRouter, Depends, HTTPException
+from fastapi import APIRouter, Depends, HTTPException, status
 from typing import Dict, Any
 
 from api.schemas import HealthResponse, DetailedHealthResponse
@@ -14,6 +14,7 @@ from api.dependencies import (
     verify_embedding_model_health,
     get_config_instance,
 )
+from config import get_config
 
 router = APIRouter(prefix="/health", tags=["Health"])
 
@@ -51,7 +52,7 @@ async def detailed_health_check():
     retriever_ok = await verify_retriever_health()
     embedding_ok = True  # We can't easily check without retriever
     
-    config = get_config_instance()
+    config = get_config()
     
     # Get ChromaDB collection info
     chromadb_info = {}
@@ -77,15 +78,15 @@ async def detailed_health_check():
         service="SIH PS45 Legal AI",
         version="1.0.0",
         ollama={
-            "available": True,  # We know it's available if we got here
-            "model": "qwen3:4b",
-            "host": "http://localhost:11434",
+            "available": True,
+            "model": config.ollama.model,
+            "host": config.ollama.host,
             "check": "passed" if ollama_ok else "failed"
         },
         chromadb=chromadb_info,
         embedding_model={
-            "model": "BAAI/bge-m3",
-            "device": "cuda",
+            "model": config.embedder.model_name,
+            "device": config.embedder.device,
             "check": "passed" if embedding_ok else "failed"
         },
         retriever={

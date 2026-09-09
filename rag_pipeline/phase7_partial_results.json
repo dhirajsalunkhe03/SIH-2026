@@ -1,0 +1,295 @@
+{
+  "phase": "7",
+  "status": "partial",
+  "queries_tested": 10,
+  "results": [
+    {
+      "query_id": "legal_001",
+      "query": "What does Section 11 of the Patents Act, 1970 deal with?",
+      "language": "en",
+      "expected_domain": [
+        "Legal",
+        "Patents"
+      ],
+      "expected_agent": [
+        "legal",
+        "ip"
+      ],
+      "actual_agents": [
+        "ip",
+        "legal"
+      ],
+      "routing_correct": true,
+      "confidence": "0.45",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": false,
+      "answer_length": 23,
+      "total_ms": 28791,
+      "retrieval_ms": 800,
+      "generation_ms": 18797,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": null,
+      "answer_preview": "**Answer**: your answer"
+    },
+    {
+      "query_id": "patents_001",
+      "query": "What is a patent according to the Patents Act?",
+      "language": "en",
+      "expected_domain": [
+        "Patents"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "ip"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "total_ms": 11515,
+      "retrieval_ms": 1015,
+      "generation_ms": 11311,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: ip (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "trademarks_004",
+      "query": "What is a well-known trade mark?",
+      "language": "en",
+      "expected_domain": [
+        "Trade Marks"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "ip"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "total_ms": 10515,
+      "retrieval_ms": 605,
+      "generation_ms": 10393,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: ip (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "abs_001",
+      "query": "What is access and benefit sharing?",
+      "language": "en",
+      "expected_domain": [
+        "Biodiversity"
+      ],
+      "expected_agent": [
+        "abs"
+      ],
+      "actual_agents": [
+        "abs",
+        "tk"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "total_ms": 22815,
+      "retrieval_ms": 1255,
+      "generation_ms": 22562,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: abs (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "abs_005",
+      "query": "What are the functions of State Biodiversity Boards?",
+      "language": "en",
+      "expected_domain": [
+        "Biodiversity"
+      ],
+      "expected_agent": [
+        "abs"
+      ],
+      "actual_agents": [
+        "abs"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "total_ms": 10233,
+      "retrieval_ms": 475,
+      "generation_ms": 10138,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: abs (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "tk_002",
+      "query": "What is the relationship between traditional knowledge and biodiversity?",
+      "language": "en",
+      "expected_domain": [
+        "Traditional Knowledge",
+        "Biodiversity"
+      ],
+      "expected_agent": [
+        "tk",
+        "abs"
+      ],
+      "actual_agents": [
+        "tk"
+      ],
+      "routing_correct": false,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "total_ms": 10273,
+      "retrieval_ms": 760,
+      "generation_ms": 10120,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: tk (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "multilingual_hi_001",
+      "query": "पेटेंट क्या है?",
+      "language": "hi",
+      "expected_domain": [
+        "Patents"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "ip"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": false,
+      "answer_length": 70,
+      "total_ms": 25345,
+      "retrieval_ms": 345,
+      "generation_ms": 11305,
+      "translation_en_ms": 13840,
+      "translation_target_ms": 127,
+      "error": "All agents failed. Best: ip (error)",
+      "answer_preview": "मुझे उपलब्ध कानूनी ज्ञान आधार में पर्याप्त सहायक जानकारी नहीं मिल सकी।"
+    },
+    {
+      "query_id": "multilingual_mr_001",
+      "query": "पेटंट म्हणजे काय?",
+      "language": "mr",
+      "expected_domain": [
+        "Patents"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "ip"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": false,
+      "answer_length": 82,
+      "total_ms": 10130,
+      "retrieval_ms": 420,
+      "generation_ms": 9749,
+      "translation_en_ms": 69,
+      "translation_target_ms": 226,
+      "error": "All agents failed. Best: ip (error)",
+      "answer_preview": "मला उपलब्ध असलेल्या कायदेशीर ज्ञानाच्या आधारावर पुरेशी आधारभूत माहिती सापडली नाही."
+    },
+    {
+      "query_id": "multilingual_pa_001",
+      "query": "ਪੇਟੈਂਟ ਕੀ ਹੈ?",
+      "language": "pa",
+      "expected_domain": [
+        "Patents"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "ip"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": false,
+      "answer_length": 70,
+      "total_ms": 10572,
+      "retrieval_ms": 640,
+      "generation_ms": 10138,
+      "translation_en_ms": 120,
+      "translation_target_ms": 184,
+      "error": "All agents failed. Best: ip (error)",
+      "answer_preview": "ਮੈਨੂੰ ਉਪਲਬਧ ਕਾਨੂੰਨੀ ਗਿਆਨ ਅਧਾਰ ਵਿੱਚ ਲੋੜੀਂਦੀ ਸਹਾਇਕ ਜਾਣਕਾਰੀ ਨਹੀਂ ਮਿਲ ਸਕੀ।"
+    },
+    {
+      "query_id": "insufficient_002",
+      "query": "What are the specific penalties for GI infringement under Section 67?",
+      "language": "en",
+      "expected_domain": [
+        "Geographical Indications"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "ip",
+        "legal"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "total_ms": 21080,
+      "retrieval_ms": 1135,
+      "generation_ms": 20851,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: ip (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    }
+  ],
+  "timestamp": "2026-09-07T22:21:06"
+}

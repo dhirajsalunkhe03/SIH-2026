@@ -1,0 +1,48 @@
+{
+  "total": 8,
+  "passed": 8,
+  "failed": 0,
+  "success_rate": "100.0%",
+  "results": [
+    {
+      "name": "Health Endpoint",
+      "passed": true,
+      "message": "Status: healthy, Components: ['ollama', 'chromadb', 'retriever']"
+    },
+    {
+      "name": "Detailed Health",
+      "passed": true,
+      "message": "All components present"
+    },
+    {
+      "name": "Valid Chat Request",
+      "passed": true,
+      "message": "Answer length: 410, Sources: 1, Total: 28149ms"
+    },
+    {
+      "name": "Invalid Request Handling",
+      "passed": true,
+      "message": "Returns 422 for empty query"
+    },
+    {
+      "name": "RAG Response Sources",
+      "passed": true,
+      "message": "Sources: 3, Has section: False, Has rule: False"
+    },
+    {
+      "name": "Multilingual Request",
+      "passed": true,
+      "message": "Hindi answer length: 70, Language: hi"
+    },
+    {
+      "name": "Metrics Endpoint",
+      "passed": true,
+      "message": "Requests: 28, Engine ready: True"
+    },
+    {
+      "name": "Confidence & Abstention",
+      "passed": true,
+      "message": "Abstention: True, Confidence: 0.0"
+    }
+  ]
+}

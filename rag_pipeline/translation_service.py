@@ -123,6 +123,71 @@ SUPPORTED_LANGUAGES: Dict[str, LanguageConfig] = {
     ),
 }
 
+# Known translation quality issues for specific languages
+# These languages have lower NLLB-200 translation quality for short legal queries
+TRANSLATION_QUALITY_WARNING = {'kn', 'ml'}
+
+# Pre-translation normalization for languages with known quality issues
+# Maps common legal terms in native script to English equivalents
+# This runs BEFORE NLLB-200 translation to improve accuracy
+PRE_TRANSLATION_MAP: Dict[str, Dict[str, str]] = {
+    'kn': {
+        'ಪೆಟೆಂಟ್': 'patent',
+        'ಪೆಟೆಂಟ್‌ಗಳು': 'patents',
+        'ಪೆಟೆಂಟ್ ಕಾನೂನು': 'patent law',
+        'ಪೆಟೆಂಟ್ ಅಧಿನಿಯಮ': 'patent act',
+        'ಕಲಮ': 'section',
+        'ಧಾರಾ': 'section',
+        'ಕायदೆ': 'act',
+        'ಅಧಿನಿಯಮ': 'act',
+        'ನ್ಯಾಯಾಂಗ': 'legal',
+        'ಗೌಪ್ಯ': 'confidential',
+        'ಔಷಧಿ': 'drug',
+        'ಔಷಧಿಗಳು': 'drugs',
+        'ವೈದ್ಯಕೀಯ': 'medical',
+        'ರೋಗ': 'disease',
+        'ಚಿಕಿತ್ಸೆ': 'treatment',
+        'ಎಂದಿಗ': 'what is',
+        'என்று': 'what is',
+        'ಅর্থ': 'meaning',
+        'ಅರ್ಥವಾಗುತ್ತದೆ': 'means',
+        'ಯಾವುದೇ': 'any',
+        'ಹೇಗೆ': 'how',
+        'ಏನು': 'what',
+        'ಯಾಕೆ': 'why',
+        'ಯಾವಾಗ': 'when',
+        'ಎಲ್ಲಿ': 'where',
+        'ಯಾರು': 'who',
+    },
+    'ml': {
+        'പെട്ടന്റ്': 'patent',
+        'പെട്ടന്റുകള്': 'patents',
+        'പെട്ടന്റ് നിയമം': 'patent law',
+        'പെട്ടന്റ് നിയമം': 'patent act',
+        'വകുപ്പ്': 'section',
+        'ധാര': 'section',
+        'നിയമം': 'act',
+        'കാനൂന്': 'law',
+        'നിയമപരമായ': 'legal',
+        'രഹസ്യമായ': 'confidential',
+        'മരുന്ന്': 'drug',
+        'മരുന്നുകള്': 'drugs',
+        'വൈദ്യ': 'medical',
+        'രോഗം': 'disease',
+        'ചികിത്സ': 'treatment',
+        'എന്താണ്': 'what is',
+        'എന്താണ്': 'what is',
+        'അര്‍ത്ഥം': 'meaning',
+        'അര്‍ത്ഥമാക്കുന്നു': 'means',
+        'എന്ത്': 'what',
+        'എങ്ങിനെ': 'how',
+        'എന്തുകൊണ്ട്': 'why',
+        'അപ്പോള്': 'when',
+        'എവിടെ': 'where',
+        'ആര്': 'who',
+    },
+}
+
 
 class TranslationService:
     """Main translation service using NLLB-200 model."""
@@ -265,7 +330,10 @@ class TranslationService:
             )
         
         try:
-            translated = self._translate(text, lang_config.nllb_code, 'eng_Latn')
+            # Apply pre-translation normalization for known quality issues
+            normalized_text = pre_translate_query(text, source_language)
+            
+            translated = self._translate(normalized_text, lang_config.nllb_code, 'eng_Latn')
             
             return TranslationResult(
                 success=True,
@@ -369,6 +437,26 @@ def get_nllb_code(lang_code: str) -> Optional[str]:
     """Get NLLB-200 code for internal language code."""
     config = SUPPORTED_LANGUAGES.get(lang_code)
     return config.nllb_code if config else None
+
+
+def pre_translate_query(text: str, source_language: str) -> str:
+    """
+    Apply pre-translation normalization for languages with known NLLB-200 quality issues.
+    This replaces common legal terms in native script with English equivalents
+    before sending to the NLLB-200 model.
+    """
+    if source_language not in PRE_TRANSLATION_MAP:
+        return text
+    
+    translation_map = PRE_TRANSLATION_MAP[source_language]
+    result = text
+    
+    # Sort by length descending to match longer phrases first
+    for native_term, english_term in sorted(translation_map.items(), key=lambda x: -len(x[0])):
+        if native_term in result:
+            result = result.replace(native_term, english_term)
+    
+    return result
 
 
 if __name__ == '__main__':

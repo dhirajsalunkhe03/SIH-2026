@@ -1,0 +1,1852 @@
+{
+  "timestamp": "2026-09-08 09:11:44",
+  "total_tests": 14,
+  "passed": 13,
+  "failed": 1,
+  "results": [
+    {
+      "test": {
+        "query": "What is the purpose of the Biological Diversity Act?",
+        "language": "en",
+        "domain": "all",
+        "expected_agent": "abs",
+        "category": "English - Legal"
+      },
+      "http_status": 200,
+      "elapsed_seconds": 22.016101121902466,
+      "success": true,
+      "response": {
+        "success": true,
+        "query": "What is the purpose of the Biological Diversity Act?",
+        "detected_language": {
+          "code": "en",
+          "name": "English",
+          "confidence": 1.0
+        },
+        "answer_language": "en",
+        "domain": "all",
+        "answer": "I could not find sufficient supporting information in the available legal knowledge base.",
+        "confidence": "0.0",
+        "sources": [
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Annual report of State Biodiversity Board to be laid before State Legislature\u2014\u2014The State",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.644
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Establishment of State Biodiversity Board",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.62
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Functions and powers of National Biodiversity Authority\u2014[(/) The National Biodiversity",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.6178
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Functions of State Biodiversity Board.\u2014The functions of the State Biodiversity Board shall be",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.6154
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Short title, extent and commencement.\u2014(/) This Act may be called the Biological Diversity",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.6148
+          }
+        ],
+        "latency": {
+          "retrieval_ms": 950,
+          "generation_ms": 21816,
+          "translation_to_english_ms": 0,
+          "translation_to_target_ms": 0,
+          "total_ms": 22009
+        },
+        "error": null,
+        "agents_used": [
+          "tk",
+          "abs"
+        ],
+        "routing_domain": "tk",
+        "routing_reason": "tk(0.29); abs(0.29)",
+        "is_multi_domain": true
+      },
+      "error": null
+    },
+    {
+      "test": {
+        "query": "\u091c\u0948\u0935 \u0935\u093f\u0935\u093f\u0927\u0924\u093e \u0905\u0927\u093f\u0928\u093f\u092f\u092e \u0915\u093e \u0909\u0926\u094d\u0926\u0947\u0936\u094d\u092f \u0915\u094d\u092f\u093e \u0939\u0948?",
+        "language": "hi",
+        "domain": "all",
+        "expected_agent": "abs",
+        "category": "Hindi"
+      },
+      "http_status": 200,
+      "elapsed_seconds": 24.66990303993225,
+      "success": true,
+      "response": {
+        "success": true,
+        "query": "\u091c\u0948\u0935 \u0935\u093f\u0935\u093f\u0927\u0924\u093e \u0905\u0927\u093f\u0928\u093f\u092f\u092e \u0915\u093e \u0909\u0926\u094d\u0926\u0947\u0936\u094d\u092f \u0915\u094d\u092f\u093e \u0939\u0948?",
+        "detected_language": {
+          "code": "hi",
+          "name": "Hindi",
+          "confidence": 1.0
+        },
+        "answer_language": "hi",
+        "domain": "all",
+        "answer": "\u092e\u0941\u091d\u0947 \u0909\u092a\u0932\u092c\u094d\u0927 \u0915\u093e\u0928\u0942\u0928\u0940 \u091c\u094d\u091e\u093e\u0928 \u0906\u0927\u093e\u0930 \u092e\u0947\u0902 \u092a\u0930\u094d\u092f\u093e\u092a\u094d\u0924 \u0938\u0939\u093e\u092f\u0915 \u091c\u093e\u0928\u0915\u093e\u0930\u0940 \u0928\u0939\u0940\u0902 \u092e\u093f\u0932 \u0938\u0915\u0940\u0964",
+        "confidence": "0.0",
+        "sources": [
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Annual report of State Biodiversity Board to be laid before State Legislature\u2014\u2014The State",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.6519
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Functions of State Biodiversity Board.\u2014The functions of the State Biodiversity Board shall be",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.6286
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Establishment of State Biodiversity Board",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.628
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Functions and powers of National Biodiversity Authority\u2014[(/) The National Biodiversity",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.6268
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Constitution of National Biodiversity Fund\u2014(/) There shall be constituted a Fund to be called",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.6182
+          }
+        ],
+        "latency": {
+          "retrieval_ms": 895,
+          "generation_ms": 19723,
+          "translation_to_english_ms": 4639,
+          "translation_to_target_ms": 121,
+          "total_ms": 24666
+        },
+        "error": null,
+        "agents_used": [
+          "tk",
+          "abs"
+        ],
+        "routing_domain": "tk",
+        "routing_reason": "tk(0.29); abs(0.29)",
+        "is_multi_domain": true
+      },
+      "error": null
+    },
+    {
+      "test": {
+        "query": "\u091c\u0948\u0935\u0935\u093f\u0935\u093f\u0927\u0924\u093e \u0915\u093e\u092f\u0926\u094d\u092f\u093e\u091a\u093e \u0909\u0926\u094d\u0926\u0947\u0936 \u0915\u093e\u092f \u0906\u0939\u0947?",
+        "language": "mr",
+        "domain": "all",
+        "expected_agent": "abs",
+        "category": "Marathi"
+      },
+      "http_status": 200,
+      "elapsed_seconds": 19.51490569114685,
+      "success": true,
+      "response": {
+        "success": true,
+        "query": "\u091c\u0948\u0935\u0935\u093f\u0935\u093f\u0927\u0924\u093e \u0915\u093e\u092f\u0926\u094d\u092f\u093e\u091a\u093e \u0909\u0926\u094d\u0926\u0947\u0936 \u0915\u093e\u092f \u0906\u0939\u0947?",
+        "detected_language": {
+          "code": "mr",
+          "name": "Marathi",
+          "confidence": 1.0
+        },
+        "answer_language": "mr",
+        "domain": "all",
+        "answer": "\u092e\u0932\u093e \u0909\u092a\u0932\u092c\u094d\u0927 \u0905\u0938\u0932\u0947\u0932\u094d\u092f\u093e \u0915\u093e\u092f\u0926\u0947\u0936\u0940\u0930 \u091c\u094d\u091e\u093e\u0928\u093e\u091a\u094d\u092f\u093e \u0906\u0927\u093e\u0930\u093e\u0935\u0930 \u092a\u0941\u0930\u0947\u0936\u0940 \u0906\u0927\u093e\u0930\u092d\u0942\u0924 \u092e\u093e\u0939\u093f\u0924\u0940 \u0938\u093e\u092a\u0921\u0932\u0940 \u0928\u093e\u0939\u0940.",
+        "confidence": "0.0",
+        "sources": [
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Annual report of State Biodiversity Board to be laid before State Legislature\u2014\u2014The State",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.6519
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Functions of State Biodiversity Board.\u2014The functions of the State Biodiversity Board shall be",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.6286
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Establishment of State Biodiversity Board",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.628
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Functions and powers of National Biodiversity Authority\u2014[(/) The National Biodiversity",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.6268
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Constitution of National Biodiversity Fund\u2014(/) There shall be constituted a Fund to be called",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.6182
+          }
+        ],
+        "latency": {
+          "retrieval_ms": 630,
+          "generation_ms": 19092,
+          "translation_to_english_ms": 110,
+          "translation_to_target_ms": 182,
+          "total_ms": 19511
+        },
+        "error": null,
+        "agents_used": [
+          "tk",
+          "abs"
+        ],
+        "routing_domain": "tk",
+        "routing_reason": "tk(0.29); abs(0.29)",
+        "is_multi_domain": true
+      },
+      "error": null
+    },
+    {
+      "test": {
+        "query": "\u0b89\u0baf\u0bbf\u0bb0\u0bbf\u0baf\u0bb2\u0bcd \u0baa\u0ba9\u0bcd\u0bae\u0bc1\u0b95\u0ba4\u0bcd\u0ba4\u0ba9\u0bcd\u0bae\u0bc8 \u0b9a\u0b9f\u0bcd\u0b9f\u0ba4\u0bcd\u0ba4\u0bbf\u0ba9\u0bcd \u0ba8\u0bcb\u0b95\u0bcd\u0b95\u0bae\u0bcd \u0b8e\u0ba9\u0bcd\u0ba9?",
+        "language": "ta",
+        "domain": "all",
+        "expected_agent": "abs",
+        "category": "Tamil"
+      },
+      "http_status": 200,
+      "elapsed_seconds": 19.556599140167236,
+      "success": true,
+      "response": {
+        "success": true,
+        "query": "\u0b89\u0baf\u0bbf\u0bb0\u0bbf\u0baf\u0bb2\u0bcd \u0baa\u0ba9\u0bcd\u0bae\u0bc1\u0b95\u0ba4\u0bcd\u0ba4\u0ba9\u0bcd\u0bae\u0bc8 \u0b9a\u0b9f\u0bcd\u0b9f\u0ba4\u0bcd\u0ba4\u0bbf\u0ba9\u0bcd \u0ba8\u0bcb\u0b95\u0bcd\u0b95\u0bae\u0bcd \u0b8e\u0ba9\u0bcd\u0ba9?",
+        "detected_language": {
+          "code": "ta",
+          "name": "Tamil",
+          "confidence": 1.0
+        },
+        "answer_language": "ta",
+        "domain": "all",
+        "answer": "\u0b95\u0bbf\u0b9f\u0bc8\u0b95\u0bcd\u0b95\u0b95\u0bcd\u0b95\u0bc2\u0b9f\u0bbf\u0baf \u0b9a\u0b9f\u0bcd\u0b9f \u0b85\u0bb1\u0bbf\u0bb5\u0bc1\u0ba4\u0bcd \u0ba4\u0bb3\u0ba4\u0bcd\u0ba4\u0bbf\u0bb2\u0bcd \u0baa\u0bcb\u0ba4\u0bc1\u0bae\u0bbe\u0ba9 \u0b86\u0ba4\u0bbe\u0bb0\u0bae\u0bbe\u0ba9 \u0ba4\u0b95\u0bb5\u0bb2\u0bcd\u0b95\u0bb3\u0bc8 \u0b8e\u0ba9\u0bcd\u0ba9\u0bbe\u0bb2\u0bcd \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95 \u0bae\u0bc1\u0b9f\u0bbf\u0baf\u0bb5\u0bbf\u0bb2\u0bcd\u0bb2\u0bc8.",
+        "confidence": "0.0",
+        "sources": [
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Annual report of State Biodiversity Board to be laid before State Legislature\u2014\u2014The State",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.6519
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Functions of State Biodiversity Board.\u2014The functions of the State Biodiversity Board shall be",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.6286
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Establishment of State Biodiversity Board",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.628
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Functions and powers of National Biodiversity Authority\u2014[(/) The National Biodiversity",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.6268
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Constitution of National Biodiversity Fund\u2014(/) There shall be constituted a Fund to be called",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.6182
+          }
+        ],
+        "latency": {
+          "retrieval_ms": 670,
+          "generation_ms": 19118,
+          "translation_to_english_ms": 119,
+          "translation_to_target_ms": 179,
+          "total_ms": 19553
+        },
+        "error": null,
+        "agents_used": [
+          "tk",
+          "abs"
+        ],
+        "routing_domain": "tk",
+        "routing_reason": "tk(0.29); abs(0.29)",
+        "is_multi_domain": true
+      },
+      "error": null
+    },
+    {
+      "test": {
+        "query": "\u0c9c\u0cc8\u0cb5\u0cbf\u0c95 \u0cb5\u0cc8\u0cb5\u0cbf\u0ca7\u0ccd\u0caf\u0ca4\u0cbe \u0c95\u0cbe\u0caf\u0cbf\u0ca6\u0cc6\u0caf \u0c89\u0ca6\u0ccd\u0ca6\u0cc7\u0cb6\u0cb5\u0cc7\u0ca8\u0cc1?",
+        "language": "kn",
+        "domain": "all",
+        "expected_agent": "abs",
+        "category": "Kannada"
+      },
+      "http_status": 200,
+      "elapsed_seconds": 19.556612014770508,
+      "success": true,
+      "response": {
+        "success": true,
+        "query": "\u0c9c\u0cc8\u0cb5\u0cbf\u0c95 \u0cb5\u0cc8\u0cb5\u0cbf\u0ca7\u0ccd\u0caf\u0ca4\u0cbe \u0c95\u0cbe\u0caf\u0cbf\u0ca6\u0cc6\u0caf \u0c89\u0ca6\u0ccd\u0ca6\u0cc7\u0cb6\u0cb5\u0cc7\u0ca8\u0cc1?",
+        "detected_language": {
+          "code": "kn",
+          "name": "Kannada",
+          "confidence": 1.0
+        },
+        "answer_language": "kn",
+        "domain": "all",
+        "answer": "\u0cb2\u0cad\u0ccd\u0caf\u0cb5\u0cbf\u0cb0\u0cc1\u0cb5 \u0c95\u0cbe\u0ca8\u0cc2\u0ca8\u0cc1 \u0c9c\u0ccd\u0c9e\u0cbe\u0ca8\u0ca6 \u0cae\u0cc2\u0cb2\u0ca6\u0cb2\u0ccd\u0cb2\u0cbf \u0ca8\u0cbe\u0ca8\u0cc1 \u0cb8\u0cbe\u0c95\u0cb7\u0ccd\u0c9f\u0cc1 \u0cac\u0cc6\u0c82\u0cac\u0cb2\u0cbf\u0ca4 \u0cae\u0cbe\u0cb9\u0cbf\u0ca4\u0cbf\u0caf\u0ca8\u0ccd\u0ca8\u0cc1 \u0c95\u0c82\u0ca1\u0cc1\u0cb9\u0cbf\u0ca1\u0cbf\u0caf\u0cb2\u0cc1 \u0cb8\u0cbe\u0ca7\u0ccd\u0caf\u0cb5\u0cbe\u0c97\u0cb2\u0cbf\u0cb2\u0ccd\u0cb2.",
+        "confidence": "0.0",
+        "sources": [
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Annual report of State Biodiversity Board to be laid before State Legislature\u2014\u2014The State",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.6519
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Functions of State Biodiversity Board.\u2014The functions of the State Biodiversity Board shall be",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.6286
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Establishment of State Biodiversity Board",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.628
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Functions and powers of National Biodiversity Authority\u2014[(/) The National Biodiversity",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.6268
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Constitution of National Biodiversity Fund\u2014(/) There shall be constituted a Fund to be called",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.6182
+          }
+        ],
+        "latency": {
+          "retrieval_ms": 650,
+          "generation_ms": 19134,
+          "translation_to_english_ms": 113,
+          "translation_to_target_ms": 173,
+          "total_ms": 19553
+        },
+        "error": null,
+        "agents_used": [
+          "tk",
+          "abs"
+        ],
+        "routing_domain": "tk",
+        "routing_reason": "tk(0.29); abs(0.29)",
+        "is_multi_domain": true
+      },
+      "error": null
+    },
+    {
+      "test": {
+        "query": "\u0d1c\u0d48\u0d35\u0d35\u0d48\u0d35\u0d3f\u0d27\u0d4d\u0d2f \u0d28\u0d3f\u0d2f\u0d2e\u0d24\u0d4d\u0d24\u0d3f\u0d28\u0d4d\u0d31\u0d46 \u0d09\u0d26\u0d4d\u0d26\u0d47\u0d36\u0d4d\u0d2f\u0d02 \u0d0e\u0d28\u0d4d\u0d24\u0d3e\u0d23\u0d4d?",
+        "language": "ml",
+        "domain": "all",
+        "expected_agent": "abs",
+        "category": "Malayalam"
+      },
+      "http_status": 200,
+      "elapsed_seconds": 19.60001826286316,
+      "success": true,
+      "response": {
+        "success": true,
+        "query": "\u0d1c\u0d48\u0d35\u0d35\u0d48\u0d35\u0d3f\u0d27\u0d4d\u0d2f \u0d28\u0d3f\u0d2f\u0d2e\u0d24\u0d4d\u0d24\u0d3f\u0d28\u0d4d\u0d31\u0d46 \u0d09\u0d26\u0d4d\u0d26\u0d47\u0d36\u0d4d\u0d2f\u0d02 \u0d0e\u0d28\u0d4d\u0d24\u0d3e\u0d23\u0d4d?",
+        "detected_language": {
+          "code": "ml",
+          "name": "Malayalam",
+          "confidence": 1.0
+        },
+        "answer_language": "ml",
+        "domain": "all",
+        "answer": "\u0d32\u0d2d\u0d4d\u0d2f\u0d2e\u0d3e\u0d2f \u0d28\u0d3f\u0d2f\u0d2e\u0d2a\u0d30\u0d2e\u0d3e\u0d2f \u0d05\u0d31\u0d3f\u0d35\u0d41\u0d15\u0d33\u0d41\u0d1f\u0d46 \u0d05\u0d1f\u0d3f\u0d24\u0d4d\u0d24\u0d31\u0d2f\u0d3f\u0d32\u0d4d \u0d0e\u0d28\u0d3f\u0d15\u0d4d\u0d15\u0d4d \u0d2e\u0d24\u0d3f\u0d2f\u0d3e\u0d2f \u0d2a\u0d3f\u0d28\u0d4d\u0d24\u0d41\u0d23\u0d3e \u0d35\u0d3f\u0d35\u0d30\u0d19\u0d4d\u0d19\u0d33\u0d4d \u0d15\u0d23\u0d4d\u0d1f\u0d46\u0d24\u0d4d\u0d24\u0d3e\u0d28\u0d3e\u0d2f\u0d3f\u0d32\u0d4d\u0d32.",
+        "confidence": "0.0",
+        "sources": [
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Annual report of State Biodiversity Board to be laid before State Legislature\u2014\u2014The State",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.6519
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Functions of State Biodiversity Board.\u2014The functions of the State Biodiversity Board shall be",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.6286
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Establishment of State Biodiversity Board",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.628
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Functions and powers of National Biodiversity Authority\u2014[(/) The National Biodiversity",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.6268
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Constitution of National Biodiversity Fund\u2014(/) There shall be constituted a Fund to be called",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.6182
+          }
+        ],
+        "latency": {
+          "retrieval_ms": 630,
+          "generation_ms": 19159,
+          "translation_to_english_ms": 114,
+          "translation_to_target_ms": 195,
+          "total_ms": 19597
+        },
+        "error": null,
+        "agents_used": [
+          "tk",
+          "abs"
+        ],
+        "routing_domain": "tk",
+        "routing_reason": "tk(0.29); abs(0.29)",
+        "is_multi_domain": true
+      },
+      "error": null
+    },
+    {
+      "test": {
+        "query": "Can traditional knowledge about a medicinal plant be patented?",
+        "language": "en",
+        "domain": "all",
+        "expected_agent": "ip",
+        "category": "IP"
+      },
+      "http_status": 200,
+      "elapsed_seconds": 11.277193307876587,
+      "success": true,
+      "response": {
+        "success": true,
+        "query": "Can traditional knowledge about a medicinal plant be patented?",
+        "detected_language": {
+          "code": "en",
+          "name": "English",
+          "confidence": 1.0
+        },
+        "answer_language": "en",
+        "domain": "all",
+        "answer": "I could not find sufficient supporting information in the available legal knowledge base.",
+        "confidence": "0.0",
+        "sources": [
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Application for intellectual property rights not to be made without approval of National",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.5399
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Definitions.\u2014In this Act, unless the context otherwise requires,\u2014",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.5102
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Transfer of *[results of research].\u2014[(/) Any person or entity who intends to transfer the results",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.5029
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Approval by National Biodiversity Authority for undertaking certain activities\u2014(/) Any",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.4815
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Certain persons not to undertake Biodiversity related activities without approval of National",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.4672
+          }
+        ],
+        "latency": {
+          "retrieval_ms": 325,
+          "generation_ms": 11208,
+          "translation_to_english_ms": 0,
+          "translation_to_target_ms": 0,
+          "total_ms": 11274
+        },
+        "error": null,
+        "agents_used": [
+          "tk"
+        ],
+        "routing_domain": "tk",
+        "routing_reason": "tk(1.00)",
+        "is_multi_domain": false
+      },
+      "error": null
+    },
+    {
+      "test": {
+        "query": "What is access and benefit sharing?",
+        "language": "en",
+        "domain": "all",
+        "expected_agent": "abs",
+        "category": "ABS"
+      },
+      "http_status": 200,
+      "elapsed_seconds": 22.57724380493164,
+      "success": true,
+      "response": {
+        "success": true,
+        "query": "What is access and benefit sharing?",
+        "detected_language": {
+          "code": "en",
+          "name": "English",
+          "confidence": 1.0
+        },
+        "answer_language": "en",
+        "domain": "all",
+        "answer": "I could not find sufficient supporting information in the available legal knowledge base.",
+        "confidence": "0.0",
+        "sources": [
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Determination of [fair and equitable] benefit sharing by National Biodiversity Authority.\u2014",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.572
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Definitions.\u2014In this Act, unless the context otherwise requires,\u2014",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.5169
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Approval by National Biodiversity Authority for undertaking certain activities\u2014(/) Any",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.5154
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Constitution of National Biodiversity Fund\u2014(/) There shall be constituted a Fund to be called",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.5026
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Application for intellectual property rights not to be made without approval of National",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.4979
+          }
+        ],
+        "latency": {
+          "retrieval_ms": 645,
+          "generation_ms": 22443,
+          "translation_to_english_ms": 0,
+          "translation_to_target_ms": 0,
+          "total_ms": 22574
+        },
+        "error": null,
+        "agents_used": [
+          "abs",
+          "tk"
+        ],
+        "routing_domain": "abs",
+        "routing_reason": "abs(1.00); tk(0.86)",
+        "is_multi_domain": true
+      },
+      "error": null
+    },
+    {
+      "test": {
+        "query": "What is traditional knowledge?",
+        "language": "en",
+        "domain": "all",
+        "expected_agent": "tk",
+        "category": "TK"
+      },
+      "http_status": 200,
+      "elapsed_seconds": 10.81896710395813,
+      "success": true,
+      "response": {
+        "success": true,
+        "query": "What is traditional knowledge?",
+        "detected_language": {
+          "code": "en",
+          "name": "English",
+          "confidence": 1.0
+        },
+        "answer_language": "en",
+        "domain": "all",
+        "answer": "I could not find sufficient supporting information in the available legal knowledge base.",
+        "confidence": "0.0",
+        "sources": [
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Definitions.\u2014In this Act, unless the context otherwise requires,\u2014",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.5114
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Transfer of *[results of research].\u2014[(/) Any person or entity who intends to transfer the results",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.4305
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Functions and powers of National Biodiversity Authority\u2014[(/) The National Biodiversity",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.4181
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Certain persons not to undertake Biodiversity related activities without approval of National",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.4021
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Application for intellectual property rights not to be made without approval of National",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.3986
+          }
+        ],
+        "latency": {
+          "retrieval_ms": 295,
+          "generation_ms": 10756,
+          "translation_to_english_ms": 0,
+          "translation_to_target_ms": 0,
+          "total_ms": 10816
+        },
+        "error": null,
+        "agents_used": [
+          "tk"
+        ],
+        "routing_domain": "tk",
+        "routing_reason": "tk(0.71)",
+        "is_multi_domain": false
+      },
+      "error": null
+    },
+    {
+      "test": {
+        "query": "What is the legal framework for teleportation technology patents?",
+        "language": "en",
+        "domain": "all",
+        "expected_agent": "ip",
+        "category": "Insufficient Evidence"
+      },
+      "http_status": 200,
+      "elapsed_seconds": 11.615331888198853,
+      "success": true,
+      "response": {
+        "success": true,
+        "query": "What is the legal framework for teleportation technology patents?",
+        "detected_language": {
+          "code": "en",
+          "name": "English",
+          "confidence": 1.0
+        },
+        "answer_language": "en",
+        "domain": "all",
+        "answer": "I could not find sufficient supporting information in the available legal knowledge base.",
+        "confidence": "0.0",
+        "sources": [
+          {
+            "document": "Patents Act, 1970",
+            "document_type": "Act",
+            "document_year": 1970,
+            "section": null,
+            "section_title": "Patent rights not infringed when used on foreign vessels, etc., temporarily or accidentally in",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Patents",
+            "score": 0.5295
+          },
+          {
+            "document": "Patents Act, 1970",
+            "document_type": "Act",
+            "document_year": 1970,
+            "section": null,
+            "section_title": "Grant of patents to be subject to certain conditions \u2014The grant of a patent under this Act shall",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Patents",
+            "score": 0.5152
+          },
+          {
+            "document": "Patents Act, 1970",
+            "document_type": "Act",
+            "document_year": 1970,
+            "section": null,
+            "section_title": "Registration of assignments, transmissions, ete \u2014(/) Where any person becomes entitled by",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Patents",
+            "score": 0.5116
+          },
+          {
+            "document": "Patents Act, 1970",
+            "document_type": "Act",
+            "document_year": 1970,
+            "section": null,
+            "section_title": "Defences, etc., in suit for infringement.\u2014(/) In any suit for infringement of a patent, every",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Patents",
+            "score": 0.4962
+          },
+          {
+            "document": "Patents Act, 1970",
+            "document_type": "Act",
+            "document_year": 1970,
+            "section": null,
+            "section_title": "Power of Central Government to make rules.\u2014(/) The Central Government may, by",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Patents",
+            "score": 0.4956
+          }
+        ],
+        "latency": {
+          "retrieval_ms": 575,
+          "generation_ms": 11495,
+          "translation_to_english_ms": 0,
+          "translation_to_target_ms": 0,
+          "total_ms": 11612
+        },
+        "error": null,
+        "agents_used": [
+          "ip"
+        ],
+        "routing_domain": "ip",
+        "routing_reason": "ip(0.50)",
+        "is_multi_domain": false
+      },
+      "error": null
+    },
+    {
+      "test": {
+        "query": "What does Section 11 of the Patents Act deal with?",
+        "language": "en",
+        "domain": "all",
+        "expected_agent": "legal",
+        "category": "Legal - Patent Section"
+      },
+      "http_status": 200,
+      "elapsed_seconds": 31.042514324188232,
+      "success": true,
+      "response": {
+        "success": true,
+        "query": "What does Section 11 of the Patents Act deal with?",
+        "detected_language": {
+          "code": "en",
+          "name": "English",
+          "confidence": 1.0
+        },
+        "answer_language": "en",
+        "domain": "all",
+        "answer": "**Answer**: your answer",
+        "confidence": "0.44",
+        "sources": [
+          {
+            "document": "Patents Act, 1970",
+            "document_type": "Act",
+            "document_year": 1970,
+            "section": null,
+            "section_title": "CENTRAL GOVERNMENT",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Patents",
+            "score": 0.6002
+          },
+          {
+            "document": "Patents Act, 1970",
+            "document_type": "Act",
+            "document_year": 1970,
+            "section": null,
+            "section_title": "Repeal of Act 2 of 1911 in so far as it relates to patents and savings.\u2014(/) The Indian Patents",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Patents",
+            "score": 0.5646
+          },
+          {
+            "document": "Patents Act, 1970",
+            "document_type": "Act",
+            "document_year": 1970,
+            "section": null,
+            "section_title": "Contents of specifications\u2014(/) Every specification, whether provisional or complete, shall",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Patents",
+            "score": 0.5403
+          },
+          {
+            "document": "Patents Act, 1970",
+            "document_type": "Act",
+            "document_year": 1970,
+            "section": null,
+            "section_title": "Evidence how to be given and powers of Controller in respect thereof",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Patents",
+            "score": 0.527
+          },
+          {
+            "document": "Patents Act, 1970",
+            "document_type": "Act",
+            "document_year": 1970,
+            "section": null,
+            "section_title": "Jurisdiction.\u2014No suit for a declaration under section 105 or for any relief under section 106 or",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Patents",
+            "score": 0.5264
+          }
+        ],
+        "latency": {
+          "retrieval_ms": 675,
+          "generation_ms": 20656,
+          "translation_to_english_ms": 0,
+          "translation_to_target_ms": 0,
+          "total_ms": 31039
+        },
+        "error": null,
+        "agents_used": [
+          "ip",
+          "legal"
+        ],
+        "routing_domain": "ip",
+        "routing_reason": "ip(1.00); legal(0.62)",
+        "is_multi_domain": true
+      },
+      "error": null
+    },
+    {
+      "test": {
+        "query": "What is a geographical indication?",
+        "language": "en",
+        "domain": "all",
+        "expected_agent": "ip",
+        "category": "IP - GI"
+      },
+      "http_status": 200,
+      "elapsed_seconds": 9.78351092338562,
+      "success": true,
+      "response": {
+        "success": true,
+        "query": "What is a geographical indication?",
+        "detected_language": {
+          "code": "en",
+          "name": "English",
+          "confidence": 1.0
+        },
+        "answer_language": "en",
+        "domain": "all",
+        "answer": "**Answer**: A geographical indication, in relation to goods, means an indication which identifies such goods as agricultural goods, natural goods or manufactured goods as originating, or manufactured in the territory of a country, or a region or locality in that territory, where a given quality, reputation or other characteristic of such goods is essentially attributable to its geographical origin and in case where such goods are manufactured goods one of the activities of either the production or of processing or preparation of the goods concerned takes place in such territory, region or locality, as the case may be.",
+        "confidence": "0.74",
+        "sources": [
+          {
+            "document": "Geographical Indications of Goods Act, 1999",
+            "document_type": "Act",
+            "document_year": 1999,
+            "section": null,
+            "section_title": "Meaning of applying geographical indications.[UNCLEAR](1) A person shall be deemed to apply a",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Geographical Indications",
+            "score": 0.6608
+          },
+          {
+            "document": "Geographical Indications of Goods Act, 1999",
+            "document_type": "Act",
+            "document_year": 1999,
+            "section": null,
+            "section_title": "Definitions and interpretation.[UNCLEAR](1) In this Act, a unless the context otherwise requires,[UNCLEAR]",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Geographical Indications",
+            "score": 0.6596
+          },
+          {
+            "document": "Geographical Indications of Goods Act, 1999",
+            "document_type": "Act",
+            "document_year": 1999,
+            "section": null,
+            "section_title": "Registration to be in respect of particular goods and area.[UNCLEAR](1) A geographical indication may",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Geographical Indications",
+            "score": 0.6562
+          },
+          {
+            "document": "Geographical Indications of Goods Rules, 2002",
+            "document_type": "Rules",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "None",
+            "rule": null,
+            "rule_title": "Statement of user in applications.- An application to register a geographical indication or as an",
+            "pages": [],
+            "language": "en",
+            "domain": "Geographical Indications",
+            "score": 0.6546
+          },
+          {
+            "document": "Geographical Indications of Goods Act, 1999",
+            "document_type": "Act",
+            "document_year": 1999,
+            "section": null,
+            "section_title": "Penalty for falsely representing a geographical indication as registered.[UNCLEAR](1) No person shall",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Geographical Indications",
+            "score": 0.6541
+          }
+        ],
+        "latency": {
+          "retrieval_ms": 345,
+          "generation_ms": 9710,
+          "translation_to_english_ms": 0,
+          "translation_to_target_ms": 0,
+          "total_ms": 9780
+        },
+        "error": null,
+        "agents_used": [
+          "ip"
+        ],
+        "routing_domain": "ip",
+        "routing_reason": "ip(0.62)",
+        "is_multi_domain": false
+      },
+      "error": null
+    },
+    {
+      "test": {
+        "query": "What are the functions of State Biodiversity Boards?",
+        "language": "en",
+        "domain": "all",
+        "expected_agent": "abs",
+        "category": "ABS - SBB"
+      },
+      "http_status": 200,
+      "elapsed_seconds": 10.046284914016724,
+      "success": true,
+      "response": {
+        "success": true,
+        "query": "What are the functions of State Biodiversity Boards?",
+        "detected_language": {
+          "code": "en",
+          "name": "English",
+          "confidence": 1.0
+        },
+        "answer_language": "en",
+        "domain": "all",
+        "answer": "I could not find sufficient supporting information in the available legal knowledge base.",
+        "confidence": "0.0",
+        "sources": [
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Functions of State Biodiversity Board.\u2014The functions of the State Biodiversity Board shall be",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.7388
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Establishment of State Biodiversity Board.\u2014(/) With effect from such date as the State",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.6912
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Establishment of State Biodiversity Board",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.6835
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Power of State Government to give directions.\u2014(/) Without prejudice to the foregoing",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.6641
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Audit of accounts of State Biodiversity Board.\u2014The accounts of the State Biodiversity Board",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.6609
+          }
+        ],
+        "latency": {
+          "retrieval_ms": 335,
+          "generation_ms": 9975,
+          "translation_to_english_ms": 0,
+          "translation_to_target_ms": 0,
+          "total_ms": 10043
+        },
+        "error": null,
+        "agents_used": [
+          "abs"
+        ],
+        "routing_domain": "abs",
+        "routing_reason": "abs(0.71)",
+        "is_multi_domain": false
+      },
+      "error": null
+    },
+    {
+      "test": {
+        "query": "What is the relationship between traditional knowledge and biodiversity?",
+        "language": "en",
+        "domain": "all",
+        "expected_agent": "tk",
+        "category": "TK - Biodiversity"
+      },
+      "http_status": 200,
+      "elapsed_seconds": 10.139668226242065,
+      "success": true,
+      "response": {
+        "success": true,
+        "query": "What is the relationship between traditional knowledge and biodiversity?",
+        "detected_language": {
+          "code": "en",
+          "name": "English",
+          "confidence": 1.0
+        },
+        "answer_language": "en",
+        "domain": "all",
+        "answer": "I could not find sufficient supporting information in the available legal knowledge base.",
+        "confidence": "0.0",
+        "sources": [
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Definitions.\u2014In this Act, unless the context otherwise requires,\u2014",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.5573
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Functions and powers of National Biodiversity Authority\u2014[(/) The National Biodiversity",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.5443
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Functions of State Biodiversity Board.\u2014The functions of the State Biodiversity Board shall be",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.5309
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Transfer of *[results of research].\u2014[(/) Any person or entity who intends to transfer the results",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.491
+          },
+          {
+            "document": "Biological Diversity Act",
+            "document_type": "Act",
+            "document_year": 2002,
+            "section": null,
+            "section_title": "Certain persons not to undertake Biodiversity related activities without approval of National",
+            "rule": null,
+            "rule_title": null,
+            "pages": [],
+            "language": "en",
+            "domain": "Biodiversity",
+            "score": 0.4743
+          }
+        ],
+        "latency": {
+          "retrieval_ms": 370,
+          "generation_ms": 10061,
+          "translation_to_english_ms": 0,
+          "translation_to_target_ms": 0,
+          "total_ms": 10136
+        },
+        "error": null,
+        "agents_used": [
+          "tk"
+        ],
+        "routing_domain": "tk",
+        "routing_reason": "tk(0.71)",
+        "is_multi_domain": false
+      },
+      "error": null
+    }
+  ],
+  "analyses": [
+    {
+      "category": "English - Legal",
+      "query": "What is the purpose of the Biological Diversity Act?",
+      "language": "en",
+      "http_status": 200,
+      "passed": true,
+      "details": {
+        "detected_language": "en",
+        "answer_language": "en",
+        "agent_domain": "all",
+        "agents_used": [
+          "tk"
+        ],
+        "routing_reason": "tk(0.29); abs(0.29)",
+        "routing_correct": true,
+        "answer_non_empty": false,
+        "sources_available": true,
+        "has_section_metadata": false,
+        "confidence": "0.0",
+        "latency_ms": 22009,
+        "lang_match": true,
+        "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+      }
+    },
+    {
+      "category": "Hindi",
+      "query": "\u091c\u0948\u0935 \u0935\u093f\u0935\u093f\u0927\u0924\u093e \u0905\u0927\u093f\u0928\u093f\u092f\u092e \u0915\u093e \u0909\u0926\u094d\u0926\u0947\u0936\u094d\u092f \u0915\u094d\u092f\u093e \u0939\u0948?",
+      "language": "hi",
+      "http_status": 200,
+      "passed": true,
+      "details": {
+        "detected_language": "hi",
+        "answer_language": "hi",
+        "agent_domain": "all",
+        "agents_used": [
+          "tk"
+        ],
+        "routing_reason": "tk(0.29); abs(0.29)",
+        "routing_correct": true,
+        "answer_non_empty": true,
+        "sources_available": true,
+        "has_section_metadata": false,
+        "confidence": "0.0",
+        "latency_ms": 24666,
+        "lang_match": true,
+        "answer_preview": "\u092e\u0941\u091d\u0947 \u0909\u092a\u0932\u092c\u094d\u0927 \u0915\u093e\u0928\u0942\u0928\u0940 \u091c\u094d\u091e\u093e\u0928 \u0906\u0927\u093e\u0930 \u092e\u0947\u0902 \u092a\u0930\u094d\u092f\u093e\u092a\u094d\u0924 \u0938\u0939\u093e\u092f\u0915 \u091c\u093e\u0928\u0915\u093e\u0930\u0940 \u0928\u0939\u0940\u0902 \u092e\u093f\u0932 \u0938\u0915\u0940\u0964"
+      }
+    },
+    {
+      "category": "Marathi",
+      "query": "\u091c\u0948\u0935\u0935\u093f\u0935\u093f\u0927\u0924\u093e \u0915\u093e\u092f\u0926\u094d\u092f\u093e\u091a\u093e \u0909\u0926\u094d\u0926\u0947\u0936 \u0915\u093e\u092f \u0906\u0939\u0947?",
+      "language": "mr",
+      "http_status": 200,
+      "passed": true,
+      "details": {
+        "detected_language": "mr",
+        "answer_language": "mr",
+        "agent_domain": "all",
+        "agents_used": [
+          "tk"
+        ],
+        "routing_reason": "tk(0.29); abs(0.29)",
+        "routing_correct": true,
+        "answer_non_empty": true,
+        "sources_available": true,
+        "has_section_metadata": false,
+        "confidence": "0.0",
+        "latency_ms": 19511,
+        "lang_match": true,
+        "answer_preview": "\u092e\u0932\u093e \u0909\u092a\u0932\u092c\u094d\u0927 \u0905\u0938\u0932\u0947\u0932\u094d\u092f\u093e \u0915\u093e\u092f\u0926\u0947\u0936\u0940\u0930 \u091c\u094d\u091e\u093e\u0928\u093e\u091a\u094d\u092f\u093e \u0906\u0927\u093e\u0930\u093e\u0935\u0930 \u092a\u0941\u0930\u0947\u0936\u0940 \u0906\u0927\u093e\u0930\u092d\u0942\u0924 \u092e\u093e\u0939\u093f\u0924\u0940 \u0938\u093e\u092a\u0921\u0932\u0940 \u0928\u093e\u0939\u0940."
+      }
+    },
+    {
+      "category": "Tamil",
+      "query": "\u0b89\u0baf\u0bbf\u0bb0\u0bbf\u0baf\u0bb2\u0bcd \u0baa\u0ba9\u0bcd\u0bae\u0bc1\u0b95\u0ba4\u0bcd\u0ba4\u0ba9\u0bcd\u0bae\u0bc8 \u0b9a\u0b9f\u0bcd\u0b9f\u0ba4\u0bcd\u0ba4\u0bbf\u0ba9\u0bcd \u0ba8\u0bcb\u0b95\u0bcd\u0b95\u0bae\u0bcd \u0b8e\u0ba9\u0bcd\u0ba9?",
+      "language": "ta",
+      "http_status": 200,
+      "passed": true,
+      "details": {
+        "detected_language": "ta",
+        "answer_language": "ta",
+        "agent_domain": "all",
+        "agents_used": [
+          "tk"
+        ],
+        "routing_reason": "tk(0.29); abs(0.29)",
+        "routing_correct": true,
+        "answer_non_empty": true,
+        "sources_available": true,
+        "has_section_metadata": false,
+        "confidence": "0.0",
+        "latency_ms": 19553,
+        "lang_match": true,
+        "answer_preview": "\u0b95\u0bbf\u0b9f\u0bc8\u0b95\u0bcd\u0b95\u0b95\u0bcd\u0b95\u0bc2\u0b9f\u0bbf\u0baf \u0b9a\u0b9f\u0bcd\u0b9f \u0b85\u0bb1\u0bbf\u0bb5\u0bc1\u0ba4\u0bcd \u0ba4\u0bb3\u0ba4\u0bcd\u0ba4\u0bbf\u0bb2\u0bcd \u0baa\u0bcb\u0ba4\u0bc1\u0bae\u0bbe\u0ba9 \u0b86\u0ba4\u0bbe\u0bb0\u0bae\u0bbe\u0ba9 \u0ba4\u0b95\u0bb5\u0bb2\u0bcd\u0b95\u0bb3\u0bc8 \u0b8e\u0ba9\u0bcd\u0ba9\u0bbe\u0bb2\u0bcd \u0b95\u0ba3\u0bcd\u0b9f\u0bc1\u0baa\u0bbf\u0b9f\u0bbf\u0b95\u0bcd\u0b95 \u0bae\u0bc1\u0b9f\u0bbf\u0baf\u0bb5\u0bbf\u0bb2\u0bcd\u0bb2\u0bc8."
+      }
+    },
+    {
+      "category": "Kannada",
+      "query": "\u0c9c\u0cc8\u0cb5\u0cbf\u0c95 \u0cb5\u0cc8\u0cb5\u0cbf\u0ca7\u0ccd\u0caf\u0ca4\u0cbe \u0c95\u0cbe\u0caf\u0cbf\u0ca6\u0cc6\u0caf \u0c89\u0ca6\u0ccd\u0ca6\u0cc7\u0cb6\u0cb5\u0cc7\u0ca8\u0cc1?",
+      "language": "kn",
+      "http_status": 200,
+      "passed": true,
+      "details": {
+        "detected_language": "kn",
+        "answer_language": "kn",
+        "agent_domain": "all",
+        "agents_used": [
+          "tk"
+        ],
+        "routing_reason": "tk(0.29); abs(0.29)",
+        "routing_correct": true,
+        "answer_non_empty": true,
+        "sources_available": true,
+        "has_section_metadata": false,
+        "confidence": "0.0",
+        "latency_ms": 19553,
+        "lang_match": true,
+        "answer_preview": "\u0cb2\u0cad\u0ccd\u0caf\u0cb5\u0cbf\u0cb0\u0cc1\u0cb5 \u0c95\u0cbe\u0ca8\u0cc2\u0ca8\u0cc1 \u0c9c\u0ccd\u0c9e\u0cbe\u0ca8\u0ca6 \u0cae\u0cc2\u0cb2\u0ca6\u0cb2\u0ccd\u0cb2\u0cbf \u0ca8\u0cbe\u0ca8\u0cc1 \u0cb8\u0cbe\u0c95\u0cb7\u0ccd\u0c9f\u0cc1 \u0cac\u0cc6\u0c82\u0cac\u0cb2\u0cbf\u0ca4 \u0cae\u0cbe\u0cb9\u0cbf\u0ca4\u0cbf\u0caf\u0ca8\u0ccd\u0ca8\u0cc1 \u0c95\u0c82\u0ca1\u0cc1\u0cb9\u0cbf\u0ca1\u0cbf\u0caf\u0cb2\u0cc1 \u0cb8\u0cbe\u0ca7\u0ccd\u0caf\u0cb5\u0cbe\u0c97\u0cb2\u0cbf\u0cb2\u0ccd\u0cb2."
+      }
+    },
+    {
+      "category": "Malayalam",
+      "query": "\u0d1c\u0d48\u0d35\u0d35\u0d48\u0d35\u0d3f\u0d27\u0d4d\u0d2f \u0d28\u0d3f\u0d2f\u0d2e\u0d24\u0d4d\u0d24\u0d3f\u0d28\u0d4d\u0d31\u0d46 \u0d09\u0d26\u0d4d\u0d26\u0d47\u0d36\u0d4d\u0d2f\u0d02 \u0d0e\u0d28\u0d4d\u0d24\u0d3e\u0d23\u0d4d?",
+      "language": "ml",
+      "http_status": 200,
+      "passed": true,
+      "details": {
+        "detected_language": "ml",
+        "answer_language": "ml",
+        "agent_domain": "all",
+        "agents_used": [
+          "tk"
+        ],
+        "routing_reason": "tk(0.29); abs(0.29)",
+        "routing_correct": true,
+        "answer_non_empty": true,
+        "sources_available": true,
+        "has_section_metadata": false,
+        "confidence": "0.0",
+        "latency_ms": 19597,
+        "lang_match": true,
+        "answer_preview": "\u0d32\u0d2d\u0d4d\u0d2f\u0d2e\u0d3e\u0d2f \u0d28\u0d3f\u0d2f\u0d2e\u0d2a\u0d30\u0d2e\u0d3e\u0d2f \u0d05\u0d31\u0d3f\u0d35\u0d41\u0d15\u0d33\u0d41\u0d1f\u0d46 \u0d05\u0d1f\u0d3f\u0d24\u0d4d\u0d24\u0d31\u0d2f\u0d3f\u0d32\u0d4d \u0d0e\u0d28\u0d3f\u0d15\u0d4d\u0d15\u0d4d \u0d2e\u0d24\u0d3f\u0d2f\u0d3e\u0d2f \u0d2a\u0d3f\u0d28\u0d4d\u0d24\u0d41\u0d23\u0d3e \u0d35\u0d3f\u0d35\u0d30\u0d19\u0d4d\u0d19\u0d33\u0d4d \u0d15\u0d23\u0d4d\u0d1f\u0d46\u0d24\u0d4d\u0d24\u0d3e\u0d28\u0d3e\u0d2f\u0d3f\u0d32\u0d4d\u0d32."
+      }
+    },
+    {
+      "category": "IP",
+      "query": "Can traditional knowledge about a medicinal plant be patented?",
+      "language": "en",
+      "http_status": 200,
+      "passed": false,
+      "details": {
+        "detected_language": "en",
+        "answer_language": "en",
+        "agent_domain": "all",
+        "agents_used": [
+          "tk"
+        ],
+        "routing_reason": "tk(1.00)",
+        "routing_correct": false,
+        "answer_non_empty": false,
+        "sources_available": true,
+        "has_section_metadata": false,
+        "confidence": "0.0",
+        "latency_ms": 11274,
+        "lang_match": true,
+        "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+      }
+    },
+    {
+      "category": "ABS",
+      "query": "What is access and benefit sharing?",
+      "language": "en",
+      "http_status": 200,
+      "passed": true,
+      "details": {
+        "detected_language": "en",
+        "answer_language": "en",
+        "agent_domain": "all",
+        "agents_used": [
+          "abs"
+        ],
+        "routing_reason": "abs(1.00); tk(0.86)",
+        "routing_correct": true,
+        "answer_non_empty": false,
+        "sources_available": true,
+        "has_section_metadata": false,
+        "confidence": "0.0",
+        "latency_ms": 22574,
+        "lang_match": true,
+        "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+      }
+    },
+    {
+      "category": "TK",
+      "query": "What is traditional knowledge?",
+      "language": "en",
+      "http_status": 200,
+      "passed": true,
+      "details": {
+        "detected_language": "en",
+        "answer_language": "en",
+        "agent_domain": "all",
+        "agents_used": [
+          "tk"
+        ],
+        "routing_reason": "tk(0.71)",
+        "routing_correct": true,
+        "answer_non_empty": false,
+        "sources_available": true,
+        "has_section_metadata": false,
+        "confidence": "0.0",
+        "latency_ms": 10816,
+        "lang_match": true,
+        "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+      }
+    },
+    {
+      "category": "Insufficient Evidence",
+      "query": "What is the legal framework for teleportation technology patents?",
+      "language": "en",
+      "http_status": 200,
+      "passed": true,
+      "details": {
+        "detected_language": "en",
+        "answer_language": "en",
+        "agent_domain": "all",
+        "agents_used": [
+          "ip"
+        ],
+        "routing_reason": "ip(0.50)",
+        "routing_correct": true,
+        "answer_non_empty": false,
+        "sources_available": true,
+        "has_section_metadata": false,
+        "confidence": "0.0",
+        "latency_ms": 11612,
+        "lang_match": true,
+        "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+      }
+    },
+    {
+      "category": "Legal - Patent Section",
+      "query": "What does Section 11 of the Patents Act deal with?",
+      "language": "en",
+      "http_status": 200,
+      "passed": true,
+      "details": {
+        "detected_language": "en",
+        "answer_language": "en",
+        "agent_domain": "all",
+        "agents_used": [
+          "ip"
+        ],
+        "routing_reason": "ip(1.00); legal(0.62)",
+        "routing_correct": true,
+        "answer_non_empty": true,
+        "sources_available": true,
+        "has_section_metadata": false,
+        "confidence": "0.44",
+        "latency_ms": 31039,
+        "lang_match": true,
+        "answer_preview": "**Answer**: your answer"
+      }
+    },
+    {
+      "category": "IP - GI",
+      "query": "What is a geographical indication?",
+      "language": "en",
+      "http_status": 200,
+      "passed": true,
+      "details": {
+        "detected_language": "en",
+        "answer_language": "en",
+        "agent_domain": "all",
+        "agents_used": [
+          "ip"
+        ],
+        "routing_reason": "ip(0.62)",
+        "routing_correct": true,
+        "answer_non_empty": true,
+        "sources_available": true,
+        "has_section_metadata": false,
+        "confidence": "0.74",
+        "latency_ms": 9780,
+        "lang_match": true,
+        "answer_preview": "**Answer**: A geographical indication, in relation to goods, means an indication which identifies such goods as agricultural goods, natural goods or manufactured goods as originating, or manufactured "
+      }
+    },
+    {
+      "category": "ABS - SBB",
+      "query": "What are the functions of State Biodiversity Boards?",
+      "language": "en",
+      "http_status": 200,
+      "passed": true,
+      "details": {
+        "detected_language": "en",
+        "answer_language": "en",
+        "agent_domain": "all",
+        "agents_used": [
+          "abs"
+        ],
+        "routing_reason": "abs(0.71)",
+        "routing_correct": true,
+        "answer_non_empty": false,
+        "sources_available": true,
+        "has_section_metadata": false,
+        "confidence": "0.0",
+        "latency_ms": 10043,
+        "lang_match": true,
+        "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+      }
+    },
+    {
+      "category": "TK - Biodiversity",
+      "query": "What is the relationship between traditional knowledge and biodiversity?",
+      "language": "en",
+      "http_status": 200,
+      "passed": true,
+      "details": {
+        "detected_language": "en",
+        "answer_language": "en",
+        "agent_domain": "all",
+        "agents_used": [
+          "tk"
+        ],
+        "routing_reason": "tk(0.71)",
+        "routing_correct": true,
+        "answer_non_empty": false,
+        "sources_available": true,
+        "has_section_metadata": false,
+        "confidence": "0.0",
+        "latency_ms": 10136,
+        "lang_match": true,
+        "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+      }
+    }
+  ]
+}

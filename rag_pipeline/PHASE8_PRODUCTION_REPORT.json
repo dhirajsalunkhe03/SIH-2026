@@ -1,0 +1,121 @@
+{
+  "phase": "8",
+  "status": "complete",
+  "test_date": "2026-09-08",
+  "fixes_made": {
+    "kn_ml_translation": {
+      "file": "translation_service.py",
+      "description": "Added PRE_TRANSLATION_MAP for Kannada/Malayalam pre-normalization of legal terms before NLLB-200",
+      "before": {
+        "kn": "ಪೆಟೆಂಟ್ ಎಂದಿಗ? -> Have you ever been patented?",
+        "ml": "പെട്ടന്റ് എന്താണ്? -> What's the matter?"
+      },
+      "after": {
+        "kn": "ಪೆಟೆಂಟ್ ಎಂದಿಗ? -> Patent what is it?",
+        "ml": "പെട്ടന്റ್ ಎന്താണ്? -> Patent what is it?"
+      }
+    },
+    "first_request_latency": {
+      "description": "Verified singleton pattern for translation service; model loads once at startup via lifespan",
+      "files": ["translation_service.py", "api/main.py"]
+    },
+    "rate_limiting": {
+      "file": "api/main.py",
+      "description": "In-memory rate limiting middleware per client IP, configurable via RAG_API_RATE_LIMIT/WINDOW",
+      "exclusions": ["/health", "/", "/api/info", "/api/metrics", "/docs", "/redoc"]
+    },
+    "api_config": {
+      "file": "config.py",
+      "description": "Added rate_limit_requests, rate_limit_window, workers to APIConfig; all values from env vars"
+    },
+    "abstention": {
+      "description": "Preserved safe abstention; documented corpus gaps; no threshold reduction"
+    },
+    "error_handling": {
+      "files": ["api/dependencies.py", "api/routes/chat.py"],
+      "description": "Custom RAGError with types, structured JSON errors, Pydantic validation"
+    },
+    "monitoring": {
+      "files": ["api/main.py"],
+      "description": "/api/metrics endpoint, request counting, latency logging"
+    }
+  },
+  "files_created": [
+    "requirements-prod.txt",
+    ".env.example",
+    "DEPLOYMENT_README.md",
+    "Dockerfile",
+    "docker-compose.yml",
+    "test_smoke.py",
+    "PHASE8_PRODUCTION_REPORT.md",
+    "PHASE8_PRODUCTION_REPORT.json"
+  ],
+  "files_modified": [
+    "config.py",
+    "api/main.py",
+    "api/routes/health.py",
+    "api/dependencies.py",
+    "api/routes/chat.py",
+    "api/schemas.py",
+    "translation_service.py"
+  ],
+  "smoke_test_results": {
+    "total": 8,
+    "passed": 8,
+    "failed": 0,
+    "success_rate": "100.0%",
+    "tests": [
+      {"name": "Health Endpoint", "passed": true},
+      {"name": "Detailed Health", "passed": true},
+      {"name": "Valid Chat Request", "passed": true},
+      {"name": "Invalid Request Handling", "passed": true},
+      {"name": "RAG Response Sources", "passed": true},
+      {"name": "Multilingual Request", "passed": true},
+      {"name": "Metrics Endpoint", "passed": true},
+      {"name": "Confidence & Abstention", "passed": true}
+    ]
+  },
+  "translation_test_results": {
+    "kn_ml_before_after": [
+      {"language": "Kannada", "query": "ಪೆಟೆಂಟ್ ಎಂದಿಗ?", "before": "Have you ever been patented?", "after": "Patent what is it?"},
+      {"language": "Kannada", "query": "ಪೆಟೆಂಟ್ ಅಧಿನಿಯಮ 1970 ಕಲಮ 11", "before": "garbled", "after": "patent act 1970 section 11"},
+      {"language": "Malayalam", "query": "പെട്ടന്റ് എന്താണ്?", "before": "What's the matter?", "after": "Patent what is it?"},
+      {"language": "Malayalam", "query": "പെട്ടന്റ് നിയಮം 1970 വകുപ്പ് 11", "before": "garbled", "after": "patent act 1970 section 11"}
+    ],
+    "multilingual_pipeline": [
+      {"language": "Hindi (hi)", "detected": "hi", "answer_lang": "hi", "abstention": true, "note": "Template placeholder in Qwen3 answer"},
+      {"language": "Marathi (mr)", "detected": "hi", "answer_lang": "mr", "abstention": true, "note": "Devanagari detected as Hindi; answers in Marathi"},
+      {"language": "Tamil (ta)", "detected": "ta", "answer_lang": "ta", "abstention": true, "note": "Working correctly"},
+      {"language": "Kannada (kn)", "detected": "kn", "answer_lang": "kn", "abstention": true, "note": "Translation improved; abstains correctly"},
+      {"language": "Malayalam (ml)", "detected": "ml", "answer_lang": "ml", "abstention": true, "note": "Translation improved; abstains correctly"}
+    ],
+    "insufficient_evidence": {
+      "query": "What does Section 2(1)(m) of the Patents Act define?",
+      "result": "Correct abstention",
+      "confidence": 0.0
+    }
+  },
+  "latency_improvements": {
+    "first_non_english_request": {"before": "~25s", "after": "~15s startup / ~5s warm"},
+    "subsequent_translations": {"before": "~200ms", "after": "~200ms"},
+    "rate_limit_check": "<1ms"
+  },
+  "remaining_limitations": [
+    "High abstention rate (60%) - corpus gaps for Section 2 definitions",
+    "Kannada/Malayalam translation quality lower than Hindi/Marathi/Tamil",
+    "Marathi detected as Hindi (shared Devanagari script)",
+    "Single worker - no horizontal scaling (GPU safety)",
+    "Basic IP-based rate limiting only (no auth)",
+    "First-request translation latency unless pre-loaded",
+    "Hindi answer template placeholder in Qwen3 output",
+    "No GPU memory monitoring"
+  ],
+  "deployment_commands": {
+    "quick_start": "pip install -r requirements-prod.txt && ollama serve && ollama pull qwen3:4b && uvicorn api.main:app --host 127.0.0.1 --port 8000",
+    "production_gunicorn": "gunicorn api.main:app --workers 1 --worker-class uvicorn.workers.UvicornWorker --bind 0.0.0.0:8000 --timeout 180",
+    "docker": "docker build -t sih-legal-rag . && docker run -d --gpus all -p 8000:8000 sih-legal-rag",
+    "docker_compose": "docker-compose up -d",
+    "demo_preload": "python3 -c \"from translation_service import get_translation_service; get_translation_service().load_models()\""
+  },
+  "next_phase": "SIH Demo / Project Complete"
+}

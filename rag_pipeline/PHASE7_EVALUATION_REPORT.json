@@ -1,0 +1,49 @@
+{
+  "phase": "7",
+  "status": "complete",
+  "dataset_size": 50,
+  "routing_accuracy": 92.0,
+  "multidomain_routing_accuracy": 81.8,
+  "retrieval": {
+    "recall_at_1": null,
+    "recall_at_3": null,
+    "recall_at_5": null,
+    "mrr": null
+  },
+  "grounding_rate": 100.0,
+  "source_metadata_preservation_rate": 100.0,
+  "multilingual_pipeline_success_rate": 13.3,
+  "abstention_accuracy": 100.0,
+  "api_success_rate": 100.0,
+  "qwen3": {
+    "empty_responses": 1,
+    "think_leakage": 0,
+    "failures": 0
+  },
+  "latency": {
+    "mean_ms": 14214,
+    "median_ms": 10680,
+    "p95_ms": 30329,
+    "mean_retrieval_ms": 800,
+    "mean_generation_ms": 13676
+  },
+  "failed_tests": [],
+  "known_issues": [
+    "High abstention rate (60%) - corpus gaps for definitions",
+    "Section 2(1)(m) and 2(1)(ja) not well covered in corpus",
+    "GI Section 67 penalties not in corpus",
+    "PCT procedure not in corpus",
+    "First-request model loading latency (translation + embedding models)",
+    "Kannada/Malayalam translation quality issues causing wrong routing",
+    "One empty response (template placeholder)"
+  ],
+  "recommendations": [
+    "Add Section 2 definitions (patent, inventive step) to corpus",
+    "Improve retrieval for definitional queries",
+    "Consider hybrid search (keyword + vector) for section-specific queries",
+    "Pre-load translation model to avoid first-request latency",
+    "Fix Kannada/Malayalam NLLB language codes",
+    "Add more GI and Design Act content"
+  ],
+  "next_phase": "Phase 8"
+}

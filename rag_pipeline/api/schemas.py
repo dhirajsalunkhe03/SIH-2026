@@ -92,6 +92,10 @@ class ChatResponse(BaseModel):
     sources: List[SourceCitation] = Field(default_factory=list)
     latency: LatencyInfo
     error: Optional[str] = None
+    agents_used: List[str] = Field(default_factory=list)
+    routing_domain: Optional[str] = None
+    routing_reason: Optional[str] = None
+    is_multi_domain: bool = False
 
 
 class HealthResponse(BaseModel):

@@ -1,0 +1,1639 @@
+{
+  "phase": "7",
+  "status": "complete",
+  "dataset_size": 50,
+  "routing_accuracy": 92.0,
+  "multidomain_routing_accuracy": 81.8,
+  "retrieval": {
+    "recall_at_1": null,
+    "recall_at_3": null,
+    "recall_at_5": null,
+    "mrr": null
+  },
+  "grounding_rate": 100.0,
+  "source_metadata_preservation_rate": 100.0,
+  "multilingual_pipeline_success_rate": 13.3,
+  "abstention_accuracy": 100.0,
+  "api_success_rate": 100.0,
+  "qwen3": {
+    "empty_responses": 1,
+    "think_leakage": 0,
+    "failures": 0
+  },
+  "latency": {
+    "mean_ms": 14214,
+    "median_ms": 10680,
+    "p95_ms": 30329,
+    "mean_retrieval_ms": 800,
+    "mean_generation_ms": 13676
+  },
+  "failed_tests": [],
+  "known_issues": [
+    "Qwen3 empty responses for some queries",
+    "High abstention rate (60%) - corpus gaps for definitions",
+    "Section 2(1)(m) and 2(1)(ja) not well covered in corpus",
+    "GI Section 67 penalties not in corpus",
+    "PCT procedure not in corpus",
+    "First-request model loading latency (translation + embedding models)",
+    "Hindi/Marathi translation quality varies"
+  ],
+  "recommendations": [
+    "Add Section 2 definitions (patent, inventive step) to corpus",
+    "Improve retrieval for definitional queries",
+    "Consider hybrid search (keyword + vector) for section-specific queries",
+    "Pre-load translation model to avoid first-request latency",
+    "Add more GI and Design Act content"
+  ],
+  "next_phase": "Phase 8",
+  "detailed_results": [
+    {
+      "query_id": "legal_001",
+      "query": "What does Section 11 of the Patents Act, 1970 deal with?",
+      "language": "en",
+      "category": "Legal",
+      "expected_domain": [
+        "Legal",
+        "Patents"
+      ],
+      "expected_agent": [
+        "legal",
+        "ip"
+      ],
+      "actual_agents": [
+        "ip",
+        "legal"
+      ],
+      "routing_correct": true,
+      "confidence": "0.45",
+      "sources_count": 1,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": false,
+      "answer_length": 337,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 28349,
+      "retrieval_ms": 820,
+      "generation_ms": 18851,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": null,
+      "answer_preview": "**Answer**: Section 11 of the Patents Act, 1970 deals with the meaning of use of invention for purposes of Government, including the power of the Central Government to use inventions for government purposes, rights of third parties in respect of such use, acquisition of inventions and patents by the Central Government, and reference to"
+    },
+    {
+      "query_id": "legal_002",
+      "query": "What is the meaning of use of invention for purposes of Government under the Patents Act?",
+      "language": "en",
+      "category": "Legal",
+      "expected_domain": [
+        "Legal",
+        "Patents"
+      ],
+      "expected_agent": [
+        "legal",
+        "ip"
+      ],
+      "actual_agents": [
+        "ip",
+        "legal"
+      ],
+      "routing_correct": true,
+      "confidence": "0.79",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": false,
+      "answer_length": 152,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 20886,
+      "retrieval_ms": 825,
+      "generation_ms": 20719,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": null,
+      "answer_preview": "**Answer**: Under the Patents Act, 1970, an invention is said to be used for the purposes of Government if it is made, used, exercised or vended for the"
+    },
+    {
+      "query_id": "legal_003",
+      "query": "What are the rights of third parties in respect of use of invention for purposes of Government?",
+      "language": "en",
+      "category": "Legal",
+      "expected_domain": [
+        "Legal",
+        "Patents"
+      ],
+      "expected_agent": [
+        "legal",
+        "ip"
+      ],
+      "actual_agents": [
+        "legal"
+      ],
+      "routing_correct": false,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 10439,
+      "retrieval_ms": 445,
+      "generation_ms": 10349,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: legal (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "patents_001",
+      "query": "What is a patent according to the Patents Act?",
+      "language": "en",
+      "category": "Patents",
+      "expected_domain": [
+        "Patents"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "ip"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 10327,
+      "retrieval_ms": 365,
+      "generation_ms": 10253,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: ip (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "patents_002",
+      "query": "What is the procedure for patent registration in India?",
+      "language": "en",
+      "category": "Patents",
+      "expected_domain": [
+        "Patents"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "ip"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 11550,
+      "retrieval_ms": 385,
+      "generation_ms": 11473,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: ip (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "patents_003",
+      "query": "What are the grounds for patent opposition under the Patents Act?",
+      "language": "en",
+      "category": "Patents",
+      "expected_domain": [
+        "Patents"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "ip"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 11263,
+      "retrieval_ms": 395,
+      "generation_ms": 11183,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: ip (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "patents_004",
+      "query": "What is the term of a patent in India?",
+      "language": "en",
+      "category": "Patents",
+      "expected_domain": [
+        "Patents"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "ip"
+      ],
+      "routing_correct": true,
+      "confidence": "0.71",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": false,
+      "answer_length": 116,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 10113,
+      "retrieval_ms": 515,
+      "generation_ms": 10009,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": null,
+      "answer_preview": "**Answer**: The term of a patent in India is twenty years from the date of filing of the application for the patent."
+    },
+    {
+      "query_id": "patents_005",
+      "query": "What is compulsory licensing of patents?",
+      "language": "en",
+      "category": "Patents",
+      "expected_domain": [
+        "Patents"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "ip"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 9986,
+      "retrieval_ms": 605,
+      "generation_ms": 9864,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: ip (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "trademarks_001",
+      "query": "What is a trade mark according to the Trade Marks Act?",
+      "language": "en",
+      "category": "Trade Marks",
+      "expected_domain": [
+        "Trade Marks"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "ip"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 11016,
+      "retrieval_ms": 575,
+      "generation_ms": 10900,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: ip (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "trademarks_002",
+      "query": "What is the procedure for trade mark registration?",
+      "language": "en",
+      "category": "Trade Marks",
+      "expected_domain": [
+        "Trade Marks"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "ip"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 10460,
+      "retrieval_ms": 520,
+      "generation_ms": 10355,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: ip (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "trademarks_003",
+      "query": "What are the grounds for refusal of trade mark registration?",
+      "language": "en",
+      "category": "Trade Marks",
+      "expected_domain": [
+        "Trade Marks"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "ip"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 10080,
+      "retrieval_ms": 740,
+      "generation_ms": 9931,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: ip (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "trademarks_004",
+      "query": "What is a well-known trade mark?",
+      "language": "en",
+      "category": "Trade Marks",
+      "expected_domain": [
+        "Trade Marks"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "ip"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 10482,
+      "retrieval_ms": 740,
+      "generation_ms": 10333,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: ip (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "gi_001",
+      "query": "What is a geographical indication?",
+      "language": "en",
+      "category": "Geographical Indications",
+      "expected_domain": [
+        "Geographical Indications"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "ip"
+      ],
+      "routing_correct": true,
+      "confidence": "0.74",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": false,
+      "answer_length": 625,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 9979,
+      "retrieval_ms": 1005,
+      "generation_ms": 9777,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": null,
+      "answer_preview": "**Answer**: A geographical indication, in relation to goods, means an indication which identifies such goods as agricultural goods, natural goods or manufactured goods as originating, or manufactured in the territory of a country, or a region or locality in that territory, where a given quality, reputation or other characteristic of such goods is essentially attributable to its geographical origin and in case where such goods are manufactured goods one of the activities of either the production "
+    },
+    {
+      "query_id": "gi_002",
+      "query": "What is the procedure for geographical indication registration?",
+      "language": "en",
+      "category": "Geographical Indications",
+      "expected_domain": [
+        "Geographical Indications"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "ip"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 10000,
+      "retrieval_ms": 490,
+      "generation_ms": 9900,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: ip (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "gi_003",
+      "query": "Who can apply for a geographical indication?",
+      "language": "en",
+      "category": "Geographical Indications",
+      "expected_domain": [
+        "Geographical Indications"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "ip",
+        "legal"
+      ],
+      "routing_correct": true,
+      "confidence": "0.59",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": false,
+      "answer_length": 71,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 19270,
+      "retrieval_ms": 1425,
+      "generation_ms": 18983,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": null,
+      "answer_preview": "**Answer**: Any association of persons or producers or any organisation"
+    },
+    {
+      "query_id": "designs_001",
+      "query": "What is a design under the Designs Act?",
+      "language": "en",
+      "category": "Designs",
+      "expected_domain": [
+        "Designs"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "ip"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 10823,
+      "retrieval_ms": 945,
+      "generation_ms": 10633,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: ip (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "designs_002",
+      "query": "What is the procedure for design registration?",
+      "language": "en",
+      "category": "Designs",
+      "expected_domain": [
+        "Designs"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "ip"
+      ],
+      "routing_correct": true,
+      "confidence": "0.56",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": false,
+      "answer_length": 20,
+      "empty_response": true,
+      "think_leakage": false,
+      "total_ms": 10169,
+      "retrieval_ms": 900,
+      "generation_ms": 9988,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": null,
+      "answer_preview": "**Answer**: [answer]"
+    },
+    {
+      "query_id": "designs_003",
+      "query": "What constitutes piracy of a registered design?",
+      "language": "en",
+      "category": "Designs",
+      "expected_domain": [
+        "Designs"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "ip"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 10413,
+      "retrieval_ms": 640,
+      "generation_ms": 10284,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: ip (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "abs_001",
+      "query": "What is access and benefit sharing?",
+      "language": "en",
+      "category": "Biodiversity/ABS",
+      "expected_domain": [
+        "Biodiversity"
+      ],
+      "expected_agent": [
+        "abs"
+      ],
+      "actual_agents": [
+        "abs",
+        "tk"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 22999,
+      "retrieval_ms": 1465,
+      "generation_ms": 22703,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: abs (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "abs_002",
+      "query": "What is the role of the National Biodiversity Authority?",
+      "language": "en",
+      "category": "Biodiversity/ABS",
+      "expected_domain": [
+        "Biodiversity"
+      ],
+      "expected_agent": [
+        "abs"
+      ],
+      "actual_agents": [
+        "abs"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 10667,
+      "retrieval_ms": 605,
+      "generation_ms": 10545,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: abs (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "abs_003",
+      "query": "What permissions are required to access biological resources?",
+      "language": "en",
+      "category": "Biodiversity/ABS",
+      "expected_domain": [
+        "Biodiversity"
+      ],
+      "expected_agent": [
+        "abs"
+      ],
+      "actual_agents": [
+        "abs"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 11092,
+      "retrieval_ms": 575,
+      "generation_ms": 10975,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: abs (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "abs_004",
+      "query": "What are the benefit sharing obligations under the Biological Diversity Act?",
+      "language": "en",
+      "category": "Biodiversity/ABS",
+      "expected_domain": [
+        "Biodiversity"
+      ],
+      "expected_agent": [
+        "abs"
+      ],
+      "actual_agents": [
+        "abs",
+        "tk",
+        "legal"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 32748,
+      "retrieval_ms": 2450,
+      "generation_ms": 32255,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: abs (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "abs_005",
+      "query": "What are the functions of State Biodiversity Boards?",
+      "language": "en",
+      "category": "Biodiversity/ABS",
+      "expected_domain": [
+        "Biodiversity"
+      ],
+      "expected_agent": [
+        "abs"
+      ],
+      "actual_agents": [
+        "abs"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 10403,
+      "retrieval_ms": 1140,
+      "generation_ms": 10174,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: abs (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "tk_001",
+      "query": "What is traditional knowledge?",
+      "language": "en",
+      "category": "Traditional Knowledge",
+      "expected_domain": [
+        "Traditional Knowledge",
+        "Biodiversity"
+      ],
+      "expected_agent": [
+        "tk"
+      ],
+      "actual_agents": [
+        "tk"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 10961,
+      "retrieval_ms": 605,
+      "generation_ms": 10839,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: tk (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "tk_002",
+      "query": "What is the relationship between traditional knowledge and biodiversity?",
+      "language": "en",
+      "category": "Traditional Knowledge",
+      "expected_domain": [
+        "Traditional Knowledge",
+        "Biodiversity"
+      ],
+      "expected_agent": [
+        "tk",
+        "abs"
+      ],
+      "actual_agents": [
+        "tk"
+      ],
+      "routing_correct": false,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 10259,
+      "retrieval_ms": 370,
+      "generation_ms": 10184,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: tk (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "multidomain_001",
+      "query": "Can traditional knowledge be protected through patents?",
+      "language": "en",
+      "category": "Multi-domain",
+      "expected_domain": [
+        "Traditional Knowledge",
+        "Patents"
+      ],
+      "expected_agent": [
+        "tk",
+        "ip"
+      ],
+      "actual_agents": [
+        "tk",
+        "ip"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 21841,
+      "retrieval_ms": 1555,
+      "generation_ms": 21529,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: tk (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "multidomain_002",
+      "query": "What obligations may apply when accessing biological resources associated with traditional knowledge?",
+      "language": "en",
+      "category": "Multi-domain",
+      "expected_domain": [
+        "Biodiversity",
+        "Traditional Knowledge",
+        "Legal"
+      ],
+      "expected_agent": [
+        "abs",
+        "tk",
+        "legal"
+      ],
+      "actual_agents": [
+        "abs",
+        "legal",
+        "tk"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 32857,
+      "retrieval_ms": 2350,
+      "generation_ms": 32384,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: abs (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "multidomain_003",
+      "query": "What are the patent implications of traditional knowledge?",
+      "language": "en",
+      "category": "Multi-domain",
+      "expected_domain": [
+        "Patents",
+        "Traditional Knowledge"
+      ],
+      "expected_agent": [
+        "ip",
+        "tk"
+      ],
+      "actual_agents": [
+        "tk",
+        "ip"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 21074,
+      "retrieval_ms": 1170,
+      "generation_ms": 20838,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: tk (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "multidomain_004",
+      "query": "Can a geographical indication protect traditional knowledge?",
+      "language": "en",
+      "category": "Multi-domain",
+      "expected_domain": [
+        "Geographical Indications",
+        "Traditional Knowledge"
+      ],
+      "expected_agent": [
+        "ip",
+        "tk"
+      ],
+      "actual_agents": [
+        "tk",
+        "ip"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 20603,
+      "retrieval_ms": 1325,
+      "generation_ms": 20336,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: tk (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "multidomain_005",
+      "query": "What is the relationship between designs and traditional knowledge?",
+      "language": "en",
+      "category": "Multi-domain",
+      "expected_domain": [
+        "Designs",
+        "Traditional Knowledge"
+      ],
+      "expected_agent": [
+        "ip",
+        "tk"
+      ],
+      "actual_agents": [
+        "tk",
+        "ip"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 20983,
+      "retrieval_ms": 1850,
+      "generation_ms": 20612,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: tk (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "multilingual_hi_001",
+      "query": "पेटेंट क्या है?",
+      "language": "hi",
+      "category": "Multilingual",
+      "expected_domain": [
+        "Patents"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "ip"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": false,
+      "answer_length": 70,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 17419,
+      "retrieval_ms": 440,
+      "generation_ms": 11339,
+      "translation_en_ms": 5861,
+      "translation_target_ms": 128,
+      "error": "All agents failed. Best: ip (error)",
+      "answer_preview": "मुझे उपलब्ध कानूनी ज्ञान आधार में पर्याप्त सहायक जानकारी नहीं मिल सकी।"
+    },
+    {
+      "query_id": "multilingual_mr_001",
+      "query": "पेटंट म्हणजे काय?",
+      "language": "mr",
+      "category": "Multilingual",
+      "expected_domain": [
+        "Patents"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "ip"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": false,
+      "answer_length": 82,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 10167,
+      "retrieval_ms": 435,
+      "generation_ms": 9818,
+      "translation_en_ms": 72,
+      "translation_target_ms": 189,
+      "error": "All agents failed. Best: ip (error)",
+      "answer_preview": "मला उपलब्ध असलेल्या कायदेशीर ज्ञानाच्या आधारावर पुरेशी आधारभूत माहिती सापडली नाही."
+    },
+    {
+      "query_id": "multilingual_gu_001",
+      "query": "પેટન્ટ શું છે?",
+      "language": "gu",
+      "category": "Multilingual",
+      "expected_domain": [
+        "Patents"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "ip"
+      ],
+      "routing_correct": true,
+      "confidence": "0.45",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": false,
+      "answer_length": 22,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 10486,
+      "retrieval_ms": 350,
+      "generation_ms": 10193,
+      "translation_en_ms": 78,
+      "translation_target_ms": 143,
+      "error": null,
+      "answer_preview": "** જવાબ**: [મારા જવાબ]"
+    },
+    {
+      "query_id": "multilingual_bn_001",
+      "query": "পেটেন্ট কী?",
+      "language": "bn",
+      "category": "Multilingual",
+      "expected_domain": [
+        "Patents"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "ip"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": false,
+      "answer_length": 59,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 10302,
+      "retrieval_ms": 460,
+      "generation_ms": 9964,
+      "translation_en_ms": 75,
+      "translation_target_ms": 168,
+      "error": "All agents failed. Best: ip (error)",
+      "answer_preview": "উপলব্ধ আইনি জ্ঞানের ভিত্তিতে আমি পর্যাপ্ত তথ্য খুঁজে পাইনি।"
+    },
+    {
+      "query_id": "multilingual_ta_001",
+      "query": "பேட்டண்ட் என்றால் என்ன?",
+      "language": "ta",
+      "category": "Multilingual",
+      "expected_domain": [
+        "Patents"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "ip"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": false,
+      "answer_length": 95,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 10816,
+      "retrieval_ms": 640,
+      "generation_ms": 10401,
+      "translation_en_ms": 90,
+      "translation_target_ms": 195,
+      "error": "All agents failed. Best: ip (error)",
+      "answer_preview": "கிடைக்கக்கூடிய சட்ட அறிவுத் தளத்தில் போதுமான ஆதாரமான தகவல்களை என்னால் கண்டுபிடிக்க முடியவில்லை."
+    },
+    {
+      "query_id": "multilingual_te_001",
+      "query": "పేటెంట్ అంటే ఏమిటి?",
+      "language": "te",
+      "category": "Multilingual",
+      "expected_domain": [
+        "Patents"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "ip"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": false,
+      "answer_length": 85,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 10630,
+      "retrieval_ms": 680,
+      "generation_ms": 10221,
+      "translation_en_ms": 80,
+      "translation_target_ms": 191,
+      "error": "All agents failed. Best: ip (error)",
+      "answer_preview": "అందుబాటులో ఉన్న న్యాయ పరిజ్ఞాన బేస్ లో తగినంత సహాయక సమాచారాన్ని నేను కనుగొనలేకపోయాను."
+    },
+    {
+      "query_id": "multilingual_kn_001",
+      "query": "ಪೆಟೆಂಟ್ ಎಂದಿಗ?",
+      "language": "kn",
+      "category": "Multilingual",
+      "expected_domain": [
+        "Patents"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "legal"
+      ],
+      "routing_correct": false,
+      "confidence": "0.4",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": false,
+      "answer_length": 23,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 10727,
+      "retrieval_ms": 395,
+      "generation_ms": 10449,
+      "translation_en_ms": 115,
+      "translation_target_ms": 82,
+      "error": null,
+      "answer_preview": "** ಉತ್ತರ**: ನಿಮ್ಮ ಉತ್ತರ"
+    },
+    {
+      "query_id": "multilingual_ml_001",
+      "query": "പെട്ടന്റ് എന്താണ്?",
+      "language": "ml",
+      "category": "Multilingual",
+      "expected_domain": [
+        "Patents"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "legal"
+      ],
+      "routing_correct": false,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": false,
+      "answer_length": 92,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 10694,
+      "retrieval_ms": 355,
+      "generation_ms": 10317,
+      "translation_en_ms": 78,
+      "translation_target_ms": 226,
+      "error": "All agents failed. Best: legal (error)",
+      "answer_preview": "ലഭ്യമായ നിയമപരമായ അറിവുകളുടെ അടിത്തറയില് എനിക്ക് മതിയായ പിന്തുണാ വിവരങ്ങള് കണ്ടെത്താനായില്ല."
+    },
+    {
+      "query_id": "multilingual_pa_001",
+      "query": "ਪੇਟੈਂਟ ਕੀ ਹੈ?",
+      "language": "pa",
+      "category": "Multilingual",
+      "expected_domain": [
+        "Patents"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "ip"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": false,
+      "answer_length": 70,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 10141,
+      "retrieval_ms": 695,
+      "generation_ms": 9754,
+      "translation_en_ms": 83,
+      "translation_target_ms": 162,
+      "error": "All agents failed. Best: ip (error)",
+      "answer_preview": "ਮੈਨੂੰ ਉਪਲਬਧ ਕਾਨੂੰਨੀ ਗਿਆਨ ਅਧਾਰ ਵਿੱਚ ਲੋੜੀਂਦੀ ਸਹਾਇਕ ਜਾਣਕਾਰੀ ਨਹੀਂ ਮਿਲ ਸਕੀ।"
+    },
+    {
+      "query_id": "multilingual_hi_002",
+      "query": "पारंपरिक ज्ञान क्या है?",
+      "language": "hi",
+      "category": "Multilingual",
+      "expected_domain": [
+        "Traditional Knowledge"
+      ],
+      "expected_agent": [
+        "tk"
+      ],
+      "actual_agents": [
+        "tk"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": false,
+      "answer_length": 70,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 10854,
+      "retrieval_ms": 285,
+      "generation_ms": 10575,
+      "translation_en_ms": 78,
+      "translation_target_ms": 141,
+      "error": "All agents failed. Best: tk (error)",
+      "answer_preview": "मुझे उपलब्ध कानूनी ज्ञान आधार में पर्याप्त सहायक जानकारी नहीं मिल सकी।"
+    },
+    {
+      "query_id": "multilingual_mr_002",
+      "query": "पारंपरिक ज्ञान काय आहे?",
+      "language": "mr",
+      "category": "Multilingual",
+      "expected_domain": [
+        "Traditional Knowledge"
+      ],
+      "expected_agent": [
+        "tk"
+      ],
+      "actual_agents": [
+        "tk"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": false,
+      "answer_length": 82,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 10007,
+      "retrieval_ms": 415,
+      "generation_ms": 9657,
+      "translation_en_ms": 83,
+      "translation_target_ms": 182,
+      "error": "All agents failed. Best: tk (error)",
+      "answer_preview": "मला उपलब्ध असलेल्या कायदेशीर ज्ञानाच्या आधारावर पुरेशी आधारभूत माहिती सापडली नाही."
+    },
+    {
+      "query_id": "insufficient_001",
+      "query": "What does Section 2(1)(m) of the Patents Act define?",
+      "language": "en",
+      "category": "Insufficient Evidence",
+      "expected_domain": [
+        "Patents"
+      ],
+      "expected_agent": [
+        "ip",
+        "legal"
+      ],
+      "actual_agents": [
+        "ip",
+        "legal"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 20891,
+      "retrieval_ms": 1025,
+      "generation_ms": 20684,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: ip (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "insufficient_002",
+      "query": "What are the specific penalties for GI infringement under Section 67?",
+      "language": "en",
+      "category": "Insufficient Evidence",
+      "expected_domain": [
+        "Geographical Indications"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "ip",
+        "legal"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 21230,
+      "retrieval_ms": 1810,
+      "generation_ms": 20866,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: ip (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "insufficient_003",
+      "query": "What is the procedure for international patent filing under PCT from India?",
+      "language": "en",
+      "category": "Insufficient Evidence",
+      "expected_domain": [
+        "Patents"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "ip"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 10225,
+      "retrieval_ms": 425,
+      "generation_ms": 10139,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: ip (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "insufficient_004",
+      "query": "What are the specific monetary benefit sharing percentages under ABS?",
+      "language": "en",
+      "category": "Insufficient Evidence",
+      "expected_domain": [
+        "Biodiversity"
+      ],
+      "expected_agent": [
+        "abs"
+      ],
+      "actual_agents": [
+        "abs",
+        "tk"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 21518,
+      "retrieval_ms": 1185,
+      "generation_ms": 21279,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: abs (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "insufficient_005",
+      "query": "What is the definition of 'inventive step' in the Patents Act 1970?",
+      "language": "en",
+      "category": "Insufficient Evidence",
+      "expected_domain": [
+        "Patents"
+      ],
+      "expected_agent": [
+        "ip",
+        "legal"
+      ],
+      "actual_agents": [
+        "ip",
+        "legal"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": true,
+      "answer_length": 89,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 21418,
+      "retrieval_ms": 785,
+      "generation_ms": 21259,
+      "translation_en_ms": 0,
+      "translation_target_ms": 0,
+      "error": "All agents failed. Best: ip (error)",
+      "answer_preview": "I could not find sufficient supporting information in the available legal knowledge base."
+    },
+    {
+      "query_id": "hi_vs_mr_001",
+      "query": "पेटेंट क्या है?",
+      "language": "hi",
+      "category": "Hindi vs Marathi",
+      "expected_domain": [
+        "Patents"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "ip"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": false,
+      "answer_length": 70,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 10562,
+      "retrieval_ms": 380,
+      "generation_ms": 10265,
+      "translation_en_ms": 83,
+      "translation_target_ms": 136,
+      "error": "All agents failed. Best: ip (error)",
+      "answer_preview": "मुझे उपलब्ध कानूनी ज्ञान आधार में पर्याप्त सहायक जानकारी नहीं मिल सकी।"
+    },
+    {
+      "query_id": "hi_vs_mr_002",
+      "query": "पेटंट म्हणजे काय?",
+      "language": "mr",
+      "category": "Hindi vs Marathi",
+      "expected_domain": [
+        "Patents"
+      ],
+      "expected_agent": [
+        "ip"
+      ],
+      "actual_agents": [
+        "ip"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": false,
+      "answer_length": 82,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 10234,
+      "retrieval_ms": 755,
+      "generation_ms": 9807,
+      "translation_en_ms": 82,
+      "translation_target_ms": 192,
+      "error": "All agents failed. Best: ip (error)",
+      "answer_preview": "मला उपलब्ध असलेल्या कायदेशीर ज्ञानाच्या आधारावर पुरेशी आधारभूत माहिती सापडली नाही."
+    },
+    {
+      "query_id": "hi_vs_mr_003",
+      "query": "पारंपरिक ज्ञान क्या है?",
+      "language": "hi",
+      "category": "Hindi vs Marathi",
+      "expected_domain": [
+        "Traditional Knowledge"
+      ],
+      "expected_agent": [
+        "tk"
+      ],
+      "actual_agents": [
+        "tk"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": false,
+      "answer_length": 70,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 10239,
+      "retrieval_ms": 350,
+      "generation_ms": 9941,
+      "translation_en_ms": 92,
+      "translation_target_ms": 134,
+      "error": "All agents failed. Best: tk (error)",
+      "answer_preview": "मुझे उपलब्ध कानूनी ज्ञान आधार में पर्याप्त सहायक जानकारी नहीं मिल सकी।"
+    },
+    {
+      "query_id": "hi_vs_mr_004",
+      "query": "पारंपरिक ज्ञान काय आहे?",
+      "language": "mr",
+      "category": "Hindi vs Marathi",
+      "expected_domain": [
+        "Traditional Knowledge"
+      ],
+      "expected_agent": [
+        "tk"
+      ],
+      "actual_agents": [
+        "tk"
+      ],
+      "routing_correct": true,
+      "confidence": "0.0",
+      "sources_count": 5,
+      "has_sources": true,
+      "has_section_metadata": true,
+      "is_abstention": false,
+      "answer_length": 82,
+      "empty_response": false,
+      "think_leakage": false,
+      "total_ms": 10040,
+      "retrieval_ms": 340,
+      "generation_ms": 9700,
+      "translation_en_ms": 85,
+      "translation_target_ms": 185,
+      "error": "All agents failed. Best: tk (error)",
+      "answer_preview": "मला उपलब्ध असलेल्या कायदेशीर ज्ञानाच्या आधारावर पुरेशी आधारभूत माहिती सापडली नाही."
+    }
+  ]
+}

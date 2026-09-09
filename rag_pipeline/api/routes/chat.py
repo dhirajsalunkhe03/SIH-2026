@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """
 Chat routes for the Legal RAG API.
+Production-hardened with better error handling and monitoring.
 """
 
 import time
@@ -11,9 +12,10 @@ from api.schemas import (
     ChatRequest, ChatResponse, SourceCitation, LatencyInfo, DetectedLanguage,
     LanguageCode, DomainCode, DocumentTypeCode
 )
-from api.dependencies import get_rag_engine
+from api.dependencies import get_rag_engine, handle_rag_error
 from rag_engine import LegalRAG
 from agents.orchestrator import OrchestratorResult
+from config import get_config
 
 router = APIRouter(prefix="/api", tags=["Chat"])
 
@@ -75,7 +77,7 @@ def format_sources_for_response(evidence: List[dict]) -> List[SourceCitation]:
 @router.post("/chat", response_model=ChatResponse)
 async def chat_endpoint(
     request: ChatRequest,
-    rag_engine = Depends(get_rag_engine)
+    rag_engine: LegalRAG = Depends(get_rag_engine)
 ):
     """
     Main chat endpoint for legal queries.
@@ -91,15 +93,17 @@ async def chat_endpoint(
         )
     
     # Map domain and document type
-    domain = map_domain_code(request.domain.value if hasattr(request.domain, 'value') else request.domain)
-    doc_type = map_document_type(request.document_type.value if request.document_type and hasattr(request.document_type, 'value') else request.document_type)
+    domain_value = request.domain.value if hasattr(request.domain, 'value') else request.domain
+    doc_type_value = request.document_type.value if request.document_type and hasattr(request.document_type, 'value') else request.document_type
+    language_value = request.language.value if hasattr(request.language, 'value') else request.language
     
-    # Determine answer language
-    answer_language = request.language.value if hasattr(request.language, 'value') else request.language
+    domain = map_domain_code(domain_value)
+    doc_type = map_document_type(doc_type_value)
+    answer_language = language_value
+    
+    start_time = time.time()
     
     try:
-        start_time = time.time()
-        
         # Use the orchestrator if available (Phase 6), fallback to direct RAG
         if rag_engine.orchestrator:
             # Step 1: Detect and translate query to English (reuse existing logic)
@@ -165,9 +169,13 @@ async def chat_endpoint(
             return ChatResponse(
                 success=True,
                 query=request.query,
-                detected_language=orchestrator_result.routing.detected_language if hasattr(orchestrator_result.routing, 'detected_language') else {"code": lang_info.code, "name": lang_info.name, "confidence": lang_info.confidence},
+                detected_language=DetectedLanguage(
+                    code=lang_info.code,
+                    name=lang_info.name,
+                    confidence=lang_info.confidence
+                ),
                 answer_language=target_lang,
-                domain=request.domain.value if hasattr(request.domain, 'value') else request.domain,
+                domain=domain_value,
                 answer=final_answer,
                 confidence=str(orchestrator_result.confidence) if orchestrator_result.confidence <= 1.0 else orchestrator_result.confidence,
                 sources=sources,
@@ -178,7 +186,11 @@ async def chat_endpoint(
                     translation_to_target_ms=translation_to_target_ms,
                     total_ms=total_time
                 ),
-                error=None
+                error=None,
+                agents_used=orchestrator_result.agents_used,
+                routing_domain=orchestrator_result.routing.primary_agent,
+                routing_reason=orchestrator_result.routing.routing_reason,
+                is_multi_domain=orchestrator_result.routing.is_multi_domain
             )
         else:
             # Fallback to original RAG engine
@@ -202,7 +214,7 @@ async def chat_endpoint(
                 query=request.query,
                 detected_language=result.detected_language,
                 answer_language=result.answer_language,
-                domain=request.domain.value if hasattr(request.domain, 'value') else request.domain,
+                domain=domain_value,
                 answer=result.answer,
                 confidence=result.confidence,
                 sources=sources,
@@ -212,18 +224,21 @@ async def chat_endpoint(
                     translation_to_english_ms=result.translation_to_english_ms,
                     translation_to_target_ms=result.translation_to_target_ms,
                     total_ms=total_time
-                )
+                ),
+                agents_used=result.agents_used if hasattr(result, 'agents_used') else [],
+                routing_domain=result.routing_domain if hasattr(result, 'routing_domain') else None,
+                routing_reason=result.routing_reason if hasattr(result, 'routing_reason') else None,
+                is_multi_domain=result.is_multi_domain if hasattr(result, 'is_multi_domain') else False
             )
         
+    except HTTPException:
+        # Re-raise HTTP exceptions
+        raise
     except Exception as e:
-        # Log the error for debugging
+        # Convert to HTTP exception with structured error
         import traceback
         traceback.print_exc()
-        
-        raise HTTPException(
-            status_code=status.HTTP_500_INTERNAL_SERVER_ERROR,
-            detail=f"Error processing query: {str(e)}"
-        )
+        raise await handle_rag_error(e)
 
 
 @router.get("/chat/suggestions")
