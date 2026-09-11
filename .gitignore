@@ -1,23 +1,27 @@
 # Python
 __pycache__/
 *.py[cod]
-*.pyo
 
 # Environment
 .env
 
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
+
 # Logs
 *.log
-logs/
 
-# Chroma / local vector database
-*.sqlite3
-*.sqlite
-chroma_db/
+# ChromaDB
+rag_pipeline/vector_db/
 
-# Virtual environment
-venv/
-.venv/
-
-# VS Code
-.vscode/
+# Cache
+.cache/
